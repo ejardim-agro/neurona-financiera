@@ -1,0 +1,351 @@
+---
+alwaysApply: true
+---
+
+# Project Methodology and Process
+
+## Core Principles
+
+1.  **System 2 Thinking**: Approach the problem with analytical rigor. Break down the requirements into smaller, manageable parts and thoroughly consider each step before implementation.
+2.  **Tree of Thoughts**: Evaluate multiple possible solutions and their consequences. Use a structured approach to explore different paths and select the optimal one.
+3.  **Iterative Refinement**: Before finalizing the code, consider improvements, edge cases, and optimizations. Iterate through potential enhancements to ensure the final solution is robust.
+
+## Development Process
+
+1.  **Deep Dive Analysis**: Begin by conducting a thorough analysis of the task at hand, considering the technical requirements and constraints.
+2.  **Planning**: Develop a clear plan that outlines the architectural structure and flow of the solution, using `<PLANNING>` tags if necessary.
+3.  **Implementation**: Implement the solution step-by-step, ensuring that each part adheres to the specified best practices.
+4.  **Review and Optimize**: Perform a review of the code, looking for areas of potential optimization and improvement.
+5.  **Finalization**: Finalize the code by ensuring it meets all requirements, is secure, and is performant.
+
+## Task Management with TODO Lists
+
+### When to Create TODO Lists
+
+**ALWAYS create a TODO list when:**
+
+- Working on complex multi-step tasks (3+ distinct steps)
+- User requests involve multiple components or files
+- Tasks require careful coordination or dependencies
+- User explicitly requests task tracking
+- Starting significant refactoring or feature work
+
+**Examples of tasks requiring TODO lists:**
+
+- Adding new features with multiple components
+- Fixing bugs across multiple files
+- Setting up new infrastructure or configurations
+- Implementing comprehensive test coverage
+- Performing code migrations or updates
+
+### TODO List Best Practices
+
+#### 1. **Proactive Creation**
+
+- Create TODO lists at the start of complex tasks
+- Break down user requests into specific, actionable items
+- Use `merge=false` when starting new work
+- Include all major steps, even if they seem obvious
+
+#### 2. **Task Structure**
+
+- **Specific and Actionable**: Each task should be clear and executable
+- **Proper Dependencies**: Use the dependencies field for natural prerequisites
+- **Meaningful IDs**: Use descriptive kebab-case identifiers
+- **Realistic Scope**: Break large tasks into smaller, manageable pieces
+
+#### 3. **Status Management**
+
+- **Real-time Updates**: Update task status immediately after completion
+- **Single In-Progress**: Only mark one task as `in_progress` at a time
+- **Complete Before Starting**: Finish current tasks before beginning new ones
+- **Use merge=true**: When updating existing TODO lists
+
+#### 4. **Task States**
+
+- `pending`: Not yet started
+- `in_progress`: Currently working on (only one at a time)
+- `completed`: Finished successfully
+- `cancelled`: No longer needed or blocked
+
+### TODO List Examples
+
+#### Example 1: Feature Implementation
+
+```javascript
+[
+  {
+    id: 'analyze-requirements',
+    content: 'Analyze user requirements and existing codebase',
+    status: 'completed',
+    dependencies: [],
+  },
+  {
+    id: 'design-architecture',
+    content: 'Design component architecture and data flow',
+    status: 'completed',
+    dependencies: ['analyze-requirements'],
+  },
+  {
+    id: 'implement-backend',
+    content: 'Implement backend API endpoints',
+    status: 'in_progress',
+    dependencies: ['design-architecture'],
+  },
+  {
+    id: 'implement-frontend',
+    content: 'Create frontend components and integration',
+    status: 'pending',
+    dependencies: ['implement-backend'],
+  },
+  {
+    id: 'add-tests',
+    content: 'Write comprehensive tests for new functionality',
+    status: 'pending',
+    dependencies: ['implement-frontend'],
+  },
+  {
+    id: 'update-docs',
+    content: 'Update documentation and README',
+    status: 'pending',
+    dependencies: ['add-tests'],
+  },
+];
+```
+
+#### Example 2: Bug Fix Across Multiple Files
+
+```javascript
+[
+  {
+    id: 'reproduce-issue',
+    content: 'Reproduce the reported bug and understand root cause',
+    status: 'completed',
+    dependencies: [],
+  },
+  {
+    id: 'fix-utils-function',
+    content: 'Fix the utility function in common-utils package',
+    status: 'completed',
+    dependencies: ['reproduce-issue'],
+  },
+  {
+    id: 'update-api-usage',
+    content: 'Update API endpoints to use corrected utility',
+    status: 'in_progress',
+    dependencies: ['fix-utils-function'],
+  },
+  {
+    id: 'fix-frontend-calls',
+    content: 'Update frontend components using the API',
+    status: 'pending',
+    dependencies: ['update-api-usage'],
+  },
+  {
+    id: 'add-regression-tests',
+    content: 'Add tests to prevent future regressions',
+    status: 'pending',
+    dependencies: ['fix-frontend-calls'],
+  },
+];
+```
+
+### Integration with Development Process
+
+1. **Analysis Phase**: Create initial TODO list based on requirements
+2. **Planning Phase**: Refine tasks and establish dependencies
+3. **Implementation Phase**: Work through tasks systematically, updating status
+4. **Review Phase**: Ensure all tasks are completed or properly cancelled
+5. **Finalization Phase**: Mark final tasks complete and summarize work
+
+### Benefits of TODO Lists
+
+- **Transparency**: Users can see exactly what work is being done
+- **Organization**: Complex tasks are broken into manageable pieces
+- **Progress Tracking**: Clear visibility into completion status
+- **Dependency Management**: Ensures work is done in the correct order
+- **Quality Assurance**: Reduces likelihood of missed requirements
+- **Communication**: Provides clear structure for discussing progress
+
+### When NOT to Use TODO Lists
+
+- Simple, single-step tasks (e.g., "Fix this typo")
+- Purely informational requests
+- Quick clarifications or explanations
+- Tasks that can be completed in one tool call
+
+Remember: **When in doubt, create a TODO list.** It demonstrates thoroughness and helps ensure nothing is missed in complex tasks.
+
+# Project Methodology and Process
+
+## Core Principles
+
+1.  **System 2 Thinking**: Approach the problem with analytical rigor. Break down the requirements into smaller, manageable parts and thoroughly consider each step before implementation.
+2.  **Tree of Thoughts**: Evaluate multiple possible solutions and their consequences. Use a structured approach to explore different paths and select the optimal one.
+3.  **Iterative Refinement**: Before finalizing the code, consider improvements, edge cases, and optimizations. Iterate through potential enhancements to ensure the final solution is robust.
+
+## Development Process
+
+1.  **Deep Dive Analysis**: Begin by conducting a thorough analysis of the task at hand, considering the technical requirements and constraints.
+2.  **Planning**: Develop a clear plan that outlines the architectural structure and flow of the solution, using `<PLANNING>` tags if necessary.
+3.  **Implementation**: Implement the solution step-by-step, ensuring that each part adheres to the specified best practices.
+4.  **Review and Optimize**: Perform a review of the code, looking for areas of potential optimization and improvement.
+5.  **Finalization**: Finalize the code by ensuring it meets all requirements, is secure, and is performant.
+
+## Task Management with TODO Lists
+
+### When to Create TODO Lists
+
+**ALWAYS create a TODO list when:**
+
+- Working on complex multi-step tasks (3+ distinct steps)
+- User requests involve multiple components or files
+- Tasks require careful coordination or dependencies
+- User explicitly requests task tracking
+- Starting significant refactoring or feature work
+
+**Examples of tasks requiring TODO lists:**
+
+- Adding new features with multiple components
+- Fixing bugs across multiple files
+- Setting up new infrastructure or configurations
+- Implementing comprehensive test coverage
+- Performing code migrations or updates
+
+### TODO List Best Practices
+
+#### 1. **Proactive Creation**
+
+- Create TODO lists at the start of complex tasks
+- Break down user requests into specific, actionable items
+- Use `merge=false` when starting new work
+- Include all major steps, even if they seem obvious
+
+#### 2. **Task Structure**
+
+- **Specific and Actionable**: Each task should be clear and executable
+- **Proper Dependencies**: Use the dependencies field for natural prerequisites
+- **Meaningful IDs**: Use descriptive kebab-case identifiers
+- **Realistic Scope**: Break large tasks into smaller, manageable pieces
+
+#### 3. **Status Management**
+
+- **Real-time Updates**: Update task status immediately after completion
+- **Single In-Progress**: Only mark one task as `in_progress` at a time
+- **Complete Before Starting**: Finish current tasks before beginning new ones
+- **Use merge=true**: When updating existing TODO lists
+
+#### 4. **Task States**
+
+- `pending`: Not yet started
+- `in_progress`: Currently working on (only one at a time)
+- `completed`: Finished successfully
+- `cancelled`: No longer needed or blocked
+
+### TODO List Examples
+
+#### Example 1: Feature Implementation
+
+```javascript
+[
+  {
+    id: 'analyze-requirements',
+    content: 'Analyze user requirements and existing codebase',
+    status: 'completed',
+    dependencies: [],
+  },
+  {
+    id: 'design-architecture',
+    content: 'Design component architecture and data flow',
+    status: 'completed',
+    dependencies: ['analyze-requirements'],
+  },
+  {
+    id: 'implement-backend',
+    content: 'Implement backend API endpoints',
+    status: 'in_progress',
+    dependencies: ['design-architecture'],
+  },
+  {
+    id: 'implement-frontend',
+    content: 'Create frontend components and integration',
+    status: 'pending',
+    dependencies: ['implement-backend'],
+  },
+  {
+    id: 'add-tests',
+    content: 'Write comprehensive tests for new functionality',
+    status: 'pending',
+    dependencies: ['implement-frontend'],
+  },
+  {
+    id: 'update-docs',
+    content: 'Update documentation and README',
+    status: 'pending',
+    dependencies: ['add-tests'],
+  },
+];
+```
+
+#### Example 2: Bug Fix Across Multiple Files
+
+```javascript
+[
+  {
+    id: 'reproduce-issue',
+    content: 'Reproduce the reported bug and understand root cause',
+    status: 'completed',
+    dependencies: [],
+  },
+  {
+    id: 'fix-utils-function',
+    content: 'Fix the utility function in common-utils package',
+    status: 'completed',
+    dependencies: ['reproduce-issue'],
+  },
+  {
+    id: 'update-api-usage',
+    content: 'Update API endpoints to use corrected utility',
+    status: 'in_progress',
+    dependencies: ['fix-utils-function'],
+  },
+  {
+    id: 'fix-frontend-calls',
+    content: 'Update frontend components using the API',
+    status: 'pending',
+    dependencies: ['update-api-usage'],
+  },
+  {
+    id: 'add-regression-tests',
+    content: 'Add tests to prevent future regressions',
+    status: 'pending',
+    dependencies: ['fix-frontend-calls'],
+  },
+];
+```
+
+### Integration with Development Process
+
+1. **Analysis Phase**: Create initial TODO list based on requirements
+2. **Planning Phase**: Refine tasks and establish dependencies
+3. **Implementation Phase**: Work through tasks systematically, updating status
+4. **Review Phase**: Ensure all tasks are completed or properly cancelled
+5. **Finalization Phase**: Mark final tasks complete and summarize work
+
+### Benefits of TODO Lists
+
+- **Transparency**: Users can see exactly what work is being done
+- **Organization**: Complex tasks are broken into manageable pieces
+- **Progress Tracking**: Clear visibility into completion status
+- **Dependency Management**: Ensures work is done in the correct order
+- **Quality Assurance**: Reduces likelihood of missed requirements
+- **Communication**: Provides clear structure for discussing progress
+
+### When NOT to Use TODO Lists
+
+- Simple, single-step tasks (e.g., "Fix this typo")
+- Purely informational requests
+- Quick clarifications or explanations
+- Tasks that can be completed in one tool call
+
+Remember: **When in doubt, create a TODO list.** It demonstrates thoroughness and helps ensure nothing is missed in complex tasks.

@@ -1,0 +1,252 @@
+---
+description: Enables automatic generation of a comprehensive inventory and summary of all cursor rules in the project with migration complexity assessment
+alwaysApply: false
+---
+
+# Cursor Rules Inventory Generator
+
+## Overview
+
+This rule provides functionality to automatically generate a comprehensive markdown inventory of all cursor rules in the project. The generated summary includes categorization, brief descriptions, and migration complexity assessments to help evaluate rule portability to other repositories.
+
+## Purpose and Use Cases
+
+### Primary Objectives
+
+1. **Inventory Management**: Generate a complete overview of all implemented cursor rules
+2. **Knowledge Sharing**: Provide easily shareable documentation of project rules
+3. **Migration Assessment**: Classify rules by their portability to other repositories
+4. **Documentation**: Create structured summaries for team onboarding and reference
+
+### Target Audience
+
+- **Project Teams**: Understanding what rules are available and implemented
+- **Other Repository Teams**: Evaluating which rules can be migrated/adapted
+- **New Team Members**: Quick overview of project standards and patterns
+- **Repository Maintainers**: Managing and auditing rule implementations
+
+## Functionality
+
+When activated, this rule enables the assistant to:
+
+1. **Scan Rule Directories**: Automatically discover all `.mdc` files in `.cursor/rules/`
+2. **Parse Rule Metadata**: Extract frontmatter information (description, globs, alwaysApply)
+3. **Analyze Rule Content**: Examine rule content to assess complexity and project specificity
+4. **Categorize Rules**: Group rules by functional categories and directory structure
+5. **Assess Migration Complexity**: Classify rules as Generic, Semi-Custom, or Project-Specific
+6. **Generate Summary**: Create a structured markdown document with all findings
+
+## Implementation Pattern
+
+### Command Structure
+
+```typescript
+// Pseudocode for rule analysis
+interface RuleAnalysis {
+  filePath: string;
+  fileName: string;
+  category: string;
+  description: string;
+  migrationComplexity: 'Generic' | 'Semi-Custom' | 'Project-Specific';
+  tags: string[];
+  globs?: string;
+  alwaysApply: boolean;
+  contentSummary: string;
+}
+
+// Usage example:
+// "Generate cursor rules inventory and save to rules-inventory.md"
+```
+
+### Analysis Criteria
+
+#### Migration Complexity Classification
+
+**🟢 Generic** - Direct copy-paste migration possible
+
+- Contains no project-specific references
+- Uses standard patterns applicable to any codebase
+- General development methodology or universal patterns
+- Examples: General commit message standards, universal coding patterns
+
+**🟡 Semi-Custom** - Requires minor adaptation for migration
+
+- Contains some project-specific terminology but adaptable concepts
+- References common technologies/frameworks but with project context
+- May need path updates or terminology changes
+- Examples: NestJS patterns, TypeScript patterns, general API structures
+
+**🔴 Project-Specific** - Requires significant adaptation or project context
+
+- Contains explicit references to project packages, entities, or infrastructure
+- Uses project-specific naming conventions, paths, or business logic
+- Tightly coupled to project architecture or domain-specific requirements
+- Examples: Rules referencing `@cpr-tracker-monorepo/` packages, specific entity names
+
+### Output Structure
+
+The generated inventory should follow this structure:
+
+```markdown
+# Cursor Rules Inventory
+
+> **Generated on**: [Current Date]  
+> **Total Rules**: [Number]  
+> **Last Updated**: [Current Date]
+
+## Summary by Migration Complexity
+
+| Complexity          | Count | Description                     |
+| ------------------- | ----- | ------------------------------- |
+| 🟢 Generic          | X     | Direct copy-paste migration     |
+| 🟡 Semi-Custom      | X     | Minor adaptation required       |
+| 🔴 Project-Specific | X     | Significant adaptation required |
+
+## Rules by Category
+
+### Agent Behavior & Methodology
+
+**Location**: `.cursor/rules/agent/`
+
+#### 🟢 Generic Rules
+
+- **[rule-name.mdc]**: Brief description
+  - **Tags**: `methodology`, `process`
+  - **Migration**: Copy-paste ready
+
+#### 🟡 Semi-Custom Rules
+
+- **[rule-name.mdc]**: Brief description
+  - **Tags**: `nestjs`, `typescript`
+  - **Migration**: Update package names and paths
+
+#### 🔴 Project-Specific Rules
+
+- **[rule-name.mdc]**: Brief description
+  - **Tags**: `cpr-tracker`, `fidc-db`
+  - **Migration**: Requires domain knowledge adaptation
+
+### [Additional Categories...]
+
+## Detailed Rules Reference
+
+### Generic Rules (🟢)
+
+[Detailed listing with descriptions, use cases, and benefits]
+
+### Semi-Custom Rules (🟡)
+
+[Detailed listing with adaptation notes and requirements]
+
+### Project-Specific Rules (🔴)
+
+[Detailed listing with project context and customization details]
+
+## Migration Guide
+
+### For Generic Rules
+
+1. Copy the `.mdc` file directly to target repository
+2. Verify frontmatter compatibility with target cursor setup
+3. No adaptation required
+
+### For Semi-Custom Rules
+
+1. Copy the `.mdc` file as template
+2. Update package references (e.g., `@your-org/package-name`)
+3. Adapt paths and terminology to match target project
+4. Review globs patterns for applicability
+
+### For Project-Specific Rules
+
+1. Analyze rule purpose and business logic
+2. Map project-specific concepts to target domain
+3. Rewrite examples and patterns for target codebase
+4. Consider if rule concept applies to target project
+
+## Recommendations
+
+### For Current Project
+
+- Maintain clear separation between generic and project-specific rules
+- Document project-specific terms and concepts used in rules
+- Regular inventory updates when rules are added/modified
+
+### For Migration Teams
+
+- Start with Generic rules for immediate value
+- Evaluate Semi-Custom rules based on technology stack alignment
+- Carefully assess Project-Specific rules for conceptual applicability
+```
+
+## Usage Instructions
+
+### Generating the Inventory
+
+1. **Request Generation**: Ask the assistant to "Generate cursor rules inventory"
+2. **Specify Output**: The assistant will create `rules-inventory.md` in the project root
+3. **Review Output**: Examine the generated inventory for accuracy and completeness
+4. **Share Knowledge**: Use the generated document for team discussions or cross-repo evaluations
+
+### Updating the Inventory
+
+- **Trigger**: Run whenever new rules are added or existing rules are modified
+- **Automation**: Can be integrated into development workflow as documentation task
+- **Maintenance**: Regular updates ensure inventory stays current with rule changes
+
+## Benefits
+
+### For Current Project
+
+1. **Complete Overview**: Understand all implemented rules and their purposes
+2. **Audit Trail**: Track rule complexity and project dependencies
+3. **Team Onboarding**: Provide comprehensive guide to project standards
+4. **Maintenance**: Identify rules that need updates or consolidation
+
+### For Migration Projects
+
+1. **Quick Assessment**: Rapidly evaluate rule portability before migration
+2. **Effort Estimation**: Understand adaptation work required for different rules
+3. **Selective Migration**: Choose rules based on migration complexity and value
+4. **Knowledge Transfer**: Understand concepts behind project-specific rules
+
+## Anti-Patterns to Avoid
+
+❌ **Don't do this:**
+
+- Generate inventory without analyzing actual rule content
+- Classify rules based only on file names or directories
+- Create static inventory that becomes outdated quickly
+- Ignore project-specific context when assessing migration complexity
+
+✅ **Do this:**
+
+- Analyze frontmatter, content, and project references
+- Consider actual adaptation effort required for migration
+- Generate fresh inventory when rules change
+- Provide clear migration guidance for each complexity level
+
+## Integration with Development Workflow
+
+### Documentation Tasks
+
+- Include inventory generation in documentation update procedures
+- Link to inventory from main project documentation
+- Reference inventory in team onboarding materials
+
+### Cross-Team Collaboration
+
+- Share inventory when discussing rule standardization
+- Use inventory to identify candidates for organization-wide rule libraries
+- Reference inventory during repository setup and migration projects
+
+## Checklist
+
+- [ ] Scanned all directories in `.cursor/rules/`
+- [ ] Parsed frontmatter from all `.mdc` files
+- [ ] Analyzed rule content for project-specific references
+- [ ] Classified migration complexity accurately
+- [ ] Generated structured markdown output
+- [ ] Included migration guidance for each complexity level
+- [ ] Provided clear categorization and summaries
+- [ ] Created actionable recommendations for both current and migration teams

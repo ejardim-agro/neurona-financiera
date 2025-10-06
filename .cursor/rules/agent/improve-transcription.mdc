@@ -1,0 +1,41 @@
+---
+description: "Guidelines for improving raw transcriptions by correcting errors and enhancing readability."
+globs: "output/transcripts/**/*.txt"
+alwaysApply: false
+---
+
+# Rule: Improve Transcription
+
+## Overview
+
+This rule defines the process for taking a raw, auto-generated transcript and improving its quality. The goal is to correct transcription errors, fix punctuation, and enhance overall readability before further processing.
+
+## Guidelines
+
+1.  **Read the Original Transcript**: Open a `.txt` file from the `output/transcripts/` directory.
+2.  **Identify and Correct Errors**:
+    - **Punctuation**: Add missing commas, periods, and question marks to form coherent sentences.
+    - **Capitalization**: Ensure proper capitalization at the beginning of sentences and for proper nouns.
+    - **Filler Words**: Remove common filler words (`uh`, `um`, `like`, `you know`) unless they are essential to the meaning.
+    - **Repeated Words**: Correct instances where words or phrases are repeated accidentally.
+    - **Misspelled Words**: Correct any obvious spelling mistakes from the transcription.
+3.  **Paragraphs**: Structure the text into logical paragraphs to improve readability. A new paragraph should start when the speaker changes topic.
+4.  **Save the Improved Text**: Save the corrected text to a new file with the same name in the `output/02 - Wording/` directory.
+
+## Examples
+
+### ❌ Bad Example (Raw Transcript)
+
+```text
+helo welcom to the podcast today we re gona talk abut investing i mean uh its a big topic you know so lets get started so the first thing is...
+```
+
+### ✅ Good Example (Improved Transcript)
+
+```text
+Hello and welcome to the podcast.
+
+Today, we are going to talk about investing. It's a big topic, so let's get started.
+
+The first thing is...
+```

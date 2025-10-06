@@ -1,0 +1,98 @@
+---
+description: 'A guide outlining the commit message standards for the project.'
+globs: 
+alwaysApply: false
+---
+# Commit Message Guidelines
+
+## Overview
+This project uses `@commitlint/config-conventional` for commit message standards. The configuration is located in the `package.json` file. All commit messages must follow the conventional commit format to pass validation.
+
+## Commit Message Format
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+## Rules and Constraints
+- **Header max length**: 200 characters (aim for 50-72 for best readability)
+- **No trailing periods**: Subject lines must not end with punctuation
+- **Imperative mood**: Use "add" not "added", "fix" not "fixed"
+- **Lowercase description**: Start description with lowercase letter
+- **Types**: feat, fix, docs, style, refactor, test, chore, ci, build, perf
+- **Scope**: Optional, should be lowercase (e.g., ccv, auth, api, admin)
+
+## Valid Examples
+✅ **Good commits:**
+```
+feat(ccv): add status translation utility
+
+fix: resolve authentication token expiry
+
+docs(api): update endpoint documentation
+
+refactor(admin): simplify user management logic
+
+test(ccv): add unit tests for status filters
+```
+
+## Invalid Examples
+❌ **Bad commits:**
+```
+feat: centralize CCV status translations and enhance list table filters | Updated translation handling for CCV statuses using a new utility, added amount column to the list table, and excluded 'created' status from filters.
+```
+*Issues: Too long (223 chars), ends with period, non-standard format*
+
+❌ **Other bad examples:**
+```
+Add new feature.                    // Missing type
+feat: Add new feature.              // Capitalized description, ends with period  
+feat(CCV): add new feature         // Capitalized scope
+feat: added new feature            // Past tense instead of imperative
+```
+
+## Using Commitizen
+
+To simplify the process of creating valid commit messages, this project is equipped with Commitizen. Instead of `git commit`, you can run:
+
+```bash
+pnpm commit
+```
+This command will launch an interactive prompt that guides you through creating a commit message that adheres to the required format.
+
+## Commit Message Generation Guidelines
+When generating commit messages:
+
+1. **Keep subject concise**: Aim for 50-72 characters maximum
+2. **Use imperative mood**: "add", "fix", "update", "remove"
+3. **No trailing punctuation**: Never end subject with period, exclamation, etc.
+4. **Choose appropriate type**: 
+   - `feat`: New features
+   - `fix`: Bug fixes  
+   - `docs`: Documentation changes
+   - `style`: Formatting, missing semicolons, etc.
+   - `refactor`: Code changes that neither fix bugs nor add features
+   - `test`: Adding or updating tests
+   - `chore`: Maintenance tasks, dependency updates
+5. **Use meaningful scopes**: ccv, admin, api, auth, ui, etc.
+6. **Separate concerns**: One commit per logical change
+7. **Use body for details**: If more explanation needed, use commit body
+
+## Multi-line Commit Structure
+For complex changes, use the body:
+```
+feat(user): add comprehensive status management
+
+- Centralize status translation handling with new utility
+- Add amount column to User list table
+- Exclude 'created' status from available filters
+- Improve status display consistency across components
+
+Closes #123
+```
+
+## Integration with Commitlint
+All commits are validated against the `commitlint` configuration in `package.json` which extends `@commitlint/config-conventional`. Commits that don't follow these rules will be rejected during the commit process.

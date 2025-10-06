@@ -1,0 +1,89 @@
+---
+description: "Guidelines for formatting improved transcripts into markdown, converting to third person, and extracting key data in the original language."
+globs: "output/02 - Wording/**/*.txt"
+alwaysApply: false
+---
+
+# Rule: Format and Process Transcript
+
+## Overview
+
+This rule defines the process for converting an improved transcript into a structured Markdown file. The process involves changing the narrative from first-person to third-person, extracting key insights, and formatting the output for clarity, **while always maintaining the original language of the transcript (Spanish).**
+
+## Guidelines
+
+1.  **Read the Improved Transcript**: Open a `.txt` file from the `output/02 - Wording/` directory.
+2.  **Maintain Original Language**: All processing and output must be in Spanish. **Do not translate to English.**
+3.  **Convert to Third Person**: Rewrite the transcript so the narrative is in the third person (e.g., "Yo pienso" becomes "Él piensa").
+    - Change "yo," "mi," "me," etc., to "él," "su," "le," etc. (referring to the podcast host).
+    - Adjust sentence structure as needed to sound natural in the third person.
+4.  **Extract Key Data**: Read through the third-person transcript and identify the most important information. This includes:
+    - **Temas Principales**: The core subjects discussed.
+    - **Consejos Clave**: Actionable tips or recommendations given.
+    - **Conceptos Importantes**: Definitions or explanations of key terms.
+    - **Recursos Mencionados**: Any books, tools, or other resources mentioned.
+5.  **Format as Markdown**: Create a new Markdown file in `output/03 - Processed/` with the same base name and an `.md` extension. Structure the file as follows:
+
+    ```markdown
+    # Resumen del Episodio: [Título del Episodio]
+
+    ## Metadatos
+
+    - **Episodio**: `[Número del Episodio]`
+    - **Categoría**: `[Categoría Principal]`
+    - **Palabras Clave**: `[palabra clave 1]`, `[palabra clave 2]`, `[palabra clave 3]`
+
+    ## Descripción General
+
+    Un breve resumen de un párrafo sobre lo que el anfitrión discute en este episodio.
+
+    ## Ideas Clave
+
+    - Una lista con viñetas de los consejos y conclusiones más importantes.
+    - Cada punto debe ser una oración completa y concisa.
+    - Apuntar a 5-10 ideas clave.
+
+    ## Notas Detalladas
+
+    La transcripción completa, reescrita en tercera persona y formateada para facilitar la lectura con párrafos adecuados.
+    ```
+
+6.  **Populate the Markdown File**:
+    - Fill in the `[Título del Episodio]` based on the filename.
+    - Write the `Descripción General` summary.
+    - List the `Ideas Clave`.
+    - Paste the full third-person `Notas Detalladas`.
+
+## Examples
+
+### ❌ Bad Example (Simple Text Dump)
+
+```markdown
+Dijo que su primer consejo era ahorrar dinero. También habló de invertir. Piensa que deberías invertir en acciones.
+```
+
+### ✅ Good Example (Structured Markdown)
+
+```markdown
+# Resumen del Episodio: 6 Tips para 2019
+
+## Metadatos
+
+- **Episodio**: `042`
+- **Categoría**: `Planificación Financiera`
+- **Palabras Clave**: `metas financieras`, `ahorro`, `rendimiento`, `planificación anual`
+
+## Descripción General
+
+En este episodio, el anfitrión ofrece seis consejos financieros prácticos para el nuevo año. Cubre temas que van desde el establecimiento de metas y el ahorro, hasta la revisión del rendimiento pasado y la planificación para el futuro.
+
+## Ideas Clave
+
+- Es crucial analizar el rendimiento financiero del año anterior.
+- Establecer metas financieras claras y medibles es la base de un plan sólido.
+- Automatizar los ahorros puede mejorar significativamente la disciplina financiera.
+
+## Notas Detalladas
+
+El anfitrión comenzó enfatizando la importancia de mirar hacia atrás al año anterior. Explicó que comprender el comportamiento financiero pasado es esencial para tomar mejores decisiones en el futuro...
+```

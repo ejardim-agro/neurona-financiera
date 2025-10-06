@@ -1,0 +1,41 @@
+---
+description: "A pipeline rule to first improve a raw transcript and then format it into structured markdown."
+globs: "output/01 - Transcripts/**/*.txt"
+alwaysApply: false
+---
+
+# Rule: Process Transcript Pipeline
+
+## Overview
+
+This rule defines a two-step pipeline for processing raw audio transcripts. The process involves:
+
+1.  Improving the raw transcript for readability and correctness.
+2.  Formatting the improved transcript into a structured Markdown file with key insights.
+
+This rule orchestrates the execution of `@improve-transcription` and `@format-transcript` rules.
+
+## Pipeline Steps
+
+### Step 1: Improve Raw Transcript
+
+For a given raw transcript file from `output/01 - Transcripts/`, apply the `@improve-transcription` rule.
+
+**Input:** A `.txt` file from `output/01 - Transcripts/`.
+**Output:** An improved `.txt` file in `output/02 - Wording/`.
+**Reference Rule:** `@improve-transcription`
+
+### Step 2: Format Improved Transcript
+
+Take the output from Step 1 and apply the `@format-transcript` rule.
+
+**Input:** An improved `.txt` file from `output/02 - Wording/`.
+**Output:** A structured `.md` file in `output/03 - Processed/`.
+**Reference Rule:** `@format-transcript`
+
+## Workflow
+
+1.  Select a raw transcript file from `output/01 - Transcripts/`.
+2.  Execute the instructions defined in `@improve-transcription`.
+3.  Use the resulting file from step 2 to execute the instructions in `@format-transcript`.
+4.  The final output will be a markdown file in `output/03 - Processed/`.

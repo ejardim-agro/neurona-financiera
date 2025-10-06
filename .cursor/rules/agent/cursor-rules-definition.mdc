@@ -1,0 +1,281 @@
+---
+description: Establishes the correct way to define and organize cursor rules in the project
+globs: '.cursor/rules/**/*.mdc'
+alwaysApply: true
+---
+
+# Cursor Rules Definition Guidelines
+
+## Overview
+
+This document establishes the correct way to define, organize, and structure cursor rules in the CPR Tracker monorepo.
+
+## File Location and Structure
+
+### 1. Correct Location
+
+Always place cursor rule files in `.cursor/rules/` with appropriate categorization:
+
+```
+PROJECT_ROOT/.cursor/rules/
+├── agent/                    # Rules for AI behavior and methodology
+│   ├── methodology-guidelines.mdc
+│   ├── commit-message.mdc
+│   └── pull-request-rule.mdc
+├── snippets/                 # Code patterns and implementation guides
+│   ├── dto-creation.md
+│   ├── serializers-creation.md
+│   └── dto-instantiation.md
+├── documentation/            # Documentation-related rules
+│   └── updating-docs-app.mdc
+└── pull-request/            # PR-specific rules
+    └── pull-request-description-template.mdc
+```
+
+### 2. File Naming Convention
+
+- Use **kebab-case** for filenames
+- Use **.mdc** extension for cursor rules
+- Make names descriptive and specific to the rule's purpose
+
+#### Examples:
+
+✅ **Good naming:**
+
+- `dto-creation.mdc`
+- `serializers-implementation.mdc`
+- `methodology-guidelines.mdc`
+- `pull-request-description-template.mdc`
+
+❌ **Bad naming:**
+
+- `rules.md`
+- `guidelines.txt`
+- `dto.mdc`
+- `serializer_pattern.md`
+
+## Frontmatter Structure
+
+### 1. Required Frontmatter
+
+Every cursor rule must include proper frontmatter with these fields:
+
+```yaml
+---
+description: Brief, clear description of what the rule defines or enforces
+globs: 'optional/path/pattern/**/*'
+alwaysApply: true|false
+---
+```
+
+### 2. Frontmatter Fields
+
+#### `description` (Required)
+
+- **Purpose**: Brief, clear explanation of the rule's purpose
+- **Format**: Single sentence or short phrase
+- **Guidelines**: Should be specific and actionable
+
+```yaml
+# Good descriptions
+description: Defines the correct pattern for implementing DTOs using factory functions
+description: Establishes commit message standards for the project
+description: Outlines the procedure for creating pull request descriptions
+
+# Bad descriptions
+description: Rules for code
+description: Guidelines
+description: How to do things
+```
+
+#### `globs` (Optional)
+
+- **Purpose**: Specify file patterns where the rule should apply
+- **Format**: Comma-separated glob patterns in quotes
+- **Use cases**: When rule applies to specific file types or locations
+
+```yaml
+# Examples
+globs: "packages/**/dtos/**/*.ts,apps/**/dtos/**/*.ts"
+globs: "packages/**/serializers/**/*.ts"
+globs: "apps/**/controllers/**/*.ts,apps/**/services/**/*.ts"
+globs: ".cursor/rules/**/*.mdc"
+```
+
+#### `alwaysApply` (Optional)
+
+- **Purpose**: Whether the rule should always be considered
+- **Default**: `false`
+- **Use `true` for**: Core patterns, critical guidelines, project standards
+- **Use `false` for**: Context-specific rules, optional patterns
+
+```yaml
+# Always apply for core patterns
+alwaysApply: true
+
+# Context-specific rules
+alwaysApply: false
+```
+
+## Rule Categories
+
+### 1. Agent Rules (`agent/`)
+
+Rules that define AI behavior, methodology, and process guidelines:
+
+- Methodology and approach guidelines
+- Commit message standards
+- Pull request procedures
+- Code review processes
+
+### 2. Snippet Rules (`snippets/`)
+
+Code patterns and implementation guides:
+
+- DTO implementation patterns
+- Serializer creation guidelines
+- Service patterns
+- Controller patterns
+
+### 3. Documentation Rules (`documentation/`)
+
+Documentation-related guidelines:
+
+- Documentation structure
+- Writing standards
+- Update procedures
+
+### 4. Pull Request Rules (`pull-request/`)
+
+PR-specific templates and guidelines:
+
+- PR description templates
+- Review checklists
+- Merge procedures
+
+## Content Structure
+
+### 1. Rule Content Format
+
+````markdown
+---
+description: Rule description
+globs: 'applicable/patterns/**/*'
+alwaysApply: true
+---
+
+# Rule Title
+
+## Overview
+
+Brief explanation of the rule's purpose and scope.
+
+## Guidelines
+
+Detailed guidelines with:
+
+1. Step-by-step instructions
+2. Code examples
+3. Best practices
+4. Anti-patterns
+
+## Examples
+
+### ✅ Good Examples
+
+```typescript
+// Correct implementation
+function goodExample() {
+  // Implementation following guidelines
+}
+```
+````
+
+### ❌ Bad Examples
+
+```typescript
+// Incorrect implementation
+function badExample() {
+  // Implementation not following guidelines
+}
+```
+
+## Benefits
+
+List of benefits from following the rule.
+
+## Checklist
+
+- [ ] Actionable checklist items
+- [ ] For easy verification
+
+````
+
+### 2. Content Guidelines
+- **Be Specific**: Provide concrete, actionable guidance
+- **Include Examples**: Show both correct and incorrect implementations
+- **Explain Why**: Include rationale for the guidelines
+- **Use Checklists**: Provide verification steps when applicable
+
+## Rule Management
+
+### 1. Creating New Rules
+1. Identify the appropriate category (`agent/`, `snippets/`, etc.)
+2. Choose a descriptive, kebab-case filename
+3. Add proper frontmatter with description and globs
+4. Structure content with clear sections and examples
+5. Include both positive and negative examples
+
+### 2. Updating Existing Rules
+1. Maintain the existing frontmatter structure
+2. Update the description if the rule's scope changes
+3. Adjust globs if file patterns change
+4. Keep examples current with project patterns
+
+### 3. Rule Dependencies
+- Rules should be self-contained when possible
+- Reference other rules by name when necessary
+- Avoid circular dependencies between rules
+
+## Anti-Patterns
+
+❌ **Don't do this:**
+```yaml
+# Missing or vague description
+description: Rules
+
+# Wrong file location
+PROJECT_ROOT/rules.md
+
+# Wrong file extension
+.cursor/rules/agent/guidelines.txt
+
+# Missing frontmatter
+# Rule Title
+Content without frontmatter...
+````
+
+✅ **Do this:**
+
+```yaml
+# Clear, specific description
+description: Defines the correct pattern for implementing DTOs using factory functions
+
+# Correct location and extension
+.cursor/rules/snippets/dto-creation.md
+
+# Proper frontmatter
+---
+description: Clear description of the rule
+globs: "applicable/**/*.ts"
+alwaysApply: true
+---
+```
+
+## Benefits
+
+1. **Consistency**: Uniform rule structure across the project
+2. **Discoverability**: Clear categorization and naming
+3. **Maintainability**: Proper organization and documentation
+4. **Effectiveness**: Targeted application with globs and descriptions
+5. **Clarity**: Well-structured content with examples and guidelines

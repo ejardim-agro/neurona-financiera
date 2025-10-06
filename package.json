@@ -1,0 +1,32 @@
+{
+  "name": "neurona-financiera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/downloader.ts",
+    "rename": "ts-node src/renamer.ts",
+    "transcribe": "ts-node src/transcriber.ts",
+    "wording": "ts-node src/wording.ts",
+    "format": "ts-node src/formatter.ts",
+    "pipeline": "npm run start && npm run rename && npm run transcribe && npm run wording && npm run format",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "openai": "^5.16.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.2"
+  }
+}
