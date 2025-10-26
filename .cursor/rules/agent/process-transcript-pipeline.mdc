@@ -1,6 +1,5 @@
 ---
-description: "A pipeline rule to first improve a raw transcript and then format it into structured markdown."
-globs: "output/01 - Transcripts/**/*.txt"
+description: "A pipeline rule to process transcripts based on the status defined in `processing-status.md`."
 alwaysApply: false
 ---
 
@@ -8,34 +7,42 @@ alwaysApply: false
 
 ## Overview
 
-This rule defines a two-step pipeline for processing raw audio transcripts. The process involves:
+This rule defines a pipeline for processing raw audio transcripts based on their status in `processing-status.md`. The process involves:
 
-1.  Improving the raw transcript for readability and correctness.
-2.  Formatting the improved transcript into a structured Markdown file with key insights.
-
-This rule orchestrates the execution of `@improve-transcription` and `@format-transcript` rules.
+1.  Identifying transcripts that need wording improvement.
+2.  Improving them using the `@improve-transcription` rule.
+3.  Identifying transcripts that need formatting.
+4.  Formatting them using the `@format-transcript` rule.
+5.  Updating the `processing-status.md` file as tasks are completed.
 
 ## Pipeline Steps
 
-### Step 1: Improve Raw Transcript
+### Step 1: Check Processing Status
 
-For a given raw transcript file from `output/01 - Transcripts/`, apply the `@improve-transcription` rule.
+Read the `processing-status.md` file to identify transcripts ready for the next step.
 
-**Input:** A `.txt` file from `output/01 - Transcripts/`.
-**Output:** An improved `.txt` file in `output/02 - Wording/`.
-**Reference Rule:** `@improve-transcription`
+### Step 2: Improve Raw Transcripts
 
-### Step 2: Format Improved Transcript
+1.  Find all files in `processing-status.md` where `Transcription` is `[x]` and `Wording` is `[ ]`.
+2.  For each of these files:
+    a. Apply the `@improve-transcription` rule. - **Input:** `output/01 - Transcripts/{file_name}.txt` - **Output:** `output/02 - Wording/{file_name}.txt`
+    b. After successful completion, update the `Wording` status for the file to `[x]` in `processing-status.md`.
 
-Take the output from Step 1 and apply the `@format-transcript` rule.
+### Step 3: Format Improved Transcripts
 
-**Input:** An improved `.txt` file from `output/02 - Wording/`.
-**Output:** A structured `.md` file in `output/03 - Processed/`.
-**Reference Rule:** `@format-transcript`
+1.  After completing wording improvements, find all files in `processing-status.md` where `Wording` is `[x]` and `Formatting` is `[ ]`.
+2.  For each of these files:
+    a. Apply the `@format-transcript` rule. - **Input:** `output/02 - Wording/{file_name}.txt` - **Output:** `output/03 - Processed/{file_name}.md`
+    b. After successful completion, update the `Formatting` status for the file to `[x]` in `processing-status.md`.
 
 ## Workflow
 
-1.  Select a raw transcript file from `output/01 - Transcripts/`.
-2.  Execute the instructions defined in `@improve-transcription`.
-3.  Use the resulting file from step 2 to execute the instructions in `@format-transcript`.
-4.  The final output will be a markdown file in `output/03 - Processed/`.
+1.  Read `processing-status.md`.
+2.  Identify the next transcript to process for wording. If none, proceed to formatting.
+3.  Execute the `@improve-transcription` rule on the identified file.
+4.  Update `processing-status.md`.
+5.  Repeat for all transcripts needing wording improvement.
+6.  Identify the next transcript to process for formatting.
+7.  Execute the `@format-transcript` rule on the identified file.
+8.  Update `processing-status.md`.
+9.  Repeat for all transcripts needing formatting.

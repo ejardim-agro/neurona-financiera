@@ -4,7 +4,6 @@
 |-----------|--------|
 | 230v.mp3 | ✅ Success |
 | 239vi-MP3_para_podcasts_de_audio.mp3 | ✅ Success |
-| 282audio.mp3 | ✅ Success |
 | 283.mp3 | ✅ Success |
 | 284.mp3 | ✅ Success |
 | 285.mp3 | ✅ Success |
@@ -96,6 +95,9 @@
 | 377.mp3 | ✅ Success |
 | 378.mp3 | ✅ Success |
 | 379.mp3 | ✅ Success |
+| 380.mp3 | ✅ Success |
+| 381.mp3 | ✅ Success |
+| 382.mp3 | ✅ Success |
 | MELI-MP3_para_podcasts_de_audio.mp3 | ✅ Success |
 | foxsys.mp3 | ✅ Success |
 | 173.mp3 | ✅ Success |
@@ -207,6 +209,7 @@
 | 279.mp3 | ✅ Success |
 | 280.mp3 | ✅ Success |
 | 281.mp3 | ✅ Success |
+| 282audio.mp3 | ✅ Success |
 | EspecialHalloween.mp3 | ✅ Success |
 | 77.mp3 | ✅ Success |
 | 78.mp3 | ✅ Success |

@@ -1,0 +1,90 @@
+---
+description: "Detects repetitive patterns in transcript files to identify potential processing errors."
+globs: "output/01 - Transcripts/**/*.txt"
+alwaysApply: true
+---
+
+# Transcript Repetitive Pattern Detection
+
+## Overview
+
+This rule is designed to identify and flag transcript files that contain repetitive word patterns. Such patterns, like "Neurafinera Neurafinera Neurafinera," often indicate an error during the audio transcription process. By detecting these, we can identify corrupted or poorly processed files that need to be re-transcribed.
+
+## Guidelines
+
+To check for repetitive patterns, you should search the transcript files for two types of issues:
+
+- **Consecutive Word Repetition**: Sequences of the same word repeated multiple times.
+- **Consecutive Line Repetition**: Identical lines appearing one after another.
+
+A combination of regular expressions and command-line tools can be very effective for this task.
+
+1.  **Identify Target Files**: This rule applies to all `.txt` files within the `output/01 - Transcripts/` directory.
+
+2.  **Use Regular Expressions for Word Searching**: Use a regular expression to find words that are repeated three or more times consecutively.
+
+    - **Word Regex Pattern**: `\b(\w+)\b(?:\s+\1\b){2,}`
+    - **Explanation**:
+      - `\b(\w+)\b`: Matches and captures a whole word.
+      - `(?:\s+\1\b){2,}`: Matches the captured word (`\1`) preceded by one or more spaces, repeated two or more times.
+
+3.  **Use `awk` for Line Searching**: Use a simple `awk` script to find consecutive identical lines.
+
+4.  **Execution**: You can use tools like `grep`, `awk`, or your editor's search functionality with regex support to scan the files.
+
+5.  **Reporting**: If any files match the pattern, they should be listed for review. The repetitive pattern should be noted.
+
+## Automated Report Generation
+
+To automatically generate a markdown report listing all files with repetitive patterns (both word and line-level), you can run the following command in your terminal:
+
+```bash
+{ egrep -l '\\b(\\w+)\\b(\\s+\\1\\b){2,}' "output/01 - Transcripts/"*.txt; awk 'FNR>1 && $0==prev {print FILENAME; nextfile} {prev=$0}' "output/01 - Transcripts/"*.txt; } | sort -u > repetitive-transcripts.md
+```
+
+This command will:
+
+1.  Scan all `.txt` files in the `output/01 - Transcripts/` directory for both word and line repetitions.
+2.  Use `egrep` to find files with consecutive word repetitions.
+3.  Use `awk` to find files with consecutive line repetitions.
+4.  Combine, sort, and remove duplicates from both searches.
+5.  Create a file named `repetitive-transcripts.md` with a unique list of all matching file paths.
+
+## Examples
+
+### ❌ Bad Example (File with word repetition)
+
+A file containing the following line should be flagged:
+
+```
+Neurafinera Neurafinera Neurafinera Neurafinera Neurafinera
+```
+
+This pattern matches the regex and indicates a probable transcription error.
+
+### ❌ Bad Example (File with line repetition)
+
+A file containing the following lines should also be flagged:
+
+```
+Y les pido disculpas a aquellos, digamos, que espero no se sientan mal, ¿no?
+Y les pido disculpas a aquellos, digamos, que espero no se sientan mal, ¿no?
+Y les pido disculpas a aquellos, digamos, que espero no se sientan mal, ¿no?
+```
+
+This pattern indicates a probable transcription error.
+
+### ✅ Good Example (File without repetition)
+
+A file with normal, non-repetitive text is considered valid:
+
+```
+Bienvenidos al podcast de Neurona Financiera, donde hablamos de finanzas personales, donde hablamos de inversión,
+donde descubrimos cómo dominar el sutil arte del dinero y que el dinero no nos domine a nosotros.
+```
+
+## Checklist
+
+- [ ] Run the automated report generation command to find affected files.
+- [ ] Review the generated `repetitive-transcripts.md` file.
+- [ ] Take action on the listed files (e.g., re-process the audio).

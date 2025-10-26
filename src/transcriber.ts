@@ -45,7 +45,7 @@ export async function transcribeAll() {
 
     console.log(`Transcribing ${mp3File}...`);
     try {
-      const command = `"${whisperCliPath}" -m "${modelPath}" -f "${sourceAudioPath}" -l es -otxt --beam-size 8`;
+      const command = `"${whisperCliPath}" -m "${modelPath}" -f "${sourceAudioPath}" -l es -otxt --beam-size 5 -t 8 -p 2`;
       execSync(command, { stdio: "inherit" });
 
       const generatedTranscriptPath = `${sourceAudioPath}.txt`;
