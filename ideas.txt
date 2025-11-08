@@ -1,0 +1,13 @@
+
+1. Ollama + Conectar Gemini API ?
+- Estudiar pricing
+- Simular costos, proyectar costos de procesamiento
+
+2. Seguir con la idea de Audio => Transcript => Revisión de texto => Reformateo
+- Armar glosario con referencias
+- Armar "libro"
+- Clusters de temas
+
+3. Procesar por temática para alimentar NotebookLM
+
+4. Armar flujo: descarga, duplicados, transcript, etc

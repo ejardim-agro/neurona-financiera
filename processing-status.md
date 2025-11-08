@@ -2,17 +2,17 @@
 
 | File                                                                                                   | Transcription | Wording | Formatting |
 | ------------------------------------------------------------------------------------------------------ | ------------- | ------- | ---------- |
-| 001_podcast_de_finanzas_personales_e_inversion.mp3                                                     | [x]           | [x]     | [x]        |
-| 002_el_ahorro.mp3                                                                                      | [x]           | [x]     | [x]        |
-| 003_fundamentos_basicos_de_inversion.mp3                                                               | [x]           | [x]     | [x]        |
-| 004_desmistificando_la_libertad_financiera.mp3                                                         | [x]           | [x]     | [x]        |
-| 005_preguntas_hipotecas_prestamos_e_inversiones.mp3                                                    | [x]           | [x]     | [x]        |
-| 006_el_primer_paso_fondo_de_emergencia.mp3                                                             | [x]           | [x]     | [x]        |
-| 007_tomando_el_control_de_los_gastos.mp3                                                               | [x]           | [x]     | [x]        |
-| 008_el_caso_de_juan_divorciado_endeudado_y_gastador_compulsivo.mp3                                     | [x]           | [x]     | [x]        |
-| 009_comprar_alquilar_hipotecar_dudar.mp3                                                               | [x]           | [x]     | [x]        |
-| 010_construyendo_un_plan_de_retiro.mp3                                                                 | [x]           | [x]     | [x]        |
-| 011_inversion_seguros_pago_del_colegio_y_deudas_en_dolares.mp3                                         | [x]           | [ ]     | [ ]        |
+| 001_podcast_de_finanzas_personales_e_inversion.mp3                                                     | [x]           | [ ]     | [ ]        |
+| 002_el_ahorro.mp3                                                                                      | [x]           | [ ]     | [ ]        |
+| 003_fundamentos_basicos_de_inversion.mp3                                                               | [x]           | [ ]     | [ ]        |
+| 004_desmistificando_la_libertad_financiera.mp3                                                         | [x]           | [ ]     | [ ]        |
+| 005_preguntas_hipotecas_prestamos_e_inversiones.mp3                                                    | [x]           | [ ]     | [ ]        |
+| 006_el_primer_paso_fondo_de_emergencia.mp3                                                             | [x]           | [ ]     | [ ]        |
+| 007_tomando_el_control_de_los_gastos.mp3                                                               | [x]           | [ ]     | [ ]        |
+| 008_el_caso_de_juan_divorciado_endeudado_y_gastador_compulsivo.mp3                                     | [x]           | [ ]     | [ ]        |
+| 009_comprar_alquilar_hipotecar_dudar.mp3                                                               | [x]           | [ ]     | [ ]        |
+| 010_construyendo_un_plan_de_retiro.mp3                                                                 | [x]           | [ ]     | [ ]        |
+| 011_inversion_seguros_pago_del_colegio_y_deudas_en_dolares.mp3                                         | [ ]           | [ ]     | [ ]        |
 | 012_interes_compuesto_en_la_vida_real.mp3                                                              | [ ]           | [ ]     | [ ]        |
 | 013_la_accion_como_motor_para_todo.mp3                                                                 | [ ]           | [ ]     | [ ]        |
 | 014_ganar_mas_dinero_sin_experiencia_ni_cv.mp3                                                         | [ ]           | [ ]     | [ ]        |
@@ -47,7 +47,7 @@
 | 043_asumiendo_nuestra_responsabilidad.mp3                                                              | [ ]           | [ ]     | [ ]        |
 | 044_ser_unico_para_ganar_mas.mp3                                                                       | [ ]           | [ ]     | [ ]        |
 | 045_inversion_inmobiliaria.mp3                                                                         | [ ]           | [ ]     | [ ]        |
-| 046_dime_con_quien_andas_y_te_dire_como_inviertes.mp3                                                  | [x]           | [x]     | [x]        |
+| 046_dime_con_quien_andas_y_te_dire_como_inviertes.mp3                                                  | [ ]           | [ ]     | [ ]        |
 | 047_el_caso_de_la_hipoteca_arrepentida.mp3                                                             | [ ]           | [ ]     | [ ]        |
 | 048_ninos_y_educacion_financiera.mp3                                                                   | [ ]           | [ ]     | [ ]        |
 | 049_como_vivir_de_vender_un_servicio.mp3                                                               | [ ]           | [ ]     | [ ]        |
