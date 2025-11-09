@@ -6485,7 +6485,7 @@
     "episode": "383",
     "status": {
       "downloaded": true,
-      "transcribed": false,
+      "transcribed": true,
       "processed": false,
       "noted": false,
       "downloadPath": "output/00_audio_files/383_dinero_feliz_parte_2_el_verdadero_significado_del_dinero_y_como_cambia_tu_vida.mp3",
@@ -6502,7 +6502,7 @@
     "episode": "384",
     "status": {
       "downloaded": true,
-      "transcribed": false,
+      "transcribed": true,
       "processed": false,
       "noted": false,
       "downloadPath": "output/00_audio_files/384_ganas_plata_pero_no_sos_feliz_la_formula_ci_vs_ce_del_dinero_dinero_feliz_parte_3.mp3",

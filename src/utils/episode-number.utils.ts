@@ -119,7 +119,7 @@ export function determineEpisode(
   const titleEpisode = extractEpisodeNumberFromTitle(title);
   if (titleEpisode !== null) {
     const titleNum = parseInt(titleEpisode, 10);
-    
+
     // Validate against previous episode if available
     if (expectedFromPrevious !== null) {
       const diff = Math.abs(titleNum - expectedFromPrevious);
@@ -143,7 +143,7 @@ export function determineEpisode(
   const urlEpisode = extractEpisodeNumberFromUrl(url);
   if (urlEpisode !== null) {
     const urlNum = parseInt(urlEpisode, 10);
-    
+
     // Validate against previous episode if available
     if (expectedFromPrevious !== null) {
       const diff = Math.abs(urlNum - expectedFromPrevious);
@@ -190,7 +190,7 @@ export function ensureUniqueEpisode(
   // Extract base episode number (remove any existing suffix)
   const baseMatch = baseEpisode.match(/^(\d{3})(?:_\d+)?$/);
   const baseNum = baseMatch ? baseMatch[1] : baseEpisode;
-  
+
   // Check if base episode already exists
   if (!existingEpisodes.includes(baseNum)) {
     // Base doesn't exist, return the provided episode (might have suffix or not)
