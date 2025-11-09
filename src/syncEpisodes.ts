@@ -220,7 +220,7 @@ async function syncEpisodes(): Promise<void> {
           "02_processed"
         );
         const downloadFilename = path.basename(downloadPath);
-        const processedFilename = downloadFilename.replace(/\.mp3$/, ".txt");
+        const processedFilename = downloadFilename.replace(/\.mp3$/, ".md");
         const fullProcessedPath = path.join(processedDir, processedFilename);
         processedPath = path
           .relative(process.cwd(), fullProcessedPath)
@@ -265,6 +265,17 @@ async function syncEpisodes(): Promise<void> {
         }
       }
 
+      // Check if transcript file already exists
+      let transcribed = existingEpisode?.status.transcribed || false;
+      if (transcriptPath) {
+        const fullTranscriptPath = path.join(process.cwd(), transcriptPath);
+        const transcriptExists = fs.existsSync(fullTranscriptPath);
+        if (transcriptExists && !transcribed) {
+          transcribed = true;
+          console.log(`✅ Transcript file already exists: ${transcriptPath}`);
+        }
+      }
+
       // If episode exists, preserve its status completely, only update metadata
       // If episode is new, create with default status
       const episodeObj: Episode = {
@@ -278,6 +289,7 @@ async function syncEpisodes(): Promise<void> {
           ? {
               ...existingEpisode.status,
               downloaded,
+              transcribed,
               downloadPath: existingEpisode.status.downloadPath || downloadPath,
               transcriptionPath:
                 existingEpisode.status.transcriptionPath || transcriptPath,
@@ -286,7 +298,7 @@ async function syncEpisodes(): Promise<void> {
             }
           : {
               downloaded,
-              transcribed: false,
+              transcribed,
               processed: false,
               noted: false,
               downloadPath,

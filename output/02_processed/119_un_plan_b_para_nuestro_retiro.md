@@ -1,0 +1,58 @@
+## Un Plan B para Nuestro Retiro
+
+**Introducción:**
+
+En este episodio de Neurona Financiera, Rodrigo Álvarez aborda la preocupación común sobre la jubilación y la insuficiencia de los sistemas previsionales actuales. Se exploran opciones para complementar la jubilación y asegurar un nivel de vida adecuado en el futuro.
+
+**Contexto Inicial:**
+
+*   Se menciona la charla TEDx del autor, donde planteó la pregunta sobre cuánto cobrará al jubilarse, como catalizador para su incursión en las finanzas personales.
+*   Se introduce el tema central: la necesidad de tomar control del futuro financiero y no depender exclusivamente de los sistemas previsionales.
+
+**El Club del Inversor:**
+
+*   Se menciona el Club del Inversor, un spinoff de Neurona Financiera, dedicado a las inversiones.
+*   Se identifican dos tipos de inversores: aquellos que disfrutan del mundo de las inversiones y aquellos que las utilizan como herramienta para alcanzar objetivos.
+
+**Problemas con los Sistemas Previsionales:**
+
+*   Se critica la estructura piramidal de los sistemas previsionales, que se basa en una alta proporción de trabajadores activos y una baja proporción de jubilados, situación que ya no se cumple en la actualidad.
+*   Se anticipan reformas en los sistemas previsionales que podrían afectar negativamente a los usuarios.
+
+**Libro "Mi Dinero, Mi Problema":**
+
+*   Se menciona el libro de Stephanie Shelman, que promueve la idea de tomar control de la jubilación y no depender de terceros.
+*   Se compara el sistema previsional norteamericano (401K) con los sistemas latinoamericanos, destacando las diferencias en la gestión de los fondos.
+
+**Solución Propuesta: Plan B para la Jubilación:**
+
+*   Se presenta el producto "Mi Plan" de la empresa Mayorano como una opción para construir un plan jubilatorio propio.
+*   Se explica el funcionamiento de los ETF (Exchange Traded Funds) y los fondos mutuos, destacando las diferencias en su gestión.
+*   Se describe la oferta de Mayorano, que permite invertir en tres fondos mutuos de BlackRock con diferentes niveles de riesgo (prudente, moderado y crecimiento).
+
+**Rentabilidad y Riesgos:**
+
+*   Se mencionan los objetivos de rentabilidad de cada fondo (4%, 5.5% y 7% anual en dólares), enfatizando que son objetivos y no garantías.
+*   Se destaca la importancia de entender el riesgo asociado a cada tipo de inversión.
+
+**Simulador de Inversión:**
+
+*   Se recomienda utilizar el simulador en la página web de Mayorano para visualizar el potencial crecimiento de la inversión a largo plazo.
+*   Se ejemplifica cómo una inversión inicial de \$5,000 y aportaciones mensuales de \$200 durante 25 años podrían generar un capital de \$108,349.
+
+**Características de los Fondos:**
+
+*   Se destaca que los fondos son acumulativos (las ganancias se reinvierten) y están domiciliados en Europa (lo que reduce el pago de impuestos sobre los dividendos).
+*   Se enfatiza la posibilidad de retirar el dinero en cualquier momento con un costo mínimo.
+
+**Costo del Servicio:**
+
+*   Se menciona que "Mi Plan" tiene un costo de 1% anual sobre el total del fondo.
+
+**Conclusión:**
+
+Se presenta "Mi Plan" como una alternativa interesante para aquellos que buscan construir un plan B para su jubilación de forma desatendida y diversificada. Se invita a los oyentes a investigar opciones similares en sus respectivos países.
+
+**Reflexión Final:**
+
+Se recuerda que la palabra "jubilación" viene de "jubilares" (gritar de alegría) y se invita a solucionar los problemas financieros con antelación para disfrutar plenamente de esta etapa de la vida.
