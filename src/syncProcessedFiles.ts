@@ -88,6 +88,15 @@ async function processBatchWithGemini(batchFilePath: string): Promise<string> {
 
 IMPORTANTE: Debes mantener el mismo idioma detectado en cada texto original. No traduzcas ni cambies el idioma del contenido.
 
+REGLA ESPECIAL PARA CONVERSACIONES: Si detectas que el contenido es una conversación o diálogo entre dos o más personas, NO reescribas la conversación completa. En su lugar, genera un resumen detallado y estructurado de la charla que incluya:
+- Los temas principales discutidos
+- Los puntos clave mencionados por cada participante (si es relevante)
+- Las conclusiones o ideas importantes
+- Cualquier información relevante o datos mencionados
+El resumen debe ser completo y detallado, pero presentado como un texto narrativo estructurado en markdown, no como un diálogo.
+
+Para contenido que NO es una conversación (monólogo, narración, etc.), reescríbelo normalmente en formato markdown estructurado.
+
 Debes mantener el mismo formato de respuesta que el archivo de entrada, devolviendo cada contenido reescrito dentro de codeblocks markdown.
 
 Formato de entrada:
