@@ -10,7 +10,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/001_podcast_de_finanzas_personales_e_inversion.mp3",
       "transcriptionPath": "output/01_transcripts/001_podcast_de_finanzas_personales_e_inversion.txt",
       "processedPath": "output/02_processed/001_podcast_de_finanzas_personales_e_inversion.md"
@@ -27,7 +27,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/002_el_ahorro.mp3",
       "transcriptionPath": "output/01_transcripts/002_el_ahorro.txt",
       "processedPath": "output/02_processed/002_el_ahorro.md"
@@ -44,7 +44,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/003_fundamentos_basicos_de_inversion.mp3",
       "transcriptionPath": "output/01_transcripts/003_fundamentos_basicos_de_inversion.txt",
       "processedPath": "output/02_processed/003_fundamentos_basicos_de_inversion.md"
@@ -61,7 +61,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/004_desmistificando_la_libertad_financiera.mp3",
       "transcriptionPath": "output/01_transcripts/004_desmistificando_la_libertad_financiera.txt",
       "processedPath": "output/02_processed/004_desmistificando_la_libertad_financiera.md"
@@ -78,7 +78,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/005_preguntas_hipotecas_prestamos_e_inversiones.mp3",
       "transcriptionPath": "output/01_transcripts/005_preguntas_hipotecas_prestamos_e_inversiones.txt",
       "processedPath": "output/02_processed/005_preguntas_hipotecas_prestamos_e_inversiones.md"
@@ -95,7 +95,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/006_el_primer_paso_fondo_de_emergencia.mp3",
       "transcriptionPath": "output/01_transcripts/006_el_primer_paso_fondo_de_emergencia.txt",
       "processedPath": "output/02_processed/006_el_primer_paso_fondo_de_emergencia.md"
@@ -112,7 +112,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/007_tomando_el_control_de_los_gastos.mp3",
       "transcriptionPath": "output/01_transcripts/007_tomando_el_control_de_los_gastos.txt",
       "processedPath": "output/02_processed/007_tomando_el_control_de_los_gastos.md"
@@ -129,7 +129,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/008_el_caso_de_juan_divorciado_endeudado_y_gastador_compulsivo.mp3",
       "transcriptionPath": "output/01_transcripts/008_el_caso_de_juan_divorciado_endeudado_y_gastador_compulsivo.txt",
       "processedPath": "output/02_processed/008_el_caso_de_juan_divorciado_endeudado_y_gastador_compulsivo.md"
@@ -146,7 +146,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/009_comprar_alquilar_hipotecar_dudar.mp3",
       "transcriptionPath": "output/01_transcripts/009_comprar_alquilar_hipotecar_dudar.txt",
       "processedPath": "output/02_processed/009_comprar_alquilar_hipotecar_dudar.md"
@@ -163,7 +163,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/010_construyendo_un_plan_de_retiro.mp3",
       "transcriptionPath": "output/01_transcripts/010_construyendo_un_plan_de_retiro.txt",
       "processedPath": "output/02_processed/010_construyendo_un_plan_de_retiro.md"
@@ -180,7 +180,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/011_inversion_seguros_pago_del_colegio_y_deudas_en_dolares.mp3",
       "transcriptionPath": "output/01_transcripts/011_inversion_seguros_pago_del_colegio_y_deudas_en_dolares.txt",
       "processedPath": "output/02_processed/011_inversion_seguros_pago_del_colegio_y_deudas_en_dolares.md"
@@ -197,7 +197,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/012_interes_compuesto_en_la_vida_real.mp3",
       "transcriptionPath": "output/01_transcripts/012_interes_compuesto_en_la_vida_real.txt",
       "processedPath": "output/02_processed/012_interes_compuesto_en_la_vida_real.md"
@@ -214,7 +214,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/013_la_accion_como_motor_para_todo.mp3",
       "transcriptionPath": "output/01_transcripts/013_la_accion_como_motor_para_todo.txt",
       "processedPath": "output/02_processed/013_la_accion_como_motor_para_todo.md"
@@ -231,7 +231,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/014_ganar_mas_dinero_sin_experiencia_ni_cv.mp3",
       "transcriptionPath": "output/01_transcripts/014_ganar_mas_dinero_sin_experiencia_ni_cv.txt",
       "processedPath": "output/02_processed/014_ganar_mas_dinero_sin_experiencia_ni_cv.md"
@@ -248,7 +248,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/015_ganar_dinero_prestando_dinero.mp3",
       "transcriptionPath": "output/01_transcripts/015_ganar_dinero_prestando_dinero.txt",
       "processedPath": "output/02_processed/015_ganar_dinero_prestando_dinero.md"
@@ -265,7 +265,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/016_preguntas_inversiones_refugio_de_valor_y_mas.mp3",
       "transcriptionPath": "output/01_transcripts/016_preguntas_inversiones_refugio_de_valor_y_mas.txt",
       "processedPath": "output/02_processed/016_preguntas_inversiones_refugio_de_valor_y_mas.md"
@@ -282,7 +282,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/017_consumo_inteligente.mp3",
       "transcriptionPath": "output/01_transcripts/017_consumo_inteligente.txt",
       "processedPath": "output/02_processed/017_consumo_inteligente.md"
@@ -299,7 +299,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/018_gestion_de_tiempo.mp3",
       "transcriptionPath": "output/01_transcripts/018_gestion_de_tiempo.txt",
       "processedPath": "output/02_processed/018_gestion_de_tiempo.md"
@@ -316,7 +316,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/019_emigrar_por_dinero.mp3",
       "transcriptionPath": "output/01_transcripts/019_emigrar_por_dinero.txt",
       "processedPath": "output/02_processed/019_emigrar_por_dinero.md"
@@ -333,7 +333,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/020_preguntas_sura_conahorro_y_tarjetas_de_credito.mp3",
       "transcriptionPath": "output/01_transcripts/020_preguntas_sura_conahorro_y_tarjetas_de_credito.txt",
       "processedPath": "output/02_processed/020_preguntas_sura_conahorro_y_tarjetas_de_credito.md"
@@ -350,7 +350,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/021_creditos_de_consumo.mp3",
       "transcriptionPath": "output/01_transcripts/021_creditos_de_consumo.txt",
       "processedPath": "output/02_processed/021_creditos_de_consumo.md"
@@ -367,7 +367,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/022_invertir_en_acciones.mp3",
       "transcriptionPath": "output/01_transcripts/022_invertir_en_acciones.txt",
       "processedPath": "output/02_processed/022_invertir_en_acciones.md"
@@ -384,7 +384,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/023_minimalismo.mp3",
       "transcriptionPath": "output/01_transcripts/023_minimalismo.txt",
       "processedPath": "output/02_processed/023_minimalismo.md"
@@ -401,7 +401,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/024_planificando_el_2019.mp3",
       "transcriptionPath": "output/01_transcripts/024_planificando_el_2019.txt",
       "processedPath": "output/02_processed/024_planificando_el_2019.md"
@@ -418,7 +418,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/025_vacaciones_gasto_o_inversion.mp3",
       "transcriptionPath": "output/01_transcripts/025_vacaciones_gasto_o_inversion.txt",
       "processedPath": "output/02_processed/025_vacaciones_gasto_o_inversion.md"
@@ -435,7 +435,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/026_como_analizo_el_2018.mp3",
       "transcriptionPath": "output/01_transcripts/026_como_analizo_el_2018.txt",
       "processedPath": "output/02_processed/026_como_analizo_el_2018.md"
@@ -452,7 +452,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/027_tips_para_este_2019.mp3",
       "transcriptionPath": "output/01_transcripts/027_tips_para_este_2019.txt",
       "processedPath": "output/02_processed/027_tips_para_este_2019.md"
@@ -469,7 +469,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/028_en_que_moneda_ahorro.mp3",
       "transcriptionPath": "output/01_transcripts/028_en_que_moneda_ahorro.txt",
       "processedPath": "output/02_processed/028_en_que_moneda_ahorro.md"
@@ -486,7 +486,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/029_fondos_de_inversion_buena_idea.mp3",
       "transcriptionPath": "output/01_transcripts/029_fondos_de_inversion_buena_idea.txt",
       "processedPath": "output/02_processed/029_fondos_de_inversion_buena_idea.md"
@@ -503,7 +503,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/030_vacaciones_preguntas_y_respuestas.mp3",
       "transcriptionPath": "output/01_transcripts/030_vacaciones_preguntas_y_respuestas.txt",
       "processedPath": "output/02_processed/030_vacaciones_preguntas_y_respuestas.md"
@@ -520,7 +520,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/031_economia_real.mp3",
       "transcriptionPath": "output/01_transcripts/031_economia_real.txt",
       "processedPath": "output/02_processed/031_economia_real.md"
@@ -537,7 +537,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/032_negocios_multinivel.mp3",
       "transcriptionPath": "output/01_transcripts/032_negocios_multinivel.txt",
       "processedPath": "output/02_processed/032_negocios_multinivel.md"
@@ -554,7 +554,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/033_finanzas_y_pareja_toma_1.mp3",
       "transcriptionPath": "output/01_transcripts/033_finanzas_y_pareja_toma_1.txt",
       "processedPath": "output/02_processed/033_finanzas_y_pareja_toma_1.md"
@@ -571,7 +571,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/034_preguntas_de_carnaval.mp3",
       "transcriptionPath": "output/01_transcripts/034_preguntas_de_carnaval.txt",
       "processedPath": "output/02_processed/034_preguntas_de_carnaval.md"
@@ -588,7 +588,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/035_revisando_nuestra_relacion_con_el_dinero.mp3",
       "transcriptionPath": "output/01_transcripts/035_revisando_nuestra_relacion_con_el_dinero.txt",
       "processedPath": "output/02_processed/035_revisando_nuestra_relacion_con_el_dinero.md"
@@ -605,7 +605,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/036_economia_real_la_venta.mp3",
       "transcriptionPath": "output/01_transcripts/036_economia_real_la_venta.txt",
       "processedPath": "output/02_processed/036_economia_real_la_venta.md"
@@ -622,7 +622,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/037_invirtiendo_en_etf.mp3",
       "transcriptionPath": "output/01_transcripts/037_invirtiendo_en_etf.txt",
       "processedPath": "output/02_processed/037_invirtiendo_en_etf.md"
@@ -639,7 +639,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/038_preguntas_respuestas_de_abril.mp3",
       "transcriptionPath": "output/01_transcripts/038_preguntas_respuestas_de_abril.txt",
       "processedPath": "output/02_processed/038_preguntas_respuestas_de_abril.md"
@@ -656,7 +656,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/039_una_historia_de_estafa.mp3",
       "transcriptionPath": "output/01_transcripts/039_una_historia_de_estafa.txt",
       "processedPath": "output/02_processed/039_una_historia_de_estafa.md"
@@ -673,7 +673,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/040_invirtiendo_en_un_negocio_existente.mp3",
       "transcriptionPath": "output/01_transcripts/040_invirtiendo_en_un_negocio_existente.txt",
       "processedPath": "output/02_processed/040_invirtiendo_en_un_negocio_existente.md"
@@ -690,7 +690,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/041_que_es_el_trading.mp3",
       "transcriptionPath": "output/01_transcripts/041_que_es_el_trading.txt",
       "processedPath": "output/02_processed/041_que_es_el_trading.md"
@@ -707,7 +707,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/042_en_que_invertir.mp3",
       "transcriptionPath": "output/01_transcripts/042_en_que_invertir.txt",
       "processedPath": "output/02_processed/042_en_que_invertir.md"
@@ -724,7 +724,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/043_asumiendo_nuestra_responsabilidad.mp3",
       "transcriptionPath": "output/01_transcripts/043_asumiendo_nuestra_responsabilidad.txt",
       "processedPath": "output/02_processed/043_asumiendo_nuestra_responsabilidad.md"
@@ -741,7 +741,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/044_ser_unico_para_ganar_mas.mp3",
       "transcriptionPath": "output/01_transcripts/044_ser_unico_para_ganar_mas.txt",
       "processedPath": "output/02_processed/044_ser_unico_para_ganar_mas.md"
@@ -758,7 +758,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/045_inversion_inmobiliaria.mp3",
       "transcriptionPath": "output/01_transcripts/045_inversion_inmobiliaria.txt",
       "processedPath": "output/02_processed/045_inversion_inmobiliaria.md"
@@ -775,7 +775,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/046_dime_con_quien_andas_y_te_dire_como_inviertes.mp3",
       "transcriptionPath": "output/01_transcripts/046_dime_con_quien_andas_y_te_dire_como_inviertes.txt",
       "processedPath": "output/02_processed/046_dime_con_quien_andas_y_te_dire_como_inviertes.md"
@@ -792,7 +792,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/047_el_caso_de_la_hipoteca_arrepentida.mp3",
       "transcriptionPath": "output/01_transcripts/047_el_caso_de_la_hipoteca_arrepentida.txt",
       "processedPath": "output/02_processed/047_el_caso_de_la_hipoteca_arrepentida.md"
@@ -809,7 +809,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/048_ninos_y_educacion_financiera.mp3",
       "transcriptionPath": "output/01_transcripts/048_ninos_y_educacion_financiera.txt",
       "processedPath": "output/02_processed/048_ninos_y_educacion_financiera.md"
@@ -826,7 +826,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/049_como_vivir_de_vender_un_servicio.mp3",
       "transcriptionPath": "output/01_transcripts/049_como_vivir_de_vender_un_servicio.txt",
       "processedPath": "output/02_processed/049_como_vivir_de_vender_un_servicio.md"
@@ -843,7 +843,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/050_una_historia_de_estafa_piramidal_alberto_chang.mp3",
       "transcriptionPath": "output/01_transcripts/050_una_historia_de_estafa_piramidal_alberto_chang.txt",
       "processedPath": "output/02_processed/050_una_historia_de_estafa_piramidal_alberto_chang.md"
@@ -860,7 +860,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/051_un_ano_de_podcast.mp3",
       "transcriptionPath": "output/01_transcripts/051_un_ano_de_podcast.txt",
       "processedPath": "output/02_processed/051_un_ano_de_podcast.md"
@@ -877,7 +877,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/052_preguntas_para_entender_como_estamos.mp3",
       "transcriptionPath": "output/01_transcripts/052_preguntas_para_entender_como_estamos.txt",
       "processedPath": "output/02_processed/052_preguntas_para_entender_como_estamos.md"
@@ -894,7 +894,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/053_notas_convertibles_o_como_ser_socio_de_una_startup.mp3",
       "transcriptionPath": "output/01_transcripts/053_notas_convertibles_o_como_ser_socio_de_una_startup.txt",
       "processedPath": "output/02_processed/053_notas_convertibles_o_como_ser_socio_de_una_startup.md"
@@ -911,7 +911,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/054_la_democratizacion_de_las_inversiones.mp3",
       "transcriptionPath": "output/01_transcripts/054_la_democratizacion_de_las_inversiones.txt",
       "processedPath": "output/02_processed/054_la_democratizacion_de_las_inversiones.md"
@@ -928,7 +928,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/055_que_piensan_los_ninos_sobre_el_dinero.mp3",
       "transcriptionPath": "output/01_transcripts/055_que_piensan_los_ninos_sobre_el_dinero.txt",
       "processedPath": "output/02_processed/055_que_piensan_los_ninos_sobre_el_dinero.md"
@@ -945,7 +945,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/056_libertad_financiera_los_numeros.mp3",
       "transcriptionPath": "output/01_transcripts/056_libertad_financiera_los_numeros.txt",
       "processedPath": "output/02_processed/056_libertad_financiera_los_numeros.md"
@@ -962,7 +962,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/057_tres_claves_para_armar_un_plan_de_retiro.mp3",
       "transcriptionPath": "output/01_transcripts/057_tres_claves_para_armar_un_plan_de_retiro.txt",
       "processedPath": "output/02_processed/057_tres_claves_para_armar_un_plan_de_retiro.md"
@@ -979,7 +979,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/058_como_calcular_el_valor_de_una_empresa.mp3",
       "transcriptionPath": "output/01_transcripts/058_como_calcular_el_valor_de_una_empresa.txt",
       "processedPath": "output/02_processed/058_como_calcular_el_valor_de_una_empresa.md"
@@ -996,7 +996,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/059_las_mujeres_y_las_finanzas_personales.mp3",
       "transcriptionPath": "output/01_transcripts/059_las_mujeres_y_las_finanzas_personales.txt",
       "processedPath": "output/02_processed/059_las_mujeres_y_las_finanzas_personales.md"
@@ -1013,7 +1013,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/060_ahorrar_vs_disfrutar_es_asi.mp3",
       "transcriptionPath": "output/01_transcripts/060_ahorrar_vs_disfrutar_es_asi.txt",
       "processedPath": "output/02_processed/060_ahorrar_vs_disfrutar_es_asi.md"
@@ -1030,7 +1030,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/061_tres_claves_para_mejorar_un_negocio.mp3",
       "transcriptionPath": "output/01_transcripts/061_tres_claves_para_mejorar_un_negocio.txt",
       "processedPath": "output/02_processed/061_tres_claves_para_mejorar_un_negocio.md"
@@ -1047,7 +1047,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/062_mas_alla_de_una_buena_salsa_bbq.mp3",
       "transcriptionPath": "output/01_transcripts/062_mas_alla_de_una_buena_salsa_bbq.txt",
       "processedPath": "output/02_processed/062_mas_alla_de_una_buena_salsa_bbq.md"
@@ -1064,7 +1064,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/063_estas_preparado_para_quedarte_sin_trabajo.mp3",
       "transcriptionPath": "output/01_transcripts/063_estas_preparado_para_quedarte_sin_trabajo.txt",
       "processedPath": "output/02_processed/063_estas_preparado_para_quedarte_sin_trabajo.md"
@@ -1081,7 +1081,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/064_como_ahorrar_mucho_en_este_ultimo_trimestre.mp3",
       "transcriptionPath": "output/01_transcripts/064_como_ahorrar_mucho_en_este_ultimo_trimestre.txt",
       "processedPath": "output/02_processed/064_como_ahorrar_mucho_en_este_ultimo_trimestre.md"
@@ -1098,7 +1098,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/065_finanzas_para_mayores_de_50.mp3",
       "transcriptionPath": "output/01_transcripts/065_finanzas_para_mayores_de_50.txt",
       "processedPath": "output/02_processed/065_finanzas_para_mayores_de_50.md"
@@ -1115,7 +1115,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/066_tarjetas_de_credito_al_desnudo.mp3",
       "transcriptionPath": "output/01_transcripts/066_tarjetas_de_credito_al_desnudo.txt",
       "processedPath": "output/02_processed/066_tarjetas_de_credito_al_desnudo.md"
@@ -1132,7 +1132,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/067_analisis_de_tendencias_e_inversion.mp3",
       "transcriptionPath": "output/01_transcripts/067_analisis_de_tendencias_e_inversion.txt",
       "processedPath": "output/02_processed/067_analisis_de_tendencias_e_inversion.md"
@@ -1149,7 +1149,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/068_fundamentos_de_marketing_para_vender.mp3",
       "transcriptionPath": "output/01_transcripts/068_fundamentos_de_marketing_para_vender.txt",
       "processedPath": "output/02_processed/068_fundamentos_de_marketing_para_vender.md"
@@ -1166,7 +1166,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/069_algunos_tips_a_la_hora_de_viajar.mp3",
       "transcriptionPath": "output/01_transcripts/069_algunos_tips_a_la_hora_de_viajar.txt",
       "processedPath": "output/02_processed/069_algunos_tips_a_la_hora_de_viajar.md"
@@ -1183,7 +1183,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/070_que_harias_si_manana_te_llega_mucho_dinero_y_quisieras_comenzar_a_invertir.mp3",
       "transcriptionPath": "output/01_transcripts/070_que_harias_si_manana_te_llega_mucho_dinero_y_quisieras_comenzar_a_invertir.txt",
       "processedPath": "output/02_processed/070_que_harias_si_manana_te_llega_mucho_dinero_y_quisieras_comenzar_a_invertir.md"
@@ -1200,7 +1200,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/071_aprender_a_comer_para_vivir_mejor_ahorrar_dinero_y_ser_mas_feliz.mp3",
       "transcriptionPath": "output/01_transcripts/071_aprender_a_comer_para_vivir_mejor_ahorrar_dinero_y_ser_mas_feliz.txt",
       "processedPath": "output/02_processed/071_aprender_a_comer_para_vivir_mejor_ahorrar_dinero_y_ser_mas_feliz.md"
@@ -1217,7 +1217,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/072_emprender_en_pareja.mp3",
       "transcriptionPath": "output/01_transcripts/072_emprender_en_pareja.txt",
       "processedPath": "output/02_processed/072_emprender_en_pareja.md"
@@ -1234,7 +1234,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/073_finanzas_y_pareja_toma_2_la_separacion.mp3",
       "transcriptionPath": "output/01_transcripts/073_finanzas_y_pareja_toma_2_la_separacion.txt",
       "processedPath": "output/02_processed/073_finanzas_y_pareja_toma_2_la_separacion.md"
@@ -1251,7 +1251,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/074_psicologia_del_consumo_un_superpoder_para_ser_mas_feliz.mp3",
       "transcriptionPath": "output/01_transcripts/074_psicologia_del_consumo_un_superpoder_para_ser_mas_feliz.txt",
       "processedPath": "output/02_processed/074_psicologia_del_consumo_un_superpoder_para_ser_mas_feliz.md"
@@ -1268,7 +1268,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/075_buscar_inversion_para_mi_empresa.mp3",
       "transcriptionPath": "output/01_transcripts/075_buscar_inversion_para_mi_empresa.txt",
       "processedPath": "output/02_processed/075_buscar_inversion_para_mi_empresa.md"
@@ -1285,7 +1285,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/076_especial_de_navidad.mp3",
       "transcriptionPath": "output/01_transcripts/076_especial_de_navidad.txt",
       "processedPath": "output/02_processed/076_especial_de_navidad.md"
@@ -1302,7 +1302,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/077_como_hacer_una_planificacion_financiera_anual.mp3",
       "transcriptionPath": "output/01_transcripts/077_como_hacer_una_planificacion_financiera_anual.txt",
       "processedPath": "output/02_processed/077_como_hacer_una_planificacion_financiera_anual.md"
@@ -1319,7 +1319,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/078_operar_en_bolsa_con_comisiones_cero_como_llegamos_a_esto.mp3",
       "transcriptionPath": "output/01_transcripts/078_operar_en_bolsa_con_comisiones_cero_como_llegamos_a_esto.txt",
       "processedPath": "output/02_processed/078_operar_en_bolsa_con_comisiones_cero_como_llegamos_a_esto.md"
@@ -1336,7 +1336,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/079_como_superar_el_sentirse_un_bicho_raro.mp3",
       "transcriptionPath": "output/01_transcripts/079_como_superar_el_sentirse_un_bicho_raro.txt",
       "processedPath": "output/02_processed/079_como_superar_el_sentirse_un_bicho_raro.md"
@@ -1353,7 +1353,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/080_aprendizaje_de_una_historia_de_venta.mp3",
       "transcriptionPath": "output/01_transcripts/080_aprendizaje_de_una_historia_de_venta.txt",
       "processedPath": "output/02_processed/080_aprendizaje_de_una_historia_de_venta.md"
@@ -1370,7 +1370,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/081_argentinos_que_hay_que_saber_antes_de_querer_mudarse_a_uruguay.mp3",
       "transcriptionPath": "output/01_transcripts/081_argentinos_que_hay_que_saber_antes_de_querer_mudarse_a_uruguay.txt",
       "processedPath": "output/02_processed/081_argentinos_que_hay_que_saber_antes_de_querer_mudarse_a_uruguay.md"
@@ -1387,7 +1387,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/082_el_placer_de_prepararnos_para_el_siguiente_ciclo_del_ano.mp3",
       "transcriptionPath": "output/01_transcripts/082_el_placer_de_prepararnos_para_el_siguiente_ciclo_del_ano.txt",
       "processedPath": "output/02_processed/082_el_placer_de_prepararnos_para_el_siguiente_ciclo_del_ano.md"
@@ -1404,7 +1404,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/083_todo_sobre_los_habitos_entrevista_a_matias_salom_de_superhabitos.mp3",
       "transcriptionPath": "output/01_transcripts/083_todo_sobre_los_habitos_entrevista_a_matias_salom_de_superhabitos.txt",
       "processedPath": "output/02_processed/083_todo_sobre_los_habitos_entrevista_a_matias_salom_de_superhabitos.md"
@@ -1421,7 +1421,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/084_como_elaborar_un_presupuesto.mp3",
       "transcriptionPath": "output/01_transcripts/084_como_elaborar_un_presupuesto.txt",
       "processedPath": "output/02_processed/084_como_elaborar_un_presupuesto.md"
@@ -1438,7 +1438,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/085_rendir_cuentas_para_avanzar.mp3",
       "transcriptionPath": "output/01_transcripts/085_rendir_cuentas_para_avanzar.txt",
       "processedPath": "output/02_processed/085_rendir_cuentas_para_avanzar.md"
@@ -1455,7 +1455,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/086_como_influye_el_contexto_actual_en_nuestro_bolsillo.mp3",
       "transcriptionPath": "output/01_transcripts/086_como_influye_el_contexto_actual_en_nuestro_bolsillo.txt",
       "processedPath": "output/02_processed/086_como_influye_el_contexto_actual_en_nuestro_bolsillo.md"
@@ -1472,7 +1472,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/087_por_que_la_brecha_de_genero_nos_hace_mas_pobres.mp3",
       "transcriptionPath": "output/01_transcripts/087_por_que_la_brecha_de_genero_nos_hace_mas_pobres.txt",
       "processedPath": "output/02_processed/087_por_que_la_brecha_de_genero_nos_hace_mas_pobres.md"
@@ -1489,7 +1489,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/088_el_coronavirus_las_finanzas_y_yo.mp3",
       "transcriptionPath": "output/01_transcripts/088_el_coronavirus_las_finanzas_y_yo.txt",
       "processedPath": "output/02_processed/088_el_coronavirus_las_finanzas_y_yo.md"
@@ -1506,7 +1506,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/089_consejos_financieros_para_momentos_de_incertidumbre.mp3",
       "transcriptionPath": "output/01_transcripts/089_consejos_financieros_para_momentos_de_incertidumbre.txt",
       "processedPath": "output/02_processed/089_consejos_financieros_para_momentos_de_incertidumbre.md"
@@ -1523,7 +1523,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/090_consejos_financieros_y_comerciales_para_las_pymes.mp3",
       "transcriptionPath": "output/01_transcripts/090_consejos_financieros_y_comerciales_para_las_pymes.txt",
       "processedPath": "output/02_processed/090_consejos_financieros_y_comerciales_para_las_pymes.md"
@@ -1540,7 +1540,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/091_invertir_o_desinvertir_he_ahi_la_cuestion.mp3",
       "transcriptionPath": "output/01_transcripts/091_invertir_o_desinvertir_he_ahi_la_cuestion.txt",
       "processedPath": "output/02_processed/091_invertir_o_desinvertir_he_ahi_la_cuestion.md"
@@ -1557,7 +1557,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/092_oportunidades_que_nos_deja_el_coronavirus.mp3",
       "transcriptionPath": "output/01_transcripts/092_oportunidades_que_nos_deja_el_coronavirus.txt",
       "processedPath": "output/02_processed/092_oportunidades_que_nos_deja_el_coronavirus.md"
@@ -1574,7 +1574,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/093_el_rol_del_lider_en_el_trabajo_a_distancia.mp3",
       "transcriptionPath": "output/01_transcripts/093_el_rol_del_lider_en_el_trabajo_a_distancia.txt",
       "processedPath": "output/02_processed/093_el_rol_del_lider_en_el_trabajo_a_distancia.md"
@@ -1591,7 +1591,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/094_el_sistema_previsional_y_el_impacto_del_coronavirus.mp3",
       "transcriptionPath": "output/01_transcripts/094_el_sistema_previsional_y_el_impacto_del_coronavirus.txt",
       "processedPath": "output/02_processed/094_el_sistema_previsional_y_el_impacto_del_coronavirus.md"
@@ -1608,7 +1608,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/095_recalculandonuestros_objetivos_financieros.mp3",
       "transcriptionPath": "output/01_transcripts/095_recalculandonuestros_objetivos_financieros.txt",
       "processedPath": "output/02_processed/095_recalculandonuestros_objetivos_financieros.md"
@@ -1625,7 +1625,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/096_como_predecir_las_ventas_futuras_de_tu_empresa.mp3",
       "transcriptionPath": "output/01_transcripts/096_como_predecir_las_ventas_futuras_de_tu_empresa.txt",
       "processedPath": "output/02_processed/096_como_predecir_las_ventas_futuras_de_tu_empresa.md"
@@ -1642,7 +1642,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/097_charlando_con_alejandro_de_barbieri_manejando_la_angustia.mp3",
       "transcriptionPath": "output/01_transcripts/097_charlando_con_alejandro_de_barbieri_manejando_la_angustia.txt",
       "processedPath": "output/02_processed/097_charlando_con_alejandro_de_barbieri_manejando_la_angustia.md"
@@ -1659,7 +1659,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/098_invertir_en_ladrillos_en_contextos_de_crisis.mp3",
       "transcriptionPath": "output/01_transcripts/098_invertir_en_ladrillos_en_contextos_de_crisis.txt",
       "processedPath": "output/02_processed/098_invertir_en_ladrillos_en_contextos_de_crisis.md"
@@ -1676,7 +1676,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/099_razones_para_tomar_el_control_de_nuestra_vida_financiera.mp3",
       "transcriptionPath": "output/01_transcripts/099_razones_para_tomar_el_control_de_nuestra_vida_financiera.txt",
       "processedPath": "output/02_processed/099_razones_para_tomar_el_control_de_nuestra_vida_financiera.md"
@@ -1693,7 +1693,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/100_anecdotas_intimidades_y_una_sorpresa_para_festejar_los_100_episodios.mp3",
       "transcriptionPath": "output/01_transcripts/100_anecdotas_intimidades_y_una_sorpresa_para_festejar_los_100_episodios.txt",
       "processedPath": "output/02_processed/100_anecdotas_intimidades_y_una_sorpresa_para_festejar_los_100_episodios.md"
@@ -1710,7 +1710,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/101_control_financiero_dificil_conseguirlo_y_facil_perderlo.mp3",
       "transcriptionPath": "output/01_transcripts/101_control_financiero_dificil_conseguirlo_y_facil_perderlo.txt",
       "processedPath": "output/02_processed/101_control_financiero_dificil_conseguirlo_y_facil_perderlo.md"
@@ -1727,7 +1727,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/102_trampas_de_nuestro_cerebro_que_nos_hacen_cometer_errores_financieros.mp3",
       "transcriptionPath": "output/01_transcripts/102_trampas_de_nuestro_cerebro_que_nos_hacen_cometer_errores_financieros.txt",
       "processedPath": "output/02_processed/102_trampas_de_nuestro_cerebro_que_nos_hacen_cometer_errores_financieros.md"
@@ -1744,7 +1744,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/103_memento_mori.mp3",
       "transcriptionPath": "output/01_transcripts/103_memento_mori.txt",
       "processedPath": "output/02_processed/103_memento_mori.md"
@@ -1761,7 +1761,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/104_construir_sistemas.mp3",
       "transcriptionPath": "output/01_transcripts/104_construir_sistemas.txt",
       "processedPath": "output/02_processed/104_construir_sistemas.md"
@@ -1778,7 +1778,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/105_estafadores_20.mp3",
       "transcriptionPath": "output/01_transcripts/105_estafadores_20.txt",
       "processedPath": "output/02_processed/105_estafadores_20.md"
@@ -1795,7 +1795,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/106_inversiones_domesticas_cuando_gastar_es_buena_idea.mp3",
       "transcriptionPath": "output/01_transcripts/106_inversiones_domesticas_cuando_gastar_es_buena_idea.txt",
       "processedPath": "output/02_processed/106_inversiones_domesticas_cuando_gastar_es_buena_idea.md"
@@ -1812,7 +1812,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/107_respondiendo_preguntas.mp3",
       "transcriptionPath": "output/01_transcripts/107_respondiendo_preguntas.txt",
       "processedPath": "output/02_processed/107_respondiendo_preguntas.md"
@@ -1829,7 +1829,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/108_el_mundo_es_redondo.mp3",
       "transcriptionPath": "output/01_transcripts/108_el_mundo_es_redondo.txt",
       "processedPath": "output/02_processed/108_el_mundo_es_redondo.md"
@@ -1846,7 +1846,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/109_el_problema_de_vender_mucho_un_caso_real.mp3",
       "transcriptionPath": "output/01_transcripts/109_el_problema_de_vender_mucho_un_caso_real.txt",
       "processedPath": "output/02_processed/109_el_problema_de_vender_mucho_un_caso_real.md"
@@ -1863,7 +1863,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/110_etapas_de_control_financiero_cual_es_el_tuyo.mp3",
       "transcriptionPath": "output/01_transcripts/110_etapas_de_control_financiero_cual_es_el_tuyo.txt",
       "processedPath": "output/02_processed/110_etapas_de_control_financiero_cual_es_el_tuyo.md"
@@ -1880,7 +1880,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/111_preguntas_y_respuestas_sobre_inversion.mp3",
       "transcriptionPath": "output/01_transcripts/111_preguntas_y_respuestas_sobre_inversion.txt",
       "processedPath": "output/02_processed/111_preguntas_y_respuestas_sobre_inversion.md"
@@ -1897,7 +1897,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/112_tres_mitos_sobre_las_finanzas_personales.mp3",
       "transcriptionPath": "output/01_transcripts/112_tres_mitos_sobre_las_finanzas_personales.txt",
       "processedPath": "output/02_processed/112_tres_mitos_sobre_las_finanzas_personales.md"
@@ -1914,7 +1914,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/113_construye_tu_plan_financiero_personal_hoy_mismo.mp3",
       "transcriptionPath": "output/01_transcripts/113_construye_tu_plan_financiero_personal_hoy_mismo.txt",
       "processedPath": "output/02_processed/113_construye_tu_plan_financiero_personal_hoy_mismo.md"
@@ -1931,7 +1931,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/114_la_trampa_del_supermercado.mp3",
       "transcriptionPath": "output/01_transcripts/114_la_trampa_del_supermercado.txt",
       "processedPath": "output/02_processed/114_la_trampa_del_supermercado.md"
@@ -1948,7 +1948,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/115_te_irias_a_vivir_al_interior_del_pais.mp3",
       "transcriptionPath": "output/01_transcripts/115_te_irias_a_vivir_al_interior_del_pais.txt",
       "processedPath": "output/02_processed/115_te_irias_a_vivir_al_interior_del_pais.md"
@@ -1965,7 +1965,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/116_vestimenta_consumo_y_felicidad.mp3",
       "transcriptionPath": "output/01_transcripts/116_vestimenta_consumo_y_felicidad.txt",
       "processedPath": "output/02_processed/116_vestimenta_consumo_y_felicidad.md"
@@ -1982,7 +1982,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/117_la_casa_propia_pensando_fuera_de_la_caja.mp3",
       "transcriptionPath": "output/01_transcripts/117_la_casa_propia_pensando_fuera_de_la_caja.txt",
       "processedPath": "output/02_processed/117_la_casa_propia_pensando_fuera_de_la_caja.md"
@@ -1999,7 +1999,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/118_socios_todo_lo_que_hay_que_saber_al_respecto.mp3",
       "transcriptionPath": "output/01_transcripts/118_socios_todo_lo_que_hay_que_saber_al_respecto.txt",
       "processedPath": "output/02_processed/118_socios_todo_lo_que_hay_que_saber_al_respecto.md"
@@ -2016,7 +2016,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/119_un_plan_b_para_nuestro_retiro.mp3",
       "transcriptionPath": "output/01_transcripts/119_un_plan_b_para_nuestro_retiro.txt",
       "processedPath": "output/02_processed/119_un_plan_b_para_nuestro_retiro.md"
@@ -2033,7 +2033,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/120_un_ano_democratizando_las_inversiones.mp3",
       "transcriptionPath": "output/01_transcripts/120_un_ano_democratizando_las_inversiones.txt",
       "processedPath": "output/02_processed/120_un_ano_democratizando_las_inversiones.md"
@@ -2050,7 +2050,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/121_estas_preparado_para_una_emergencia.mp3",
       "transcriptionPath": "output/01_transcripts/121_estas_preparado_para_una_emergencia.txt",
       "processedPath": "output/02_processed/121_estas_preparado_para_una_emergencia.md"
@@ -2067,7 +2067,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/122_invertir_en_hipotecas.mp3",
       "transcriptionPath": "output/01_transcripts/122_invertir_en_hipotecas.txt",
       "processedPath": "output/02_processed/122_invertir_en_hipotecas.md"
@@ -2084,7 +2084,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/123_consejos_no_solicitados_para_jovenes.mp3",
       "transcriptionPath": "output/01_transcripts/123_consejos_no_solicitados_para_jovenes.txt",
       "processedPath": "output/02_processed/123_consejos_no_solicitados_para_jovenes.md"
@@ -2101,7 +2101,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/124_herramientas_para_saber_negociar.mp3",
       "transcriptionPath": "output/01_transcripts/124_herramientas_para_saber_negociar.txt",
       "processedPath": "output/02_processed/124_herramientas_para_saber_negociar.md"
@@ -2118,7 +2118,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/125_historia_de_un_emprendimiento_fallido.mp3",
       "transcriptionPath": "output/01_transcripts/125_historia_de_un_emprendimiento_fallido.txt",
       "processedPath": "output/02_processed/125_historia_de_un_emprendimiento_fallido.md"
@@ -2135,7 +2135,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/126_vacaciones_benditas_vacaciones.mp3",
       "transcriptionPath": "output/01_transcripts/126_vacaciones_benditas_vacaciones.txt",
       "processedPath": "output/02_processed/126_vacaciones_benditas_vacaciones.md"
@@ -2152,7 +2152,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/127_tecnicas_ninjas_para_pymes.mp3",
       "transcriptionPath": "output/01_transcripts/127_tecnicas_ninjas_para_pymes.txt",
       "processedPath": "output/02_processed/127_tecnicas_ninjas_para_pymes.md"
@@ -2169,7 +2169,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/128_especial_de_navidad.mp3",
       "transcriptionPath": "output/01_transcripts/128_especial_de_navidad.txt",
       "processedPath": "output/02_processed/128_especial_de_navidad.md"
@@ -2186,7 +2186,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/129_chau_2020_hola_2021.mp3",
       "transcriptionPath": "output/01_transcripts/129_chau_2020_hola_2021.txt",
       "processedPath": "output/02_processed/129_chau_2020_hola_2021.md"
@@ -2203,7 +2203,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/130_gastar_menos_revalorizando_nuestro_ano.mp3",
       "transcriptionPath": "output/01_transcripts/130_gastar_menos_revalorizando_nuestro_ano.txt",
       "processedPath": "output/02_processed/130_gastar_menos_revalorizando_nuestro_ano.md"
@@ -2220,7 +2220,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/131_el_problema_de_la_comida.mp3",
       "transcriptionPath": "output/01_transcripts/131_el_problema_de_la_comida.txt",
       "processedPath": "output/02_processed/131_el_problema_de_la_comida.md"
@@ -2237,7 +2237,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/132_las_formulas_magicas_no_existen.mp3",
       "transcriptionPath": "output/01_transcripts/132_las_formulas_magicas_no_existen.txt",
       "processedPath": "output/02_processed/132_las_formulas_magicas_no_existen.md"
@@ -2254,7 +2254,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/133_coach_minimalista_el_minimalismo_llevado_a_la_practica.mp3",
       "transcriptionPath": "output/01_transcripts/133_coach_minimalista_el_minimalismo_llevado_a_la_practica.txt",
       "processedPath": "output/02_processed/133_coach_minimalista_el_minimalismo_llevado_a_la_practica.md"
@@ -2271,7 +2271,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/134_gamestop_reddit_short_selling_elon_muskde_que_estamos_hablando.mp3",
       "transcriptionPath": "output/01_transcripts/134_gamestop_reddit_short_selling_elon_muskde_que_estamos_hablando.txt",
       "processedPath": "output/02_processed/134_gamestop_reddit_short_selling_elon_muskde_que_estamos_hablando.md"
@@ -2288,7 +2288,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/135_el_habito_que_nos_hace_mas_pobres.mp3",
       "transcriptionPath": "output/01_transcripts/135_el_habito_que_nos_hace_mas_pobres.txt",
       "processedPath": "output/02_processed/135_el_habito_que_nos_hace_mas_pobres.md"
@@ -2305,7 +2305,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/136_pensar_soy_un_desastre_en_mis_finanzas_no_ayuda.mp3",
       "transcriptionPath": "output/01_transcripts/136_pensar_soy_un_desastre_en_mis_finanzas_no_ayuda.txt",
       "processedPath": "output/02_processed/136_pensar_soy_un_desastre_en_mis_finanzas_no_ayuda.md"
@@ -2322,7 +2322,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/137_el_caso_de_la_arquitecta_que_se_queda_sin_trabajo_con_mariano_rodriguez_de_pleno_emprendo.mp3",
       "transcriptionPath": "output/01_transcripts/137_el_caso_de_la_arquitecta_que_se_queda_sin_trabajo_con_mariano_rodriguez_de_pleno_emprendo.txt",
       "processedPath": "output/02_processed/137_el_caso_de_la_arquitecta_que_se_queda_sin_trabajo_con_mariano_rodriguez_de_pleno_emprendo.md"
@@ -2339,7 +2339,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/138_bitcoin_y_finanzas_personales.mp3",
       "transcriptionPath": "output/01_transcripts/138_bitcoin_y_finanzas_personales.txt",
       "processedPath": "output/02_processed/138_bitcoin_y_finanzas_personales.md"
@@ -2356,7 +2356,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/139_ir_hacia_el_interior_la_historia_de_andrea.mp3",
       "transcriptionPath": "output/01_transcripts/139_ir_hacia_el_interior_la_historia_de_andrea.txt",
       "processedPath": "output/02_processed/139_ir_hacia_el_interior_la_historia_de_andrea.md"
@@ -2373,7 +2373,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/140_endeudamiento_y_culpa.mp3",
       "transcriptionPath": "output/01_transcripts/140_endeudamiento_y_culpa.txt",
       "processedPath": "output/02_processed/140_endeudamiento_y_culpa.md"
@@ -2390,7 +2390,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/141_antes_de_invertir_sabes_que_clase_de_inversor_quieres_ser.mp3",
       "transcriptionPath": "output/01_transcripts/141_antes_de_invertir_sabes_que_clase_de_inversor_quieres_ser.txt",
       "processedPath": "output/02_processed/141_antes_de_invertir_sabes_que_clase_de_inversor_quieres_ser.md"
@@ -2407,7 +2407,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/142_credito_bueno_apalancamiento_y_mareo_financiero.mp3",
       "transcriptionPath": "output/01_transcripts/142_credito_bueno_apalancamiento_y_mareo_financiero.txt",
       "processedPath": "output/02_processed/142_credito_bueno_apalancamiento_y_mareo_financiero.md"
@@ -2424,7 +2424,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/143_ser_sustentable_paga_y_mucho.mp3",
       "transcriptionPath": "output/01_transcripts/143_ser_sustentable_paga_y_mucho.txt",
       "processedPath": "output/02_processed/143_ser_sustentable_paga_y_mucho.md"
@@ -2441,7 +2441,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/144_la_naturalizacion_del_endeudamiento.mp3",
       "transcriptionPath": "output/01_transcripts/144_la_naturalizacion_del_endeudamiento.txt",
       "processedPath": "output/02_processed/144_la_naturalizacion_del_endeudamiento.md"
@@ -2458,7 +2458,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/145_conciencia_financiera_la_raiz_de_nuestras_decisiones.mp3",
       "transcriptionPath": "output/01_transcripts/145_conciencia_financiera_la_raiz_de_nuestras_decisiones.txt",
       "processedPath": "output/02_processed/145_conciencia_financiera_la_raiz_de_nuestras_decisiones.md"
@@ -2475,7 +2475,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/146_manos_de_heroes_no_hay_sensacion_mas_linda_que_ayudar_a_alguien.mp3",
       "transcriptionPath": "output/01_transcripts/146_manos_de_heroes_no_hay_sensacion_mas_linda_que_ayudar_a_alguien.txt",
       "processedPath": "output/02_processed/146_manos_de_heroes_no_hay_sensacion_mas_linda_que_ayudar_a_alguien.md"
@@ -2492,7 +2492,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/147_mitos_de_emprender_parte_1.mp3",
       "transcriptionPath": "output/01_transcripts/147_mitos_de_emprender_parte_1.txt",
       "processedPath": "output/02_processed/147_mitos_de_emprender_parte_1.md"
@@ -2509,7 +2509,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/148_alimentando_el_fuego_de_nuestro_plan_financiero.mp3",
       "transcriptionPath": "output/01_transcripts/148_alimentando_el_fuego_de_nuestro_plan_financiero.txt",
       "processedPath": "output/02_processed/148_alimentando_el_fuego_de_nuestro_plan_financiero.md"
@@ -2526,7 +2526,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/149_la_crisis_de_los_40_y_las_finanzas_personales.mp3",
       "transcriptionPath": "output/01_transcripts/149_la_crisis_de_los_40_y_las_finanzas_personales.txt",
       "processedPath": "output/02_processed/149_la_crisis_de_los_40_y_las_finanzas_personales.md"
@@ -2543,7 +2543,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/150_tres_historias_de_estafas_financieras.mp3",
       "transcriptionPath": "output/01_transcripts/150_tres_historias_de_estafas_financieras.txt",
       "processedPath": "output/02_processed/150_tres_historias_de_estafas_financieras.md"
@@ -2560,7 +2560,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/151_el_equilibrio_entre_hacer_o_contratar.mp3",
       "transcriptionPath": "output/01_transcripts/151_el_equilibrio_entre_hacer_o_contratar.txt",
       "processedPath": "output/02_processed/151_el_equilibrio_entre_hacer_o_contratar.md"
@@ -2577,7 +2577,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/152_cuando_ganar_mucho_dinero_se_transforma_en_un_problema.mp3",
       "transcriptionPath": "output/01_transcripts/152_cuando_ganar_mucho_dinero_se_transforma_en_un_problema.txt",
       "processedPath": "output/02_processed/152_cuando_ganar_mucho_dinero_se_transforma_en_un_problema.md"
@@ -2594,7 +2594,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/153_no_soy_lo_suficientemente_rico_como_para_comprar_cosas_baratas.mp3",
       "transcriptionPath": "output/01_transcripts/153_no_soy_lo_suficientemente_rico_como_para_comprar_cosas_baratas.txt",
       "processedPath": "output/02_processed/153_no_soy_lo_suficientemente_rico_como_para_comprar_cosas_baratas.md"
@@ -2611,7 +2611,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/154_la_diferencia_entre_precio_y_valor.mp3",
       "transcriptionPath": "output/01_transcripts/154_la_diferencia_entre_precio_y_valor.txt",
       "processedPath": "output/02_processed/154_la_diferencia_entre_precio_y_valor.md"
@@ -2628,7 +2628,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/155_un_nuevo_ciclo_una_nueva_oportunidad.mp3",
       "transcriptionPath": "output/01_transcripts/155_un_nuevo_ciclo_una_nueva_oportunidad.txt",
       "processedPath": "output/02_processed/155_un_nuevo_ciclo_una_nueva_oportunidad.md"
@@ -2645,7 +2645,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/156_desarrollando_un_negocio_basado_en_valor_con_maxi_y_mati_festejando_3_anos_de_podcast.mp3",
       "transcriptionPath": "output/01_transcripts/156_desarrollando_un_negocio_basado_en_valor_con_maxi_y_mati_festejando_3_anos_de_podcast.txt",
       "processedPath": "output/02_processed/156_desarrollando_un_negocio_basado_en_valor_con_maxi_y_mati_festejando_3_anos_de_podcast.md"
@@ -2662,7 +2662,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/157_invertir_para_alquilar_en_temporada_es_una_buena_idea.mp3",
       "transcriptionPath": "output/01_transcripts/157_invertir_para_alquilar_en_temporada_es_una_buena_idea.txt",
       "processedPath": "output/02_processed/157_invertir_para_alquilar_en_temporada_es_una_buena_idea.md"
@@ -2679,7 +2679,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/158_el_habito_numero_1_de_las_finanzas_personales.mp3",
       "transcriptionPath": "output/01_transcripts/158_el_habito_numero_1_de_las_finanzas_personales.txt",
       "processedPath": "output/02_processed/158_el_habito_numero_1_de_las_finanzas_personales.md"
@@ -2696,7 +2696,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/159_comprar_usar_vender.mp3",
       "transcriptionPath": "output/01_transcripts/159_comprar_usar_vender.txt",
       "processedPath": "output/02_processed/159_comprar_usar_vender.md"
@@ -2713,7 +2713,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/160_proteccion_asegurada_contra_la_inflacion.mp3",
       "transcriptionPath": "output/01_transcripts/160_proteccion_asegurada_contra_la_inflacion.txt",
       "processedPath": "output/02_processed/160_proteccion_asegurada_contra_la_inflacion.md"
@@ -2730,7 +2730,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/161_agradecimiento_charlando_con_rodrigo_ferreri_de_ecodiem.mp3",
       "transcriptionPath": "output/01_transcripts/161_agradecimiento_charlando_con_rodrigo_ferreri_de_ecodiem.txt",
       "processedPath": "output/02_processed/161_agradecimiento_charlando_con_rodrigo_ferreri_de_ecodiem.md"
@@ -2747,7 +2747,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/162_hablemos_de_cultura_previsional.mp3",
       "transcriptionPath": "output/01_transcripts/162_hablemos_de_cultura_previsional.txt",
       "processedPath": "output/02_processed/162_hablemos_de_cultura_previsional.md"
@@ -2764,7 +2764,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/163_el_caso_del_bebe_que_llego_por_sorpresa.mp3",
       "transcriptionPath": "output/01_transcripts/163_el_caso_del_bebe_que_llego_por_sorpresa.txt",
       "processedPath": "output/02_processed/163_el_caso_del_bebe_que_llego_por_sorpresa.md"
@@ -2781,7 +2781,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/164_nuevas_opciones_de_inversion.mp3",
       "transcriptionPath": "output/01_transcripts/164_nuevas_opciones_de_inversion.txt",
       "processedPath": "output/02_processed/164_nuevas_opciones_de_inversion.md"
@@ -2798,7 +2798,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/165_respondiendo_preguntas.mp3",
       "transcriptionPath": "output/01_transcripts/165_respondiendo_preguntas.txt",
       "processedPath": "output/02_processed/165_respondiendo_preguntas.md"
@@ -2815,7 +2815,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/166_de_profesional_a_dueno_de_negocio_en_6_pasos.mp3",
       "transcriptionPath": "output/01_transcripts/166_de_profesional_a_dueno_de_negocio_en_6_pasos.txt",
       "processedPath": "output/02_processed/166_de_profesional_a_dueno_de_negocio_en_6_pasos.md"
@@ -2832,7 +2832,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/167_que_es_el_clearing_de_informes_y_por_que_es_importante_saberlo.mp3",
       "transcriptionPath": "output/01_transcripts/167_que_es_el_clearing_de_informes_y_por_que_es_importante_saberlo.txt",
       "processedPath": "output/02_processed/167_que_es_el_clearing_de_informes_y_por_que_es_importante_saberlo.md"
@@ -2849,7 +2849,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/168_el_poder_oculto_de_las_rutinas.mp3",
       "transcriptionPath": "output/01_transcripts/168_el_poder_oculto_de_las_rutinas.txt",
       "processedPath": "output/02_processed/168_el_poder_oculto_de_las_rutinas.md"
@@ -2866,7 +2866,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/169_como_seleccionar_una_app_para_el_registro_de_gastos.mp3",
       "transcriptionPath": "output/01_transcripts/169_como_seleccionar_una_app_para_el_registro_de_gastos.txt",
       "processedPath": "output/02_processed/169_como_seleccionar_una_app_para_el_registro_de_gastos.md"
@@ -2883,7 +2883,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/170_como_llegamos_hasta_aca_la_historia_del_consumismo_en_occidente.mp3",
       "transcriptionPath": "output/01_transcripts/170_como_llegamos_hasta_aca_la_historia_del_consumismo_en_occidente.txt",
       "processedPath": "output/02_processed/170_como_llegamos_hasta_aca_la_historia_del_consumismo_en_occidente.md"
@@ -2900,7 +2900,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/171_reducir_el_gasto_de_electricidad_con_bella_amezquita.mp3",
       "transcriptionPath": "output/01_transcripts/171_reducir_el_gasto_de_electricidad_con_bella_amezquita.txt",
       "processedPath": "output/02_processed/171_reducir_el_gasto_de_electricidad_con_bella_amezquita.md"
@@ -2917,7 +2917,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/172_una_guia_para_aumentar_nuestro_salario.mp3",
       "transcriptionPath": "output/01_transcripts/172_una_guia_para_aumentar_nuestro_salario.txt",
       "processedPath": "output/02_processed/172_una_guia_para_aumentar_nuestro_salario.md"
@@ -2934,7 +2934,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/173_especial_de_halloween.mp3",
       "transcriptionPath": "output/01_transcripts/173_especial_de_halloween.txt",
       "processedPath": "output/02_processed/173_especial_de_halloween.md"
@@ -2951,7 +2951,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/173_la_economia_del_regalo.mp3",
       "transcriptionPath": "output/01_transcripts/173_la_economia_del_regalo.txt",
       "processedPath": "output/02_processed/173_la_economia_del_regalo.md"
@@ -2968,7 +2968,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/174_la_crisis_de_los_contenedores_la_navidad_y_nuestro_presupuesto.mp3",
       "transcriptionPath": "output/01_transcripts/174_la_crisis_de_los_contenedores_la_navidad_y_nuestro_presupuesto.txt",
       "processedPath": "output/02_processed/174_la_crisis_de_los_contenedores_la_navidad_y_nuestro_presupuesto.md"
@@ -2985,7 +2985,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/175_la_jaula_de_oro_los_prisioneros_del_exito.mp3",
       "transcriptionPath": "output/01_transcripts/175_la_jaula_de_oro_los_prisioneros_del_exito.txt",
       "processedPath": "output/02_processed/175_la_jaula_de_oro_los_prisioneros_del_exito.md"
@@ -3002,7 +3002,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/176_invertir_con_sentido.mp3",
       "transcriptionPath": "output/01_transcripts/176_invertir_con_sentido.txt",
       "processedPath": "output/02_processed/176_invertir_con_sentido.md"
@@ -3019,7 +3019,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/177_cuando_los_padres_pasan_a_depender_de_los_hijos.mp3",
       "transcriptionPath": "output/01_transcripts/177_cuando_los_padres_pasan_a_depender_de_los_hijos.txt",
       "processedPath": "output/02_processed/177_cuando_los_padres_pasan_a_depender_de_los_hijos.md"
@@ -3036,7 +3036,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/178_consejos_para_jovenes_con_inquietud_financiera.mp3",
       "transcriptionPath": "output/01_transcripts/178_consejos_para_jovenes_con_inquietud_financiera.txt",
       "processedPath": "output/02_processed/178_consejos_para_jovenes_con_inquietud_financiera.md"
@@ -3053,7 +3053,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/179_senales_de_que_estamos_exagerando_el_cuidado_del_dinero.mp3",
       "transcriptionPath": "output/01_transcripts/179_senales_de_que_estamos_exagerando_el_cuidado_del_dinero.txt",
       "processedPath": "output/02_processed/179_senales_de_que_estamos_exagerando_el_cuidado_del_dinero.md"
@@ -3070,7 +3070,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/180_el_agradecimiento_como_herramienta_financiera.mp3",
       "transcriptionPath": "output/01_transcripts/180_el_agradecimiento_como_herramienta_financiera.txt",
       "processedPath": "output/02_processed/180_el_agradecimiento_como_herramienta_financiera.md"
@@ -3087,7 +3087,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/181_episodio_de_fin_de_ano_en_familia.mp3",
       "transcriptionPath": "output/01_transcripts/181_episodio_de_fin_de_ano_en_familia.txt",
       "processedPath": "output/02_processed/181_episodio_de_fin_de_ano_en_familia.md"
@@ -3104,7 +3104,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/182_oportunidades_que_nos_deja_la_pandemia_revisado.mp3",
       "transcriptionPath": "output/01_transcripts/182_oportunidades_que_nos_deja_la_pandemia_revisado.txt",
       "processedPath": "output/02_processed/182_oportunidades_que_nos_deja_la_pandemia_revisado.md"
@@ -3121,7 +3121,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/183_ninos_regalos_y_sentido_de_valor.mp3",
       "transcriptionPath": "output/01_transcripts/183_ninos_regalos_y_sentido_de_valor.txt",
       "processedPath": "output/02_processed/183_ninos_regalos_y_sentido_de_valor.md"
@@ -3138,7 +3138,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/184_romper_en_caso_de_emergencia.mp3",
       "transcriptionPath": "output/01_transcripts/184_romper_en_caso_de_emergencia.txt",
       "processedPath": "output/02_processed/184_romper_en_caso_de_emergencia.md"
@@ -3155,7 +3155,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/185_lecciones_valiosas_de_ventas_de_un_puesto_de_pescado.mp3",
       "transcriptionPath": "output/01_transcripts/185_lecciones_valiosas_de_ventas_de_un_puesto_de_pescado.txt",
       "processedPath": "output/02_processed/185_lecciones_valiosas_de_ventas_de_un_puesto_de_pescado.md"
@@ -3172,7 +3172,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/186_historias_de_estafadores_los_gurus_de_am.mp3",
       "transcriptionPath": "output/01_transcripts/186_historias_de_estafadores_los_gurus_de_am.txt",
       "processedPath": "output/02_processed/186_historias_de_estafadores_los_gurus_de_am.md"
@@ -3189,7 +3189,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/187_dudas_del_sistema_previsional.mp3",
       "transcriptionPath": "output/01_transcripts/187_dudas_del_sistema_previsional.txt",
       "processedPath": "output/02_processed/187_dudas_del_sistema_previsional.md"
@@ -3206,7 +3206,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/188_como_reconocer_una_estafa.mp3",
       "transcriptionPath": "output/01_transcripts/188_como_reconocer_una_estafa.txt",
       "processedPath": "output/02_processed/188_como_reconocer_una_estafa.md"
@@ -3223,7 +3223,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/189_finanzas_sencillas_para_negocios_exitosos.mp3",
       "transcriptionPath": "output/01_transcripts/189_finanzas_sencillas_para_negocios_exitosos.txt",
       "processedPath": "output/02_processed/189_finanzas_sencillas_para_negocios_exitosos.md"
@@ -3240,7 +3240,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/190_instagram_no_es_tu_negocio_con_mariano_rodriguez_de_pleno_emprendo.mp3",
       "transcriptionPath": "output/01_transcripts/190_instagram_no_es_tu_negocio_con_mariano_rodriguez_de_pleno_emprendo.txt",
       "processedPath": "output/02_processed/190_instagram_no_es_tu_negocio_con_mariano_rodriguez_de_pleno_emprendo.md"
@@ -3257,7 +3257,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/191_aprender_a_decir_que_no.mp3",
       "transcriptionPath": "output/01_transcripts/191_aprender_a_decir_que_no.txt",
       "processedPath": "output/02_processed/191_aprender_a_decir_que_no.md"
@@ -3274,7 +3274,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/192_una_mirada_al_mundo_freelancer_con_sol_garcia_de_wanderlancerscom.mp3",
       "transcriptionPath": "output/01_transcripts/192_una_mirada_al_mundo_freelancer_con_sol_garcia_de_wanderlancerscom.txt",
       "processedPath": "output/02_processed/192_una_mirada_al_mundo_freelancer_con_sol_garcia_de_wanderlancerscom.md"
@@ -3291,7 +3291,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/193_educacion_publica_o_educacion_privada.mp3",
       "transcriptionPath": "output/01_transcripts/193_educacion_publica_o_educacion_privada.txt",
       "processedPath": "output/02_processed/193_educacion_publica_o_educacion_privada.md"
@@ -3308,7 +3308,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/194_el_lado_oscuro_de_las_inversiones.mp3",
       "transcriptionPath": "output/01_transcripts/194_el_lado_oscuro_de_las_inversiones.txt",
       "processedPath": "output/02_processed/194_el_lado_oscuro_de_las_inversiones.md"
@@ -3325,7 +3325,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/195_mastermind_caminando_juntos_hacia_los_objetivos_1.mp3",
       "transcriptionPath": "output/01_transcripts/195_mastermind_caminando_juntos_hacia_los_objetivos_1.txt",
       "processedPath": "output/02_processed/195_mastermind_caminando_juntos_hacia_los_objetivos_1.md"
@@ -3342,7 +3342,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/196_mandalas_de_la_abundancia_redes_de_tejedoras_y_otras_estafas_piramidales.mp3",
       "transcriptionPath": "output/01_transcripts/196_mandalas_de_la_abundancia_redes_de_tejedoras_y_otras_estafas_piramidales.txt",
       "processedPath": "output/02_processed/196_mandalas_de_la_abundancia_redes_de_tejedoras_y_otras_estafas_piramidales.md"
@@ -3359,7 +3359,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/197_una_herramienta_para_comenzar_a_invertir.mp3",
       "transcriptionPath": "output/01_transcripts/197_una_herramienta_para_comenzar_a_invertir.txt",
       "processedPath": "output/02_processed/197_una_herramienta_para_comenzar_a_invertir.md"
@@ -3376,7 +3376,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/198_imagen_vestimenta_y_finanzas_personales_con_noeh_lineiro.mp3",
       "transcriptionPath": "output/01_transcripts/198_imagen_vestimenta_y_finanzas_personales_con_noeh_lineiro.txt",
       "processedPath": "output/02_processed/198_imagen_vestimenta_y_finanzas_personales_con_noeh_lineiro.md"
@@ -3393,7 +3393,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/199_porque_estan_aumentando_los_precios_de_todo.mp3",
       "transcriptionPath": "output/01_transcripts/199_porque_estan_aumentando_los_precios_de_todo.txt",
       "processedPath": "output/02_processed/199_porque_estan_aumentando_los_precios_de_todo.md"
@@ -3410,7 +3410,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/200_el_futuro_de_neurona_financiera.mp3",
       "transcriptionPath": "output/01_transcripts/200_el_futuro_de_neurona_financiera.txt",
       "processedPath": "output/02_processed/200_el_futuro_de_neurona_financiera.md"
@@ -3427,7 +3427,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/201_ser_empleado_vs_ser_tercerizado_y_facturar.mp3",
       "transcriptionPath": "output/01_transcripts/201_ser_empleado_vs_ser_tercerizado_y_facturar.txt",
       "processedPath": "output/02_processed/201_ser_empleado_vs_ser_tercerizado_y_facturar.md"
@@ -3444,7 +3444,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/202_en_que_guardo_el_dinero_para_que_no_pierda_valor_en_un_contexto_de_inflacion.mp3",
       "transcriptionPath": "output/01_transcripts/202_en_que_guardo_el_dinero_para_que_no_pierda_valor_en_un_contexto_de_inflacion.txt",
       "processedPath": "output/02_processed/202_en_que_guardo_el_dinero_para_que_no_pierda_valor_en_un_contexto_de_inflacion.md"
@@ -3461,7 +3461,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/203_que_esta_pasando_en_los_mercados_con_andres_buela.mp3",
       "transcriptionPath": "output/01_transcripts/203_que_esta_pasando_en_los_mercados_con_andres_buela.txt",
       "processedPath": "output/02_processed/203_que_esta_pasando_en_los_mercados_con_andres_buela.md"
@@ -3478,7 +3478,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/204_analizando_opciones_de_inversion_de_un_banco.mp3",
       "transcriptionPath": "output/01_transcripts/204_analizando_opciones_de_inversion_de_un_banco.txt",
       "processedPath": "output/02_processed/204_analizando_opciones_de_inversion_de_un_banco.md"
@@ -3495,7 +3495,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/205_los_7_habitos_de_las_finanzas_personales.mp3",
       "transcriptionPath": "output/01_transcripts/205_los_7_habitos_de_las_finanzas_personales.txt",
       "processedPath": "output/02_processed/205_los_7_habitos_de_las_finanzas_personales.md"
@@ -3512,7 +3512,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/206_finanzas_personales_mas_que_educacion_financiera.mp3",
       "transcriptionPath": "output/01_transcripts/206_finanzas_personales_mas_que_educacion_financiera.txt",
       "processedPath": "output/02_processed/206_finanzas_personales_mas_que_educacion_financiera.md"
@@ -3529,7 +3529,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/207_salario_emocional_mas_alla_del_dinero.mp3",
       "transcriptionPath": "output/01_transcripts/207_salario_emocional_mas_alla_del_dinero.txt",
       "processedPath": "output/02_processed/207_salario_emocional_mas_alla_del_dinero.md"
@@ -3546,7 +3546,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/208_organizar_una_mudanza_una_vision_personal.mp3",
       "transcriptionPath": "output/01_transcripts/208_organizar_una_mudanza_una_vision_personal.txt",
       "processedPath": "output/02_processed/208_organizar_una_mudanza_una_vision_personal.md"
@@ -3563,7 +3563,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/209_el_dinero_como_energia.mp3",
       "transcriptionPath": "output/01_transcripts/209_el_dinero_como_energia.txt",
       "processedPath": "output/02_processed/209_el_dinero_como_energia.md"
@@ -3580,7 +3580,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/210_lecciones_aprendidas_luego_de_7_meses_viviendo_fuera_de_la_ciudad.mp3",
       "transcriptionPath": "output/01_transcripts/210_lecciones_aprendidas_luego_de_7_meses_viviendo_fuera_de_la_ciudad.txt",
       "processedPath": "output/02_processed/210_lecciones_aprendidas_luego_de_7_meses_viviendo_fuera_de_la_ciudad.md"
@@ -3597,7 +3597,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/211_lecciones_financieras_de_francisco_piria.mp3",
       "transcriptionPath": "output/01_transcripts/211_lecciones_financieras_de_francisco_piria.txt",
       "processedPath": "output/02_processed/211_lecciones_financieras_de_francisco_piria.md"
@@ -3614,7 +3614,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/212_inversion_inmobiliaria_con_sebastian_sanchez.mp3",
       "transcriptionPath": "output/01_transcripts/212_inversion_inmobiliaria_con_sebastian_sanchez.txt",
       "processedPath": "output/02_processed/212_inversion_inmobiliaria_con_sebastian_sanchez.md"
@@ -3631,7 +3631,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/213_en_que_invertir_20000_usd.mp3",
       "transcriptionPath": "output/01_transcripts/213_en_que_invertir_20000_usd.txt",
       "processedPath": "output/02_processed/213_en_que_invertir_20000_usd.md"
@@ -3648,7 +3648,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/214_ninos_regalos_y_educacion_financiera.mp3",
       "transcriptionPath": "output/01_transcripts/214_ninos_regalos_y_educacion_financiera.txt",
       "processedPath": "output/02_processed/214_ninos_regalos_y_educacion_financiera.md"
@@ -3665,7 +3665,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/215_mitos_y_realidades_de_las_tarjetas_de_credito.mp3",
       "transcriptionPath": "output/01_transcripts/215_mitos_y_realidades_de_las_tarjetas_de_credito.txt",
       "processedPath": "output/02_processed/215_mitos_y_realidades_de_las_tarjetas_de_credito.md"
@@ -3682,7 +3682,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/216_entendiendo_el_mercado_financieros_con_gletir_corredor_de_bolsa.mp3",
       "transcriptionPath": "output/01_transcripts/216_entendiendo_el_mercado_financieros_con_gletir_corredor_de_bolsa.txt",
       "processedPath": "output/02_processed/216_entendiendo_el_mercado_financieros_con_gletir_corredor_de_bolsa.md"
@@ -3699,7 +3699,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/217_economia_plateada_una_oportunidad_a_aprovechar.mp3",
       "transcriptionPath": "output/01_transcripts/217_economia_plateada_una_oportunidad_a_aprovechar.txt",
       "processedPath": "output/02_processed/217_economia_plateada_una_oportunidad_a_aprovechar.md"
@@ -3716,7 +3716,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/218_millonaria_con_mentalidad_de_pobre.mp3",
       "transcriptionPath": "output/01_transcripts/218_millonaria_con_mentalidad_de_pobre.txt",
       "processedPath": "output/02_processed/218_millonaria_con_mentalidad_de_pobre.md"
@@ -3733,7 +3733,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/219_herramientas_para_ganar_tiempo_y_ser_mas_productivo.mp3",
       "transcriptionPath": "output/01_transcripts/219_herramientas_para_ganar_tiempo_y_ser_mas_productivo.txt",
       "processedPath": "output/02_processed/219_herramientas_para_ganar_tiempo_y_ser_mas_productivo.md"
@@ -3750,7 +3750,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/220_los_peligros_de_internet_parte_1.mp3",
       "transcriptionPath": "output/01_transcripts/220_los_peligros_de_internet_parte_1.txt",
       "processedPath": "output/02_processed/220_los_peligros_de_internet_parte_1.md"
@@ -3767,7 +3767,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/221_corredores_de_bolsa_estafas_y_perdida_de_confianza.mp3",
       "transcriptionPath": "output/01_transcripts/221_corredores_de_bolsa_estafas_y_perdida_de_confianza.txt",
       "processedPath": "output/02_processed/221_corredores_de_bolsa_estafas_y_perdida_de_confianza.md"
@@ -3784,7 +3784,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/222_como_gastar_menos_dinero_sin_perder_calidad_de_vida.mp3",
       "transcriptionPath": "output/01_transcripts/222_como_gastar_menos_dinero_sin_perder_calidad_de_vida.txt",
       "processedPath": "output/02_processed/222_como_gastar_menos_dinero_sin_perder_calidad_de_vida.md"
@@ -3801,7 +3801,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/223_siete_pasos_para_despertar_tu_neurona_financiera.mp3",
       "transcriptionPath": "output/01_transcripts/223_siete_pasos_para_despertar_tu_neurona_financiera.txt",
       "processedPath": "output/02_processed/223_siete_pasos_para_despertar_tu_neurona_financiera.md"
@@ -3818,7 +3818,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/224_cuando_ahorrar_no_es_tan_sano_como_creemos.mp3",
       "transcriptionPath": "output/01_transcripts/224_cuando_ahorrar_no_es_tan_sano_como_creemos.txt",
       "processedPath": "output/02_processed/224_cuando_ahorrar_no_es_tan_sano_como_creemos.md"
@@ -3835,7 +3835,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/225_cinco_estrategias_para_comenzar_a_mejorar_nuestras_finanzas.mp3",
       "transcriptionPath": "output/01_transcripts/225_cinco_estrategias_para_comenzar_a_mejorar_nuestras_finanzas.txt",
       "processedPath": "output/02_processed/225_cinco_estrategias_para_comenzar_a_mejorar_nuestras_finanzas.md"
@@ -3852,7 +3852,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/226_la_adiccion_a_estar_siempre_ocupado.mp3",
       "transcriptionPath": "output/01_transcripts/226_la_adiccion_a_estar_siempre_ocupado.txt",
       "processedPath": "output/02_processed/226_la_adiccion_a_estar_siempre_ocupado.md"
@@ -3869,7 +3869,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/227_mamaarquitectauy_ayudando_a_miles_a_mejorar_su_hogar.mp3",
       "transcriptionPath": "output/01_transcripts/227_mamaarquitectauy_ayudando_a_miles_a_mejorar_su_hogar.txt",
       "processedPath": "output/02_processed/227_mamaarquitectauy_ayudando_a_miles_a_mejorar_su_hogar.md"
@@ -3886,7 +3886,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/228_tablero_de_control_una_herramienta_fundamental_a_la_hora_de_emprender.mp3",
       "transcriptionPath": "output/01_transcripts/228_tablero_de_control_una_herramienta_fundamental_a_la_hora_de_emprender.txt",
       "processedPath": "output/02_processed/228_tablero_de_control_una_herramienta_fundamental_a_la_hora_de_emprender.md"
@@ -3903,7 +3903,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/229_que_va_a_pasar_con_el_dolar_en_uruguay_en_el_2023.mp3",
       "transcriptionPath": "output/01_transcripts/229_que_va_a_pasar_con_el_dolar_en_uruguay_en_el_2023.txt",
       "processedPath": "output/02_processed/229_que_va_a_pasar_con_el_dolar_en_uruguay_en_el_2023.md"
@@ -3920,7 +3920,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/230_planificando_financieramente_el_proximo_ano.mp3",
       "transcriptionPath": "output/01_transcripts/230_planificando_financieramente_el_proximo_ano.txt",
       "processedPath": "output/02_processed/230_planificando_financieramente_el_proximo_ano.md"
@@ -3937,7 +3937,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/231_disenando_una_vida.mp3",
       "transcriptionPath": "output/01_transcripts/231_disenando_una_vida.txt",
       "processedPath": "output/02_processed/231_disenando_una_vida.md"
@@ -3954,7 +3954,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/232_respondiendo_preguntas_ahorro_inversion_viajes_y_mucho_mas.mp3",
       "transcriptionPath": "output/01_transcripts/232_respondiendo_preguntas_ahorro_inversion_viajes_y_mucho_mas.txt",
       "processedPath": "output/02_processed/232_respondiendo_preguntas_ahorro_inversion_viajes_y_mucho_mas.md"
@@ -3971,7 +3971,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/233_tres_ensenanzas_que_nos_deja_el_2022.mp3",
       "transcriptionPath": "output/01_transcripts/233_tres_ensenanzas_que_nos_deja_el_2022.txt",
       "processedPath": "output/02_processed/233_tres_ensenanzas_que_nos_deja_el_2022.md"
@@ -3988,7 +3988,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/234_mito_comprar_cosas_usadas_nos_hace_pobres.mp3",
       "transcriptionPath": "output/01_transcripts/234_mito_comprar_cosas_usadas_nos_hace_pobres.txt",
       "processedPath": "output/02_processed/234_mito_comprar_cosas_usadas_nos_hace_pobres.md"
@@ -4005,7 +4005,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/235_mito_pobre_pero_honrado.mp3",
       "transcriptionPath": "output/01_transcripts/235_mito_pobre_pero_honrado.txt",
       "processedPath": "output/02_processed/235_mito_pobre_pero_honrado.md"
@@ -4022,7 +4022,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/236_mito_el_dinero_compra_la_felicidad.mp3",
       "transcriptionPath": "output/01_transcripts/236_mito_el_dinero_compra_la_felicidad.txt",
       "processedPath": "output/02_processed/236_mito_el_dinero_compra_la_felicidad.md"
@@ -4039,7 +4039,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/237_mito_la_casa_propia.mp3",
       "transcriptionPath": "output/01_transcripts/237_mito_la_casa_propia.txt",
       "processedPath": "output/02_processed/237_mito_la_casa_propia.md"
@@ -4056,7 +4056,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/238_mito_el_dinero_se_consigue_trabajando_duro.mp3",
       "transcriptionPath": "output/01_transcripts/238_mito_el_dinero_se_consigue_trabajando_duro.txt",
       "processedPath": "output/02_processed/238_mito_el_dinero_se_consigue_trabajando_duro.md"
@@ -4073,7 +4073,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/239_mito_invertir_no_es_para_todos.mp3",
       "transcriptionPath": "output/01_transcripts/239_mito_invertir_no_es_para_todos.txt",
       "processedPath": "output/02_processed/239_mito_invertir_no_es_para_todos.md"
@@ -4090,7 +4090,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/240_se_viene_una_recesion_que_hacemos.mp3",
       "transcriptionPath": "output/01_transcripts/240_se_viene_una_recesion_que_hacemos.txt",
       "processedPath": "output/02_processed/240_se_viene_una_recesion_que_hacemos.md"
@@ -4107,7 +4107,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/241_ninos_y_consumo.mp3",
       "transcriptionPath": "output/01_transcripts/241_ninos_y_consumo.txt",
       "processedPath": "output/02_processed/241_ninos_y_consumo.md"
@@ -4124,7 +4124,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/242_vivir_en_una_casa_de_contenedores.mp3",
       "transcriptionPath": "output/01_transcripts/242_vivir_en_una_casa_de_contenedores.txt",
       "processedPath": "output/02_processed/242_vivir_en_una_casa_de_contenedores.md"
@@ -4141,7 +4141,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/243_una_madre_emprendedora_que_no_fue_portada.mp3",
       "transcriptionPath": "output/01_transcripts/243_una_madre_emprendedora_que_no_fue_portada.txt",
       "processedPath": "output/02_processed/243_una_madre_emprendedora_que_no_fue_portada.md"
@@ -4158,7 +4158,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/244_en_que_invertir_con_20_anos.mp3",
       "transcriptionPath": "output/01_transcripts/244_en_que_invertir_con_20_anos.txt",
       "processedPath": "output/02_processed/244_en_que_invertir_con_20_anos.md"
@@ -4175,7 +4175,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/245_el_riesgo_de_tener_dinero_en_el_banco.mp3",
       "transcriptionPath": "output/01_transcripts/245_el_riesgo_de_tener_dinero_en_el_banco.txt",
       "processedPath": "output/02_processed/245_el_riesgo_de_tener_dinero_en_el_banco.md"
@@ -4192,7 +4192,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/246_en_que_debemos_invertir_a_los_60_anos_y_que_debemos_hacer_hoy_para_lograrlo.mp3",
       "transcriptionPath": "output/01_transcripts/246_en_que_debemos_invertir_a_los_60_anos_y_que_debemos_hacer_hoy_para_lograrlo.txt",
       "processedPath": "output/02_processed/246_en_que_debemos_invertir_a_los_60_anos_y_que_debemos_hacer_hoy_para_lograrlo.md"
@@ -4209,7 +4209,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/247_el_secreto_de_las_grandes_empresas_aplicado_a_pymes.mp3",
       "transcriptionPath": "output/01_transcripts/247_el_secreto_de_las_grandes_empresas_aplicado_a_pymes.txt",
       "processedPath": "output/02_processed/247_el_secreto_de_las_grandes_empresas_aplicado_a_pymes.md"
@@ -4226,7 +4226,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/248_destruyendo_tu_futuro_financiero_los_5_errores_que_debes_evitar.mp3",
       "transcriptionPath": "output/01_transcripts/248_destruyendo_tu_futuro_financiero_los_5_errores_que_debes_evitar.txt",
       "processedPath": "output/02_processed/248_destruyendo_tu_futuro_financiero_los_5_errores_que_debes_evitar.md"
@@ -4243,7 +4243,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/249_errores_financieros_que_estamos_haciendo_y_no_lo_sabemos.mp3",
       "transcriptionPath": "output/01_transcripts/249_errores_financieros_que_estamos_haciendo_y_no_lo_sabemos.txt",
       "processedPath": "output/02_processed/249_errores_financieros_que_estamos_haciendo_y_no_lo_sabemos.md"
@@ -4260,7 +4260,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/250_el_caso_del_contador_frustrado_con_su_vida.mp3",
       "transcriptionPath": "output/01_transcripts/250_el_caso_del_contador_frustrado_con_su_vida.txt",
       "processedPath": "output/02_processed/250_el_caso_del_contador_frustrado_con_su_vida.md"
@@ -4277,7 +4277,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/251_la_importancia_de_los_objetivos_financieros.mp3",
       "transcriptionPath": "output/01_transcripts/251_la_importancia_de_los_objetivos_financieros.txt",
       "processedPath": "output/02_processed/251_la_importancia_de_los_objetivos_financieros.md"
@@ -4294,7 +4294,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/252_hackeando_nuestro_destino_financiero_ep_252.mp3",
       "transcriptionPath": "output/01_transcripts/252_hackeando_nuestro_destino_financiero_ep_252.txt",
       "processedPath": "output/02_processed/252_hackeando_nuestro_destino_financiero_ep_252.md"
@@ -4311,7 +4311,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/253_disciplina_la_herramienta_final_para_nuestras_finanzas_y_todo_lo_demas_253.mp3",
       "transcriptionPath": "output/01_transcripts/253_disciplina_la_herramienta_final_para_nuestras_finanzas_y_todo_lo_demas_253.txt",
       "processedPath": "output/02_processed/253_disciplina_la_herramienta_final_para_nuestras_finanzas_y_todo_lo_demas_253.md"
@@ -4328,7 +4328,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/254_el_rol_de_las_inversiones_en_nuestro_plan_financiero_personal_254.mp3",
       "transcriptionPath": "output/01_transcripts/254_el_rol_de_las_inversiones_en_nuestro_plan_financiero_personal_254.txt",
       "processedPath": "output/02_processed/254_el_rol_de_las_inversiones_en_nuestro_plan_financiero_personal_254.md"
@@ -4345,7 +4345,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/255_que_hacer_con_el_aguinaldo_u_otro_ingreso_extra_255.mp3",
       "transcriptionPath": "output/01_transcripts/255_que_hacer_con_el_aguinaldo_u_otro_ingreso_extra_255.txt",
       "processedPath": "output/02_processed/255_que_hacer_con_el_aguinaldo_u_otro_ingreso_extra_255.md"
@@ -4362,7 +4362,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/256_entendiendo_el_fondo_centenario_de_gletir_256.mp3",
       "transcriptionPath": "output/01_transcripts/256_entendiendo_el_fondo_centenario_de_gletir_256.txt",
       "processedPath": "output/02_processed/256_entendiendo_el_fondo_centenario_de_gletir_256.md"
@@ -4379,7 +4379,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/257_la_importancia_de_leer_los_contratos_257.mp3",
       "transcriptionPath": "output/01_transcripts/257_la_importancia_de_leer_los_contratos_257.txt",
       "processedPath": "output/02_processed/257_la_importancia_de_leer_los_contratos_257.md"
@@ -4396,7 +4396,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/258_ganar_en_dolares_vivir_en_pesos_258.mp3",
       "transcriptionPath": "output/01_transcripts/258_ganar_en_dolares_vivir_en_pesos_258.txt",
       "processedPath": "output/02_processed/258_ganar_en_dolares_vivir_en_pesos_258.md"
@@ -4413,7 +4413,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/259_detectando_irregularidades_a_la_hora_de_invertir_259.mp3",
       "transcriptionPath": "output/01_transcripts/259_detectando_irregularidades_a_la_hora_de_invertir_259.txt",
       "processedPath": "output/02_processed/259_detectando_irregularidades_a_la_hora_de_invertir_259.md"
@@ -4430,7 +4430,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/260_tipos_de_endeudamiento_y_sus_consecuencias_260.mp3",
       "transcriptionPath": "output/01_transcripts/260_tipos_de_endeudamiento_y_sus_consecuencias_260.txt",
       "processedPath": "output/02_processed/260_tipos_de_endeudamiento_y_sus_consecuencias_260.md"
@@ -4447,7 +4447,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/261_seguros_de_retiro_lo_que_no_te_contaron_261.mp3",
       "transcriptionPath": "output/01_transcripts/261_seguros_de_retiro_lo_que_no_te_contaron_261.txt",
       "processedPath": "output/02_processed/261_seguros_de_retiro_lo_que_no_te_contaron_261.md"
@@ -4464,7 +4464,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/262_estrategias_sencillas_para_comenzar_un_registro_de_gastos_262.mp3",
       "transcriptionPath": "output/01_transcripts/262_estrategias_sencillas_para_comenzar_un_registro_de_gastos_262.txt",
       "processedPath": "output/02_processed/262_estrategias_sencillas_para_comenzar_un_registro_de_gastos_262.md"
@@ -4481,7 +4481,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/263_como_comenzar_un_negocio_en_internet_263.mp3",
       "transcriptionPath": "output/01_transcripts/263_como_comenzar_un_negocio_en_internet_263.txt",
       "processedPath": "output/02_processed/263_como_comenzar_un_negocio_en_internet_263.md"
@@ -4498,7 +4498,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/264_preguntas_de_agosto_2023.mp3",
       "transcriptionPath": "output/01_transcripts/264_preguntas_de_agosto_2023.txt",
       "processedPath": "output/02_processed/264_preguntas_de_agosto_2023.md"
@@ -4515,7 +4515,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/265_auto-construccion_una_solucion_al_problema_de_vivienda_265.mp3",
       "transcriptionPath": "output/01_transcripts/265_auto-construccion_una_solucion_al_problema_de_vivienda_265.txt",
       "processedPath": "output/02_processed/265_auto-construccion_una_solucion_al_problema_de_vivienda_265.md"
@@ -4532,7 +4532,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/266_que_es_el_exito_realmente_para_vos_266.mp3",
       "transcriptionPath": "output/01_transcripts/266_que_es_el_exito_realmente_para_vos_266.txt",
       "processedPath": "output/02_processed/266_que_es_el_exito_realmente_para_vos_266.md"
@@ -4549,7 +4549,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/267_que_hacer_en_caso_de_dolarizacion_267.mp3",
       "transcriptionPath": "output/01_transcripts/267_que_hacer_en_caso_de_dolarizacion_267.txt",
       "processedPath": "output/02_processed/267_que_hacer_en_caso_de_dolarizacion_267.md"
@@ -4566,7 +4566,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/268_como_crear_un_sistema_de_inversion_268.mp3",
       "transcriptionPath": "output/01_transcripts/268_como_crear_un_sistema_de_inversion_268.txt",
       "processedPath": "output/02_processed/268_como_crear_un_sistema_de_inversion_268.md"
@@ -4583,7 +4583,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/269_preguntas_de_setiembre_269.mp3",
       "transcriptionPath": "output/01_transcripts/269_preguntas_de_setiembre_269.txt",
       "processedPath": "output/02_processed/269_preguntas_de_setiembre_269.md"
@@ -4600,7 +4600,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/270_inversion_inflacion_auto-construccion_y_muchas_preguntas_mas_270.mp3",
       "transcriptionPath": "output/01_transcripts/270_inversion_inflacion_auto-construccion_y_muchas_preguntas_mas_270.txt",
       "processedPath": "output/02_processed/270_inversion_inflacion_auto-construccion_y_muchas_preguntas_mas_270.md"
@@ -4617,7 +4617,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/271_como_evitar_perder_dinero_al_invertir_el_caso_wenance.mp3",
       "transcriptionPath": "output/01_transcripts/271_como_evitar_perder_dinero_al_invertir_el_caso_wenance.txt",
       "processedPath": "output/02_processed/271_como_evitar_perder_dinero_al_invertir_el_caso_wenance.md"
@@ -4634,7 +4634,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/272_hijos_vocacion_y_dinero_272.mp3",
       "transcriptionPath": "output/01_transcripts/272_hijos_vocacion_y_dinero_272.txt",
       "processedPath": "output/02_processed/272_hijos_vocacion_y_dinero_272.md"
@@ -4651,7 +4651,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/273_preguntas_de_octubre_273.mp3",
       "transcriptionPath": "output/01_transcripts/273_preguntas_de_octubre_273.txt",
       "processedPath": "output/02_processed/273_preguntas_de_octubre_273.md"
@@ -4668,7 +4668,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/274_invertir_en_oro_274.mp3",
       "transcriptionPath": "output/01_transcripts/274_invertir_en_oro_274.txt",
       "processedPath": "output/02_processed/274_invertir_en_oro_274.md"
@@ -4685,7 +4685,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/275_negocios_en_internet_membership_sites_275.mp3",
       "transcriptionPath": "output/01_transcripts/275_negocios_en_internet_membership_sites_275.txt",
       "processedPath": "output/02_processed/275_negocios_en_internet_membership_sites_275.md"
@@ -4702,7 +4702,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/276_hiperconectividad_y_salud_financiera_276.mp3",
       "transcriptionPath": "output/01_transcripts/276_hiperconectividad_y_salud_financiera_276.txt",
       "processedPath": "output/02_processed/276_hiperconectividad_y_salud_financiera_276.md"
@@ -4719,7 +4719,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/277_inversion_a_los_19_registro_de_gastos_emprender_y_mas277.mp3",
       "transcriptionPath": "output/01_transcripts/277_inversion_a_los_19_registro_de_gastos_emprender_y_mas277.txt",
       "processedPath": "output/02_processed/277_inversion_a_los_19_registro_de_gastos_emprender_y_mas277.md"
@@ -4736,7 +4736,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/278_que_valor_financiero_tienen_nuestras_relaciones_278.mp3",
       "transcriptionPath": "output/01_transcripts/278_que_valor_financiero_tienen_nuestras_relaciones_278.txt",
       "processedPath": "output/02_processed/278_que_valor_financiero_tienen_nuestras_relaciones_278.md"
@@ -4753,7 +4753,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/279_enchulame_el_negocio_jardinero_279.mp3",
       "transcriptionPath": "output/01_transcripts/279_enchulame_el_negocio_jardinero_279.txt",
       "processedPath": "output/02_processed/279_enchulame_el_negocio_jardinero_279.md"
@@ -4770,7 +4770,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/280_negocios_basados_en_valores_el_caso_destinoriente_280.mp3",
       "transcriptionPath": "output/01_transcripts/280_negocios_basados_en_valores_el_caso_destinoriente_280.txt",
       "processedPath": "output/02_processed/280_negocios_basados_en_valores_el_caso_destinoriente_280.md"
@@ -4787,7 +4787,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/281_lecciones_financieras_y_no_tanto_de_mi_viaje_a_nepal_281.mp3",
       "transcriptionPath": "output/01_transcripts/281_lecciones_financieras_y_no_tanto_de_mi_viaje_a_nepal_281.txt",
       "processedPath": "output/02_processed/281_lecciones_financieras_y_no_tanto_de_mi_viaje_a_nepal_281.md"
@@ -4804,7 +4804,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/282_trading_descuento_de_cheques_habitos_y_mas_282.mp3",
       "transcriptionPath": "output/01_transcripts/282_trading_descuento_de_cheques_habitos_y_mas_282.txt",
       "processedPath": "output/02_processed/282_trading_descuento_de_cheques_habitos_y_mas_282.md"
@@ -4821,7 +4821,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/283_enchulame_el_negocio_barberia_283.mp3",
       "transcriptionPath": "output/01_transcripts/283_enchulame_el_negocio_barberia_283.txt",
       "processedPath": "output/02_processed/283_enchulame_el_negocio_barberia_283.md"
@@ -4838,7 +4838,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/284_especial_de_navidad_2023_284.mp3",
       "transcriptionPath": "output/01_transcripts/284_especial_de_navidad_2023_284.txt",
       "processedPath": "output/02_processed/284_especial_de_navidad_2023_284.md"
@@ -4855,7 +4855,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/285_rituales_no_magicos_de_ano_nuevo_285.mp3",
       "transcriptionPath": "output/01_transcripts/285_rituales_no_magicos_de_ano_nuevo_285.txt",
       "processedPath": "output/02_processed/285_rituales_no_magicos_de_ano_nuevo_285.md"
@@ -4872,7 +4872,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/286_trading_impuestos_prestamos_familiares_e_hipotecas_286.mp3",
       "transcriptionPath": "output/01_transcripts/286_trading_impuestos_prestamos_familiares_e_hipotecas_286.txt",
       "processedPath": "output/02_processed/286_trading_impuestos_prestamos_familiares_e_hipotecas_286.md"
@@ -4889,7 +4889,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/287_el_desarrollo_de_negocios_es_parte_de_las_finanzas_personales287.mp3",
       "transcriptionPath": "output/01_transcripts/287_el_desarrollo_de_negocios_es_parte_de_las_finanzas_personales287.txt",
       "processedPath": "output/02_processed/287_el_desarrollo_de_negocios_es_parte_de_las_finanzas_personales287.md"
@@ -4906,7 +4906,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/288_en_que_ahorro_en_el_2024_288.mp3",
       "transcriptionPath": "output/01_transcripts/288_en_que_ahorro_en_el_2024_288.txt",
       "processedPath": "output/02_processed/288_en_que_ahorro_en_el_2024_288.md"
@@ -4923,7 +4923,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/289_la_causa_raiz_de_los_problemas_financieros_289.mp3",
       "transcriptionPath": "output/01_transcripts/289_la_causa_raiz_de_los_problemas_financieros_289.txt",
       "processedPath": "output/02_processed/289_la_causa_raiz_de_los_problemas_financieros_289.md"
@@ -4940,7 +4940,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/290_se_acerca_mi_retiro_y_nunca_me_prepare_que_hago_290.mp3",
       "transcriptionPath": "output/01_transcripts/290_se_acerca_mi_retiro_y_nunca_me_prepare_que_hago_290.txt",
       "processedPath": "output/02_processed/290_se_acerca_mi_retiro_y_nunca_me_prepare_que_hago_290.md"
@@ -4957,7 +4957,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/291_inversion_en_prex_paraguay_seguros_y_mas_preguntas_291.mp3",
       "transcriptionPath": "output/01_transcripts/291_inversion_en_prex_paraguay_seguros_y_mas_preguntas_291.txt",
       "processedPath": "output/02_processed/291_inversion_en_prex_paraguay_seguros_y_mas_preguntas_291.md"
@@ -4974,7 +4974,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/292_cuando_el_amor_hace_mal_a_los_bolsillos_292.mp3",
       "transcriptionPath": "output/01_transcripts/292_cuando_el_amor_hace_mal_a_los_bolsillos_292.txt",
       "processedPath": "output/02_processed/292_cuando_el_amor_hace_mal_a_los_bolsillos_292.md"
@@ -4991,7 +4991,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/293_enchulame_el_negocio_constructor_293.mp3",
       "transcriptionPath": "output/01_transcripts/293_enchulame_el_negocio_constructor_293.txt",
       "processedPath": "output/02_processed/293_enchulame_el_negocio_constructor_293.md"
@@ -5008,7 +5008,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/294_como_gestionar_las_finanzas_con_ingresos_inestables_294.mp3",
       "transcriptionPath": "output/01_transcripts/294_como_gestionar_las_finanzas_con_ingresos_inestables_294.txt",
       "processedPath": "output/02_processed/294_como_gestionar_las_finanzas_con_ingresos_inestables_294.md"
@@ -5025,7 +5025,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/295_inversion_inmobiliaria_creditos_educacion_financiera_en_adolescentes_y_mas_preguntas_295.mp3",
       "transcriptionPath": "output/01_transcripts/295_inversion_inmobiliaria_creditos_educacion_financiera_en_adolescentes_y_mas_preguntas_295.txt",
       "processedPath": "output/02_processed/295_inversion_inmobiliaria_creditos_educacion_financiera_en_adolescentes_y_mas_preguntas_295.md"
@@ -5042,7 +5042,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/296_dame_un_plan_y_movere_al_mundo_296.mp3",
       "transcriptionPath": "output/01_transcripts/296_dame_un_plan_y_movere_al_mundo_296.txt",
       "processedPath": "output/02_processed/296_dame_un_plan_y_movere_al_mundo_296.md"
@@ -5059,7 +5059,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/297_los_peligros_de_los_cursos_online_297.mp3",
       "transcriptionPath": "output/01_transcripts/297_los_peligros_de_los_cursos_online_297.txt",
       "processedPath": "output/02_processed/297_los_peligros_de_los_cursos_online_297.md"
@@ -5076,7 +5076,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/298_el_dolar_baja_que_hacemos_298.mp3",
       "transcriptionPath": "output/01_transcripts/298_el_dolar_baja_que_hacemos_298.txt",
       "processedPath": "output/02_processed/298_el_dolar_baja_que_hacemos_298.md"
@@ -5093,7 +5093,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/299_en_que_invertir_la_respuesta_definitiva_299.mp3",
       "transcriptionPath": "output/01_transcripts/299_en_que_invertir_la_respuesta_definitiva_299.txt",
       "processedPath": "output/02_processed/299_en_que_invertir_la_respuesta_definitiva_299.md"
@@ -5110,7 +5110,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/300_episodios_3_grandes_lecciones_300.mp3",
       "transcriptionPath": "output/01_transcripts/300_episodios_3_grandes_lecciones_300.txt",
       "processedPath": "output/02_processed/300_episodios_3_grandes_lecciones_300.md"
@@ -5127,7 +5127,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/301_plebiscito_por_la_reforma_de_la_seguridad_social_pan_para_hoy_hambre_para_manana_301.mp3",
       "transcriptionPath": "output/01_transcripts/301_plebiscito_por_la_reforma_de_la_seguridad_social_pan_para_hoy_hambre_para_manana_301.txt",
       "processedPath": "output/02_processed/301_plebiscito_por_la_reforma_de_la_seguridad_social_pan_para_hoy_hambre_para_manana_301.md"
@@ -5144,7 +5144,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/302_errores_financieros_en_momentos_de_crisis_302.mp3",
       "transcriptionPath": "output/01_transcripts/302_errores_financieros_en_momentos_de_crisis_302.txt",
       "processedPath": "output/02_processed/302_errores_financieros_en_momentos_de_crisis_302.md"
@@ -5161,7 +5161,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/303_el_caso_del_empleado_que_le_va_bien_emprendiendo_en_mercadolibre_303.mp3",
       "transcriptionPath": "output/01_transcripts/303_el_caso_del_empleado_que_le_va_bien_emprendiendo_en_mercadolibre_303.txt",
       "processedPath": "output/02_processed/303_el_caso_del_empleado_que_le_va_bien_emprendiendo_en_mercadolibre_303.md"
@@ -5178,7 +5178,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/304_estafas_por_internet_mas_alla_del_dinero_304.mp3",
       "transcriptionPath": "output/01_transcripts/304_estafas_por_internet_mas_alla_del_dinero_304.txt",
       "processedPath": "output/02_processed/304_estafas_por_internet_mas_alla_del_dinero_304.md"
@@ -5195,7 +5195,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/305_medicos_y_dinero_305.mp3",
       "transcriptionPath": "output/01_transcripts/305_medicos_y_dinero_305.txt",
       "processedPath": "output/02_processed/305_medicos_y_dinero_305.md"
@@ -5212,7 +5212,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/306_invertir_en_bolsa_de_forma_eficiente.mp3",
       "transcriptionPath": "output/01_transcripts/306_invertir_en_bolsa_de_forma_eficiente.txt",
       "processedPath": "output/02_processed/306_invertir_en_bolsa_de_forma_eficiente.md"
@@ -5229,7 +5229,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/307_analizando_el_plebiscito_por_una_deuda_justa_y_contra_la_usura_307.mp3",
       "transcriptionPath": "output/01_transcripts/307_analizando_el_plebiscito_por_una_deuda_justa_y_contra_la_usura_307.txt",
       "processedPath": "output/02_processed/307_analizando_el_plebiscito_por_una_deuda_justa_y_contra_la_usura_307.md"
@@ -5246,7 +5246,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/308_crowder_creando_oportunidades_financieras_308.mp3",
       "transcriptionPath": "output/01_transcripts/308_crowder_creando_oportunidades_financieras_308.txt",
       "processedPath": "output/02_processed/308_crowder_creando_oportunidades_financieras_308.md"
@@ -5263,7 +5263,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/309_sindrome_del_impostor_y_finanzas_personales_309.mp3",
       "transcriptionPath": "output/01_transcripts/309_sindrome_del_impostor_y_finanzas_personales_309.txt",
       "processedPath": "output/02_processed/309_sindrome_del_impostor_y_finanzas_personales_309.md"
@@ -5280,7 +5280,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/310_cuando_una_empresa_se_necesita_apalancar_la_historia_de_foxsys.mp3",
       "transcriptionPath": "output/01_transcripts/310_cuando_una_empresa_se_necesita_apalancar_la_historia_de_foxsys.txt",
       "processedPath": "output/02_processed/310_cuando_una_empresa_se_necesita_apalancar_la_historia_de_foxsys.md"
@@ -5297,7 +5297,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/310_como_llegar_a_un_lugar_mas_alla_del_dinero_310.mp3",
       "transcriptionPath": "output/01_transcripts/310_como_llegar_a_un_lugar_mas_alla_del_dinero_310.txt",
       "processedPath": "output/02_processed/310_como_llegar_a_un_lugar_mas_alla_del_dinero_310.md"
@@ -5314,7 +5314,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/311_el_caso_de_los_casi_jubilados_que_no_van_a_tener_jubilacion_311.mp3",
       "transcriptionPath": "output/01_transcripts/311_el_caso_de_los_casi_jubilados_que_no_van_a_tener_jubilacion_311.txt",
       "processedPath": "output/02_processed/311_el_caso_de_los_casi_jubilados_que_no_van_a_tener_jubilacion_311.md"
@@ -5331,7 +5331,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/312_como_seleccionar_un_intermediario_financiero_para_invertir_312.mp3",
       "transcriptionPath": "output/01_transcripts/312_como_seleccionar_un_intermediario_financiero_para_invertir_312.txt",
       "processedPath": "output/02_processed/312_como_seleccionar_un_intermediario_financiero_para_invertir_312.md"
@@ -5348,7 +5348,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/313_las_trampas_financieras_de_nuestro_cerebro_313.mp3",
       "transcriptionPath": "output/01_transcripts/313_las_trampas_financieras_de_nuestro_cerebro_313.txt",
       "processedPath": "output/02_processed/313_las_trampas_financieras_de_nuestro_cerebro_313.md"
@@ -5365,7 +5365,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/314_como_gastar_dinero_para_ganar_dinero_314.mp3",
       "transcriptionPath": "output/01_transcripts/314_como_gastar_dinero_para_ganar_dinero_314.txt",
       "processedPath": "output/02_processed/314_como_gastar_dinero_para_ganar_dinero_314.md"
@@ -5382,7 +5382,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/315_mercado_de_consumo_como_llegamos_a_esto_y_que_podemos_hacer_al_respecto_315.mp3",
       "transcriptionPath": "output/01_transcripts/315_mercado_de_consumo_como_llegamos_a_esto_y_que_podemos_hacer_al_respecto_315.txt",
       "processedPath": "output/02_processed/315_mercado_de_consumo_como_llegamos_a_esto_y_que_podemos_hacer_al_respecto_315.md"
@@ -5399,7 +5399,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/316_que_son_los_fondos_de_inversion_y_por_que_es_importante_saberlo_316.mp3",
       "transcriptionPath": "output/01_transcripts/316_que_son_los_fondos_de_inversion_y_por_que_es_importante_saberlo_316.txt",
       "processedPath": "output/02_processed/316_que_son_los_fondos_de_inversion_y_por_que_es_importante_saberlo_316.md"
@@ -5416,7 +5416,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/317_habitos_no_financieros_para_mejorar_nuestras_finanzas_317.mp3",
       "transcriptionPath": "output/01_transcripts/317_habitos_no_financieros_para_mejorar_nuestras_finanzas_317.txt",
       "processedPath": "output/02_processed/317_habitos_no_financieros_para_mejorar_nuestras_finanzas_317.md"
@@ -5433,7 +5433,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/318_nostalgia_financiera_en_el_pasado_se_vivia_mejor.mp3",
       "transcriptionPath": "output/01_transcripts/318_nostalgia_financiera_en_el_pasado_se_vivia_mejor.txt",
       "processedPath": "output/02_processed/318_nostalgia_financiera_en_el_pasado_se_vivia_mejor.md"
@@ -5450,7 +5450,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/319_que_es_un_plan_financiero_persona_y_como_implementarlo_319.mp3",
       "transcriptionPath": "output/01_transcripts/319_que_es_un_plan_financiero_persona_y_como_implementarlo_319.txt",
       "processedPath": "output/02_processed/319_que_es_un_plan_financiero_persona_y_como_implementarlo_319.md"
@@ -5467,7 +5467,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/320_miedo_al_dinero_cuando_cuesta_cobrar_320.mp3",
       "transcriptionPath": "output/01_transcripts/320_miedo_al_dinero_cuando_cuesta_cobrar_320.txt",
       "processedPath": "output/02_processed/320_miedo_al_dinero_cuando_cuesta_cobrar_320.md"
@@ -5484,7 +5484,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/321_futbol_y_dinero_321.mp3",
       "transcriptionPath": "output/01_transcripts/321_futbol_y_dinero_321.txt",
       "processedPath": "output/02_processed/321_futbol_y_dinero_321.md"
@@ -5501,7 +5501,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/322_el_mito_de_la_diversificacion_322.mp3",
       "transcriptionPath": "output/01_transcripts/322_el_mito_de_la_diversificacion_322.txt",
       "processedPath": "output/02_processed/322_el_mito_de_la_diversificacion_322.md"
@@ -5518,7 +5518,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/323_estafas_como_reconocer_un_esquema_de_ponzi_323.mp3",
       "transcriptionPath": "output/01_transcripts/323_estafas_como_reconocer_un_esquema_de_ponzi_323.txt",
       "processedPath": "output/02_processed/323_estafas_como_reconocer_un_esquema_de_ponzi_323.md"
@@ -5535,7 +5535,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/324_guia_para_gestionar_tu_primer_salario_324.mp3",
       "transcriptionPath": "output/01_transcripts/324_guia_para_gestionar_tu_primer_salario_324.txt",
       "processedPath": "output/02_processed/324_guia_para_gestionar_tu_primer_salario_324.md"
@@ -5552,7 +5552,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/325_mercadolibre_claves_para_el_exito_en_la_plataforma_325.mp3",
       "transcriptionPath": "output/01_transcripts/325_mercadolibre_claves_para_el_exito_en_la_plataforma_325.txt",
       "processedPath": "output/02_processed/325_mercadolibre_claves_para_el_exito_en_la_plataforma_325.md"
@@ -5569,7 +5569,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/326_no_vayas_nunca_a_un_evento_o_conferencia_sin_saber_esto_326.mp3",
       "transcriptionPath": "output/01_transcripts/326_no_vayas_nunca_a_un_evento_o_conferencia_sin_saber_esto_326.txt",
       "processedPath": "output/02_processed/326_no_vayas_nunca_a_un_evento_o_conferencia_sin_saber_esto_326.md"
@@ -5586,7 +5586,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/327_que_es_el_branding_mas_alla_del_logo_con_nico_bava_327.mp3",
       "transcriptionPath": "output/01_transcripts/327_que_es_el_branding_mas_alla_del_logo_con_nico_bava_327.txt",
       "processedPath": "output/02_processed/327_que_es_el_branding_mas_alla_del_logo_con_nico_bava_327.md"
@@ -5603,7 +5603,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/328_tu_dinero_seguro_el_increible_fallo_de_seguridad_de_uno_de_los_brokers_mas_populares_del_mundo_328.mp3",
       "transcriptionPath": "output/01_transcripts/328_tu_dinero_seguro_el_increible_fallo_de_seguridad_de_uno_de_los_brokers_mas_populares_del_mundo_328.txt",
       "processedPath": "output/02_processed/328_tu_dinero_seguro_el_increible_fallo_de_seguridad_de_uno_de_los_brokers_mas_populares_del_mundo_328.md"
@@ -5620,7 +5620,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/329_todo_lo_que_no_te_dicen_antes_de_sacar_una_hipoteca_329.mp3",
       "transcriptionPath": "output/01_transcripts/329_todo_lo_que_no_te_dicen_antes_de_sacar_una_hipoteca_329.txt",
       "processedPath": "output/02_processed/329_todo_lo_que_no_te_dicen_antes_de_sacar_una_hipoteca_329.md"
@@ -5637,7 +5637,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/330_evita_la_estafa_del_marketplace_en_facebook_como_operan_y_como_protegerte_330.mp3",
       "transcriptionPath": "output/01_transcripts/330_evita_la_estafa_del_marketplace_en_facebook_como_operan_y_como_protegerte_330.txt",
       "processedPath": "output/02_processed/330_evita_la_estafa_del_marketplace_en_facebook_como_operan_y_como_protegerte_330.md"
@@ -5654,7 +5654,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/331_por_que_todos_se_equivocan_en_las_finanzas_personales_331.mp3",
       "transcriptionPath": "output/01_transcripts/331_por_que_todos_se_equivocan_en_las_finanzas_personales_331.txt",
       "processedPath": "output/02_processed/331_por_que_todos_se_equivocan_en_las_finanzas_personales_331.md"
@@ -5671,7 +5671,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/332_cuidado_con_los_gastos_hormiga_como_ahorrar_miles_de_dolares_al_ano_332.mp3",
       "transcriptionPath": "output/01_transcripts/332_cuidado_con_los_gastos_hormiga_como_ahorrar_miles_de_dolares_al_ano_332.txt",
       "processedPath": "output/02_processed/332_cuidado_con_los_gastos_hormiga_como_ahorrar_miles_de_dolares_al_ano_332.md"
@@ -5688,7 +5688,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/333_nuevo_gobierno_en_uruguay_como_afectara_tu_bolsillo_dolar_inflacion_y_mas_333.mp3",
       "transcriptionPath": "output/01_transcripts/333_nuevo_gobierno_en_uruguay_como_afectara_tu_bolsillo_dolar_inflacion_y_mas_333.txt",
       "processedPath": "output/02_processed/333_nuevo_gobierno_en_uruguay_como_afectara_tu_bolsillo_dolar_inflacion_y_mas_333.md"
@@ -5705,7 +5705,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/334_como_bajar_el_costo_de_vida_sin_sufrir_334.mp3",
       "transcriptionPath": "output/01_transcripts/334_como_bajar_el_costo_de_vida_sin_sufrir_334.txt",
       "processedPath": "output/02_processed/334_como_bajar_el_costo_de_vida_sin_sufrir_334.md"
@@ -5722,7 +5722,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/335_herramientas_que_cambiaron_mi_2024_productividad_finanzas_y_mas_335.mp3",
       "transcriptionPath": "output/01_transcripts/335_herramientas_que_cambiaron_mi_2024_productividad_finanzas_y_mas_335.txt",
       "processedPath": "output/02_processed/335_herramientas_que_cambiaron_mi_2024_productividad_finanzas_y_mas_335.md"
@@ -5739,7 +5739,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/336_mudarse_al_interior_es_realmente_el_sueno_ideal_3_anos_despues_mi_experiencia_336.mp3",
       "transcriptionPath": "output/01_transcripts/336_mudarse_al_interior_es_realmente_el_sueno_ideal_3_anos_despues_mi_experiencia_336.txt",
       "processedPath": "output/02_processed/336_mudarse_al_interior_es_realmente_el_sueno_ideal_3_anos_despues_mi_experiencia_336.md"
@@ -5756,7 +5756,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/337_resumen_financiero_2024_lo_que_cambio_en_la_economia_y_que_esperar_en_2025_337.mp3",
       "transcriptionPath": "output/01_transcripts/337_resumen_financiero_2024_lo_que_cambio_en_la_economia_y_que_esperar_en_2025_337.txt",
       "processedPath": "output/02_processed/337_resumen_financiero_2024_lo_que_cambio_en_la_economia_y_que_esperar_en_2025_337.md"
@@ -5773,7 +5773,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/338_por_que_la_psicologia_del_dinero_puede_cambiar_tu_forma_de_ver_las_finanzas_338.mp3",
       "transcriptionPath": "output/01_transcripts/338_por_que_la_psicologia_del_dinero_puede_cambiar_tu_forma_de_ver_las_finanzas_338.txt",
       "processedPath": "output/02_processed/338_por_que_la_psicologia_del_dinero_puede_cambiar_tu_forma_de_ver_las_finanzas_338.md"
@@ -5790,7 +5790,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/339_la_psicologia_del_dinero_cuanto_es_suficiente_parte_2_339.mp3",
       "transcriptionPath": "output/01_transcripts/339_la_psicologia_del_dinero_cuanto_es_suficiente_parte_2_339.txt",
       "processedPath": "output/02_processed/339_la_psicologia_del_dinero_cuanto_es_suficiente_parte_2_339.md"
@@ -5807,7 +5807,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/340_la_psicologia_del_dinero_parte_3_control_libertad_y_felicidad_financiera_340.mp3",
       "transcriptionPath": "output/01_transcripts/340_la_psicologia_del_dinero_parte_3_control_libertad_y_felicidad_financiera_340.txt",
       "processedPath": "output/02_processed/340_la_psicologia_del_dinero_parte_3_control_libertad_y_felicidad_financiera_340.md"
@@ -5824,7 +5824,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/341_la_psicologia_del_dinero_ahorro_emociones_y_largo_plazo_parte_4_341.mp3",
       "transcriptionPath": "output/01_transcripts/341_la_psicologia_del_dinero_ahorro_emociones_y_largo_plazo_parte_4_341.txt",
       "processedPath": "output/02_processed/341_la_psicologia_del_dinero_ahorro_emociones_y_largo_plazo_parte_4_341.md"
@@ -5841,7 +5841,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/342_la_psicologia_del_dinero_el_juego_financiero_que_realmente_estas_jugando_parte_5.mp3",
       "transcriptionPath": "output/01_transcripts/342_la_psicologia_del_dinero_el_juego_financiero_que_realmente_estas_jugando_parte_5.txt",
       "processedPath": "output/02_processed/342_la_psicologia_del_dinero_el_juego_financiero_que_realmente_estas_jugando_parte_5.md"
@@ -5858,7 +5858,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/343_la_debacle_de_las_empresas_de_inversion_ganadera_en_uruguay_era_previsible.mp3",
       "transcriptionPath": "output/01_transcripts/343_la_debacle_de_las_empresas_de_inversion_ganadera_en_uruguay_era_previsible.txt",
       "processedPath": "output/02_processed/343_la_debacle_de_las_empresas_de_inversion_ganadera_en_uruguay_era_previsible.md"
@@ -5875,7 +5875,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/344_genera_ingresos_extra_con_lo_que_ya_sabes_hacer_sin_renunciar_a_tu_trabajo_344.mp3",
       "transcriptionPath": "output/01_transcripts/344_genera_ingresos_extra_con_lo_que_ya_sabes_hacer_sin_renunciar_a_tu_trabajo_344.txt",
       "processedPath": "output/02_processed/344_genera_ingresos_extra_con_lo_que_ya_sabes_hacer_sin_renunciar_a_tu_trabajo_344.md"
@@ -5892,7 +5892,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/345_neosectas_el_peligroso_culto_de_los_falsos_millonarios_en_internet_345.mp3",
       "transcriptionPath": "output/01_transcripts/345_neosectas_el_peligroso_culto_de_los_falsos_millonarios_en_internet_345.txt",
       "processedPath": "output/02_processed/345_neosectas_el_peligroso_culto_de_los_falsos_millonarios_en_internet_345.md"
@@ -5909,7 +5909,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/346_revocar_el_articulo_8_cuando_vale_la_pena.mp3",
       "transcriptionPath": "output/01_transcripts/346_revocar_el_articulo_8_cuando_vale_la_pena.txt",
       "processedPath": "output/02_processed/346_revocar_el_articulo_8_cuando_vale_la_pena.md"
@@ -5926,7 +5926,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/347_como_dejar_de_caer_en_el_consumo_impulsivo_la_epidemia_invisible_del_siglo_xxi.mp3",
       "transcriptionPath": "output/01_transcripts/347_como_dejar_de_caer_en_el_consumo_impulsivo_la_epidemia_invisible_del_siglo_xxi.txt",
       "processedPath": "output/02_processed/347_como_dejar_de_caer_en_el_consumo_impulsivo_la_epidemia_invisible_del_siglo_xxi.md"
@@ -5943,7 +5943,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/348_por_que_nadie_puede_predecir_la_economia_la_verdad_sobre_los_sistemas_complejos.mp3",
       "transcriptionPath": "output/01_transcripts/348_por_que_nadie_puede_predecir_la_economia_la_verdad_sobre_los_sistemas_complejos.txt",
       "processedPath": "output/02_processed/348_por_que_nadie_puede_predecir_la_economia_la_verdad_sobre_los_sistemas_complejos.md"
@@ -5960,7 +5960,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/349_por_que_los_cursos_no_te_cambian_la_vida_y_como_lograr_que_si_lo_hagan.mp3",
       "transcriptionPath": "output/01_transcripts/349_por_que_los_cursos_no_te_cambian_la_vida_y_como_lograr_que_si_lo_hagan.txt",
       "processedPath": "output/02_processed/349_por_que_los_cursos_no_te_cambian_la_vida_y_como_lograr_que_si_lo_hagan.md"
@@ -5977,7 +5977,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/350_como_tomar_decisiones_financieras_importantes_en_contextos_de_incertidumbre.mp3",
       "transcriptionPath": "output/01_transcripts/350_como_tomar_decisiones_financieras_importantes_en_contextos_de_incertidumbre.txt",
       "processedPath": "output/02_processed/350_como_tomar_decisiones_financieras_importantes_en_contextos_de_incertidumbre.md"
@@ -5994,7 +5994,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/351_trump_recesion_y_mercados_locos_es_buen_momento_para_invertir.mp3",
       "transcriptionPath": "output/01_transcripts/351_trump_recesion_y_mercados_locos_es_buen_momento_para_invertir.txt",
       "processedPath": "output/02_processed/351_trump_recesion_y_mercados_locos_es_buen_momento_para_invertir.md"
@@ -6011,7 +6011,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/352_negocios_con_culpa_como_no_caer_en_la_trampa_del_chantaje_emocional.mp3",
       "transcriptionPath": "output/01_transcripts/352_negocios_con_culpa_como_no_caer_en_la_trampa_del_chantaje_emocional.txt",
       "processedPath": "output/02_processed/352_negocios_con_culpa_como_no_caer_en_la_trampa_del_chantaje_emocional.md"
@@ -6028,7 +6028,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/353_vivir_en_madera_la_opcion_que_uruguay_sigue_ignorando.mp3",
       "transcriptionPath": "output/01_transcripts/353_vivir_en_madera_la_opcion_que_uruguay_sigue_ignorando.txt",
       "processedPath": "output/02_processed/353_vivir_en_madera_la_opcion_que_uruguay_sigue_ignorando.md"
@@ -6045,7 +6045,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/354_como_evitar_ser_estafado_por_corredores_de_bolsa_3_casos_reales_en_uruguay.mp3",
       "transcriptionPath": "output/01_transcripts/354_como_evitar_ser_estafado_por_corredores_de_bolsa_3_casos_reales_en_uruguay.txt",
       "processedPath": "output/02_processed/354_como_evitar_ser_estafado_por_corredores_de_bolsa_3_casos_reales_en_uruguay.md"
@@ -6062,7 +6062,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/355_el_secreto_de_la_mente_millonaria_cambia_tu_forma_de_pensar_y_cambia_tu_vida.mp3",
       "transcriptionPath": "output/01_transcripts/355_el_secreto_de_la_mente_millonaria_cambia_tu_forma_de_pensar_y_cambia_tu_vida.txt",
       "processedPath": "output/02_processed/355_el_secreto_de_la_mente_millonaria_cambia_tu_forma_de_pensar_y_cambia_tu_vida.md"
@@ -6079,7 +6079,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/356_pensamientos_que_separan_a_los_ricos_de_los_pobres_segun_t_harv_eker.mp3",
       "transcriptionPath": "output/01_transcripts/356_pensamientos_que_separan_a_los_ricos_de_los_pobres_segun_t_harv_eker.txt",
       "processedPath": "output/02_processed/356_pensamientos_que_separan_a_los_ricos_de_los_pobres_segun_t_harv_eker.md"
@@ -6096,7 +6096,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/357_la_historia_de_los_templarios_como_caso_de_estudio_y_que_podes_aplicar_en_tu_negocio.mp3",
       "transcriptionPath": "output/01_transcripts/357_la_historia_de_los_templarios_como_caso_de_estudio_y_que_podes_aplicar_en_tu_negocio.txt",
       "processedPath": "output/02_processed/357_la_historia_de_los_templarios_como_caso_de_estudio_y_que_podes_aplicar_en_tu_negocio.md"
@@ -6113,7 +6113,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/358_dejar_herencia_o_ensenar_a_ganarla_la_decision_que_todo_padre_deberia_pensar.mp3",
       "transcriptionPath": "output/01_transcripts/358_dejar_herencia_o_ensenar_a_ganarla_la_decision_que_todo_padre_deberia_pensar.txt",
       "processedPath": "output/02_processed/358_dejar_herencia_o_ensenar_a_ganarla_la_decision_que_todo_padre_deberia_pensar.md"
@@ -6130,7 +6130,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/359_como_educar_a_nuestros_hijos_en_finanzas_segun_su_edad_de_los_3_a_los_25_anos.mp3",
       "transcriptionPath": "output/01_transcripts/359_como_educar_a_nuestros_hijos_en_finanzas_segun_su_edad_de_los_3_a_los_25_anos.txt",
       "processedPath": "output/02_processed/359_como_educar_a_nuestros_hijos_en_finanzas_segun_su_edad_de_los_3_a_los_25_anos.md"
@@ -6147,7 +6147,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/360_el_consumo_te_hace_feliz_lo_que_dice_la_ciencia_sobre_gastar_plata.mp3",
       "transcriptionPath": "output/01_transcripts/360_el_consumo_te_hace_feliz_lo_que_dice_la_ciencia_sobre_gastar_plata.txt",
       "processedPath": "output/02_processed/360_el_consumo_te_hace_feliz_lo_que_dice_la_ciencia_sobre_gastar_plata.md"
@@ -6164,7 +6164,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/361_por_que_las_apps_de_finanzas_no_funcionan_si_estas_solo.mp3",
       "transcriptionPath": "output/01_transcripts/361_por_que_las_apps_de_finanzas_no_funcionan_si_estas_solo.txt",
       "processedPath": "output/02_processed/361_por_que_las_apps_de_finanzas_no_funcionan_si_estas_solo.md"
@@ -6181,7 +6181,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/362_etf_pasivos_o_fondo_activo_entrevista_a_ahmed_riesgo.mp3",
       "transcriptionPath": "output/01_transcripts/362_etf_pasivos_o_fondo_activo_entrevista_a_ahmed_riesgo.txt",
       "processedPath": "output/02_processed/362_etf_pasivos_o_fondo_activo_entrevista_a_ahmed_riesgo.md"
@@ -6198,7 +6198,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/363_anos_de_podcast_y_una_gran_sorpresa.mp3",
       "transcriptionPath": "output/01_transcripts/363_anos_de_podcast_y_una_gran_sorpresa.txt",
       "processedPath": "output/02_processed/363_anos_de_podcast_y_una_gran_sorpresa.md"
@@ -6215,7 +6215,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/367_se_puede_ser_feliz_ganando_poco_dinero.mp3",
       "transcriptionPath": "output/01_transcripts/367_se_puede_ser_feliz_ganando_poco_dinero.txt",
       "processedPath": "output/02_processed/367_se_puede_ser_feliz_ganando_poco_dinero.md"
@@ -6232,7 +6232,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/368_existen_realmente_los_ingresos_pasivos_desmitificando_el_sueno_de_ganar_dinero_mientras_dormis.mp3",
       "transcriptionPath": "output/01_transcripts/368_existen_realmente_los_ingresos_pasivos_desmitificando_el_sueno_de_ganar_dinero_mientras_dormis.txt",
       "processedPath": "output/02_processed/368_existen_realmente_los_ingresos_pasivos_desmitificando_el_sueno_de_ganar_dinero_mientras_dormis.md"
@@ -6249,7 +6249,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/369_como_aprovechar_las_tendencias_demograficas_que_cambiaran_uruguay.mp3",
       "transcriptionPath": "output/01_transcripts/369_como_aprovechar_las_tendencias_demograficas_que_cambiaran_uruguay.txt",
       "processedPath": "output/02_processed/369_como_aprovechar_las_tendencias_demograficas_que_cambiaran_uruguay.md"
@@ -6266,7 +6266,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/370_estrategias_oblicuas_para_ahorrar_engana_a_tu_cerebro_y_gasta_menos_sin_sufrir.mp3",
       "transcriptionPath": "output/01_transcripts/370_estrategias_oblicuas_para_ahorrar_engana_a_tu_cerebro_y_gasta_menos_sin_sufrir.txt",
       "processedPath": "output/02_processed/370_estrategias_oblicuas_para_ahorrar_engana_a_tu_cerebro_y_gasta_menos_sin_sufrir.md"
@@ -6283,7 +6283,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/371_la_inteligencia_artificial_nos_esta_volviendo_mas_tarados.mp3",
       "transcriptionPath": "output/01_transcripts/371_la_inteligencia_artificial_nos_esta_volviendo_mas_tarados.txt",
       "processedPath": "output/02_processed/371_la_inteligencia_artificial_nos_esta_volviendo_mas_tarados.md"
@@ -6300,7 +6300,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/372_invertir_hacerlo_solo_o_delegar_la_verdad_sobre_portafolios_fondos_y_asesores.mp3",
       "transcriptionPath": "output/01_transcripts/372_invertir_hacerlo_solo_o_delegar_la_verdad_sobre_portafolios_fondos_y_asesores.txt",
       "processedPath": "output/02_processed/372_invertir_hacerlo_solo_o_delegar_la_verdad_sobre_portafolios_fondos_y_asesores.md"
@@ -6317,7 +6317,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/373_como_aumentar_tus_ingresos_validacion_de_ideas_proyectos_paralelos_y_apalancamiento_financiero.mp3",
       "transcriptionPath": "output/01_transcripts/373_como_aumentar_tus_ingresos_validacion_de_ideas_proyectos_paralelos_y_apalancamiento_financiero.txt",
       "processedPath": "output/02_processed/373_como_aumentar_tus_ingresos_validacion_de_ideas_proyectos_paralelos_y_apalancamiento_financiero.md"
@@ -6334,7 +6334,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/374_la_estafa_de_la_gallina_de_los_huevos_de_oro_cuando_un_bot_de_trading_te_deja_sin_nada.mp3",
       "transcriptionPath": "output/01_transcripts/374_la_estafa_de_la_gallina_de_los_huevos_de_oro_cuando_un_bot_de_trading_te_deja_sin_nada.txt",
       "processedPath": "output/02_processed/374_la_estafa_de_la_gallina_de_los_huevos_de_oro_cuando_un_bot_de_trading_te_deja_sin_nada.md"
@@ -6351,7 +6351,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/375_fundamentos_nf1_los_tres_pilares_de_las_finanzas_personales.mp3",
       "transcriptionPath": "output/01_transcripts/375_fundamentos_nf1_los_tres_pilares_de_las_finanzas_personales.txt",
       "processedPath": "output/02_processed/375_fundamentos_nf1_los_tres_pilares_de_las_finanzas_personales.md"
@@ -6368,7 +6368,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/376_fundamentos_nf2_el_secreto_del_equilibrio_financiero_disfrutar_hoy_sin_arruinar_tu_futuro.mp3",
       "transcriptionPath": "output/01_transcripts/376_fundamentos_nf2_el_secreto_del_equilibrio_financiero_disfrutar_hoy_sin_arruinar_tu_futuro.txt",
       "processedPath": "output/02_processed/376_fundamentos_nf2_el_secreto_del_equilibrio_financiero_disfrutar_hoy_sin_arruinar_tu_futuro.md"
@@ -6385,7 +6385,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/377_fundamentos_nf3_hay_que_creersela.mp3",
       "transcriptionPath": "output/01_transcripts/377_fundamentos_nf3_hay_que_creersela.txt",
       "processedPath": "output/02_processed/377_fundamentos_nf3_hay_que_creersela.md"
@@ -6402,7 +6402,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/378_fundamento_nf4_por_que_controlar_tus_gastos_es_mas_dificil_de_lo_que_pensas.mp3",
       "transcriptionPath": "output/01_transcripts/378_fundamento_nf4_por_que_controlar_tus_gastos_es_mas_dificil_de_lo_que_pensas.txt",
       "processedPath": "output/02_processed/378_fundamento_nf4_por_que_controlar_tus_gastos_es_mas_dificil_de_lo_que_pensas.md"
@@ -6419,7 +6419,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/379_fundamentos_nf5_ganar_mas_dinero_no_es_tan_dificil_como_crees.mp3",
       "transcriptionPath": "output/01_transcripts/379_fundamentos_nf5_ganar_mas_dinero_no_es_tan_dificil_como_crees.txt",
       "processedPath": "output/02_processed/379_fundamentos_nf5_ganar_mas_dinero_no_es_tan_dificil_como_crees.md"
@@ -6436,7 +6436,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/380_fundamentos_n6_todos_debemos_invertir_y_es_mas_facil_de_lo_que_parece.mp3",
       "transcriptionPath": "output/01_transcripts/380_fundamentos_n6_todos_debemos_invertir_y_es_mas_facil_de_lo_que_parece.txt",
       "processedPath": "output/02_processed/380_fundamentos_n6_todos_debemos_invertir_y_es_mas_facil_de_lo_que_parece.md"
@@ -6453,7 +6453,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/381_fundamentos_nf7_nadie_va_a_venir_a_salvarte_asumi_la_responsabilidad_de_tu_vida_financiera.mp3",
       "transcriptionPath": "output/01_transcripts/381_fundamentos_nf7_nadie_va_a_venir_a_salvarte_asumi_la_responsabilidad_de_tu_vida_financiera.txt",
       "processedPath": "output/02_processed/381_fundamentos_nf7_nadie_va_a_venir_a_salvarte_asumi_la_responsabilidad_de_tu_vida_financiera.md"
@@ -6470,7 +6470,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/382_dinero_feliz_la_mirada_japonesa_que_cambia_tu_relacion_con_el_dinero.mp3",
       "transcriptionPath": "output/01_transcripts/382_dinero_feliz_la_mirada_japonesa_que_cambia_tu_relacion_con_el_dinero.txt",
       "processedPath": "output/02_processed/382_dinero_feliz_la_mirada_japonesa_que_cambia_tu_relacion_con_el_dinero.md"
@@ -6487,7 +6487,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/383_dinero_feliz_parte_2_el_verdadero_significado_del_dinero_y_como_cambia_tu_vida.mp3",
       "transcriptionPath": "output/01_transcripts/383_dinero_feliz_parte_2_el_verdadero_significado_del_dinero_y_como_cambia_tu_vida.txt",
       "processedPath": "output/02_processed/383_dinero_feliz_parte_2_el_verdadero_significado_del_dinero_y_como_cambia_tu_vida.md"
@@ -6504,7 +6504,7 @@
       "downloaded": true,
       "transcribed": true,
       "processed": true,
-      "noted": false,
+      "annotated": false,
       "downloadPath": "output/00_audio_files/384_ganas_plata_pero_no_sos_feliz_la_formula_ci_vs_ce_del_dinero_dinero_feliz_parte_3.mp3",
       "transcriptionPath": "output/01_transcripts/384_ganas_plata_pero_no_sos_feliz_la_formula_ci_vs_ce_del_dinero_dinero_feliz_parte_3.txt",
       "processedPath": "output/02_processed/384_ganas_plata_pero_no_sos_feliz_la_formula_ci_vs_ce_del_dinero_dinero_feliz_parte_3.md"

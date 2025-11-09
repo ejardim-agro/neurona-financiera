@@ -300,7 +300,7 @@ async function syncEpisodes(): Promise<void> {
               downloaded,
               transcribed,
               processed: false,
-              noted: false,
+              annotated: false,
               downloadPath,
               transcriptionPath: transcriptPath,
               processedPath: processedPath,

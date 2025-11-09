@@ -5,11 +5,11 @@ export interface EpisodeStatus {
   downloaded: boolean;
   transcribed: boolean;
   processed: boolean;
-  noted: boolean;
+  annotated: boolean;
   downloadPath?: string;
   transcriptionPath?: string;
   processedPath?: string;
-  notedPath?: string;
+  annotatedPath?: string;
 }
 
 export interface Episode {

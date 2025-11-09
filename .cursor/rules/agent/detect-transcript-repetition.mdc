@@ -32,7 +32,7 @@ A combination of regular expressions and command-line tools can be very effectiv
 
 4.  **Execution**: You can use tools like `grep`, `awk`, or your editor's search functionality with regex support to scan the files.
 
-5.  **Reporting**: If any files match the pattern, they should be listed for review. The repetitive pattern should be noted.
+5.  **Reporting**: If any files match the pattern, they should be listed for review. The repetitive pattern should be "annotated".
 
 ## Automated Report Generation
 
