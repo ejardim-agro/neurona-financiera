@@ -85,14 +85,18 @@ export function extractEpisodeNumberFromTitle(title: string): string | null {
 }
 
 /**
- * Determines episode number using URL, title extraction, or sequential fallback
+ * Determines episode number using the following priority order:
+ * 1. Title patterns (if found) - validated against previous episode
+ * 2. URL extraction - validated against previous episode
+ * 3. Previous episode + 1 (sequential fallback)
+ * 4. Max existing + 1 (final fallback)
  * Returns formatted string with 3 digits (e.g., "001", "020", "200")
- * Priority: existing episode > URL number > title number > sequential fallback
  */
 export function determineEpisode(
   url: string,
   title: string,
   existingEpisode: string | undefined,
+  previousEpisode: string | undefined,
   maxExistingEpisodeNumber: number
 ): string {
   // Preserve existing episode if available
@@ -100,19 +104,70 @@ export function determineEpisode(
     return existingEpisode;
   }
 
-  // Try to extract from URL first (most reliable)
-  const urlEpisode = extractEpisodeNumberFromUrl(url);
-  if (urlEpisode !== null) {
-    return urlEpisode;
+  // Calculate expected episode number from previous episode
+  let expectedFromPrevious: number | null = null;
+  if (previousEpisode !== undefined) {
+    // Extract base number from previous episode (ignore suffix)
+    const previousBase = previousEpisode.split("_")[0];
+    const previousNum = parseInt(previousBase, 10);
+    if (!isNaN(previousNum)) {
+      expectedFromPrevious = previousNum + 1;
+    }
   }
 
-  // Try to extract from title
+  // Priority 1: Try to extract from title (patterns)
   const titleEpisode = extractEpisodeNumberFromTitle(title);
   if (titleEpisode !== null) {
+    const titleNum = parseInt(titleEpisode, 10);
+    
+    // Validate against previous episode if available
+    if (expectedFromPrevious !== null) {
+      const diff = Math.abs(titleNum - expectedFromPrevious);
+      // If title number is reasonable (within ±100 of expected), use it
+      // This allows for gaps in episode numbering, RSS feed ordering issues,
+      // or episodes that might not be in chronological order in the feed
+      // Only reject if the difference is extremely large (likely a typo)
+      if (diff <= 100) {
+        return titleEpisode;
+      } else {
+        // Title number seems wrong (likely a typo), use sequential from previous
+        const limited = limitToThreeDigits(expectedFromPrevious);
+        return limited.toString().padStart(3, "0");
+      }
+    }
+    // No previous episode to validate against, use title
     return titleEpisode;
   }
 
-  // Use max existing number + 1 as fallback, formatted to 3 digits
+  // Priority 2: Try to extract from URL
+  const urlEpisode = extractEpisodeNumberFromUrl(url);
+  if (urlEpisode !== null) {
+    const urlNum = parseInt(urlEpisode, 10);
+    
+    // Validate against previous episode if available
+    if (expectedFromPrevious !== null) {
+      const diff = Math.abs(urlNum - expectedFromPrevious);
+      // If URL number is reasonable (within ±10 of expected), use it
+      // URLs are less reliable than titles, so use tighter validation
+      if (diff <= 10) {
+        return urlEpisode;
+      } else {
+        // URL number seems wrong, use sequential from previous
+        const limited = limitToThreeDigits(expectedFromPrevious);
+        return limited.toString().padStart(3, "0");
+      }
+    }
+    // No previous episode to validate against, use URL
+    return urlEpisode;
+  }
+
+  // Priority 3: Use sequential from previous episode if available
+  if (expectedFromPrevious !== null) {
+    const limited = limitToThreeDigits(expectedFromPrevious);
+    return limited.toString().padStart(3, "0");
+  }
+
+  // Fallback: Use max existing number + 1
   const nextNumber = maxExistingEpisodeNumber + 1;
   return nextNumber.toString().padStart(3, "0");
 }

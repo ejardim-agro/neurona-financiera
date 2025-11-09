@@ -1,6 +1,8 @@
 import path from "path";
+import fs from "fs";
 import dotenv from "dotenv";
 import Parser from "rss-parser";
+import axios from "axios";
 import { Episode } from "./interfaces/episode.interface";
 import {
   extractMp3Url,
@@ -32,6 +34,42 @@ const PODCAST_URL_FINAL = PODCAST_URL;
 const OUTPUT_DIR = path.join(__dirname, "..", "input");
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "episodes.json");
 const AUDIO_OUTPUT_DIR = path.join(__dirname, "..", "output", "00_audio_files");
+
+/**
+ * Sleep for a random duration between min and max seconds
+ */
+function sleep(minSeconds: number, maxSeconds: number): Promise<void> {
+  const duration = Math.floor(
+    (minSeconds + Math.random() * (maxSeconds - minSeconds)) * 1000
+  );
+  return new Promise((resolve) => setTimeout(resolve, duration));
+}
+
+/**
+ * Downloads an MP3 file from URL and saves it to the specified path
+ */
+async function downloadFile(url: string, filePath: string): Promise<void> {
+  const response = await axios({
+    method: "GET",
+    url: url,
+    responseType: "stream",
+  });
+
+  // Ensure directory exists
+  const dir = path.dirname(filePath);
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+
+  // Write file to disk
+  const writer = fs.createWriteStream(filePath);
+  response.data.pipe(writer);
+
+  return new Promise((resolve, reject) => {
+    writer.on("finish", resolve);
+    writer.on("error", reject);
+  });
+}
 
 /**
  * Syncs episodes from the podcast RSS feed and saves them to episodes.json
@@ -89,7 +127,12 @@ async function syncEpisodes(): Promise<void> {
     }, 0);
 
     // Process RSS feed items in chronological order (oldest first)
-    reversedItems.forEach((item: any, index: number) => {
+    let previousEpisodeNumber: string | undefined = undefined;
+    let downloadedCount = 0;
+    let alreadyExistsCount = 0;
+    let downloadErrorsCount = 0;
+
+    for (const item of reversedItems) {
       const mp3Url = extractMp3Url(item);
       rssEpisodeUrls.add(mp3Url);
 
@@ -108,7 +151,7 @@ async function syncEpisodes(): Promise<void> {
       // Use current max from allEpisodesMap to handle updates during processing
       const currentMax = Array.from(allEpisodesMap.values()).reduce(
         (max, ep) => {
-          const epNum = ep.episode ? parseInt(ep.episode, 10) : 0;
+          const epNum = ep.episode ? parseInt(ep.episode.split("_")[0], 10) : 0;
           return Math.max(max, epNum);
         },
         maxExistingEpisodeNumber
@@ -118,6 +161,7 @@ async function syncEpisodes(): Promise<void> {
         mp3Url,
         title,
         existingEpisode?.episode,
+        previousEpisodeNumber,
         currentMax
       );
 
@@ -129,6 +173,9 @@ async function syncEpisodes(): Promise<void> {
         episode,
         existingEpisodeNumbers
       );
+
+      // Update previous episode number for next iteration (use unique episode)
+      previousEpisodeNumber = uniqueEpisode;
 
       // Generate download path
       let downloadPath: string | undefined;
@@ -144,6 +191,44 @@ async function syncEpisodes(): Promise<void> {
         );
       }
 
+      // Check if file already exists
+      const fullDownloadPath = path.join(process.cwd(), downloadPath);
+      const fileExists = fs.existsSync(fullDownloadPath);
+
+      let downloaded = existingEpisode?.status.downloaded || false;
+
+      if (fileExists) {
+        // File exists, mark as downloaded
+        downloaded = true;
+        alreadyExistsCount++;
+        console.log(`✅ File already exists: ${downloadPath}`);
+      } else if (downloadPath && mp3Url) {
+        // File doesn't exist, download it
+        try {
+          // Random sleep between 1 and 4 seconds before downloading
+          const sleepSeconds = Math.random() * 3 + 1;
+          console.log(
+            `⏳ Waiting ${sleepSeconds.toFixed(
+              1
+            )}s before downloading: ${title}`
+          );
+          await sleep(1, 4);
+
+          console.log(`⬇️  Downloading: ${title}`);
+          await downloadFile(mp3Url, fullDownloadPath);
+          downloaded = true;
+          downloadedCount++;
+          console.log(`✅ Downloaded: ${downloadPath}`);
+        } catch (error) {
+          downloadErrorsCount++;
+          console.error(
+            `❌ Error downloading ${title}:`,
+            error instanceof Error ? error.message : error
+          );
+          downloaded = false;
+        }
+      }
+
       // If episode exists, preserve its status completely, only update metadata
       // If episode is new, create with default status
       const episodeObj: Episode = {
@@ -156,10 +241,11 @@ async function syncEpisodes(): Promise<void> {
         status: existingEpisode?.status
           ? {
               ...existingEpisode.status,
+              downloaded,
               downloadPath: existingEpisode.status.downloadPath || downloadPath,
             }
           : {
-              downloaded: false,
+              downloaded,
               transcribed: false,
               processed: false,
               noted: false,
@@ -169,7 +255,7 @@ async function syncEpisodes(): Promise<void> {
 
       // Add or update episode in map
       allEpisodesMap.set(mp3Url, episodeObj);
-    });
+    }
 
     // Convert map to array and sort by episode number (ascending)
     // Extract base number for sorting (ignore suffix)
@@ -212,6 +298,12 @@ async function syncEpisodes(): Promise<void> {
     console.log(`   • Episodes in RSS feed: ${episodesInRss}`);
     console.log(`   • New episodes added: ${newEpisodesCount}`);
     console.log(`   • Episodes preserved (not in RSS): ${episodesNotInRss}`);
+    console.log(`\n📥 Download status:`);
+    console.log(`   • Files already exist: ${alreadyExistsCount}`);
+    console.log(`   • Files downloaded: ${downloadedCount}`);
+    if (downloadErrorsCount > 0) {
+      console.log(`   • Download errors: ${downloadErrorsCount}`);
+    }
     if (newEpisodesCount > 0) {
       console.log(`\n✨ New episodes:`);
       allEpisodes
