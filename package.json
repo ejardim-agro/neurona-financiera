@@ -7,6 +7,7 @@
     "transcribe": "ts-node src/transcriber.ts",
     "transcribe:gemini": "ts-node src/gemini-transcriber.ts",
     "transcribe:gemini:batch": "ts-node src/gemini-batch-transcriber.ts",
+    "syncEpisodes": "ts-node src/syncEpisodes.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
