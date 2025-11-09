@@ -2,8 +2,8 @@ import fs from "fs";
 import path from "path";
 import { execSync } from "child_process";
 
-const audioDir = path.join(__dirname, "..", "output", "00 - Audio files");
-const transcriptsDir = path.join(__dirname, "..", "output", "01 - Transcripts");
+const audioDir = path.join(__dirname, "..", "output", "00_audio_files");
+const transcriptsDir = path.join(__dirname, "..", "output", "01_transcripts");
 const whisperCliPath = path.join(
   __dirname,
   "..",

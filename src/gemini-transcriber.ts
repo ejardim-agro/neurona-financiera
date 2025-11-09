@@ -106,7 +106,7 @@ async function main() {
       "Usage: ts-node src/gemini-transcriber.ts <path-to-audio-file>"
     );
     console.log(
-      "\nExample: ts-node src/gemini-transcriber.ts ./output/00\\ -\\ Audio\\ files/episode_001.mp3"
+      "\nExample: ts-node src/gemini-transcriber.ts ./output/00_audio_files/episode_001.mp3"
     );
     console.log("\nSupported formats: MP3, WAV, M4A, OGG");
     process.exit(0);

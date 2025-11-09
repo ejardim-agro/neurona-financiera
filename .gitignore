@@ -143,3 +143,5 @@ vendor/
 
 # Audio files
 *.mp3
+
+src/whisper.cpp/

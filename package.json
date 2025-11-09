@@ -4,18 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/downloader.ts",
-    "check": "ts-node src/downloader.ts --check",
-    "download:new": "ts-node src/downloader.ts --download-only",
-    "docs:sync": "ts-node src/docsSync.ts",
-    "transcripts:stub": "ts-node src/stubTranscripts.ts",
-    "rename": "ts-node src/renamer.ts",
     "transcribe": "ts-node src/transcriber.ts",
     "transcribe:gemini": "ts-node src/gemini-transcriber.ts",
     "transcribe:gemini:batch": "ts-node src/gemini-batch-transcriber.ts",
-    "wording": "ts-node src/wording.ts",
-    "format": "ts-node src/formatter.ts",
-    "pipeline": "npm run start && npm run rename && npm run transcribe && npm run wording && npm run format",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

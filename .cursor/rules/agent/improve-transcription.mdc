@@ -1,9 +1,7 @@
 ---
 description: "Guidelines for improving raw transcriptions by correcting errors and enhancing readability."
-globs: "output/transcripts/**/*.txt"
 alwaysApply: false
 ---
-
 # Rule: Improve Transcription
 
 ## Overview

@@ -305,7 +305,7 @@ async function main() {
       "Usage: ts-node src/gemini-batch-transcriber.ts <directory-path> [output-report-path]"
     );
     console.log(
-      '\nExample: ts-node src/gemini-batch-transcriber.ts "./output/00 - Audio files" "./transcription-report.json"'
+      '\nExample: ts-node src/gemini-batch-transcriber.ts "./output/00_audio_files" "./transcription-report.json"'
     );
     process.exit(0);
   }
