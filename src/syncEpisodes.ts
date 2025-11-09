@@ -227,6 +227,22 @@ async function syncEpisodes(): Promise<void> {
           .replace(/\\/g, "/");
       }
 
+      // Generate annotated path (same name as processedPath but in 03_annotated)
+      let annotatedPath: string | undefined;
+      if (processedPath) {
+        const annotatedDir = path.join(
+          __dirname,
+          "..",
+          "output",
+          "03_annotated"
+        );
+        const processedFilename = path.basename(processedPath);
+        const fullAnnotatedPath = path.join(annotatedDir, processedFilename);
+        annotatedPath = path
+          .relative(process.cwd(), fullAnnotatedPath)
+          .replace(/\\/g, "/");
+      }
+
       // Check if file already exists
       const fullDownloadPath = path.join(process.cwd(), downloadPath);
       const fileExists = fs.existsSync(fullDownloadPath);
@@ -295,6 +311,8 @@ async function syncEpisodes(): Promise<void> {
                 existingEpisode.status.transcriptionPath || transcriptPath,
               processedPath:
                 existingEpisode.status.processedPath || processedPath,
+              annotatedPath:
+                existingEpisode.status.annotatedPath || annotatedPath,
             }
           : {
               downloaded,
@@ -304,6 +322,7 @@ async function syncEpisodes(): Promise<void> {
               downloadPath,
               transcriptionPath: transcriptPath,
               processedPath: processedPath,
+              annotatedPath: annotatedPath,
             },
       };
 

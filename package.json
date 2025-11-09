@@ -10,6 +10,7 @@
     "syncEpisodes": "ts-node src/syncEpisodes.ts",
     "syncTranscripts": "ts-node src/syncTranscripts.ts",
     "syncProcessedFiles": "ts-node src/syncProcessedFiles.ts",
+    "syncAnnotations": "ts-node src/syncAnnotations.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,14 +18,16 @@
   "license": "ISC",
   "packageManager": "pnpm@10.12.1",
   "dependencies": {
-    "axios": "^1.11.0",
     "@google/genai": "^0.4.0",
+    "axios": "^1.11.0",
     "dotenv": "^17.2.1",
+    "js-yaml": "^4.1.0",
     "openai": "^5.16.0",
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {
     "@types/axios": "^0.14.4",
+    "@types/js-yaml": "^4.0.9",
     "@types/node": "^24.3.0",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
