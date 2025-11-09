@@ -166,9 +166,11 @@ async function syncEpisodes(): Promise<void> {
       );
 
       // Ensure episode number is unique by checking against all existing episodes
-      const existingEpisodeNumbers = Array.from(allEpisodesMap.values()).map(
-        (ep) => ep.episode
-      );
+      // Exclude the current episode from the list to avoid false duplicates
+      const existingEpisodeNumbers = Array.from(allEpisodesMap.values())
+        .filter((ep) => ep.url !== mp3Url) // Exclude current episode
+        .map((ep) => ep.episode);
+
       const uniqueEpisode = ensureUniqueEpisode(
         episode,
         existingEpisodeNumbers
@@ -189,6 +191,40 @@ async function syncEpisodes(): Promise<void> {
           title,
           AUDIO_OUTPUT_DIR
         );
+      }
+
+      // Generate transcript path (same name as downloadPath but in 01_transcripts with .txt extension)
+      let transcriptPath: string | undefined;
+      if (downloadPath) {
+        const transcriptDir = path.join(
+          __dirname,
+          "..",
+          "output",
+          "01_transcripts"
+        );
+        const downloadFilename = path.basename(downloadPath);
+        const transcriptFilename = downloadFilename.replace(/\.mp3$/, ".txt");
+        const fullTranscriptPath = path.join(transcriptDir, transcriptFilename);
+        transcriptPath = path
+          .relative(process.cwd(), fullTranscriptPath)
+          .replace(/\\/g, "/");
+      }
+
+      // Generate processed path (same name as downloadPath but in 02_processed)
+      let processedPath: string | undefined;
+      if (downloadPath) {
+        const processedDir = path.join(
+          __dirname,
+          "..",
+          "output",
+          "02_processed"
+        );
+        const downloadFilename = path.basename(downloadPath);
+        const processedFilename = downloadFilename.replace(/\.mp3$/, ".txt");
+        const fullProcessedPath = path.join(processedDir, processedFilename);
+        processedPath = path
+          .relative(process.cwd(), fullProcessedPath)
+          .replace(/\\/g, "/");
       }
 
       // Check if file already exists
@@ -243,6 +279,10 @@ async function syncEpisodes(): Promise<void> {
               ...existingEpisode.status,
               downloaded,
               downloadPath: existingEpisode.status.downloadPath || downloadPath,
+              transcriptionPath:
+                existingEpisode.status.transcriptionPath || transcriptPath,
+              processedPath:
+                existingEpisode.status.processedPath || processedPath,
             }
           : {
               downloaded,
@@ -250,6 +290,8 @@ async function syncEpisodes(): Promise<void> {
               processed: false,
               noted: false,
               downloadPath,
+              transcriptionPath: transcriptPath,
+              processedPath: processedPath,
             },
       };
 

@@ -175,22 +175,34 @@ export function determineEpisode(
 /**
  * Ensures episode number is unique by adding suffix if duplicate exists
  * Examples: "310" (if exists) -> "310_2", "310_2" (if exists) -> "310_3"
+ * If baseEpisode already has a suffix, extracts the base first
+ * IMPORTANT: If the exact episode already exists in the list, preserve it
  */
 export function ensureUniqueEpisode(
   baseEpisode: string,
   existingEpisodes: string[]
 ): string {
-  // Check if base episode already exists
-  if (!existingEpisodes.includes(baseEpisode)) {
+  // If the exact episode already exists, preserve it (don't add more suffixes)
+  if (existingEpisodes.includes(baseEpisode)) {
     return baseEpisode;
   }
 
-  // Find the highest suffix for this base episode
+  // Extract base episode number (remove any existing suffix)
+  const baseMatch = baseEpisode.match(/^(\d{3})(?:_\d+)?$/);
+  const baseNum = baseMatch ? baseMatch[1] : baseEpisode;
+  
+  // Check if base episode already exists
+  if (!existingEpisodes.includes(baseNum)) {
+    // Base doesn't exist, return the provided episode (might have suffix or not)
+    return baseEpisode;
+  }
+
+  // Base exists, find the highest suffix for this base episode
   let maxSuffix = 1;
-  const basePattern = new RegExp(`^${baseEpisode}_(\\d+)$`);
+  const basePattern = new RegExp(`^${baseNum}_(\\d+)$`);
 
   existingEpisodes.forEach((ep) => {
-    if (ep === baseEpisode) {
+    if (ep === baseNum) {
       maxSuffix = Math.max(maxSuffix, 1);
     } else {
       const match = ep.match(basePattern);
@@ -201,5 +213,6 @@ export function ensureUniqueEpisode(
     }
   });
 
-  return `${baseEpisode}_${maxSuffix}`;
+  // Return base with next available suffix
+  return `${baseNum}_${maxSuffix}`;
 }
