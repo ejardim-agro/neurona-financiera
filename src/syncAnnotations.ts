@@ -333,13 +333,25 @@ Debes completar los siguientes campos del frontmatter:
 - mainConcepts: Array de conceptos clave enseñados en el episodio
 - mainTakeaways: Array de puntos clave principales o conclusiones del episodio
 
+FORMATO YAML REQUERIDO (CRÍTICO - DEBES SEGUIR ESTE FORMATO EXACTO):
+- Todos los arrays DEBEN usar formato bullet list (block style) con guiones y indentación de 2 espacios
+- NO uses formato inline array (no uses [])
+- Formato correcto para arrays:
+  topics:
+    - "tema 1"
+    - "tema 2"
+    - "tema 3"
+- Arrays vacíos se escriben como: prerequisites: []
+- Todos los strings deben usar comillas dobles
+- Mantén el orden de campos: title, summary, episodeNumber, pubDate, duration, category, topics, tags, difficulty, prerequisites, relatedEpisodes, learningPathOrder, glossaryTerms, mainConcepts, mainTakeaways
+
 IMPORTANTE:
 - Mantén TODOS los campos existentes del frontmatter (title, summary, episodeNumber, pubDate, duration)
 - Solo completa los campos que están marcados como TODO o son null
 - Devuelve SOLO el frontmatter completo en formato YAML válido, sin el bloque de código markdown
-- Usa arrays para topics, tags, glossaryTerms, mainConcepts, mainTakeaways
-- Usa comillas dobles para strings que contengan caracteres especiales
-- Mantén el formato YAML limpio y bien estructurado`;
+- NO incluyas los delimitadores --- al inicio o final
+- Usa EXACTAMENTE el formato bullet list para todos los arrays (no inline arrays)
+- Mantén el formato YAML limpio, consistente y bien estructurado`;
 
   try {
     console.log(`🔄 Sending request to Gemini API...`);
@@ -376,6 +388,11 @@ IMPORTANTE:
     // Remove markdown code blocks if present
     completedFrontmatter = completedFrontmatter.replace(/^```yaml?\n?/gm, "");
     completedFrontmatter = completedFrontmatter.replace(/^```\n?/gm, "");
+    completedFrontmatter = completedFrontmatter.trim();
+
+    // Remove YAML frontmatter delimiters if present
+    completedFrontmatter = completedFrontmatter.replace(/^---\s*\n?/gm, "");
+    completedFrontmatter = completedFrontmatter.replace(/\n?---\s*$/gm, "");
     completedFrontmatter = completedFrontmatter.trim();
 
     return completedFrontmatter;
@@ -508,13 +525,10 @@ async function syncAnnotations(): Promise<void> {
     if (fs.existsSync(EXAMPLE_FILE)) {
       try {
         const exampleFile = fs.readFileSync(EXAMPLE_FILE, "utf-8");
-        // Extract YAML example from the file (try multiple patterns)
-        const yamlMatch = exampleFile.match(/```yaml\n([\s\S]*?)\n```/);
-        const markdownMatch = exampleFile.match(/---\n([\s\S]*?)\n---/);
-        if (yamlMatch) {
-          exampleContent = yamlMatch[1];
-        } else if (markdownMatch) {
-          exampleContent = markdownMatch[1];
+        // Extract YAML frontmatter from the file (between --- delimiters)
+        const frontmatterMatch = exampleFile.match(/^---\s*\n([\s\S]*?)\n---/);
+        if (frontmatterMatch) {
+          exampleContent = frontmatterMatch[1].trim();
         }
       } catch (error) {
         console.warn(`⚠️  Could not read example file: ${error}`);
@@ -605,8 +619,18 @@ async function syncAnnotations(): Promise<void> {
           completedCount++;
           console.log(`✅ Completed frontmatter for: ${annotatedPath}`);
 
-          // Update episode status
+          // Update episode status in both arrays
           episode.status.annotated = true;
+          // Also update in the main episodes array
+          const episodeIndexInArray = episodes.findIndex(
+            (ep) => ep.url === episode.url
+          );
+          if (episodeIndexInArray !== -1) {
+            episodes[episodeIndexInArray].status.annotated = true;
+          }
+
+          // Save immediately to persist the annotated status
+          saveEpisodes(episodes, EPISODES_FILE);
         } else {
           // File exists, check if it needs completion
           console.log(
@@ -667,10 +691,32 @@ async function syncAnnotations(): Promise<void> {
             completedCount++;
             console.log(`✅ Completed frontmatter for: ${annotatedPath}`);
 
-            // Update episode status
+            // Update episode status in both arrays
             episode.status.annotated = true;
+            // Also update in the main episodes array
+            const episodeIndexInArray = episodes.findIndex(
+              (ep) => ep.url === episode.url
+            );
+            if (episodeIndexInArray !== -1) {
+              episodes[episodeIndexInArray].status.annotated = true;
+            }
+
+            // Save immediately to persist the annotated status
+            saveEpisodes(episodes, EPISODES_FILE);
           } else {
             console.log(`⏭️  Frontmatter already complete: ${annotatedPath}`);
+            // Mark as annotated if not already marked
+            if (!episode.status.annotated) {
+              episode.status.annotated = true;
+              const episodeIndexInArray = episodes.findIndex(
+                (ep) => ep.url === episode.url
+              );
+              if (episodeIndexInArray !== -1) {
+                episodes[episodeIndexInArray].status.annotated = true;
+              }
+              // Save immediately to persist the annotated status
+              saveEpisodes(episodes, EPISODES_FILE);
+            }
           }
         }
       } catch (error) {
@@ -682,7 +728,8 @@ async function syncAnnotations(): Promise<void> {
       }
     }
 
-    // Save updated episodes
+    // Save updated episodes after each successful annotation
+    // This ensures we don't lose progress if the script is interrupted
     saveEpisodes(episodes, EPISODES_FILE);
 
     // Show summary
