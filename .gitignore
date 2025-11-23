@@ -144,4 +144,4 @@ vendor/
 # Audio files
 *.mp3
 
-src/whisper.cpp/
+*/playground/whisper.cpp/

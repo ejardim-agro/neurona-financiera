@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "transcribe": "ts-node src/transcriber.ts",
-    "transcribe:gemini": "ts-node src/gemini-transcriber.ts",
-    "transcribe:gemini:batch": "ts-node src/gemini-batch-transcriber.ts",
-    "syncEpisodes": "ts-node src/syncEpisodes.ts",
-    "syncTranscripts": "ts-node src/syncTranscripts.ts",
-    "syncProcessedFiles": "ts-node src/syncProcessedFiles.ts",
-    "syncAnnotations": "ts-node src/syncAnnotations.ts",
+  "scripts": { 
+    "syncEpisodes": "ts-node src/01_syncEpisodes.ts",
+    "syncTranscripts": "ts-node src/02_syncTranscripts.ts",
+    "syncProcessedFiles": "ts-node src/03_syncProcessedFiles.ts",
+    "syncAnnotations": "ts-node src/04_syncAnnotations.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
