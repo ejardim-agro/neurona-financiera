@@ -4,7 +4,7 @@ summary: "¿Alguna vez saliste motivadísimo de una charla o curso y dos semanas
 episodeNumber: "349"
 pubDate: "Wed, 26 Mar 2025 03:01:00 +0000"
 duration: 1100
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "cambio de hábitos"
   - "psicología del comportamiento"

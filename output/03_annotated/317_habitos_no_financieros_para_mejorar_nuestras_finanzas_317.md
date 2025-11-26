@@ -4,7 +4,7 @@ summary: "Se parte de la clase abierta de este 21/08 para entender como equilibr
 episodeNumber: "317"
 pubDate: "Wed, 14 Aug 2024 03:01:00 +0000"
 duration: 1316
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "hábitos"
   - "finanzas personales"

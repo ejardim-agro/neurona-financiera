@@ -4,7 +4,7 @@ summary: "El PIT-CNT está juntando firmas para reformar la constitución en lo 
 episodeNumber: "301"
 pubDate: "Wed, 17 Apr 2024 03:01:00 +0000"
 duration: 1235
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "seguridad social"
   - "jubilación"

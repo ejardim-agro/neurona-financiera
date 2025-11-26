@@ -4,7 +4,7 @@ summary: "Imagínate que te vas a ir de vacaciones este verano, seguro elegís u
 episodeNumber: "231"
 pubDate: "Wed, 14 Dec 2022 03:01:00 +0000"
 duration: 1229
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "planificación de vida"
   - "finanzas personales"

@@ -4,7 +4,7 @@ summary: "En este episodio del podcast vamos a hablar de esa planificación que 
 episodeNumber: "024"
 pubDate: "Wed, 12 Dec 2018 04:00:32 +0000"
 duration: 1436
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "planificación financiera"
   - "establecimiento de objetivos"

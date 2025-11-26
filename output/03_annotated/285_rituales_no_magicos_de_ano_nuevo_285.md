@@ -4,7 +4,7 @@ summary: "Existen un conjunto de rituales mágicos que se acostumbran hacer para
 episodeNumber: "285"
 pubDate: "Wed, 27 Dec 2023 03:01:00 +0000"
 duration: 1563
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "finanzas personales"
   - "planificación financiera"

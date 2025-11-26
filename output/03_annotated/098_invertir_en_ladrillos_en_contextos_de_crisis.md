@@ -4,7 +4,7 @@ summary: "Cuando los mercados financieros están a la baja toma fuerza las inver
 episodeNumber: "098"
 pubDate: "Wed, 27 May 2020 03:01:00 +0000"
 duration: 2929
-category: "inversion"
+category: "inversión"
 topics:
   - "bienes raíces"
   - "inversión inmobiliaria"

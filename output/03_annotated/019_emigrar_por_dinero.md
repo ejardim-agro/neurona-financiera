@@ -4,7 +4,7 @@ summary: "Bienvenidos a un nuevo episodio del podcast de Neurona Financiera, don
 episodeNumber: "019"
 pubDate: "Wed, 07 Nov 2018 07:00:38 +0000"
 duration: 1422
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "emigración"
   - "finanzas personales"

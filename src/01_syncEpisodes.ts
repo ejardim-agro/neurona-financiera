@@ -16,6 +16,7 @@ import {
 } from "./utils/episode-number.utils";
 import { generateDownloadPath } from "./utils/path.utils";
 import { loadExistingEpisodes, saveEpisodes } from "./utils/file.utils";
+import { PATHS } from "./config/paths.config";
 
 // Load environment variables from .env file
 dotenv.config();
@@ -31,9 +32,9 @@ if (!PODCAST_URL) {
 // At this point, PODCAST_URL is guaranteed to be defined
 const PODCAST_URL_FINAL = PODCAST_URL;
 
-const OUTPUT_DIR = path.join(__dirname, "..", "input");
-const OUTPUT_FILE = path.join(OUTPUT_DIR, "episodes.json");
-const AUDIO_OUTPUT_DIR = path.join(__dirname, "..", "output", "00_audio_files");
+const OUTPUT_DIR = PATHS.input.dir;
+const OUTPUT_FILE = PATHS.input.episodesFile;
+const AUDIO_OUTPUT_DIR = PATHS.output.audioFiles;
 
 /**
  * Sleep for a random duration between min and max seconds
@@ -313,12 +314,15 @@ async function syncEpisodes(): Promise<void> {
                 existingEpisode.status.processedPath || processedPath,
               annotatedPath:
                 existingEpisode.status.annotatedPath || annotatedPath,
+              // Preserve summarized status from existing episode
+              summarized: existingEpisode.status.summarized ?? true,
             }
           : {
               downloaded,
               transcribed,
               processed: false,
               annotated: false,
+              summarized: false, // New episodes start with summarized: false
               downloadPath,
               transcriptionPath: transcriptPath,
               processedPath: processedPath,

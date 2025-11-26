@@ -4,7 +4,7 @@ summary: "¿Estamos preparados para un imprevisto? Y no, por definición, no pod
 episodeNumber: "184"
 pubDate: "Wed, 19 Jan 2022 03:01:00 +0000"
 duration: 1554
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "fondo de emergencia"
   - "seguros"

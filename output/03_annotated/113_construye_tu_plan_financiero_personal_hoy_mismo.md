@@ -4,7 +4,7 @@ summary: "¿Es posible para una persona de clase media construir un plan financi
 episodeNumber: "113"
 pubDate: "Wed, 09 Sep 2020 03:01:00 +0000"
 duration: 2195
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "planificación financiera"
   - "cancelación de hipoteca"

@@ -4,6 +4,7 @@ import { GoogleGenAI } from "@google/genai";
 import dotenv from "dotenv";
 import { Episode } from "./interfaces/episode.interface";
 import { loadExistingEpisodes, saveEpisodes } from "./utils/file.utils";
+import { PATHS } from "./config/paths.config";
 
 // Load environment variables from .env file
 dotenv.config();
@@ -18,7 +19,7 @@ if (!GEMINI_API_KEY) {
   process.exit(1);
 }
 
-const EPISODES_FILE = path.join(__dirname, "..", "input", "episodes.json");
+const EPISODES_FILE = PATHS.input.episodesFile;
 
 /**
  * Transcribes an MP3 file using the Gemini API

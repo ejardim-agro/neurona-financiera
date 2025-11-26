@@ -4,7 +4,7 @@ summary: "Tener un hijo es una de las cosas más maravillosas que nos puede pasa
 episodeNumber: "163"
 pubDate: "Wed, 25 Aug 2021 03:01:00 +0000"
 duration: 1705
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "presupuesto"
   - "ahorro"

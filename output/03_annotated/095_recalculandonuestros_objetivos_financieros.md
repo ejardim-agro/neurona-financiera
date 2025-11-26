@@ -4,7 +4,7 @@ summary: "Cuándo vamos en el auto a algún lugar y la calle sorpresivamente est
 episodeNumber: "095"
 pubDate: "Tue, 05 May 2020 03:01:00 +0000"
 duration: 1358
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "planificación financiera"
   - "objetivos financieros"

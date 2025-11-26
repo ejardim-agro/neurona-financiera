@@ -4,7 +4,7 @@ summary: "Y un día llegamos a los 200 episodios de Neurona Financiera En este e
 episodeNumber: "200"
 pubDate: "Wed, 11 May 2022 03:01:00 +0000"
 duration: 1572
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "finanzas personales"
   - "planificación financiera"

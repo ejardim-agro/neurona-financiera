@@ -4,7 +4,7 @@ summary: "Existe una herramienta que nos puede ayudara a avanzar mucho más ráp
 episodeNumber: "085"
 pubDate: "Wed, 26 Feb 2020 03:01:00 +0000"
 duration: 1407
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "rendición de cuentas"
   - "planificación financiera"

@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": { 
+  "scripts": {
     "syncEpisodes": "ts-node src/01_syncEpisodes.ts",
     "syncTranscripts": "ts-node src/02_syncTranscripts.ts",
     "syncProcessedFiles": "ts-node src/03_syncProcessedFiles.ts",
     "syncAnnotations": "ts-node src/04_syncAnnotations.ts",
+    "generateSummaries": "ts-node src/05_generateSummaries.ts",
+    "refineCategories": "ts-node src/06_refineCategories.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

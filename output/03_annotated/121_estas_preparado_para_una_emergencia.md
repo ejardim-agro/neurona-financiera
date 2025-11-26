@@ -4,7 +4,7 @@ summary: "No podemos predecir el futuro, pero podemos prepararnos para lo imprev
 episodeNumber: "121"
 pubDate: "Wed, 04 Nov 2020 03:01:00 +0000"
 duration: 1644
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "emergencias financieras"
   - "seguros"

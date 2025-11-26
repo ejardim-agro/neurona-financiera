@@ -4,7 +4,7 @@ summary: "Bienvenidos a una nueva edición del Podcast de Neurona Financiera! En
 episodeNumber: "004"
 pubDate: "Wed, 25 Jul 2018 07:00:20 +0000"
 duration: 1282
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "libertad financiera"
   - "inversión"

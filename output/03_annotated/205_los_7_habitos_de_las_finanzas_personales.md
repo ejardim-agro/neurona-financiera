@@ -4,7 +4,7 @@ summary: "Somos nuestros hábitos. Somos aquellas acciones y pensamientos que re
 episodeNumber: "205"
 pubDate: "Wed, 15 Jun 2022 00:34:26 +0000"
 duration: 1479
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "hábitos financieros"
   - "objetivos financieros"

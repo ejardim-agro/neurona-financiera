@@ -3,7 +3,7 @@ title: "168. El poder oculto de las rutinas"
 summary: "Soy un fan de las rutinas. Creo que tener rutinas nos da libertad, al contrario de lo que dicta el sentido común. Una rutina me permite optimizar y ser más productivo. Me permite dedicar tiempo a lo importante. En este episodio voy a hacer algo que no suelo hacer, voy a hablar de mi. Voy ... Leer más"
 episodeNumber: "168"
 pubDate: "Wed, 29 Sep 2021 03:01:00 +0000"
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "rutinas"
   - "hábitos"

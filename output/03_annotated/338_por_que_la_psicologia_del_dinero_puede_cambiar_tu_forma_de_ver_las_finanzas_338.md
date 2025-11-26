@@ -4,7 +4,7 @@ summary: "Arrancamos el verano con una serie especial sobre el libro La psicolog
 episodeNumber: "338"
 pubDate: "Wed, 08 Jan 2025 03:01:00 +0000"
 duration: 1198
-category: "psicología"
+category: "psicología financiera"
 topics:
   - "psicología del dinero"
   - "comportamiento financiero"

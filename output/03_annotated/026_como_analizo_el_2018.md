@@ -4,7 +4,7 @@ summary: "En el episodio de hoy les cuento como hago un análisis del año y les
 episodeNumber: "026"
 pubDate: "Wed, 26 Dec 2018 03:12:29 +0000"
 duration: 1509
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "análisis financiero"
   - "presupuesto"

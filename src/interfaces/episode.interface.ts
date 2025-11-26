@@ -6,6 +6,7 @@ export interface EpisodeStatus {
   transcribed: boolean;
   processed: boolean;
   annotated: boolean;
+  summarized: boolean; // Whether the episode has been processed in the final summaries
   downloadPath?: string;
   transcriptionPath?: string;
   processedPath?: string;

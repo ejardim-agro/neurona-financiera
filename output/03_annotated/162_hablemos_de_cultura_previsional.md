@@ -4,7 +4,7 @@ summary: "Hace unos meses tuve una charla con Fernando Maeso un gran amigo que s
 episodeNumber: "162"
 pubDate: "Wed, 18 Aug 2021 03:01:00 +0000"
 duration: 1897
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "cultura previsional"
   - "ahorro"

@@ -4,7 +4,7 @@ summary: "Gonzalo es de Artigas, en el norte de Uruguay. El siempre tuvo claro q
 episodeNumber: "115"
 pubDate: "Wed, 23 Sep 2020 03:01:00 +0000"
 duration: 1546
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "costo de vida"
   - "finanzas personales"

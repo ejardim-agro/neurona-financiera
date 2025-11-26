@@ -4,7 +4,7 @@ summary: "¿Estás preparado para quedarte si trabajo? Tenemos la tendencia a pe
 episodeNumber: "063"
 pubDate: "Wed, 25 Sep 2019 03:01:19 +0000"
 duration: 1412
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "seguridad laboral"
   - "fondo de emergencia"

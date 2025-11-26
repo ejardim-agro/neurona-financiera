@@ -4,7 +4,7 @@ summary: "Hace poco más de 10 años comenzaba este proyecto llamado Neurona Fin
 episodeNumber: "223"
 pubDate: "Wed, 19 Oct 2022 03:01:00 +0000"
 duration: 1569
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "plan financiero personal"
   - "psicología del dinero"

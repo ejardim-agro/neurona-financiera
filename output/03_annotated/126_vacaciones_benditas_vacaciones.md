@@ -4,7 +4,7 @@ summary: "Vacaciones, benditas vacaciones.\n\nPongamos a trabajar la neurona fin
 episodeNumber: "126"
 pubDate: "Wed, 09 Dec 2020 03:01:00 +0000"
 duration: 1605
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "vacaciones"
   - "finanzas personales"

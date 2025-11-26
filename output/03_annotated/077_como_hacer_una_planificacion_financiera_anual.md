@@ -4,7 +4,7 @@ summary: "Llega fin de año y nos subimos al carro de los ciclos anuales y nos d
 episodeNumber: "077"
 pubDate: "Wed, 01 Jan 2020 03:01:00 +0000"
 duration: 1477
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "planificación financiera"
   - "presupuesto"

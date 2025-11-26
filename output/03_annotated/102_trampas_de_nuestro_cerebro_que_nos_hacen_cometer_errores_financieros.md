@@ -4,7 +4,7 @@ summary: "Nuestro cerebro tiene como finalidad última la supervivencia de la es
 episodeNumber: "102"
 pubDate: "Wed, 24 Jun 2020 03:01:00 +0000"
 duration: 1482
-category: "psicologia"
+category: "psicología financiera"
 topics:
   - "sesgos cognitivos"
   - "economía del comportamiento"

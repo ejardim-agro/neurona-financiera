@@ -4,7 +4,7 @@ summary: "Una relación de pareja es de alguna forma una sociedad que tiene un f
 episodeNumber: "073"
 pubDate: "Wed, 04 Dec 2019 03:01:00 +0000"
 duration: 1337
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "separación"
   - "divorcio"

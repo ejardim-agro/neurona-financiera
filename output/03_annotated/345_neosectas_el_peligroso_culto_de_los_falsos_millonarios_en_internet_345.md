@@ -4,7 +4,7 @@ summary: "En este episodio de Neurona Financiera desenmascaramos a los gurús de
 episodeNumber: "345"
 pubDate: "Wed, 26 Feb 2025 03:01:00 +0000"
 duration: 1797
-category: "finanzas"
+category: "finanzas personales"
 topics:
   - "sectas financieras"
   - "manipulación en redes sociales"

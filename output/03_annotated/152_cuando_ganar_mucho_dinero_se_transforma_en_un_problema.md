@@ -4,7 +4,7 @@ summary: "Hoy vamos a hablar de la historia de Juana. Juana es una profesional s
 episodeNumber: "152"
 pubDate: "Wed, 09 Jun 2021 08:01:00 +0000"
 duration: 1390
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "planificación financiera"
   - "gestión de gastos"

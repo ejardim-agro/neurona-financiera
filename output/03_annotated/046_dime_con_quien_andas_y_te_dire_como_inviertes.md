@@ -4,7 +4,7 @@ summary: "\"Eres el promedio de las cinco personas con las que más te asocias, 
 episodeNumber: "046"
 pubDate: "Wed, 29 May 2019 04:00:11 +0000"
 duration: 1316
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "desarrollo personal"
   - "relaciones"

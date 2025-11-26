@@ -4,7 +4,7 @@ summary: "Antes de comenzar, recuerda que el próximo 16 de mayo es la clase abi
 episodeNumber: "252"
 pubDate: "Wed, 10 May 2023 03:01:00 +0000"
 duration: 1589
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "destino financiero"
   - "movilidad social"

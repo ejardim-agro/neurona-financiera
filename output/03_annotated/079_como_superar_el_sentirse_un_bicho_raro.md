@@ -4,7 +4,7 @@ summary: "Ser una persona que se preocupa por sus finanzas personales no es com�
 episodeNumber: "079"
 pubDate: "Wed, 15 Jan 2020 03:01:00 +0000"
 duration: 1387
-category: "psicología"
+category: "psicología financiera"
 topics:
   - "presión social"
   - "finanzas personales"

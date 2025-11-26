@@ -4,7 +4,7 @@ summary: "Bienvenidos a un nuevo episodio del podcast de Neurona Financiera, don
 episodeNumber: "010"
 pubDate: "Wed, 05 Sep 2018 08:00:10 +0000"
 duration: 1432
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "plan de retiro"
   - "sistemas previsionales"

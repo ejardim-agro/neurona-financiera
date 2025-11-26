@@ -4,7 +4,7 @@ summary: "En este episodio de Neurona Financiera, abordamos un marco práctico p
 episodeNumber: "350"
 pubDate: "Wed, 02 Apr 2025 03:01:00 +0000"
 duration: 758
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "toma de decisiones financieras"
   - "incertidumbre financiera"

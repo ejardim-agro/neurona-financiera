@@ -4,7 +4,7 @@ summary: "¿Es nuestra responsabilidad como padres asegurarles un patrimonio a n
 episodeNumber: "358"
 pubDate: "Wed, 28 May 2025 03:01:00 +0000"
 duration: 922
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "herencia"
   - "educación financiera"

@@ -4,7 +4,7 @@ summary: "Estamos en problemas. \nLa gente vive más y tiene menos hijos.\n\nY e
 episodeNumber: "119"
 pubDate: "Wed, 21 Oct 2020 03:01:00 +0000"
 duration: 1548
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "jubilación"
   - "sistemas previsionales"

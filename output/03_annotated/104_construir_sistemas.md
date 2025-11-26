@@ -4,7 +4,7 @@ summary: "En el episodio 102 hablábamos de lo malos que somos tomando decisione
 episodeNumber: "104"
 pubDate: "Wed, 08 Jul 2020 03:01:00 +0000"
 duration: 1375
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "sesgos cognitivos"
   - "sistemas financieros"

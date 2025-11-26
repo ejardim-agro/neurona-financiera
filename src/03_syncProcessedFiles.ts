@@ -4,6 +4,16 @@ import { GoogleGenAI } from "@google/genai";
 import dotenv from "dotenv";
 import { Episode } from "./interfaces/episode.interface";
 import { loadExistingEpisodes, saveEpisodes } from "./utils/file.utils";
+import {
+  loadRateLimitTracker,
+  saveRateLimitTracker,
+  canMakeRequest,
+  respectRateLimitPerMinute,
+  recordRequest,
+  RATE_LIMIT_PER_DAY,
+  RateLimitTracker,
+} from "./utils/rate-limit.utils";
+import { PATHS } from "./config/paths.config";
 
 // Load environment variables from .env file
 dotenv.config();
@@ -18,13 +28,12 @@ if (!GEMINI_API_KEY) {
   process.exit(1);
 }
 
-const EPISODES_FILE = path.join(__dirname, "..", "input", "episodes.json");
-const TRANSCRIPTS_DIR = path.join(__dirname, "..", "output", "01_transcripts");
-const PROCESSED_DIR = path.join(__dirname, "..", "output", "02_processed");
-const TEMP_DIR = path.join(__dirname, "..", "output", "02_processed", ".temp");
+const EPISODES_FILE = PATHS.input.episodesFile;
+const TRANSCRIPTS_DIR = PATHS.output.transcripts;
+const PROCESSED_DIR = PATHS.output.processed;
+const TEMP_DIR = PATHS.output.temp;
 
 const BATCH_SIZE = 5;
-const DELAY_BETWEEN_BATCHES_MS = 10 * 1000; // 10 seconds (rate limit: 10 requests/min)
 const TEST_MODE_BATCHES = null; // Set to null to process all batches
 
 /**
@@ -283,6 +292,12 @@ async function syncProcessedFiles(): Promise<void> {
     console.log("  📝 Sync Processed Files");
     console.log("═══════════════════════════════════════════════════════\n");
 
+    // Load rate limit tracker
+    let rateLimitTracker = loadRateLimitTracker();
+    console.log(
+      `📊 Rate limit status: ${rateLimitTracker.requestCount}/${RATE_LIMIT_PER_DAY} requests used today`
+    );
+
     // Load episodes from JSON file
     console.log(`📂 Loading episodes from: ${EPISODES_FILE}`);
     const episodes = loadExistingEpisodes(EPISODES_FILE);
@@ -316,13 +331,37 @@ async function syncProcessedFiles(): Promise<void> {
 
     // Partition into batches
     const batches = partitionIntoBatches(episodesToProcess, BATCH_SIZE);
-    const batchesToProcess = TEST_MODE_BATCHES
-      ? batches.slice(0, TEST_MODE_BATCHES)
-      : batches;
+
+    // Check how many batches we can process with remaining rate limit
+    const { canMake, remaining } = canMakeRequest(rateLimitTracker);
+    if (!canMake) {
+      console.error(
+        `❌ Daily rate limit reached! Used ${rateLimitTracker.requestCount}/${RATE_LIMIT_PER_DAY} requests today.`
+      );
+      console.error(`   Please try again tomorrow.`);
+      process.exit(1);
+    }
+
+    // Limit batches to what we can process today
+    const maxBatchesToProcess = Math.min(
+      batches.length,
+      TEST_MODE_BATCHES || batches.length,
+      remaining
+    );
+    const batchesToProcess = batches.slice(0, maxBatchesToProcess);
 
     if (TEST_MODE_BATCHES) {
       console.log(
         `\n🧪 TEST MODE: Processing first ${TEST_MODE_BATCHES} batch(es)\n`
+      );
+    }
+
+    if (maxBatchesToProcess < batches.length && !TEST_MODE_BATCHES) {
+      console.warn(
+        `⚠️  Warning: ${batches.length} batches available, but only ${remaining} API requests remaining today.`
+      );
+      console.warn(
+        `   Will process ${maxBatchesToProcess} batch(es) now. Run again tomorrow to continue.`
       );
     }
 
@@ -349,6 +388,19 @@ async function syncProcessedFiles(): Promise<void> {
       console.log("───────────────────────────────────────────────────────");
 
       try {
+        // Check rate limit before processing batch
+        const { canMake: canMakeRequestNow } = canMakeRequest(rateLimitTracker);
+        if (!canMakeRequestNow) {
+          console.warn(
+            `⚠️  Daily rate limit reached. Processed ${totalProcessed} episodes.`
+          );
+          console.warn(`   Run the script again tomorrow to continue.`);
+          break; // Stop processing
+        }
+
+        // Respect rate limit per minute
+        await respectRateLimitPerMinute(rateLimitTracker);
+
         // Generate temporary batch file
         console.log(`📄 Generating batch file...`);
         const batchFilePath = generateBatchFile(batchNumber, batch);
@@ -357,6 +409,10 @@ async function syncProcessedFiles(): Promise<void> {
         // Process batch with Gemini API
         console.log(`🤖 Processing batch with Gemini API...`);
         const processedContent = await processBatchWithGemini(batchFilePath);
+
+        // Record the request
+        rateLimitTracker = recordRequest(rateLimitTracker);
+        saveRateLimitTracker(rateLimitTracker);
 
         // Save processed response to temporary file
         const responseFilePath = path.join(
@@ -408,15 +464,8 @@ async function syncProcessedFiles(): Promise<void> {
         saveEpisodes(episodes, EPISODES_FILE);
         console.log(`✅ Episodes status updated in JSON file`);
 
-        // Wait before processing next batch (except for the last batch)
-        if (batchIndex < batchesToProcess.length - 1) {
-          console.log(
-            `\n⏳ Waiting ${
-              DELAY_BETWEEN_BATCHES_MS / 1000
-            } seconds before next batch...`
-          );
-          await sleep(DELAY_BETWEEN_BATCHES_MS);
-        }
+        // Rate limiting is handled by respectRateLimitPerMinute before each batch
+        // No need for additional delay
       } catch (error) {
         totalErrors += batch.length;
         console.error(
@@ -442,6 +491,13 @@ async function syncProcessedFiles(): Promise<void> {
     if (totalErrors > 0) {
       console.log(`   • Errors: ${totalErrors}`);
     }
+    console.log(
+      `\n📊 Rate limit status: ${
+        rateLimitTracker.requestCount
+      }/${RATE_LIMIT_PER_DAY} requests used today (${
+        RATE_LIMIT_PER_DAY - rateLimitTracker.requestCount
+      } remaining)`
+    );
     console.log("═══════════════════════════════════════════════════════\n");
 
     // Clean up temporary files if everything was successful

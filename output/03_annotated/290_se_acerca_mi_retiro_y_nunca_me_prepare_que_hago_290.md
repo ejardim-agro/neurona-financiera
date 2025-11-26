@@ -4,7 +4,7 @@ summary: "Es fácil hablar de inversión en el largo plazo, es fácil explicar e
 episodeNumber: "290"
 pubDate: "Wed, 31 Jan 2024 04:00:00 +0000"
 duration: 1311
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "retiro"
   - "jubilación"

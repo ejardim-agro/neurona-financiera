@@ -4,7 +4,7 @@ summary: "¿Qué diferencia a la profesión de jugador de fútbol del resto? Una
 episodeNumber: "321"
 pubDate: "Wed, 11 Sep 2024 03:01:00 +0000"
 duration: 1300
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "finanzas personales"
   - "planificación financiera"

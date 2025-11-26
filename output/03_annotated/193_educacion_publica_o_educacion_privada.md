@@ -4,7 +4,7 @@ summary: "Es un tema complejo, muy complejo. Cómo padres queremos lo mejor para
 episodeNumber: "193"
 pubDate: "Wed, 23 Mar 2022 03:01:00 +0000"
 duration: 1574
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "educación"
   - "finanzas personales"

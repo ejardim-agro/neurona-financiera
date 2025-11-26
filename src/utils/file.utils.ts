@@ -8,6 +8,7 @@ import { Episode } from "../interfaces/episode.interface";
 
 /**
  * Loads existing episodes from JSON file
+ * Migrates existing episodes to include the 'summarized' field (sets to true for backward compatibility)
  */
 export function loadExistingEpisodes(filePath: string): Episode[] {
   if (!fs.existsSync(filePath)) {
@@ -16,7 +17,21 @@ export function loadExistingEpisodes(filePath: string): Episode[] {
 
   try {
     const existingData = fs.readFileSync(filePath, "utf-8");
-    return JSON.parse(existingData);
+    const episodes: Episode[] = JSON.parse(existingData);
+
+    // Migrate existing episodes: set summarized to true if not present (backward compatibility)
+    return episodes.map((episode) => {
+      if (episode.status && typeof episode.status.summarized === "undefined") {
+        return {
+          ...episode,
+          status: {
+            ...episode.status,
+            summarized: true, // Existing episodes are considered summarized
+          },
+        };
+      }
+      return episode;
+    });
   } catch (error) {
     console.warn(`⚠️  Could not parse existing episodes.json, starting fresh`);
     return [];

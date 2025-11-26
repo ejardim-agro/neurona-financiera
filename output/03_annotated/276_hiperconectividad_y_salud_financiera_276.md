@@ -4,7 +4,7 @@ summary: "Vivimos conectados. Puedo hablar con alguien en cualquier parte del mu
 episodeNumber: "276"
 pubDate: "Wed, 25 Oct 2023 03:01:00 +0000"
 duration: 1452
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "hiperconectividad"
   - "salud financiera"

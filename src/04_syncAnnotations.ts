@@ -6,6 +6,16 @@ import yaml from "js-yaml";
 import { Episode } from "./interfaces/episode.interface";
 import { EpisodeFrontmatter } from "./interfaces/episode-frontmatter.interface";
 import { loadExistingEpisodes, saveEpisodes } from "./utils/file.utils";
+import {
+  loadRateLimitTracker,
+  saveRateLimitTracker,
+  canMakeRequest,
+  respectRateLimitPerMinute,
+  recordRequest,
+  RATE_LIMIT_PER_DAY,
+  RateLimitTracker,
+} from "./utils/rate-limit.utils";
+import { PATHS } from "./config/paths.config";
 
 // Load environment variables from .env file
 dotenv.config();
@@ -20,147 +30,13 @@ if (!GEMINI_API_KEY) {
   process.exit(1);
 }
 
-const EPISODES_FILE = path.join(__dirname, "..", "input", "episodes.json");
-const PROCESSED_DIR = path.join(__dirname, "..", "output", "02_processed");
-const ANNOTATED_DIR = path.join(__dirname, "..", "output", "03_annotated");
-const EXAMPLE_FILE = path.join(
-  __dirname,
-  "interfaces",
-  "episode-frontmatter.example.md"
-);
+const EPISODES_FILE = PATHS.input.episodesFile;
+const PROCESSED_DIR = PATHS.output.processed;
+const ANNOTATED_DIR = PATHS.output.annotated;
+const EXAMPLE_FILE = PATHS.config.exampleFrontmatter;
 
 // Test mode: Set to a number to process only that many episodes, or null to process all
 const TEST_MODE_LIMIT = null; // Set to null to process all episodes
-
-// Rate limiting configuration
-const RATE_LIMIT_PER_MINUTE = 10; // Maximum requests per minute
-const RATE_LIMIT_PER_DAY = 500; // Maximum requests per day
-const MIN_DELAY_BETWEEN_REQUESTS_MS = (60 * 1000) / RATE_LIMIT_PER_MINUTE; // 6 seconds minimum between requests
-
-// File to track daily request count
-const RATE_LIMIT_TRACKER_FILE = path.join(
-  __dirname,
-  "..",
-  "output",
-  "03_annotated",
-  ".rate-limit-tracker.json"
-);
-
-/**
- * Rate limit tracker interface
- */
-interface RateLimitTracker {
-  date: string; // YYYY-MM-DD format
-  requestCount: number;
-  lastRequestTime: number; // Timestamp in milliseconds
-}
-
-/**
- * Gets today's date in YYYY-MM-DD format
- */
-function getTodayDate(): string {
-  return new Date().toISOString().split("T")[0];
-}
-
-/**
- * Loads rate limit tracker from file
- */
-function loadRateLimitTracker(): RateLimitTracker {
-  if (!fs.existsSync(RATE_LIMIT_TRACKER_FILE)) {
-    return {
-      date: getTodayDate(),
-      requestCount: 0,
-      lastRequestTime: 0,
-    };
-  }
-
-  try {
-    const content = fs.readFileSync(RATE_LIMIT_TRACKER_FILE, "utf-8");
-    const tracker = JSON.parse(content) as RateLimitTracker;
-
-    // If tracker is for a different day, reset it
-    if (tracker.date !== getTodayDate()) {
-      return {
-        date: getTodayDate(),
-        requestCount: 0,
-        lastRequestTime: 0,
-      };
-    }
-
-    return tracker;
-  } catch (error) {
-    console.warn(`⚠️  Error loading rate limit tracker: ${error}`);
-    return {
-      date: getTodayDate(),
-      requestCount: 0,
-      lastRequestTime: 0,
-    };
-  }
-}
-
-/**
- * Saves rate limit tracker to file
- */
-function saveRateLimitTracker(tracker: RateLimitTracker): void {
-  try {
-    const dir = path.dirname(RATE_LIMIT_TRACKER_FILE);
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir, { recursive: true });
-    }
-    fs.writeFileSync(
-      RATE_LIMIT_TRACKER_FILE,
-      JSON.stringify(tracker, null, 2),
-      "utf-8"
-    );
-  } catch (error) {
-    console.warn(`⚠️  Error saving rate limit tracker: ${error}`);
-  }
-}
-
-/**
- * Checks if we can make a request (daily limit)
- */
-function canMakeRequest(tracker: RateLimitTracker): {
-  canMake: boolean;
-  remaining: number;
-} {
-  const remaining = RATE_LIMIT_PER_DAY - tracker.requestCount;
-  return {
-    canMake: remaining > 0,
-    remaining: Math.max(0, remaining),
-  };
-}
-
-/**
- * Waits if necessary to respect rate limit per minute
- */
-async function respectRateLimitPerMinute(
-  tracker: RateLimitTracker
-): Promise<void> {
-  const now = Date.now();
-  const timeSinceLastRequest = now - tracker.lastRequestTime;
-
-  if (timeSinceLastRequest < MIN_DELAY_BETWEEN_REQUESTS_MS) {
-    const waitTime = MIN_DELAY_BETWEEN_REQUESTS_MS - timeSinceLastRequest;
-    console.log(
-      `⏳ Rate limiting: waiting ${(waitTime / 1000).toFixed(
-        1
-      )}s before next request...`
-    );
-    await new Promise((resolve) => setTimeout(resolve, waitTime));
-  }
-}
-
-/**
- * Records a request in the tracker
- */
-function recordRequest(tracker: RateLimitTracker): RateLimitTracker {
-  return {
-    ...tracker,
-    requestCount: tracker.requestCount + 1,
-    lastRequestTime: Date.now(),
-  };
-}
 
 /**
  * Converts duration from "HH:MM" or "HH:MM:SS" format to seconds

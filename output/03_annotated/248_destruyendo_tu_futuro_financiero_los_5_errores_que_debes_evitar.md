@@ -4,7 +4,7 @@ summary: "Todos cometemos errores, en especial errores financieros. Algunos de e
 episodeNumber: "248"
 pubDate: "Wed, 12 Apr 2023 03:01:00 +0000"
 duration: 1419
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "ahorro"
   - "inversión"

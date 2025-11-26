@@ -4,7 +4,7 @@ summary: "La planificación estratégica fue una de las disciplinas que me cambi
 episodeNumber: "296"
 pubDate: "Wed, 13 Mar 2024 03:01:00 +0000"
 duration: 1470
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "planificación estratégica"
   - "finanzas personales"

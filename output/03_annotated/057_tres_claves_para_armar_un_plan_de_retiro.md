@@ -4,7 +4,7 @@ summary: "Está bueno armar un plan para llegar a la libertad financiera, pero �
 episodeNumber: "057"
 pubDate: "Wed, 14 Aug 2019 03:01:21 +0000"
 duration: 1527
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "planificación del retiro"
   - "sistemas previsionales"

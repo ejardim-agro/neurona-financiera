@@ -4,7 +4,7 @@ summary: "¿Cuál es la razón de ser de las finanzas personales? En mi opinión
 episodeNumber: "310"
 pubDate: "Wed, 26 Jun 2024 03:01:00 +0000"
 duration: 1110
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "finanzas personales"
   - "bienestar financiero"

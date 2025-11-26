@@ -4,7 +4,7 @@ summary: "En este episodio vamos a hablar de las vacaciones, desde una visión m
 episodeNumber: "025"
 pubDate: "Wed, 19 Dec 2018 05:00:47 +0000"
 duration: 1303
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "vacaciones"
   - "presupuesto"

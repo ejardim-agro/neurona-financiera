@@ -4,7 +4,7 @@ summary: "En estos años he tenido muchos clientes de planificación financiera 
 episodeNumber: "305"
 pubDate: "Wed, 15 May 2024 03:01:00 +0000"
 duration: 1011
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "finanzas personales"
   - "médicos"

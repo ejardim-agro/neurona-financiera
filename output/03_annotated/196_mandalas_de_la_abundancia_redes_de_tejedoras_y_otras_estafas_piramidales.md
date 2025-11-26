@@ -4,7 +4,7 @@ summary: "El otro día me llegó una historia de una persona que estaba siendo t
 episodeNumber: "196"
 pubDate: "Wed, 13 Apr 2022 03:01:00 +0000"
 duration: 1470
-category: "finanzas"
+category: "finanzas personales"
 topics:
   - "esquemas Ponzi"
   - "estafas piramidales"

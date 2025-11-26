@@ -4,7 +4,7 @@ summary: "¿Puede haber terror en el dinero? Si, lo puede haber. Esta historia q
 episodeNumber: "173"
 pubDate: "Sat, 30 Oct 2021 03:01:00 +0000"
 duration: 1553
-category: "psicologia"
+category: "psicología financiera"
 topics:
   - "superstición"
   - "paranoia"

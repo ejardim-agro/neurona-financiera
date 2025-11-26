@@ -4,7 +4,7 @@ summary: "Existen tres mitos super arraigados sobre las finanzas personales que 
 episodeNumber: "112"
 pubDate: "Wed, 02 Sep 2020 03:01:00 +0000"
 duration: 1589
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "libertad financiera"
   - "planificación financiera"

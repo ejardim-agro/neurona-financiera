@@ -4,7 +4,7 @@ summary: "¿Y si el problema con tu dinero no fuera cuánto ganás, sino cómo e
 episodeNumber: "386"
 pubDate: "Wed, 19 Nov 2025 03:01:00 +0000"
 duration: 980
-category: "psicologia del dinero"
+category: "psicología financiera"
 topics:
   - "flujo del dinero"
   - "dinero feliz"

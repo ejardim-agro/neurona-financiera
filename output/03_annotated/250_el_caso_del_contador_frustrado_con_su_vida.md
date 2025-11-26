@@ -4,7 +4,7 @@ summary: "Para festejar el episodio 250 traigo arriba de la mesa un caso, que ha
 episodeNumber: "250"
 pubDate: "Wed, 26 Apr 2023 03:01:00 +0000"
 duration: 1318
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "finanzas personales"
   - "planificación financiera"

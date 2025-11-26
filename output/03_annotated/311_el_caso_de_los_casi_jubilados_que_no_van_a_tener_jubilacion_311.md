@@ -4,7 +4,7 @@ summary: "Imagina que a tus padres les falta poco para su retiro y que sabes de 
 episodeNumber: "311"
 pubDate: "Wed, 03 Jul 2024 03:01:00 +0000"
 duration: 816
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "jubilación"
   - "planificación financiera"

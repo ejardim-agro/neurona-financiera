@@ -4,7 +4,7 @@ summary: "Antes de comenzar les cuento que están abiertas las puertas de mi pro
 episodeNumber: "253"
 pubDate: "Wed, 17 May 2023 03:01:00 +0000"
 duration: 1712
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "disciplina"
   - "hábitos"

@@ -4,7 +4,7 @@ summary: "Llega un momento en la vida de una persona donde toma conciencia de qu
 episodeNumber: "132"
 pubDate: "Wed, 20 Jan 2021 03:01:00 +0000"
 duration: 1599
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "finanzas personales"
   - "salud"

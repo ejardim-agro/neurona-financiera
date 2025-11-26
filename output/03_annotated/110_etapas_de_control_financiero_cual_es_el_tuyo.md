@@ -4,7 +4,7 @@ summary: "Todo proceso de aprendizaje tiene etapas y el control financiero no es
 episodeNumber: "110"
 pubDate: "Wed, 19 Aug 2020 03:01:00 +0000"
 duration: 1430
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "etapas del control financiero"
   - "inteligencia financiera"

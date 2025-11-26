@@ -4,7 +4,7 @@ summary: "Argentina atraviesa un contexto de crisis y por eso muchas personas me
 episodeNumber: "081"
 pubDate: "Wed, 29 Jan 2020 03:01:00 +0000"
 duration: 1547
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "emigración"
   - "Uruguay"

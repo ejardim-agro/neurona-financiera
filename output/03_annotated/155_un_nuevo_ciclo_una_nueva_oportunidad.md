@@ -4,7 +4,7 @@ summary: "Es normal usar el ciclo del año para el planteo de objetivos… pero 
 episodeNumber: "155"
 pubDate: "Wed, 30 Jun 2021 03:01:00 +0000"
 duration: 1404
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "finanzas personales"
   - "establecimiento de objetivos"

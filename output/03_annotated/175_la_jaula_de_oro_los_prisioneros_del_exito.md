@@ -4,7 +4,7 @@ summary: "¿Conoces el concepto de jaula de oro? Es algo mucho más común de lo
 episodeNumber: "175"
 pubDate: "Wed, 17 Nov 2021 03:01:00 +0000"
 duration: 1293
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "satisfacción laboral"
   - "finanzas personales"

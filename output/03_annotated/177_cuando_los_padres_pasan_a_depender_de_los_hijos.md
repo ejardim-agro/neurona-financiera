@@ -4,7 +4,7 @@ summary: "A la hora de proyectar nuestra vida nos construimos una historia… un
 episodeNumber: "177"
 pubDate: "Wed, 01 Dec 2021 03:01:00 +0000"
 duration: 1715
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "cuidado de padres ancianos"
   - "finanzas personales"

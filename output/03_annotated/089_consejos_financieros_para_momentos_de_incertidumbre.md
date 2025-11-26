@@ -4,7 +4,7 @@ summary: "En momentos de incertidumbre es bueno tener una caja de herramientas c
 episodeNumber: "089"
 pubDate: "Wed, 25 Mar 2020 03:01:00 +0000"
 duration: 1458
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "presupuesto"
   - "deuda"

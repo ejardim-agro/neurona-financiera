@@ -4,7 +4,7 @@ summary: "Las mujeres que se ocupan de sus finanzas personales son una minoría.
 episodeNumber: "059"
 pubDate: "Wed, 28 Aug 2019 03:01:18 +0000"
 duration: 1328
-category: "finanzas"
+category: "finanzas personales"
 topics:
   - "finanzas personales"
   - "roles de género"

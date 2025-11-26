@@ -4,7 +4,7 @@ summary: "Está genial comenzar joven a preparar nuestro retiro. Tenemos tiempo 
 episodeNumber: "065"
 pubDate: "Wed, 09 Oct 2019 03:01:15 +0000"
 duration: 1642
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "jubilación"
   - "finanzas personales"

@@ -4,7 +4,7 @@ summary: "Muchas personas me están haciendo llegar preguntas relacionadas con e
 episodeNumber: "094"
 pubDate: "Wed, 29 Apr 2020 03:01:00 +0000"
 duration: 2275
-category: "finanzas"
+category: "finanzas personales"
 topics:
   - "sistema previsional"
   - "AFAP"

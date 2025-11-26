@@ -4,7 +4,7 @@ summary: "El otro día preguntaba el Instagram sobre dudas con el sistema previs
 episodeNumber: "187"
 pubDate: "Wed, 09 Feb 2022 03:01:00 +0000"
 duration: 2106
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "sistema previsional"
   - "AFAP"

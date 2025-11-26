@@ -4,7 +4,7 @@ summary: "«Lo primero es la casa propia» «Alquilar es tirar la plata» Dos ca
 episodeNumber: "237"
 pubDate: "Wed, 25 Jan 2023 03:01:00 +0000"
 duration: 1598
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "casa propia"
   - "alquiler"

@@ -4,7 +4,7 @@ summary: "Hay una herramienta que es fundamental para cualquiera que quiera domi
 episodeNumber: "084"
 pubDate: "Wed, 19 Feb 2020 03:01:00 +0000"
 duration: 1528
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "presupuesto"
   - "finanzas personales"

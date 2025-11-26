@@ -4,7 +4,7 @@ summary: "En este episodio hablamos de los desafíos financieros (y de los otros
 episodeNumber: "088"
 pubDate: "Wed, 18 Mar 2020 03:01:00 +0000"
 duration: 1764
-category: "finanzas"
+category: "finanzas personales"
 topics:
   - "coronavirus"
   - "finanzas personales"

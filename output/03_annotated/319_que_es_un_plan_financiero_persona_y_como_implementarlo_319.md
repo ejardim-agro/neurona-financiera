@@ -4,7 +4,7 @@ summary: "En este episodio, Maru, que es un pilar fundamental en la comunidad de
 episodeNumber: "319"
 pubDate: "Wed, 28 Aug 2024 03:01:00 +0000"
 duration: 1944
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "planificación financiera personal"
   - "comunidad financiera"

@@ -4,7 +4,7 @@ summary: "Uruguay está cambiando… menos nacimientos, más longevidad, migraci
 episodeNumber: "369"
 pubDate: "Wed, 23 Jul 2025 03:01:00 +0000"
 duration: 1099
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "demografía"
   - "planificación financiera"

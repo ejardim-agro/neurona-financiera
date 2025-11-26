@@ -4,7 +4,7 @@ summary: "Si sos de los que cuando llega diciembre comienza a pensar como planif
 episodeNumber: "230"
 pubDate: "Wed, 07 Dec 2022 03:01:00 +0000"
 duration: 1357
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "planificación financiera"
   - "presupuesto"

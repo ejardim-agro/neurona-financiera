@@ -4,7 +4,7 @@ summary: "La premisa de este espacio es aprender a usar el dinero como herramien
 episodeNumber: "251"
 pubDate: "Wed, 03 May 2023 03:01:00 +0000"
 duration: 1333
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "objetivos financieros"
   - "planificación financiera"

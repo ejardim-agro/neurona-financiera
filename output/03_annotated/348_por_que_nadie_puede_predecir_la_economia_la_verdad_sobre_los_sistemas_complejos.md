@@ -4,7 +4,7 @@ summary: "¿Por qué es tan difícil predecir la economía? Porque no vivimos en
 episodeNumber: "348"
 pubDate: "Wed, 19 Mar 2025 03:01:00 +0000"
 duration: 1156
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "sistemas complejos"
   - "finanzas personales"

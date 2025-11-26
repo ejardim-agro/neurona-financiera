@@ -4,7 +4,7 @@ summary: "¿Existe la crisis de los 40 o es un mito? Yo tengo mi propia teoría,
 episodeNumber: "149"
 pubDate: "Wed, 19 May 2021 03:01:00 +0000"
 duration: 1366
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "crisis de los 40"
   - "finanzas personales"

@@ -4,7 +4,7 @@ summary: "Se parte de la clase abierta donde vamos a aprender a construir un map
 episodeNumber: "294"
 pubDate: "Wed, 28 Feb 2024 03:01:00 +0000"
 duration: 1103
-category: "planificación"
+category: "planificación financiera"
 topics:
   - "ingresos variables"
   - "presupuesto"
