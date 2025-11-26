@@ -1,0 +1,122 @@
+# categories_raw
+
+- ahorro
+- análisis
+- aprendizaje
+- bienestar
+- calidad de vida
+- consumo
+- desarrollo personal
+- deuda
+- economía
+- emprendimiento
+- estilo de vida
+- familia
+- filosofía
+- finanzas en pareja
+- finanzas personales
+- fundamentos
+- historia
+- historias
+- hogar
+- ingresos
+- inspiración
+- inversión
+- jubilación
+- liderazgo
+- marketing
+- mentalidad
+- negociación
+- negocios
+- oportunidades
+- planificación financiera
+- podcast
+- productividad
+- psicologia financiera
+- psicología financiera
+- reflexiones
+- salud
+- seguridad
+- ventas
+
+# categories_mapping
+
+- ahorro => Ahorros
+- análisis => Análisis
+- aprendizaje => Aprendizaje
+- bienestar => Bienestar
+- calidad de vida => Calidad De Vida
+- consumo => Consumo
+- desarrollo personal => Desarrollo Personal
+- deuda => Deudas
+- economía => Economía
+- emprendimiento => Emprendimiento
+- estilo de vida => Estilo De Vida
+- familia => Familia
+- filosofía => Filosofía
+- finanzas en pareja => Finanzas En Pareja
+- finanzas personales => Finanzas Personales
+- fundamentos => Fundamentos
+- historia => Historias
+- historias => Historias
+- hogar => Hogar
+- ingresos => Ingresos
+- inspiración => Inspiración
+- inversión => Inversiones
+- jubilación => Jubilación
+- liderazgo => Liderazgo
+- marketing => Marketing
+- mentalidad => Mentalidad
+- negociación => Negociación
+- negocios => Negocios
+- oportunidades => Oportunidades
+- planificación financiera => Planificación Financiera
+- podcast => Podcasts
+- productividad => Productividad
+- psicologia financiera => Psicología Financiera
+- psicología financiera => Psicología Financiera
+- reflexiones => Reflexiones
+- salud => Salud
+- seguridad => Seguridad
+- ventas => Ventas
+
+# categories_extended
+
+- ahorro => Ahorros
+- análisis => Análisis Financiero
+- aprendizaje => Aprendizaje Financiero
+- bienestar => Salud Y Bienestar
+- calidad de vida => Calidad De Vida
+- consumo => Consumo
+- desarrollo personal => Desarrollo Personal
+- deuda => Gestión De Deudas
+- economía => Economía
+- emprendimiento => Negocios Y Emprendimiento
+- estilo de vida => Estilo De Vida
+- familia => Finanzas Familiares
+- filosofía => Filosofía
+- finanzas en pareja => Finanzas En Pareja
+- finanzas personales => Finanzas Personales
+- fundamentos => Fundamentos Financieros
+- historia => Historias E Inspiración
+- historias => Historias E Inspiración
+- hogar => Finanzas Del Hogar
+- ingresos => Generación De Ingresos
+- inspiración => Historias E Inspiración
+- inversión => Inversiones
+- jubilación => Planificación Para La Jubilación
+- liderazgo => Liderazgo
+- marketing => Marketing Y Ventas
+- mentalidad => Mentalidad Financiera
+- negociación => Negociación
+- negocios => Negocios Y Emprendimiento
+- oportunidades => Oportunidades Financieras
+- planificación financiera => Planificación Financiera
+- podcast => Podcasts
+- productividad => Productividad Personal
+- psicologia financiera => Psicología Financiera
+- psicología financiera => Psicología Financiera
+- reflexiones => Reflexiones
+- salud => Salud Y Bienestar
+- seguridad => Seguridad Financiera
+- ventas => Marketing Y Ventas

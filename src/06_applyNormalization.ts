@@ -18,7 +18,11 @@ function readMarkdownWithFrontmatter(filePath: string): {
   frontmatter: string;
   content: string;
 } {
-  const fullPath = path.join(process.cwd(), filePath);
+  // Resolve path - handle both absolute and relative paths
+  const fullPath = path.isAbsolute(filePath)
+    ? filePath
+    : path.resolve(process.cwd(), filePath);
+
   if (!fs.existsSync(fullPath)) {
     throw new Error(`File not found: ${fullPath}`);
   }
@@ -129,13 +133,9 @@ function applyNormalizationToEpisode(
     throw new Error(`Episode ${episode.episode} has no annotated path`);
   }
 
-  const annotatedFilePath = path.join(
-    process.cwd(),
-    episode.status.annotatedPath
-  );
-  const { frontmatter, content } = readMarkdownWithFrontmatter(
-    annotatedFilePath
-  );
+  const annotatedFilePath = episode.status.annotatedPath;
+  const { frontmatter, content } =
+    readMarkdownWithFrontmatter(annotatedFilePath);
   const parsed = parseFrontmatter(frontmatter);
 
   // Apply mappings
@@ -151,18 +151,22 @@ function applyNormalizationToEpisode(
 
   // Apply topics mapping
   if (parsed.topics && parsed.topics.length > 0) {
-    normalized.topics = parsed.topics.map((topic) => {
+    const mappedTopics = parsed.topics.map((topic) => {
       const extendedTopic = mappings.topics.get(topic);
       return extendedTopic || topic;
     });
+    // Remove duplicates while preserving order
+    normalized.topics = Array.from(new Set(mappedTopics));
   }
 
   // Apply tags mapping
   if (parsed.tags && parsed.tags.length > 0) {
-    normalized.tags = parsed.tags.map((tag) => {
+    const mappedTags = parsed.tags.map((tag) => {
       const extendedTag = mappings.tags.get(tag);
       return extendedTag || tag;
     });
+    // Remove duplicates while preserving order
+    normalized.tags = Array.from(new Set(mappedTags));
   }
 
   // Generate normalized frontmatter
@@ -208,7 +212,9 @@ function applyNormalization(): void {
       (ep) => ep.status.normalized.refined && !ep.status.normalized.applied
     );
     console.log(
-      `📊 Found ${episodesToProcess.length} episodes to process (${allEpisodes.length - episodesToProcess.length} already applied)`
+      `📊 Found ${episodesToProcess.length} episodes to process (${
+        allEpisodes.length - episodesToProcess.length
+      } already applied)`
     );
 
     if (episodesToProcess.length === 0) {
@@ -243,7 +249,9 @@ function applyNormalization(): void {
 
         processedCount++;
         if (processedCount % 10 === 0) {
-          console.log(`  Processed ${processedCount}/${episodesToProcess.length} episodes...`);
+          console.log(
+            `  Processed ${processedCount}/${episodesToProcess.length} episodes...`
+          );
         }
       } catch (error) {
         console.error(
@@ -268,7 +276,9 @@ function applyNormalization(): void {
     console.log("\n✅ Normalization application completed!");
     console.log("\n📝 Next steps:");
     console.log("   1. Review normalized files in 04_normalized/");
-    console.log("   2. Run 07_syncSummaries script to generate glossary and chapters");
+    console.log(
+      "   2. Run 07_syncSummaries script to generate glossary and chapters"
+    );
   } catch (error) {
     console.error("\n❌ Error applying normalization:", error);
     if (error instanceof Error) {
@@ -280,4 +290,3 @@ function applyNormalization(): void {
 
 // Run the apply function
 applyNormalization();
-

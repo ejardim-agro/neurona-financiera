@@ -42,7 +42,11 @@ function readMarkdownWithFrontmatter(filePath: string): {
   frontmatter: string;
   content: string;
 } {
-  const fullPath = path.join(process.cwd(), filePath);
+  // Resolve path - handle both absolute and relative paths
+  const fullPath = path.isAbsolute(filePath)
+    ? filePath
+    : path.resolve(process.cwd(), filePath);
+
   if (!fs.existsSync(fullPath)) {
     throw new Error(`File not found: ${fullPath}`);
   }
@@ -540,7 +544,7 @@ function getEpisodeExtendedCategory(episode: Episode): string | null {
     return null;
   }
 
-  const filePath = path.join(process.cwd(), episode.status.normalizedPath);
+  const filePath = episode.status.normalizedPath;
   try {
     const { frontmatter } = readMarkdownWithFrontmatter(filePath);
     const parsed = parseFrontmatter(frontmatter);
@@ -575,11 +579,9 @@ function generatePreCategoryFile(
       continue;
     }
 
-    const filePath = path.join(process.cwd(), episode.status.normalizedPath);
+    const filePath = episode.status.normalizedPath;
     try {
-      const { content: episodeContent } = readMarkdownWithFrontmatter(
-        filePath
-      );
+      const { content: episodeContent } = readMarkdownWithFrontmatter(filePath);
       content += `${episodeContent}\n\n---\n\n`;
     } catch (error) {
       console.warn(
@@ -718,7 +720,7 @@ async function syncSummaries(): Promise<void> {
         continue;
       }
 
-      const filePath = path.join(process.cwd(), episode.status.normalizedPath);
+      const filePath = episode.status.normalizedPath;
       try {
         const { frontmatter } = readMarkdownWithFrontmatter(filePath);
         const parsed = parseFrontmatter(frontmatter);
@@ -746,7 +748,7 @@ async function syncSummaries(): Promise<void> {
         continue;
       }
 
-      const filePath = path.join(process.cwd(), episode.status.normalizedPath);
+      const filePath = episode.status.normalizedPath;
       try {
         const { frontmatter } = readMarkdownWithFrontmatter(filePath);
         const parsed = parseFrontmatter(frontmatter);
@@ -837,10 +839,7 @@ async function syncSummaries(): Promise<void> {
       // Generate pre-file
       const preContent = generatePreCategoryFile(category, episodes);
       const categorySlug = slugifyCategory(category);
-      const preFilePath = path.join(
-        SUMMARIZED_DIR,
-        `__pre_${categorySlug}.md`
-      );
+      const preFilePath = path.join(SUMMARIZED_DIR, `__pre_${categorySlug}.md`);
       fs.writeFileSync(preFilePath, preContent, "utf-8");
       console.log(`  ✅ Generated: __pre_${categorySlug}.md`);
 
@@ -890,7 +889,9 @@ async function syncSummaries(): Promise<void> {
 
     console.log("\n✅ Summary synchronization completed!");
     console.log(
-      `\n📊 Rate limit status: ${tracker.requestCount}/${RATE_LIMIT_PER_DAY} requests used today (${
+      `\n📊 Rate limit status: ${
+        tracker.requestCount
+      }/${RATE_LIMIT_PER_DAY} requests used today (${
         RATE_LIMIT_PER_DAY - tracker.requestCount
       } remaining)`
     );
@@ -908,4 +909,3 @@ syncSummaries().catch((error) => {
   console.error("Fatal error:", error);
   process.exit(1);
 });
-

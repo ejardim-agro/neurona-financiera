@@ -314,15 +314,36 @@ async function syncEpisodes(): Promise<void> {
                 existingEpisode.status.processedPath || processedPath,
               annotatedPath:
                 existingEpisode.status.annotatedPath || annotatedPath,
-              // Preserve summarized status from existing episode
-              summarized: existingEpisode.status.summarized ?? true,
+              // Ensure normalized field exists (migration support)
+              normalized: existingEpisode.status.normalized || {
+                refined: false,
+                applied: false,
+              },
+              // Ensure summarized has new structure (migration support)
+              summarized:
+                typeof existingEpisode.status.summarized === "boolean"
+                  ? {
+                      glossarized: existingEpisode.status.summarized,
+                      clustered: existingEpisode.status.summarized,
+                    }
+                  : existingEpisode.status.summarized || {
+                      glossarized: false,
+                      clustered: false,
+                    },
             }
           : {
               downloaded,
               transcribed,
               processed: false,
               annotated: false,
-              summarized: false, // New episodes start with summarized: false
+              summarized: {
+                glossarized: false,
+                clustered: false,
+              },
+              normalized: {
+                refined: false,
+                applied: false,
+              },
               downloadPath,
               transcriptionPath: transcriptPath,
               processedPath: processedPath,

@@ -42,7 +42,11 @@ function readMarkdownWithFrontmatter(filePath: string): {
   frontmatter: string;
   content: string;
 } {
-  const fullPath = path.join(process.cwd(), filePath);
+  // Resolve path - handle both absolute and relative paths
+  const fullPath = path.isAbsolute(filePath)
+    ? filePath
+    : path.resolve(process.cwd(), filePath);
+
   if (!fs.existsSync(fullPath)) {
     throw new Error(`File not found: ${fullPath}`);
   }
@@ -102,7 +106,7 @@ async function suggestCategoryForEpisode(
     throw new Error(`Episode ${episode.episode} has no annotated path`);
   }
 
-  const filePath = path.join(process.cwd(), episode.status.annotatedPath);
+  const filePath = episode.status.annotatedPath;
   const { content } = readMarkdownWithFrontmatter(filePath);
 
   const prompt = `Analiza el siguiente contenido de un episodio de podcast sobre finanzas personales y sugiere UNA categoría apropiada.
@@ -182,7 +186,7 @@ async function validateAndFixCategories(
       continue;
     }
 
-    const filePath = path.join(process.cwd(), episode.status.annotatedPath);
+    const filePath = episode.status.annotatedPath;
     const { frontmatter } = readMarkdownWithFrontmatter(filePath);
     const parsed = parseFrontmatter(frontmatter);
 
@@ -198,8 +202,11 @@ async function validateAndFixCategories(
         );
         tracker = loadRateLimitTracker(); // Reload after API call
 
-        // Update the file
-        const content = fs.readFileSync(filePath, "utf-8");
+        // Update the file - resolve path first
+        const resolvedPath = path.isAbsolute(filePath)
+          ? filePath
+          : path.resolve(process.cwd(), filePath);
+        const content = fs.readFileSync(resolvedPath, "utf-8");
         const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/);
 
         if (frontmatterMatch) {
@@ -219,7 +226,7 @@ async function validateAndFixCategories(
             frontmatterMatch[0],
             `---\n${updatedFrontmatter}\n---`
           );
-          fs.writeFileSync(filePath, updatedContent, "utf-8");
+          fs.writeFileSync(resolvedPath, updatedContent, "utf-8");
           fixedCount++;
         }
       } catch (error) {
@@ -252,7 +259,7 @@ function extractUniqueValues(
       continue;
     }
 
-    const filePath = path.join(process.cwd(), episode.status.annotatedPath);
+    const filePath = episode.status.annotatedPath;
     try {
       const { frontmatter } = readMarkdownWithFrontmatter(filePath);
       const parsed = parseFrontmatter(frontmatter);
@@ -262,15 +269,43 @@ function extractUniqueValues(
           values.add(parsed.category);
         }
       } else if (field === "topics" && parsed.topics) {
-        for (const topic of parsed.topics) {
-          if (topic) {
-            values.add(topic);
+        if (!Array.isArray(parsed.topics)) {
+          console.warn(
+            `⚠️  Episode ${episode.episode}: topics is not an array:`,
+            typeof parsed.topics,
+            parsed.topics
+          );
+        } else {
+          for (const topic of parsed.topics) {
+            if (topic && typeof topic === "string") {
+              values.add(topic);
+            } else {
+              console.warn(
+                `⚠️  Episode ${episode.episode}: invalid topic value:`,
+                topic,
+                typeof topic
+              );
+            }
           }
         }
       } else if (field === "tags" && parsed.tags) {
-        for (const tag of parsed.tags) {
-          if (tag) {
-            values.add(tag);
+        if (!Array.isArray(parsed.tags)) {
+          console.warn(
+            `⚠️  Episode ${episode.episode}: tags is not an array:`,
+            typeof parsed.tags,
+            parsed.tags
+          );
+        } else {
+          for (const tag of parsed.tags) {
+            if (tag && typeof tag === "string") {
+              values.add(tag);
+            } else {
+              console.warn(
+                `⚠️  Episode ${episode.episode}: invalid tag value:`,
+                tag,
+                typeof tag
+              );
+            }
           }
         }
       }
@@ -284,6 +319,7 @@ function extractUniqueValues(
 
 /**
  * Generates cleaning mapping using Gemini API
+ * Processes values in batches to avoid response truncation
  */
 async function generateCleaningMapping(
   values: string[],
@@ -291,19 +327,35 @@ async function generateCleaningMapping(
   tracker: RateLimitTracker
 ): Promise<Map<string, string>> {
   const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
+  const BATCH_SIZE = 150; // Process 150 values at a time to avoid truncation
+  const allMappings = new Map<string, string>();
 
-  // Check rate limit
-  const { canMake } = canMakeRequest(tracker);
-  if (!canMake) {
-    throw new Error("Daily rate limit reached. Please try again tomorrow.");
-  }
+  console.log(
+    `  📦 Processing ${values.length} values in batches of ${BATCH_SIZE}...`
+  );
 
-  // Respect rate limit per minute
-  await respectRateLimitPerMinute(tracker);
+  // Process in batches
+  for (let i = 0; i < values.length; i += BATCH_SIZE) {
+    const batch = values.slice(i, i + BATCH_SIZE);
+    const batchNumber = Math.floor(i / BATCH_SIZE) + 1;
+    const totalBatches = Math.ceil(values.length / BATCH_SIZE);
 
-  const valuesList = values.map((v, idx) => `${idx + 1}. ${v}`).join("\n");
+    console.log(
+      `  📦 Processing batch ${batchNumber}/${totalBatches} (${batch.length} values)...`
+    );
 
-  const prompt = `Analiza los siguientes ${field} de un podcast sobre finanzas personales y genera un mapeo que corrija:
+    // Check rate limit
+    const { canMake } = canMakeRequest(tracker);
+    if (!canMake) {
+      throw new Error("Daily rate limit reached. Please try again tomorrow.");
+    }
+
+    // Respect rate limit per minute
+    await respectRateLimitPerMinute(tracker);
+
+    const valuesList = batch.map((v, idx) => `${idx + 1}. ${v}`).join("\n");
+
+    const prompt = `Analiza los siguientes ${field} de un podcast sobre finanzas personales y genera un mapeo que corrija:
 - Faltas de ortografía
 - Capitalización incorrecta (usa título case: primera letra de cada palabra en mayúscula)
 - Tildes faltantes
@@ -313,7 +365,7 @@ ${field}:
 ${valuesList}
 
 IMPORTANTE:
-- Responde SOLO con un JSON en el formato:
+- Responde SOLO con un JSON válido y completo en el formato:
 {
   "${field}_original_1": "${field}_corregido_1",
   "${field}_original_2": "${field}_corregido_2",
@@ -323,6 +375,7 @@ IMPORTANTE:
 - Prioriza plural sobre singular cuando corresponda
 - Usa tildes correctas en español
 - Capitaliza como título (primera letra de cada palabra en mayúscula)
+- Asegúrate de que el JSON esté completo y bien formado
 
 Ejemplo:
 {
@@ -331,71 +384,199 @@ Ejemplo:
   "operaciones financieras": "Operaciones Financieras"
 }`;
 
-  try {
-    const response = await ai.models.generateContent({
-      model: GEMINI_CONFIG.MODEL,
-      contents: [
-        {
-          role: "user",
-          parts: [{ text: prompt }],
-        },
-      ],
-    });
+    try {
+      const response = await ai.models.generateContent({
+        model: GEMINI_CONFIG.MODEL,
+        contents: [
+          {
+            role: "user",
+            parts: [{ text: prompt }],
+          },
+        ],
+      });
 
-    if (
-      !response.candidates ||
-      !response.candidates[0] ||
-      !response.candidates[0].content
-    ) {
-      throw new Error("No response received from Gemini API");
-    }
-
-    const parts = response.candidates[0].content.parts;
-    if (!parts || parts.length === 0) {
-      throw new Error("No text content in response");
-    }
-
-    const responseText = parts
-      .filter((part: any) => part.text)
-      .map((part: any) => part.text)
-      .join("\n")
-      .trim();
-
-    // Extract JSON from response
-    let jsonText = responseText;
-    const jsonMatch = responseText.match(/```json\s*([\s\S]*?)\s*```/);
-    if (jsonMatch) {
-      jsonText = jsonMatch[1];
-    } else {
-      const jsonObjectMatch = responseText.match(/\{[\s\S]*\}/);
-      if (jsonObjectMatch) {
-        jsonText = jsonObjectMatch[0];
+      if (
+        !response.candidates ||
+        !response.candidates[0] ||
+        !response.candidates[0].content
+      ) {
+        throw new Error("No response received from Gemini API");
       }
+
+      const parts = response.candidates[0].content.parts;
+      if (!parts || parts.length === 0) {
+        throw new Error("No text content in response");
+      }
+
+      const responseText = parts
+        .filter((part: any) => part.text)
+        .map((part: any) => part.text)
+        .join("\n")
+        .trim();
+
+      console.log(
+        `  📥 Raw response length: ${responseText.length} characters`
+      );
+      console.log(`  📥 First 500 chars: ${responseText.substring(0, 500)}...`);
+      console.log(
+        `  📥 Last 200 chars: ...${responseText.substring(
+          Math.max(0, responseText.length - 200)
+        )}`
+      );
+
+      // Extract JSON from response - try multiple strategies
+      let jsonText: string | null = null;
+
+      // Strategy 1: Try to extract JSON from markdown code blocks with json tag
+      const jsonMatch = responseText.match(/```json\s*([\s\S]*?)\s*```/);
+      if (jsonMatch && jsonMatch[1]) {
+        jsonText = jsonMatch[1].trim();
+        console.log(
+          `  ✅ Strategy 1: Extracted JSON from markdown code block with json tag`
+        );
+      } else {
+        // Strategy 2: Try to extract JSON from code blocks without language tag
+        const codeBlockMatch = responseText.match(/```\s*([\s\S]*?)\s*```/);
+        if (codeBlockMatch && codeBlockMatch[1]) {
+          const extracted = codeBlockMatch[1].trim();
+          // Check if it looks like JSON (starts with {)
+          if (extracted.startsWith("{")) {
+            jsonText = extracted;
+            console.log(
+              `  ✅ Strategy 2: Extracted JSON from code block without language tag`
+            );
+          }
+        }
+      }
+
+      // Strategy 3: Try to find JSON object directly (look for first { to last })
+      if (!jsonText) {
+        const firstBrace = responseText.indexOf("{");
+        const lastBrace = responseText.lastIndexOf("}");
+        if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+          jsonText = responseText.substring(firstBrace, lastBrace + 1);
+          console.log(`  ✅ Strategy 3: Extracted JSON object directly`);
+        }
+      }
+
+      if (!jsonText) {
+        console.error(
+          `  ❌ Could not find JSON in response for batch ${batchNumber}`
+        );
+        console.error(`  📄 Full response (first 1000 chars):`);
+        console.error(responseText.substring(0, 1000));
+        console.error(`  📄 Full response (last 1000 chars):`);
+        console.error(
+          responseText.substring(Math.max(0, responseText.length - 1000))
+        );
+        throw new Error(
+          `No valid JSON found in response for batch ${batchNumber}`
+        );
+      }
+
+      // Verify JSON is complete (check if it ends properly)
+      const trimmedJson = jsonText.trim();
+      if (!trimmedJson.endsWith("}")) {
+        console.warn(
+          `  ⚠️  JSON appears to be truncated in batch ${batchNumber}, attempting to fix...`
+        );
+        // Try to find the last complete entry
+        const lastCompleteEntry = trimmedJson.lastIndexOf('",');
+        if (lastCompleteEntry !== -1) {
+          // Find the opening brace of that entry
+          const entryStart = trimmedJson.lastIndexOf(
+            '"',
+            lastCompleteEntry - 1
+          );
+          if (entryStart !== -1) {
+            jsonText = trimmedJson.substring(0, entryStart) + '"}';
+            console.log(`  ✅ Attempted to fix truncated JSON`);
+          } else {
+            throw new Error(
+              `JSON appears to be truncated and cannot be fixed for batch ${batchNumber}`
+            );
+          }
+        } else {
+          throw new Error(
+            `JSON appears to be truncated and cannot be fixed for batch ${batchNumber}`
+          );
+        }
+      }
+
+      console.log(`  📝 Extracted JSON length: ${jsonText.length} characters`);
+      console.log(
+        `  📝 First 300 chars of JSON: ${jsonText.substring(0, 300)}...`
+      );
+      console.log(
+        `  📝 Last 200 chars of JSON: ...${jsonText.substring(
+          Math.max(0, jsonText.length - 200)
+        )}`
+      );
+
+      let mapping: Record<string, string>;
+      try {
+        mapping = JSON.parse(jsonText) as Record<string, string>;
+        console.log(
+          `  ✅ Successfully parsed JSON (${
+            Object.keys(mapping).length
+          } entries)`
+        );
+      } catch (parseError) {
+        console.error(
+          `  ❌ JSON parse error:`,
+          parseError instanceof Error ? parseError.message : parseError
+        );
+        console.error(`  📄 JSON text that failed to parse (first 500 chars):`);
+        console.error(jsonText.substring(0, 500));
+        console.error(`  📄 JSON text that failed to parse (last 500 chars):`);
+        console.error(jsonText.substring(Math.max(0, jsonText.length - 500)));
+        throw parseError;
+      }
+
+      // Record the request
+      tracker = recordRequest(tracker);
+      saveRateLimitTracker(tracker);
+
+      // Merge batch mappings into all mappings
+      for (const [key, value] of Object.entries(mapping)) {
+        if (typeof key === "string" && typeof value === "string") {
+          allMappings.set(key, value);
+        }
+      }
+
+      console.log(
+        `  ✅ Batch ${batchNumber}/${totalBatches} completed (${
+          Object.keys(mapping).length
+        } mappings)`
+      );
+    } catch (error) {
+      console.error(
+        `\n❌ Error generating cleaning mapping for batch ${batchNumber}/${totalBatches} of ${field}:`,
+        error instanceof Error ? error.message : error
+      );
+      if (error instanceof Error && error.stack) {
+        console.error(`   Stack trace:`, error.stack);
+      }
+      console.error(
+        `   Batch values (${batch.length} items):`,
+        batch.slice(0, 10)
+      );
+      console.error(
+        `\n💥 Aborting execution due to error in cleaning mapping generation`
+      );
+      throw error; // Abort execution instead of returning identity mapping
     }
-
-    const mapping = JSON.parse(jsonText);
-
-    // Record the request
-    tracker = recordRequest(tracker);
-    saveRateLimitTracker(tracker);
-
-    return new Map<string, string>(Object.entries(mapping));
-  } catch (error) {
-    console.error(
-      `Error generating cleaning mapping for ${field}:`,
-      error instanceof Error ? error.message : error
-    );
-    // Return identity mapping on error
-    const identityMap = new Map<string, string>();
-    for (const value of values) {
-      identityMap.set(value, value);
-    }
-    return identityMap;
   }
+
+  console.log(
+    `  ✅ All batches completed. Total mappings: ${allMappings.size}`
+  );
+  return allMappings;
 }
 
 /**
  * Generates semantic/extended mapping using Gemini API
+ * Processes values in batches to avoid response truncation
  */
 async function generateSemanticMapping(
   cleanedValues: string[],
@@ -403,19 +584,35 @@ async function generateSemanticMapping(
   tracker: RateLimitTracker
 ): Promise<Map<string, string>> {
   const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
+  const BATCH_SIZE = 150; // Process 150 values at a time to avoid truncation
+  const allMappings = new Map<string, string>();
 
-  // Check rate limit
-  const { canMake } = canMakeRequest(tracker);
-  if (!canMake) {
-    throw new Error("Daily rate limit reached. Please try again tomorrow.");
-  }
+  console.log(
+    `  📦 Processing ${cleanedValues.length} values in batches of ${BATCH_SIZE}...`
+  );
 
-  // Respect rate limit per minute
-  await respectRateLimitPerMinute(tracker);
+  // Process in batches
+  for (let i = 0; i < cleanedValues.length; i += BATCH_SIZE) {
+    const batch = cleanedValues.slice(i, i + BATCH_SIZE);
+    const batchNumber = Math.floor(i / BATCH_SIZE) + 1;
+    const totalBatches = Math.ceil(cleanedValues.length / BATCH_SIZE);
 
-  const valuesList = cleanedValues.map((v, idx) => `${idx + 1}. ${v}`).join("\n");
+    console.log(
+      `  📦 Processing batch ${batchNumber}/${totalBatches} (${batch.length} values)...`
+    );
 
-  const prompt = `Analiza los siguientes ${field} corregidos de un podcast sobre finanzas personales, economía, etc., y agrupa los que son similares o variaciones del mismo concepto bajo un término más amplio y adecuado.
+    // Check rate limit
+    const { canMake } = canMakeRequest(tracker);
+    if (!canMake) {
+      throw new Error("Daily rate limit reached. Please try again tomorrow.");
+    }
+
+    // Respect rate limit per minute
+    await respectRateLimitPerMinute(tracker);
+
+    const valuesList = batch.map((v, idx) => `${idx + 1}. ${v}`).join("\n");
+
+    const prompt = `Analiza los siguientes ${field} corregidos de un podcast sobre finanzas personales, economía, etc., y agrupa los que son similares o variaciones del mismo concepto bajo un término más amplio y adecuado.
 
 ${field} corregidos:
 ${valuesList}
@@ -425,7 +622,7 @@ Ejemplos de agrupación:
 - "inversión", "inversión en acciones", "inversión en bonos" → "Inversión"
 
 IMPORTANTE:
-- Responde SOLO con un JSON en el formato:
+- Responde SOLO con un JSON válido y completo en el formato:
 {
   "${field}_corregido_1": "${field}_extendido_1",
   "${field}_corregido_2": "${field}_extendido_2",
@@ -436,6 +633,7 @@ IMPORTANTE:
 - Prioriza términos más específicos y descriptivos cuando corresponda
 - Usa español con acentos correctos
 - Capitaliza como título (primera letra de cada palabra en mayúscula)
+- Asegúrate de que el JSON esté completo y bien formado
 
 Ejemplo:
 {
@@ -444,67 +642,194 @@ Ejemplo:
   "psicología financiera": "Psicología Financiera"
 }`;
 
-  try {
-    const response = await ai.models.generateContent({
-      model: GEMINI_CONFIG.MODEL,
-      contents: [
-        {
-          role: "user",
-          parts: [{ text: prompt }],
-        },
-      ],
-    });
+    try {
+      const response = await ai.models.generateContent({
+        model: GEMINI_CONFIG.MODEL,
+        contents: [
+          {
+            role: "user",
+            parts: [{ text: prompt }],
+          },
+        ],
+      });
 
-    if (
-      !response.candidates ||
-      !response.candidates[0] ||
-      !response.candidates[0].content
-    ) {
-      throw new Error("No response received from Gemini API");
-    }
-
-    const parts = response.candidates[0].content.parts;
-    if (!parts || parts.length === 0) {
-      throw new Error("No text content in response");
-    }
-
-    const responseText = parts
-      .filter((part: any) => part.text)
-      .map((part: any) => part.text)
-      .join("\n")
-      .trim();
-
-    // Extract JSON from response
-    let jsonText = responseText;
-    const jsonMatch = responseText.match(/```json\s*([\s\S]*?)\s*```/);
-    if (jsonMatch) {
-      jsonText = jsonMatch[1];
-    } else {
-      const jsonObjectMatch = responseText.match(/\{[\s\S]*\}/);
-      if (jsonObjectMatch) {
-        jsonText = jsonObjectMatch[0];
+      if (
+        !response.candidates ||
+        !response.candidates[0] ||
+        !response.candidates[0].content
+      ) {
+        throw new Error("No response received from Gemini API");
       }
+
+      const parts = response.candidates[0].content.parts;
+      if (!parts || parts.length === 0) {
+        throw new Error("No text content in response");
+      }
+
+      const responseText = parts
+        .filter((part: any) => part.text)
+        .map((part: any) => part.text)
+        .join("\n")
+        .trim();
+
+      console.log(
+        `  📥 Raw response length: ${responseText.length} characters`
+      );
+      console.log(`  📥 First 500 chars: ${responseText.substring(0, 500)}...`);
+      console.log(
+        `  📥 Last 200 chars: ...${responseText.substring(
+          Math.max(0, responseText.length - 200)
+        )}`
+      );
+
+      // Extract JSON from response - try multiple strategies
+      let jsonText: string | null = null;
+
+      // Strategy 1: Try to extract JSON from markdown code blocks with json tag
+      const jsonMatch = responseText.match(/```json\s*([\s\S]*?)\s*```/);
+      if (jsonMatch && jsonMatch[1]) {
+        jsonText = jsonMatch[1].trim();
+        console.log(
+          `  ✅ Strategy 1: Extracted JSON from markdown code block with json tag`
+        );
+      } else {
+        // Strategy 2: Try to extract JSON from code blocks without language tag
+        const codeBlockMatch = responseText.match(/```\s*([\s\S]*?)\s*```/);
+        if (codeBlockMatch && codeBlockMatch[1]) {
+          const extracted = codeBlockMatch[1].trim();
+          // Check if it looks like JSON (starts with {)
+          if (extracted.startsWith("{")) {
+            jsonText = extracted;
+            console.log(
+              `  ✅ Strategy 2: Extracted JSON from code block without language tag`
+            );
+          }
+        }
+      }
+
+      // Strategy 3: Try to find JSON object directly (look for first { to last })
+      if (!jsonText) {
+        const firstBrace = responseText.indexOf("{");
+        const lastBrace = responseText.lastIndexOf("}");
+        if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+          jsonText = responseText.substring(firstBrace, lastBrace + 1);
+          console.log(`  ✅ Strategy 3: Extracted JSON object directly`);
+        }
+      }
+
+      if (!jsonText) {
+        console.error(
+          `  ❌ Could not find JSON in response for batch ${batchNumber}`
+        );
+        console.error(`  📄 Full response (first 1000 chars):`);
+        console.error(responseText.substring(0, 1000));
+        console.error(`  📄 Full response (last 1000 chars):`);
+        console.error(
+          responseText.substring(Math.max(0, responseText.length - 1000))
+        );
+        throw new Error(
+          `No valid JSON found in response for batch ${batchNumber}`
+        );
+      }
+
+      // Verify JSON is complete (check if it ends properly)
+      const trimmedJson = jsonText.trim();
+      if (!trimmedJson.endsWith("}")) {
+        console.warn(
+          `  ⚠️  JSON appears to be truncated in batch ${batchNumber}, attempting to fix...`
+        );
+        // Try to find the last complete entry
+        const lastCompleteEntry = trimmedJson.lastIndexOf('",');
+        if (lastCompleteEntry !== -1) {
+          // Find the opening brace of that entry
+          const entryStart = trimmedJson.lastIndexOf(
+            '"',
+            lastCompleteEntry - 1
+          );
+          if (entryStart !== -1) {
+            jsonText = trimmedJson.substring(0, entryStart) + '"}';
+            console.log(`  ✅ Attempted to fix truncated JSON`);
+          } else {
+            throw new Error(
+              `JSON appears to be truncated and cannot be fixed for batch ${batchNumber}`
+            );
+          }
+        } else {
+          throw new Error(
+            `JSON appears to be truncated and cannot be fixed for batch ${batchNumber}`
+          );
+        }
+      }
+
+      console.log(`  📝 Extracted JSON length: ${jsonText.length} characters`);
+      console.log(
+        `  📝 First 300 chars of JSON: ${jsonText.substring(0, 300)}...`
+      );
+      console.log(
+        `  📝 Last 200 chars of JSON: ...${jsonText.substring(
+          Math.max(0, jsonText.length - 200)
+        )}`
+      );
+
+      let mapping: Record<string, string>;
+      try {
+        mapping = JSON.parse(jsonText) as Record<string, string>;
+        console.log(
+          `  ✅ Successfully parsed JSON (${
+            Object.keys(mapping).length
+          } entries)`
+        );
+      } catch (parseError) {
+        console.error(
+          `  ❌ JSON parse error:`,
+          parseError instanceof Error ? parseError.message : parseError
+        );
+        console.error(`  📄 JSON text that failed to parse (first 500 chars):`);
+        console.error(jsonText.substring(0, 500));
+        console.error(`  📄 JSON text that failed to parse (last 500 chars):`);
+        console.error(jsonText.substring(Math.max(0, jsonText.length - 500)));
+        throw parseError;
+      }
+
+      // Record the request
+      tracker = recordRequest(tracker);
+      saveRateLimitTracker(tracker);
+
+      // Merge batch mappings into all mappings
+      for (const [key, value] of Object.entries(mapping)) {
+        if (typeof key === "string" && typeof value === "string") {
+          allMappings.set(key, value);
+        }
+      }
+
+      console.log(
+        `  ✅ Batch ${batchNumber}/${totalBatches} completed (${
+          Object.keys(mapping).length
+        } mappings)`
+      );
+    } catch (error) {
+      console.error(
+        `\n❌ Error generating semantic mapping for batch ${batchNumber}/${totalBatches} of ${field}:`,
+        error instanceof Error ? error.message : error
+      );
+      if (error instanceof Error && error.stack) {
+        console.error(`   Stack trace:`, error.stack);
+      }
+      console.error(
+        `   Batch values (${batch.length} items):`,
+        batch.slice(0, 10)
+      );
+      console.error(
+        `\n💥 Aborting execution due to error in semantic mapping generation`
+      );
+      throw error; // Abort execution instead of returning identity mapping
     }
-
-    const mapping = JSON.parse(jsonText);
-
-    // Record the request
-    tracker = recordRequest(tracker);
-    saveRateLimitTracker(tracker);
-
-    return new Map<string, string>(Object.entries(mapping));
-  } catch (error) {
-    console.error(
-      `Error generating semantic mapping for ${field}:`,
-      error instanceof Error ? error.message : error
-    );
-    // Return identity mapping on error
-    const identityMap = new Map<string, string>();
-    for (const value of cleanedValues) {
-      identityMap.set(value, value);
-    }
-    return identityMap;
   }
+
+  console.log(
+    `  ✅ All batches completed. Total mappings: ${allMappings.size}`
+  );
+  return allMappings;
 }
 
 /**
@@ -639,7 +964,7 @@ function validateFinalMappings(
       continue;
     }
 
-    const filePath = path.join(process.cwd(), episode.status.annotatedPath);
+    const filePath = episode.status.annotatedPath;
     try {
       const { frontmatter } = readMarkdownWithFrontmatter(filePath);
       const parsed = parseFrontmatter(frontmatter);
@@ -699,11 +1024,15 @@ async function refineFrontmatterMetadata(): Promise<void> {
       (ep) => !ep.status.normalized.refined
     );
     console.log(
-      `📊 Found ${episodesToProcess.length} episodes to process (${allEpisodes.length - episodesToProcess.length} already refined)`
+      `📊 Found ${episodesToProcess.length} episodes to process (${
+        allEpisodes.length - episodesToProcess.length
+      } already refined)`
     );
 
     if (episodesToProcess.length === 0) {
-      console.log("ℹ️  No episodes to process. All episodes are already refined.");
+      console.log(
+        "ℹ️  No episodes to process. All episodes are already refined."
+      );
       return;
     }
 
@@ -728,8 +1057,17 @@ async function refineFrontmatterMetadata(): Promise<void> {
       console.log(`\n📝 Processing ${field}...`);
 
       // Extract unique values
+      console.log(
+        `  🔍 Extracting unique ${field} from ${episodesToProcess.length} episodes...`
+      );
       const uniqueValues = extractUniqueValues(episodesToProcess, field);
-      console.log(`  Found ${uniqueValues.size} unique ${field}`);
+      console.log(`  ✅ Found ${uniqueValues.size} unique ${field}`);
+      if (uniqueValues.size > 0 && uniqueValues.size <= 10) {
+        console.log(
+          `  📋 Sample values:`,
+          Array.from(uniqueValues).slice(0, 10)
+        );
+      }
 
       // Load existing mappings
       const mappingFilePath = path.join(
@@ -891,4 +1229,3 @@ refineFrontmatterMetadata().catch((error) => {
   console.error("Fatal error:", error);
   process.exit(1);
 });
-
