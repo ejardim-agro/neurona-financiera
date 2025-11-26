@@ -16,8 +16,8 @@
       "processedPath": "output/02_processed/001_podcast_de_finanzas_personales_e_inversion.md",
       "annotatedPath": "output/03_annotated/001_podcast_de_finanzas_personales_e_inversion.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -43,8 +43,8 @@
       "processedPath": "output/02_processed/002_el_ahorro.md",
       "annotatedPath": "output/03_annotated/002_el_ahorro.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -70,8 +70,8 @@
       "processedPath": "output/02_processed/003_fundamentos_basicos_de_inversion.md",
       "annotatedPath": "output/03_annotated/003_fundamentos_basicos_de_inversion.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -97,8 +97,8 @@
       "processedPath": "output/02_processed/004_desmistificando_la_libertad_financiera.md",
       "annotatedPath": "output/03_annotated/004_desmistificando_la_libertad_financiera.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -124,8 +124,8 @@
       "processedPath": "output/02_processed/005_preguntas_hipotecas_prestamos_e_inversiones.md",
       "annotatedPath": "output/03_annotated/005_preguntas_hipotecas_prestamos_e_inversiones.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -151,8 +151,8 @@
       "processedPath": "output/02_processed/006_el_primer_paso_fondo_de_emergencia.md",
       "annotatedPath": "output/03_annotated/006_el_primer_paso_fondo_de_emergencia.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -178,8 +178,8 @@
       "processedPath": "output/02_processed/007_tomando_el_control_de_los_gastos.md",
       "annotatedPath": "output/03_annotated/007_tomando_el_control_de_los_gastos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -205,8 +205,8 @@
       "processedPath": "output/02_processed/008_el_caso_de_juan_divorciado_endeudado_y_gastador_compulsivo.md",
       "annotatedPath": "output/03_annotated/008_el_caso_de_juan_divorciado_endeudado_y_gastador_compulsivo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -232,8 +232,8 @@
       "processedPath": "output/02_processed/009_comprar_alquilar_hipotecar_dudar.md",
       "annotatedPath": "output/03_annotated/009_comprar_alquilar_hipotecar_dudar.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -259,8 +259,8 @@
       "processedPath": "output/02_processed/010_construyendo_un_plan_de_retiro.md",
       "annotatedPath": "output/03_annotated/010_construyendo_un_plan_de_retiro.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -286,8 +286,8 @@
       "processedPath": "output/02_processed/011_inversion_seguros_pago_del_colegio_y_deudas_en_dolares.md",
       "annotatedPath": "output/03_annotated/011_inversion_seguros_pago_del_colegio_y_deudas_en_dolares.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -313,8 +313,8 @@
       "processedPath": "output/02_processed/012_interes_compuesto_en_la_vida_real.md",
       "annotatedPath": "output/03_annotated/012_interes_compuesto_en_la_vida_real.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -340,8 +340,8 @@
       "processedPath": "output/02_processed/013_la_accion_como_motor_para_todo.md",
       "annotatedPath": "output/03_annotated/013_la_accion_como_motor_para_todo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -367,8 +367,8 @@
       "processedPath": "output/02_processed/014_ganar_mas_dinero_sin_experiencia_ni_cv.md",
       "annotatedPath": "output/03_annotated/014_ganar_mas_dinero_sin_experiencia_ni_cv.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -394,8 +394,8 @@
       "processedPath": "output/02_processed/015_ganar_dinero_prestando_dinero.md",
       "annotatedPath": "output/03_annotated/015_ganar_dinero_prestando_dinero.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -421,8 +421,8 @@
       "processedPath": "output/02_processed/016_preguntas_inversiones_refugio_de_valor_y_mas.md",
       "annotatedPath": "output/03_annotated/016_preguntas_inversiones_refugio_de_valor_y_mas.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -448,8 +448,8 @@
       "processedPath": "output/02_processed/017_consumo_inteligente.md",
       "annotatedPath": "output/03_annotated/017_consumo_inteligente.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -475,8 +475,8 @@
       "processedPath": "output/02_processed/018_gestion_de_tiempo.md",
       "annotatedPath": "output/03_annotated/018_gestion_de_tiempo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -502,8 +502,8 @@
       "processedPath": "output/02_processed/019_emigrar_por_dinero.md",
       "annotatedPath": "output/03_annotated/019_emigrar_por_dinero.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -529,8 +529,8 @@
       "processedPath": "output/02_processed/020_preguntas_sura_conahorro_y_tarjetas_de_credito.md",
       "annotatedPath": "output/03_annotated/020_preguntas_sura_conahorro_y_tarjetas_de_credito.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -556,8 +556,8 @@
       "processedPath": "output/02_processed/021_creditos_de_consumo.md",
       "annotatedPath": "output/03_annotated/021_creditos_de_consumo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -583,8 +583,8 @@
       "processedPath": "output/02_processed/022_invertir_en_acciones.md",
       "annotatedPath": "output/03_annotated/022_invertir_en_acciones.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -610,8 +610,8 @@
       "processedPath": "output/02_processed/023_minimalismo.md",
       "annotatedPath": "output/03_annotated/023_minimalismo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -637,8 +637,8 @@
       "processedPath": "output/02_processed/024_planificando_el_2019.md",
       "annotatedPath": "output/03_annotated/024_planificando_el_2019.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -664,8 +664,8 @@
       "processedPath": "output/02_processed/025_vacaciones_gasto_o_inversion.md",
       "annotatedPath": "output/03_annotated/025_vacaciones_gasto_o_inversion.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -691,8 +691,8 @@
       "processedPath": "output/02_processed/026_como_analizo_el_2018.md",
       "annotatedPath": "output/03_annotated/026_como_analizo_el_2018.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -718,8 +718,8 @@
       "processedPath": "output/02_processed/027_tips_para_este_2019.md",
       "annotatedPath": "output/03_annotated/027_tips_para_este_2019.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -745,8 +745,8 @@
       "processedPath": "output/02_processed/028_en_que_moneda_ahorro.md",
       "annotatedPath": "output/03_annotated/028_en_que_moneda_ahorro.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -772,8 +772,8 @@
       "processedPath": "output/02_processed/029_fondos_de_inversion_buena_idea.md",
       "annotatedPath": "output/03_annotated/029_fondos_de_inversion_buena_idea.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -799,8 +799,8 @@
       "processedPath": "output/02_processed/030_vacaciones_preguntas_y_respuestas.md",
       "annotatedPath": "output/03_annotated/030_vacaciones_preguntas_y_respuestas.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -826,8 +826,8 @@
       "processedPath": "output/02_processed/031_economia_real.md",
       "annotatedPath": "output/03_annotated/031_economia_real.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -853,8 +853,8 @@
       "processedPath": "output/02_processed/032_negocios_multinivel.md",
       "annotatedPath": "output/03_annotated/032_negocios_multinivel.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -880,8 +880,8 @@
       "processedPath": "output/02_processed/033_finanzas_y_pareja_toma_1.md",
       "annotatedPath": "output/03_annotated/033_finanzas_y_pareja_toma_1.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -907,8 +907,8 @@
       "processedPath": "output/02_processed/034_preguntas_de_carnaval.md",
       "annotatedPath": "output/03_annotated/034_preguntas_de_carnaval.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -934,8 +934,8 @@
       "processedPath": "output/02_processed/035_revisando_nuestra_relacion_con_el_dinero.md",
       "annotatedPath": "output/03_annotated/035_revisando_nuestra_relacion_con_el_dinero.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -961,8 +961,8 @@
       "processedPath": "output/02_processed/036_economia_real_la_venta.md",
       "annotatedPath": "output/03_annotated/036_economia_real_la_venta.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -988,8 +988,8 @@
       "processedPath": "output/02_processed/037_invirtiendo_en_etf.md",
       "annotatedPath": "output/03_annotated/037_invirtiendo_en_etf.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1015,8 +1015,8 @@
       "processedPath": "output/02_processed/038_preguntas_respuestas_de_abril.md",
       "annotatedPath": "output/03_annotated/038_preguntas_respuestas_de_abril.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1042,8 +1042,8 @@
       "processedPath": "output/02_processed/039_una_historia_de_estafa.md",
       "annotatedPath": "output/03_annotated/039_una_historia_de_estafa.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1069,8 +1069,8 @@
       "processedPath": "output/02_processed/040_invirtiendo_en_un_negocio_existente.md",
       "annotatedPath": "output/03_annotated/040_invirtiendo_en_un_negocio_existente.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1096,8 +1096,8 @@
       "processedPath": "output/02_processed/041_que_es_el_trading.md",
       "annotatedPath": "output/03_annotated/041_que_es_el_trading.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1123,8 +1123,8 @@
       "processedPath": "output/02_processed/042_en_que_invertir.md",
       "annotatedPath": "output/03_annotated/042_en_que_invertir.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1150,8 +1150,8 @@
       "processedPath": "output/02_processed/043_asumiendo_nuestra_responsabilidad.md",
       "annotatedPath": "output/03_annotated/043_asumiendo_nuestra_responsabilidad.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1177,8 +1177,8 @@
       "processedPath": "output/02_processed/044_ser_unico_para_ganar_mas.md",
       "annotatedPath": "output/03_annotated/044_ser_unico_para_ganar_mas.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1204,8 +1204,8 @@
       "processedPath": "output/02_processed/045_inversion_inmobiliaria.md",
       "annotatedPath": "output/03_annotated/045_inversion_inmobiliaria.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1231,8 +1231,8 @@
       "processedPath": "output/02_processed/046_dime_con_quien_andas_y_te_dire_como_inviertes.md",
       "annotatedPath": "output/03_annotated/046_dime_con_quien_andas_y_te_dire_como_inviertes.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1258,8 +1258,8 @@
       "processedPath": "output/02_processed/047_el_caso_de_la_hipoteca_arrepentida.md",
       "annotatedPath": "output/03_annotated/047_el_caso_de_la_hipoteca_arrepentida.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1285,8 +1285,8 @@
       "processedPath": "output/02_processed/048_ninos_y_educacion_financiera.md",
       "annotatedPath": "output/03_annotated/048_ninos_y_educacion_financiera.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1312,8 +1312,8 @@
       "processedPath": "output/02_processed/049_como_vivir_de_vender_un_servicio.md",
       "annotatedPath": "output/03_annotated/049_como_vivir_de_vender_un_servicio.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1339,8 +1339,8 @@
       "processedPath": "output/02_processed/050_una_historia_de_estafa_piramidal_alberto_chang.md",
       "annotatedPath": "output/03_annotated/050_una_historia_de_estafa_piramidal_alberto_chang.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1366,8 +1366,8 @@
       "processedPath": "output/02_processed/051_un_ano_de_podcast.md",
       "annotatedPath": "output/03_annotated/051_un_ano_de_podcast.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1393,8 +1393,8 @@
       "processedPath": "output/02_processed/052_preguntas_para_entender_como_estamos.md",
       "annotatedPath": "output/03_annotated/052_preguntas_para_entender_como_estamos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1420,8 +1420,8 @@
       "processedPath": "output/02_processed/053_notas_convertibles_o_como_ser_socio_de_una_startup.md",
       "annotatedPath": "output/03_annotated/053_notas_convertibles_o_como_ser_socio_de_una_startup.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1447,8 +1447,8 @@
       "processedPath": "output/02_processed/054_la_democratizacion_de_las_inversiones.md",
       "annotatedPath": "output/03_annotated/054_la_democratizacion_de_las_inversiones.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1474,8 +1474,8 @@
       "processedPath": "output/02_processed/055_que_piensan_los_ninos_sobre_el_dinero.md",
       "annotatedPath": "output/03_annotated/055_que_piensan_los_ninos_sobre_el_dinero.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1501,8 +1501,8 @@
       "processedPath": "output/02_processed/056_libertad_financiera_los_numeros.md",
       "annotatedPath": "output/03_annotated/056_libertad_financiera_los_numeros.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1528,8 +1528,8 @@
       "processedPath": "output/02_processed/057_tres_claves_para_armar_un_plan_de_retiro.md",
       "annotatedPath": "output/03_annotated/057_tres_claves_para_armar_un_plan_de_retiro.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1555,8 +1555,8 @@
       "processedPath": "output/02_processed/058_como_calcular_el_valor_de_una_empresa.md",
       "annotatedPath": "output/03_annotated/058_como_calcular_el_valor_de_una_empresa.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1582,8 +1582,8 @@
       "processedPath": "output/02_processed/059_las_mujeres_y_las_finanzas_personales.md",
       "annotatedPath": "output/03_annotated/059_las_mujeres_y_las_finanzas_personales.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1609,8 +1609,8 @@
       "processedPath": "output/02_processed/060_ahorrar_vs_disfrutar_es_asi.md",
       "annotatedPath": "output/03_annotated/060_ahorrar_vs_disfrutar_es_asi.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1636,8 +1636,8 @@
       "processedPath": "output/02_processed/061_tres_claves_para_mejorar_un_negocio.md",
       "annotatedPath": "output/03_annotated/061_tres_claves_para_mejorar_un_negocio.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1663,8 +1663,8 @@
       "processedPath": "output/02_processed/062_mas_alla_de_una_buena_salsa_bbq.md",
       "annotatedPath": "output/03_annotated/062_mas_alla_de_una_buena_salsa_bbq.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1690,8 +1690,8 @@
       "processedPath": "output/02_processed/063_estas_preparado_para_quedarte_sin_trabajo.md",
       "annotatedPath": "output/03_annotated/063_estas_preparado_para_quedarte_sin_trabajo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1717,8 +1717,8 @@
       "processedPath": "output/02_processed/064_como_ahorrar_mucho_en_este_ultimo_trimestre.md",
       "annotatedPath": "output/03_annotated/064_como_ahorrar_mucho_en_este_ultimo_trimestre.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1744,8 +1744,8 @@
       "processedPath": "output/02_processed/065_finanzas_para_mayores_de_50.md",
       "annotatedPath": "output/03_annotated/065_finanzas_para_mayores_de_50.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1771,8 +1771,8 @@
       "processedPath": "output/02_processed/066_tarjetas_de_credito_al_desnudo.md",
       "annotatedPath": "output/03_annotated/066_tarjetas_de_credito_al_desnudo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1798,8 +1798,8 @@
       "processedPath": "output/02_processed/067_analisis_de_tendencias_e_inversion.md",
       "annotatedPath": "output/03_annotated/067_analisis_de_tendencias_e_inversion.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1825,8 +1825,8 @@
       "processedPath": "output/02_processed/068_fundamentos_de_marketing_para_vender.md",
       "annotatedPath": "output/03_annotated/068_fundamentos_de_marketing_para_vender.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1852,8 +1852,8 @@
       "processedPath": "output/02_processed/069_algunos_tips_a_la_hora_de_viajar.md",
       "annotatedPath": "output/03_annotated/069_algunos_tips_a_la_hora_de_viajar.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1879,8 +1879,8 @@
       "processedPath": "output/02_processed/070_que_harias_si_manana_te_llega_mucho_dinero_y_quisieras_comenzar_a_invertir.md",
       "annotatedPath": "output/03_annotated/070_que_harias_si_manana_te_llega_mucho_dinero_y_quisieras_comenzar_a_invertir.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1906,8 +1906,8 @@
       "processedPath": "output/02_processed/071_aprender_a_comer_para_vivir_mejor_ahorrar_dinero_y_ser_mas_feliz.md",
       "annotatedPath": "output/03_annotated/071_aprender_a_comer_para_vivir_mejor_ahorrar_dinero_y_ser_mas_feliz.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1933,8 +1933,8 @@
       "processedPath": "output/02_processed/072_emprender_en_pareja.md",
       "annotatedPath": "output/03_annotated/072_emprender_en_pareja.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1960,8 +1960,8 @@
       "processedPath": "output/02_processed/073_finanzas_y_pareja_toma_2_la_separacion.md",
       "annotatedPath": "output/03_annotated/073_finanzas_y_pareja_toma_2_la_separacion.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -1987,8 +1987,8 @@
       "processedPath": "output/02_processed/074_psicologia_del_consumo_un_superpoder_para_ser_mas_feliz.md",
       "annotatedPath": "output/03_annotated/074_psicologia_del_consumo_un_superpoder_para_ser_mas_feliz.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2014,8 +2014,8 @@
       "processedPath": "output/02_processed/075_buscar_inversion_para_mi_empresa.md",
       "annotatedPath": "output/03_annotated/075_buscar_inversion_para_mi_empresa.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2041,8 +2041,8 @@
       "processedPath": "output/02_processed/076_especial_de_navidad.md",
       "annotatedPath": "output/03_annotated/076_especial_de_navidad.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2068,8 +2068,8 @@
       "processedPath": "output/02_processed/077_como_hacer_una_planificacion_financiera_anual.md",
       "annotatedPath": "output/03_annotated/077_como_hacer_una_planificacion_financiera_anual.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2095,8 +2095,8 @@
       "processedPath": "output/02_processed/078_operar_en_bolsa_con_comisiones_cero_como_llegamos_a_esto.md",
       "annotatedPath": "output/03_annotated/078_operar_en_bolsa_con_comisiones_cero_como_llegamos_a_esto.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2122,8 +2122,8 @@
       "processedPath": "output/02_processed/079_como_superar_el_sentirse_un_bicho_raro.md",
       "annotatedPath": "output/03_annotated/079_como_superar_el_sentirse_un_bicho_raro.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2149,8 +2149,8 @@
       "processedPath": "output/02_processed/080_aprendizaje_de_una_historia_de_venta.md",
       "annotatedPath": "output/03_annotated/080_aprendizaje_de_una_historia_de_venta.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2176,8 +2176,8 @@
       "processedPath": "output/02_processed/081_argentinos_que_hay_que_saber_antes_de_querer_mudarse_a_uruguay.md",
       "annotatedPath": "output/03_annotated/081_argentinos_que_hay_que_saber_antes_de_querer_mudarse_a_uruguay.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2203,8 +2203,8 @@
       "processedPath": "output/02_processed/082_el_placer_de_prepararnos_para_el_siguiente_ciclo_del_ano.md",
       "annotatedPath": "output/03_annotated/082_el_placer_de_prepararnos_para_el_siguiente_ciclo_del_ano.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2230,8 +2230,8 @@
       "processedPath": "output/02_processed/083_todo_sobre_los_habitos_entrevista_a_matias_salom_de_superhabitos.md",
       "annotatedPath": "output/03_annotated/083_todo_sobre_los_habitos_entrevista_a_matias_salom_de_superhabitos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2257,8 +2257,8 @@
       "processedPath": "output/02_processed/084_como_elaborar_un_presupuesto.md",
       "annotatedPath": "output/03_annotated/084_como_elaborar_un_presupuesto.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2284,8 +2284,8 @@
       "processedPath": "output/02_processed/085_rendir_cuentas_para_avanzar.md",
       "annotatedPath": "output/03_annotated/085_rendir_cuentas_para_avanzar.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2311,8 +2311,8 @@
       "processedPath": "output/02_processed/086_como_influye_el_contexto_actual_en_nuestro_bolsillo.md",
       "annotatedPath": "output/03_annotated/086_como_influye_el_contexto_actual_en_nuestro_bolsillo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2338,8 +2338,8 @@
       "processedPath": "output/02_processed/087_por_que_la_brecha_de_genero_nos_hace_mas_pobres.md",
       "annotatedPath": "output/03_annotated/087_por_que_la_brecha_de_genero_nos_hace_mas_pobres.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2365,8 +2365,8 @@
       "processedPath": "output/02_processed/088_el_coronavirus_las_finanzas_y_yo.md",
       "annotatedPath": "output/03_annotated/088_el_coronavirus_las_finanzas_y_yo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2392,8 +2392,8 @@
       "processedPath": "output/02_processed/089_consejos_financieros_para_momentos_de_incertidumbre.md",
       "annotatedPath": "output/03_annotated/089_consejos_financieros_para_momentos_de_incertidumbre.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2419,8 +2419,8 @@
       "processedPath": "output/02_processed/090_consejos_financieros_y_comerciales_para_las_pymes.md",
       "annotatedPath": "output/03_annotated/090_consejos_financieros_y_comerciales_para_las_pymes.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2446,8 +2446,8 @@
       "processedPath": "output/02_processed/091_invertir_o_desinvertir_he_ahi_la_cuestion.md",
       "annotatedPath": "output/03_annotated/091_invertir_o_desinvertir_he_ahi_la_cuestion.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2473,8 +2473,8 @@
       "processedPath": "output/02_processed/092_oportunidades_que_nos_deja_el_coronavirus.md",
       "annotatedPath": "output/03_annotated/092_oportunidades_que_nos_deja_el_coronavirus.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2500,8 +2500,8 @@
       "processedPath": "output/02_processed/093_el_rol_del_lider_en_el_trabajo_a_distancia.md",
       "annotatedPath": "output/03_annotated/093_el_rol_del_lider_en_el_trabajo_a_distancia.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2527,8 +2527,8 @@
       "processedPath": "output/02_processed/094_el_sistema_previsional_y_el_impacto_del_coronavirus.md",
       "annotatedPath": "output/03_annotated/094_el_sistema_previsional_y_el_impacto_del_coronavirus.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2554,8 +2554,8 @@
       "processedPath": "output/02_processed/095_recalculandonuestros_objetivos_financieros.md",
       "annotatedPath": "output/03_annotated/095_recalculandonuestros_objetivos_financieros.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2581,8 +2581,8 @@
       "processedPath": "output/02_processed/096_como_predecir_las_ventas_futuras_de_tu_empresa.md",
       "annotatedPath": "output/03_annotated/096_como_predecir_las_ventas_futuras_de_tu_empresa.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2608,8 +2608,8 @@
       "processedPath": "output/02_processed/097_charlando_con_alejandro_de_barbieri_manejando_la_angustia.md",
       "annotatedPath": "output/03_annotated/097_charlando_con_alejandro_de_barbieri_manejando_la_angustia.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2635,8 +2635,8 @@
       "processedPath": "output/02_processed/098_invertir_en_ladrillos_en_contextos_de_crisis.md",
       "annotatedPath": "output/03_annotated/098_invertir_en_ladrillos_en_contextos_de_crisis.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2662,8 +2662,8 @@
       "processedPath": "output/02_processed/099_razones_para_tomar_el_control_de_nuestra_vida_financiera.md",
       "annotatedPath": "output/03_annotated/099_razones_para_tomar_el_control_de_nuestra_vida_financiera.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2689,8 +2689,8 @@
       "processedPath": "output/02_processed/100_anecdotas_intimidades_y_una_sorpresa_para_festejar_los_100_episodios.md",
       "annotatedPath": "output/03_annotated/100_anecdotas_intimidades_y_una_sorpresa_para_festejar_los_100_episodios.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2716,8 +2716,8 @@
       "processedPath": "output/02_processed/101_control_financiero_dificil_conseguirlo_y_facil_perderlo.md",
       "annotatedPath": "output/03_annotated/101_control_financiero_dificil_conseguirlo_y_facil_perderlo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2743,8 +2743,8 @@
       "processedPath": "output/02_processed/102_trampas_de_nuestro_cerebro_que_nos_hacen_cometer_errores_financieros.md",
       "annotatedPath": "output/03_annotated/102_trampas_de_nuestro_cerebro_que_nos_hacen_cometer_errores_financieros.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2770,8 +2770,8 @@
       "processedPath": "output/02_processed/103_memento_mori.md",
       "annotatedPath": "output/03_annotated/103_memento_mori.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2797,8 +2797,8 @@
       "processedPath": "output/02_processed/104_construir_sistemas.md",
       "annotatedPath": "output/03_annotated/104_construir_sistemas.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2824,8 +2824,8 @@
       "processedPath": "output/02_processed/105_estafadores_20.md",
       "annotatedPath": "output/03_annotated/105_estafadores_20.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2851,8 +2851,8 @@
       "processedPath": "output/02_processed/106_inversiones_domesticas_cuando_gastar_es_buena_idea.md",
       "annotatedPath": "output/03_annotated/106_inversiones_domesticas_cuando_gastar_es_buena_idea.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2878,8 +2878,8 @@
       "processedPath": "output/02_processed/107_respondiendo_preguntas.md",
       "annotatedPath": "output/03_annotated/107_respondiendo_preguntas.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2905,8 +2905,8 @@
       "processedPath": "output/02_processed/108_el_mundo_es_redondo.md",
       "annotatedPath": "output/03_annotated/108_el_mundo_es_redondo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2932,8 +2932,8 @@
       "processedPath": "output/02_processed/109_el_problema_de_vender_mucho_un_caso_real.md",
       "annotatedPath": "output/03_annotated/109_el_problema_de_vender_mucho_un_caso_real.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2959,8 +2959,8 @@
       "processedPath": "output/02_processed/110_etapas_de_control_financiero_cual_es_el_tuyo.md",
       "annotatedPath": "output/03_annotated/110_etapas_de_control_financiero_cual_es_el_tuyo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -2986,8 +2986,8 @@
       "processedPath": "output/02_processed/111_preguntas_y_respuestas_sobre_inversion.md",
       "annotatedPath": "output/03_annotated/111_preguntas_y_respuestas_sobre_inversion.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3013,8 +3013,8 @@
       "processedPath": "output/02_processed/112_tres_mitos_sobre_las_finanzas_personales.md",
       "annotatedPath": "output/03_annotated/112_tres_mitos_sobre_las_finanzas_personales.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3040,8 +3040,8 @@
       "processedPath": "output/02_processed/113_construye_tu_plan_financiero_personal_hoy_mismo.md",
       "annotatedPath": "output/03_annotated/113_construye_tu_plan_financiero_personal_hoy_mismo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3067,8 +3067,8 @@
       "processedPath": "output/02_processed/114_la_trampa_del_supermercado.md",
       "annotatedPath": "output/03_annotated/114_la_trampa_del_supermercado.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3094,8 +3094,8 @@
       "processedPath": "output/02_processed/115_te_irias_a_vivir_al_interior_del_pais.md",
       "annotatedPath": "output/03_annotated/115_te_irias_a_vivir_al_interior_del_pais.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3121,8 +3121,8 @@
       "processedPath": "output/02_processed/116_vestimenta_consumo_y_felicidad.md",
       "annotatedPath": "output/03_annotated/116_vestimenta_consumo_y_felicidad.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3148,8 +3148,8 @@
       "processedPath": "output/02_processed/117_la_casa_propia_pensando_fuera_de_la_caja.md",
       "annotatedPath": "output/03_annotated/117_la_casa_propia_pensando_fuera_de_la_caja.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3175,8 +3175,8 @@
       "processedPath": "output/02_processed/118_socios_todo_lo_que_hay_que_saber_al_respecto.md",
       "annotatedPath": "output/03_annotated/118_socios_todo_lo_que_hay_que_saber_al_respecto.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3202,8 +3202,8 @@
       "processedPath": "output/02_processed/119_un_plan_b_para_nuestro_retiro.md",
       "annotatedPath": "output/03_annotated/119_un_plan_b_para_nuestro_retiro.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3229,8 +3229,8 @@
       "processedPath": "output/02_processed/120_un_ano_democratizando_las_inversiones.md",
       "annotatedPath": "output/03_annotated/120_un_ano_democratizando_las_inversiones.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3256,8 +3256,8 @@
       "processedPath": "output/02_processed/121_estas_preparado_para_una_emergencia.md",
       "annotatedPath": "output/03_annotated/121_estas_preparado_para_una_emergencia.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3283,8 +3283,8 @@
       "processedPath": "output/02_processed/122_invertir_en_hipotecas.md",
       "annotatedPath": "output/03_annotated/122_invertir_en_hipotecas.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3310,8 +3310,8 @@
       "processedPath": "output/02_processed/123_consejos_no_solicitados_para_jovenes.md",
       "annotatedPath": "output/03_annotated/123_consejos_no_solicitados_para_jovenes.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3337,8 +3337,8 @@
       "processedPath": "output/02_processed/124_herramientas_para_saber_negociar.md",
       "annotatedPath": "output/03_annotated/124_herramientas_para_saber_negociar.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3364,8 +3364,8 @@
       "processedPath": "output/02_processed/125_historia_de_un_emprendimiento_fallido.md",
       "annotatedPath": "output/03_annotated/125_historia_de_un_emprendimiento_fallido.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3391,8 +3391,8 @@
       "processedPath": "output/02_processed/126_vacaciones_benditas_vacaciones.md",
       "annotatedPath": "output/03_annotated/126_vacaciones_benditas_vacaciones.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3418,8 +3418,8 @@
       "processedPath": "output/02_processed/127_tecnicas_ninjas_para_pymes.md",
       "annotatedPath": "output/03_annotated/127_tecnicas_ninjas_para_pymes.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3445,8 +3445,8 @@
       "processedPath": "output/02_processed/128_especial_de_navidad.md",
       "annotatedPath": "output/03_annotated/128_especial_de_navidad.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3472,8 +3472,8 @@
       "processedPath": "output/02_processed/129_chau_2020_hola_2021.md",
       "annotatedPath": "output/03_annotated/129_chau_2020_hola_2021.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3499,8 +3499,8 @@
       "processedPath": "output/02_processed/130_gastar_menos_revalorizando_nuestro_ano.md",
       "annotatedPath": "output/03_annotated/130_gastar_menos_revalorizando_nuestro_ano.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3526,8 +3526,8 @@
       "processedPath": "output/02_processed/131_el_problema_de_la_comida.md",
       "annotatedPath": "output/03_annotated/131_el_problema_de_la_comida.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3553,8 +3553,8 @@
       "processedPath": "output/02_processed/132_las_formulas_magicas_no_existen.md",
       "annotatedPath": "output/03_annotated/132_las_formulas_magicas_no_existen.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3580,8 +3580,8 @@
       "processedPath": "output/02_processed/133_coach_minimalista_el_minimalismo_llevado_a_la_practica.md",
       "annotatedPath": "output/03_annotated/133_coach_minimalista_el_minimalismo_llevado_a_la_practica.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3607,8 +3607,8 @@
       "processedPath": "output/02_processed/134_gamestop_reddit_short_selling_elon_muskde_que_estamos_hablando.md",
       "annotatedPath": "output/03_annotated/134_gamestop_reddit_short_selling_elon_muskde_que_estamos_hablando.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3634,8 +3634,8 @@
       "processedPath": "output/02_processed/135_el_habito_que_nos_hace_mas_pobres.md",
       "annotatedPath": "output/03_annotated/135_el_habito_que_nos_hace_mas_pobres.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3661,8 +3661,8 @@
       "processedPath": "output/02_processed/136_pensar_soy_un_desastre_en_mis_finanzas_no_ayuda.md",
       "annotatedPath": "output/03_annotated/136_pensar_soy_un_desastre_en_mis_finanzas_no_ayuda.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3688,8 +3688,8 @@
       "processedPath": "output/02_processed/137_el_caso_de_la_arquitecta_que_se_queda_sin_trabajo_con_mariano_rodriguez_de_pleno_emprendo.md",
       "annotatedPath": "output/03_annotated/137_el_caso_de_la_arquitecta_que_se_queda_sin_trabajo_con_mariano_rodriguez_de_pleno_emprendo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3715,8 +3715,8 @@
       "processedPath": "output/02_processed/138_bitcoin_y_finanzas_personales.md",
       "annotatedPath": "output/03_annotated/138_bitcoin_y_finanzas_personales.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3742,8 +3742,8 @@
       "processedPath": "output/02_processed/139_ir_hacia_el_interior_la_historia_de_andrea.md",
       "annotatedPath": "output/03_annotated/139_ir_hacia_el_interior_la_historia_de_andrea.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3769,8 +3769,8 @@
       "processedPath": "output/02_processed/140_endeudamiento_y_culpa.md",
       "annotatedPath": "output/03_annotated/140_endeudamiento_y_culpa.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3796,8 +3796,8 @@
       "processedPath": "output/02_processed/141_antes_de_invertir_sabes_que_clase_de_inversor_quieres_ser.md",
       "annotatedPath": "output/03_annotated/141_antes_de_invertir_sabes_que_clase_de_inversor_quieres_ser.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3823,8 +3823,8 @@
       "processedPath": "output/02_processed/142_credito_bueno_apalancamiento_y_mareo_financiero.md",
       "annotatedPath": "output/03_annotated/142_credito_bueno_apalancamiento_y_mareo_financiero.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3850,8 +3850,8 @@
       "processedPath": "output/02_processed/143_ser_sustentable_paga_y_mucho.md",
       "annotatedPath": "output/03_annotated/143_ser_sustentable_paga_y_mucho.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3877,8 +3877,8 @@
       "processedPath": "output/02_processed/144_la_naturalizacion_del_endeudamiento.md",
       "annotatedPath": "output/03_annotated/144_la_naturalizacion_del_endeudamiento.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3904,8 +3904,8 @@
       "processedPath": "output/02_processed/145_conciencia_financiera_la_raiz_de_nuestras_decisiones.md",
       "annotatedPath": "output/03_annotated/145_conciencia_financiera_la_raiz_de_nuestras_decisiones.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3931,8 +3931,8 @@
       "processedPath": "output/02_processed/146_manos_de_heroes_no_hay_sensacion_mas_linda_que_ayudar_a_alguien.md",
       "annotatedPath": "output/03_annotated/146_manos_de_heroes_no_hay_sensacion_mas_linda_que_ayudar_a_alguien.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3958,8 +3958,8 @@
       "processedPath": "output/02_processed/147_mitos_de_emprender_parte_1.md",
       "annotatedPath": "output/03_annotated/147_mitos_de_emprender_parte_1.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -3985,8 +3985,8 @@
       "processedPath": "output/02_processed/148_alimentando_el_fuego_de_nuestro_plan_financiero.md",
       "annotatedPath": "output/03_annotated/148_alimentando_el_fuego_de_nuestro_plan_financiero.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4012,8 +4012,8 @@
       "processedPath": "output/02_processed/149_la_crisis_de_los_40_y_las_finanzas_personales.md",
       "annotatedPath": "output/03_annotated/149_la_crisis_de_los_40_y_las_finanzas_personales.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4039,8 +4039,8 @@
       "processedPath": "output/02_processed/150_tres_historias_de_estafas_financieras.md",
       "annotatedPath": "output/03_annotated/150_tres_historias_de_estafas_financieras.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4066,8 +4066,8 @@
       "processedPath": "output/02_processed/151_el_equilibrio_entre_hacer_o_contratar.md",
       "annotatedPath": "output/03_annotated/151_el_equilibrio_entre_hacer_o_contratar.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4093,8 +4093,8 @@
       "processedPath": "output/02_processed/152_cuando_ganar_mucho_dinero_se_transforma_en_un_problema.md",
       "annotatedPath": "output/03_annotated/152_cuando_ganar_mucho_dinero_se_transforma_en_un_problema.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4120,8 +4120,8 @@
       "processedPath": "output/02_processed/153_no_soy_lo_suficientemente_rico_como_para_comprar_cosas_baratas.md",
       "annotatedPath": "output/03_annotated/153_no_soy_lo_suficientemente_rico_como_para_comprar_cosas_baratas.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4147,8 +4147,8 @@
       "processedPath": "output/02_processed/154_la_diferencia_entre_precio_y_valor.md",
       "annotatedPath": "output/03_annotated/154_la_diferencia_entre_precio_y_valor.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4174,8 +4174,8 @@
       "processedPath": "output/02_processed/155_un_nuevo_ciclo_una_nueva_oportunidad.md",
       "annotatedPath": "output/03_annotated/155_un_nuevo_ciclo_una_nueva_oportunidad.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4201,8 +4201,8 @@
       "processedPath": "output/02_processed/156_desarrollando_un_negocio_basado_en_valor_con_maxi_y_mati_festejando_3_anos_de_podcast.md",
       "annotatedPath": "output/03_annotated/156_desarrollando_un_negocio_basado_en_valor_con_maxi_y_mati_festejando_3_anos_de_podcast.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4228,8 +4228,8 @@
       "processedPath": "output/02_processed/157_invertir_para_alquilar_en_temporada_es_una_buena_idea.md",
       "annotatedPath": "output/03_annotated/157_invertir_para_alquilar_en_temporada_es_una_buena_idea.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4255,8 +4255,8 @@
       "processedPath": "output/02_processed/158_el_habito_numero_1_de_las_finanzas_personales.md",
       "annotatedPath": "output/03_annotated/158_el_habito_numero_1_de_las_finanzas_personales.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4282,8 +4282,8 @@
       "processedPath": "output/02_processed/159_comprar_usar_vender.md",
       "annotatedPath": "output/03_annotated/159_comprar_usar_vender.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4309,8 +4309,8 @@
       "processedPath": "output/02_processed/160_proteccion_asegurada_contra_la_inflacion.md",
       "annotatedPath": "output/03_annotated/160_proteccion_asegurada_contra_la_inflacion.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4336,8 +4336,8 @@
       "processedPath": "output/02_processed/161_agradecimiento_charlando_con_rodrigo_ferreri_de_ecodiem.md",
       "annotatedPath": "output/03_annotated/161_agradecimiento_charlando_con_rodrigo_ferreri_de_ecodiem.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4363,8 +4363,8 @@
       "processedPath": "output/02_processed/162_hablemos_de_cultura_previsional.md",
       "annotatedPath": "output/03_annotated/162_hablemos_de_cultura_previsional.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4390,8 +4390,8 @@
       "processedPath": "output/02_processed/163_el_caso_del_bebe_que_llego_por_sorpresa.md",
       "annotatedPath": "output/03_annotated/163_el_caso_del_bebe_que_llego_por_sorpresa.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4417,8 +4417,8 @@
       "processedPath": "output/02_processed/164_nuevas_opciones_de_inversion.md",
       "annotatedPath": "output/03_annotated/164_nuevas_opciones_de_inversion.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4444,8 +4444,8 @@
       "processedPath": "output/02_processed/165_respondiendo_preguntas.md",
       "annotatedPath": "output/03_annotated/165_respondiendo_preguntas.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4471,8 +4471,8 @@
       "processedPath": "output/02_processed/166_de_profesional_a_dueno_de_negocio_en_6_pasos.md",
       "annotatedPath": "output/03_annotated/166_de_profesional_a_dueno_de_negocio_en_6_pasos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4498,8 +4498,8 @@
       "processedPath": "output/02_processed/167_que_es_el_clearing_de_informes_y_por_que_es_importante_saberlo.md",
       "annotatedPath": "output/03_annotated/167_que_es_el_clearing_de_informes_y_por_que_es_importante_saberlo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4525,8 +4525,8 @@
       "processedPath": "output/02_processed/168_el_poder_oculto_de_las_rutinas.md",
       "annotatedPath": "output/03_annotated/168_el_poder_oculto_de_las_rutinas.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4552,8 +4552,8 @@
       "processedPath": "output/02_processed/169_como_seleccionar_una_app_para_el_registro_de_gastos.md",
       "annotatedPath": "output/03_annotated/169_como_seleccionar_una_app_para_el_registro_de_gastos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4579,8 +4579,8 @@
       "processedPath": "output/02_processed/170_como_llegamos_hasta_aca_la_historia_del_consumismo_en_occidente.md",
       "annotatedPath": "output/03_annotated/170_como_llegamos_hasta_aca_la_historia_del_consumismo_en_occidente.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4606,8 +4606,8 @@
       "processedPath": "output/02_processed/171_reducir_el_gasto_de_electricidad_con_bella_amezquita.md",
       "annotatedPath": "output/03_annotated/171_reducir_el_gasto_de_electricidad_con_bella_amezquita.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4633,8 +4633,8 @@
       "processedPath": "output/02_processed/172_una_guia_para_aumentar_nuestro_salario.md",
       "annotatedPath": "output/03_annotated/172_una_guia_para_aumentar_nuestro_salario.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4660,8 +4660,8 @@
       "processedPath": "output/02_processed/173_especial_de_halloween.md",
       "annotatedPath": "output/03_annotated/173_especial_de_halloween.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4687,8 +4687,8 @@
       "processedPath": "output/02_processed/173_la_economia_del_regalo.md",
       "annotatedPath": "output/03_annotated/173_la_economia_del_regalo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4714,8 +4714,8 @@
       "processedPath": "output/02_processed/174_la_crisis_de_los_contenedores_la_navidad_y_nuestro_presupuesto.md",
       "annotatedPath": "output/03_annotated/174_la_crisis_de_los_contenedores_la_navidad_y_nuestro_presupuesto.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4741,8 +4741,8 @@
       "processedPath": "output/02_processed/175_la_jaula_de_oro_los_prisioneros_del_exito.md",
       "annotatedPath": "output/03_annotated/175_la_jaula_de_oro_los_prisioneros_del_exito.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4768,8 +4768,8 @@
       "processedPath": "output/02_processed/176_invertir_con_sentido.md",
       "annotatedPath": "output/03_annotated/176_invertir_con_sentido.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4795,8 +4795,8 @@
       "processedPath": "output/02_processed/177_cuando_los_padres_pasan_a_depender_de_los_hijos.md",
       "annotatedPath": "output/03_annotated/177_cuando_los_padres_pasan_a_depender_de_los_hijos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4822,8 +4822,8 @@
       "processedPath": "output/02_processed/178_consejos_para_jovenes_con_inquietud_financiera.md",
       "annotatedPath": "output/03_annotated/178_consejos_para_jovenes_con_inquietud_financiera.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4849,8 +4849,8 @@
       "processedPath": "output/02_processed/179_senales_de_que_estamos_exagerando_el_cuidado_del_dinero.md",
       "annotatedPath": "output/03_annotated/179_senales_de_que_estamos_exagerando_el_cuidado_del_dinero.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4876,8 +4876,8 @@
       "processedPath": "output/02_processed/180_el_agradecimiento_como_herramienta_financiera.md",
       "annotatedPath": "output/03_annotated/180_el_agradecimiento_como_herramienta_financiera.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4903,8 +4903,8 @@
       "processedPath": "output/02_processed/181_episodio_de_fin_de_ano_en_familia.md",
       "annotatedPath": "output/03_annotated/181_episodio_de_fin_de_ano_en_familia.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4930,8 +4930,8 @@
       "processedPath": "output/02_processed/182_oportunidades_que_nos_deja_la_pandemia_revisado.md",
       "annotatedPath": "output/03_annotated/182_oportunidades_que_nos_deja_la_pandemia_revisado.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4957,8 +4957,8 @@
       "processedPath": "output/02_processed/183_ninos_regalos_y_sentido_de_valor.md",
       "annotatedPath": "output/03_annotated/183_ninos_regalos_y_sentido_de_valor.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -4984,8 +4984,8 @@
       "processedPath": "output/02_processed/184_romper_en_caso_de_emergencia.md",
       "annotatedPath": "output/03_annotated/184_romper_en_caso_de_emergencia.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5011,8 +5011,8 @@
       "processedPath": "output/02_processed/185_lecciones_valiosas_de_ventas_de_un_puesto_de_pescado.md",
       "annotatedPath": "output/03_annotated/185_lecciones_valiosas_de_ventas_de_un_puesto_de_pescado.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5038,8 +5038,8 @@
       "processedPath": "output/02_processed/186_historias_de_estafadores_los_gurus_de_am.md",
       "annotatedPath": "output/03_annotated/186_historias_de_estafadores_los_gurus_de_am.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5065,8 +5065,8 @@
       "processedPath": "output/02_processed/187_dudas_del_sistema_previsional.md",
       "annotatedPath": "output/03_annotated/187_dudas_del_sistema_previsional.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5092,8 +5092,8 @@
       "processedPath": "output/02_processed/188_como_reconocer_una_estafa.md",
       "annotatedPath": "output/03_annotated/188_como_reconocer_una_estafa.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5119,8 +5119,8 @@
       "processedPath": "output/02_processed/189_finanzas_sencillas_para_negocios_exitosos.md",
       "annotatedPath": "output/03_annotated/189_finanzas_sencillas_para_negocios_exitosos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5146,8 +5146,8 @@
       "processedPath": "output/02_processed/190_instagram_no_es_tu_negocio_con_mariano_rodriguez_de_pleno_emprendo.md",
       "annotatedPath": "output/03_annotated/190_instagram_no_es_tu_negocio_con_mariano_rodriguez_de_pleno_emprendo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5173,8 +5173,8 @@
       "processedPath": "output/02_processed/191_aprender_a_decir_que_no.md",
       "annotatedPath": "output/03_annotated/191_aprender_a_decir_que_no.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5200,8 +5200,8 @@
       "processedPath": "output/02_processed/192_una_mirada_al_mundo_freelancer_con_sol_garcia_de_wanderlancerscom.md",
       "annotatedPath": "output/03_annotated/192_una_mirada_al_mundo_freelancer_con_sol_garcia_de_wanderlancerscom.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5227,8 +5227,8 @@
       "processedPath": "output/02_processed/193_educacion_publica_o_educacion_privada.md",
       "annotatedPath": "output/03_annotated/193_educacion_publica_o_educacion_privada.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5254,8 +5254,8 @@
       "processedPath": "output/02_processed/194_el_lado_oscuro_de_las_inversiones.md",
       "annotatedPath": "output/03_annotated/194_el_lado_oscuro_de_las_inversiones.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5281,8 +5281,8 @@
       "processedPath": "output/02_processed/195_mastermind_caminando_juntos_hacia_los_objetivos_1.md",
       "annotatedPath": "output/03_annotated/195_mastermind_caminando_juntos_hacia_los_objetivos_1.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5308,8 +5308,8 @@
       "processedPath": "output/02_processed/196_mandalas_de_la_abundancia_redes_de_tejedoras_y_otras_estafas_piramidales.md",
       "annotatedPath": "output/03_annotated/196_mandalas_de_la_abundancia_redes_de_tejedoras_y_otras_estafas_piramidales.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5335,8 +5335,8 @@
       "processedPath": "output/02_processed/197_una_herramienta_para_comenzar_a_invertir.md",
       "annotatedPath": "output/03_annotated/197_una_herramienta_para_comenzar_a_invertir.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5362,8 +5362,8 @@
       "processedPath": "output/02_processed/198_imagen_vestimenta_y_finanzas_personales_con_noeh_lineiro.md",
       "annotatedPath": "output/03_annotated/198_imagen_vestimenta_y_finanzas_personales_con_noeh_lineiro.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5389,8 +5389,8 @@
       "processedPath": "output/02_processed/199_porque_estan_aumentando_los_precios_de_todo.md",
       "annotatedPath": "output/03_annotated/199_porque_estan_aumentando_los_precios_de_todo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5416,8 +5416,8 @@
       "processedPath": "output/02_processed/200_el_futuro_de_neurona_financiera.md",
       "annotatedPath": "output/03_annotated/200_el_futuro_de_neurona_financiera.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5443,8 +5443,8 @@
       "processedPath": "output/02_processed/201_ser_empleado_vs_ser_tercerizado_y_facturar.md",
       "annotatedPath": "output/03_annotated/201_ser_empleado_vs_ser_tercerizado_y_facturar.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5470,8 +5470,8 @@
       "processedPath": "output/02_processed/202_en_que_guardo_el_dinero_para_que_no_pierda_valor_en_un_contexto_de_inflacion.md",
       "annotatedPath": "output/03_annotated/202_en_que_guardo_el_dinero_para_que_no_pierda_valor_en_un_contexto_de_inflacion.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5497,8 +5497,8 @@
       "processedPath": "output/02_processed/203_que_esta_pasando_en_los_mercados_con_andres_buela.md",
       "annotatedPath": "output/03_annotated/203_que_esta_pasando_en_los_mercados_con_andres_buela.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5524,8 +5524,8 @@
       "processedPath": "output/02_processed/204_analizando_opciones_de_inversion_de_un_banco.md",
       "annotatedPath": "output/03_annotated/204_analizando_opciones_de_inversion_de_un_banco.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5551,8 +5551,8 @@
       "processedPath": "output/02_processed/205_los_7_habitos_de_las_finanzas_personales.md",
       "annotatedPath": "output/03_annotated/205_los_7_habitos_de_las_finanzas_personales.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5578,8 +5578,8 @@
       "processedPath": "output/02_processed/206_finanzas_personales_mas_que_educacion_financiera.md",
       "annotatedPath": "output/03_annotated/206_finanzas_personales_mas_que_educacion_financiera.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5605,8 +5605,8 @@
       "processedPath": "output/02_processed/207_salario_emocional_mas_alla_del_dinero.md",
       "annotatedPath": "output/03_annotated/207_salario_emocional_mas_alla_del_dinero.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5632,8 +5632,8 @@
       "processedPath": "output/02_processed/208_organizar_una_mudanza_una_vision_personal.md",
       "annotatedPath": "output/03_annotated/208_organizar_una_mudanza_una_vision_personal.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5659,8 +5659,8 @@
       "processedPath": "output/02_processed/209_el_dinero_como_energia.md",
       "annotatedPath": "output/03_annotated/209_el_dinero_como_energia.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5686,8 +5686,8 @@
       "processedPath": "output/02_processed/210_lecciones_aprendidas_luego_de_7_meses_viviendo_fuera_de_la_ciudad.md",
       "annotatedPath": "output/03_annotated/210_lecciones_aprendidas_luego_de_7_meses_viviendo_fuera_de_la_ciudad.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5713,8 +5713,8 @@
       "processedPath": "output/02_processed/211_lecciones_financieras_de_francisco_piria.md",
       "annotatedPath": "output/03_annotated/211_lecciones_financieras_de_francisco_piria.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5740,8 +5740,8 @@
       "processedPath": "output/02_processed/212_inversion_inmobiliaria_con_sebastian_sanchez.md",
       "annotatedPath": "output/03_annotated/212_inversion_inmobiliaria_con_sebastian_sanchez.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5767,8 +5767,8 @@
       "processedPath": "output/02_processed/213_en_que_invertir_20000_usd.md",
       "annotatedPath": "output/03_annotated/213_en_que_invertir_20000_usd.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5794,8 +5794,8 @@
       "processedPath": "output/02_processed/214_ninos_regalos_y_educacion_financiera.md",
       "annotatedPath": "output/03_annotated/214_ninos_regalos_y_educacion_financiera.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5821,8 +5821,8 @@
       "processedPath": "output/02_processed/215_mitos_y_realidades_de_las_tarjetas_de_credito.md",
       "annotatedPath": "output/03_annotated/215_mitos_y_realidades_de_las_tarjetas_de_credito.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5848,8 +5848,8 @@
       "processedPath": "output/02_processed/216_entendiendo_el_mercado_financieros_con_gletir_corredor_de_bolsa.md",
       "annotatedPath": "output/03_annotated/216_entendiendo_el_mercado_financieros_con_gletir_corredor_de_bolsa.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5875,8 +5875,8 @@
       "processedPath": "output/02_processed/217_economia_plateada_una_oportunidad_a_aprovechar.md",
       "annotatedPath": "output/03_annotated/217_economia_plateada_una_oportunidad_a_aprovechar.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5902,8 +5902,8 @@
       "processedPath": "output/02_processed/218_millonaria_con_mentalidad_de_pobre.md",
       "annotatedPath": "output/03_annotated/218_millonaria_con_mentalidad_de_pobre.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5929,8 +5929,8 @@
       "processedPath": "output/02_processed/219_herramientas_para_ganar_tiempo_y_ser_mas_productivo.md",
       "annotatedPath": "output/03_annotated/219_herramientas_para_ganar_tiempo_y_ser_mas_productivo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5956,8 +5956,8 @@
       "processedPath": "output/02_processed/220_los_peligros_de_internet_parte_1.md",
       "annotatedPath": "output/03_annotated/220_los_peligros_de_internet_parte_1.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -5983,8 +5983,8 @@
       "processedPath": "output/02_processed/221_corredores_de_bolsa_estafas_y_perdida_de_confianza.md",
       "annotatedPath": "output/03_annotated/221_corredores_de_bolsa_estafas_y_perdida_de_confianza.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6010,8 +6010,8 @@
       "processedPath": "output/02_processed/222_como_gastar_menos_dinero_sin_perder_calidad_de_vida.md",
       "annotatedPath": "output/03_annotated/222_como_gastar_menos_dinero_sin_perder_calidad_de_vida.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6037,8 +6037,8 @@
       "processedPath": "output/02_processed/223_siete_pasos_para_despertar_tu_neurona_financiera.md",
       "annotatedPath": "output/03_annotated/223_siete_pasos_para_despertar_tu_neurona_financiera.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6064,8 +6064,8 @@
       "processedPath": "output/02_processed/224_cuando_ahorrar_no_es_tan_sano_como_creemos.md",
       "annotatedPath": "output/03_annotated/224_cuando_ahorrar_no_es_tan_sano_como_creemos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6091,8 +6091,8 @@
       "processedPath": "output/02_processed/225_cinco_estrategias_para_comenzar_a_mejorar_nuestras_finanzas.md",
       "annotatedPath": "output/03_annotated/225_cinco_estrategias_para_comenzar_a_mejorar_nuestras_finanzas.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6118,8 +6118,8 @@
       "processedPath": "output/02_processed/226_la_adiccion_a_estar_siempre_ocupado.md",
       "annotatedPath": "output/03_annotated/226_la_adiccion_a_estar_siempre_ocupado.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6145,8 +6145,8 @@
       "processedPath": "output/02_processed/227_mamaarquitectauy_ayudando_a_miles_a_mejorar_su_hogar.md",
       "annotatedPath": "output/03_annotated/227_mamaarquitectauy_ayudando_a_miles_a_mejorar_su_hogar.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6172,8 +6172,8 @@
       "processedPath": "output/02_processed/228_tablero_de_control_una_herramienta_fundamental_a_la_hora_de_emprender.md",
       "annotatedPath": "output/03_annotated/228_tablero_de_control_una_herramienta_fundamental_a_la_hora_de_emprender.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6199,8 +6199,8 @@
       "processedPath": "output/02_processed/229_que_va_a_pasar_con_el_dolar_en_uruguay_en_el_2023.md",
       "annotatedPath": "output/03_annotated/229_que_va_a_pasar_con_el_dolar_en_uruguay_en_el_2023.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6226,8 +6226,8 @@
       "processedPath": "output/02_processed/230_planificando_financieramente_el_proximo_ano.md",
       "annotatedPath": "output/03_annotated/230_planificando_financieramente_el_proximo_ano.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6253,8 +6253,8 @@
       "processedPath": "output/02_processed/231_disenando_una_vida.md",
       "annotatedPath": "output/03_annotated/231_disenando_una_vida.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6280,8 +6280,8 @@
       "processedPath": "output/02_processed/232_respondiendo_preguntas_ahorro_inversion_viajes_y_mucho_mas.md",
       "annotatedPath": "output/03_annotated/232_respondiendo_preguntas_ahorro_inversion_viajes_y_mucho_mas.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6307,8 +6307,8 @@
       "processedPath": "output/02_processed/233_tres_ensenanzas_que_nos_deja_el_2022.md",
       "annotatedPath": "output/03_annotated/233_tres_ensenanzas_que_nos_deja_el_2022.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6334,8 +6334,8 @@
       "processedPath": "output/02_processed/234_mito_comprar_cosas_usadas_nos_hace_pobres.md",
       "annotatedPath": "output/03_annotated/234_mito_comprar_cosas_usadas_nos_hace_pobres.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6361,8 +6361,8 @@
       "processedPath": "output/02_processed/235_mito_pobre_pero_honrado.md",
       "annotatedPath": "output/03_annotated/235_mito_pobre_pero_honrado.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6388,8 +6388,8 @@
       "processedPath": "output/02_processed/236_mito_el_dinero_compra_la_felicidad.md",
       "annotatedPath": "output/03_annotated/236_mito_el_dinero_compra_la_felicidad.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6415,8 +6415,8 @@
       "processedPath": "output/02_processed/237_mito_la_casa_propia.md",
       "annotatedPath": "output/03_annotated/237_mito_la_casa_propia.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6442,8 +6442,8 @@
       "processedPath": "output/02_processed/238_mito_el_dinero_se_consigue_trabajando_duro.md",
       "annotatedPath": "output/03_annotated/238_mito_el_dinero_se_consigue_trabajando_duro.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6469,8 +6469,8 @@
       "processedPath": "output/02_processed/239_mito_invertir_no_es_para_todos.md",
       "annotatedPath": "output/03_annotated/239_mito_invertir_no_es_para_todos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6496,8 +6496,8 @@
       "processedPath": "output/02_processed/240_se_viene_una_recesion_que_hacemos.md",
       "annotatedPath": "output/03_annotated/240_se_viene_una_recesion_que_hacemos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6523,8 +6523,8 @@
       "processedPath": "output/02_processed/241_ninos_y_consumo.md",
       "annotatedPath": "output/03_annotated/241_ninos_y_consumo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6550,8 +6550,8 @@
       "processedPath": "output/02_processed/242_vivir_en_una_casa_de_contenedores.md",
       "annotatedPath": "output/03_annotated/242_vivir_en_una_casa_de_contenedores.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6577,8 +6577,8 @@
       "processedPath": "output/02_processed/243_una_madre_emprendedora_que_no_fue_portada.md",
       "annotatedPath": "output/03_annotated/243_una_madre_emprendedora_que_no_fue_portada.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6604,8 +6604,8 @@
       "processedPath": "output/02_processed/244_en_que_invertir_con_20_anos.md",
       "annotatedPath": "output/03_annotated/244_en_que_invertir_con_20_anos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6631,8 +6631,8 @@
       "processedPath": "output/02_processed/245_el_riesgo_de_tener_dinero_en_el_banco.md",
       "annotatedPath": "output/03_annotated/245_el_riesgo_de_tener_dinero_en_el_banco.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6658,8 +6658,8 @@
       "processedPath": "output/02_processed/246_en_que_debemos_invertir_a_los_60_anos_y_que_debemos_hacer_hoy_para_lograrlo.md",
       "annotatedPath": "output/03_annotated/246_en_que_debemos_invertir_a_los_60_anos_y_que_debemos_hacer_hoy_para_lograrlo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6685,8 +6685,8 @@
       "processedPath": "output/02_processed/247_el_secreto_de_las_grandes_empresas_aplicado_a_pymes.md",
       "annotatedPath": "output/03_annotated/247_el_secreto_de_las_grandes_empresas_aplicado_a_pymes.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6712,8 +6712,8 @@
       "processedPath": "output/02_processed/248_destruyendo_tu_futuro_financiero_los_5_errores_que_debes_evitar.md",
       "annotatedPath": "output/03_annotated/248_destruyendo_tu_futuro_financiero_los_5_errores_que_debes_evitar.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6739,8 +6739,8 @@
       "processedPath": "output/02_processed/249_errores_financieros_que_estamos_haciendo_y_no_lo_sabemos.md",
       "annotatedPath": "output/03_annotated/249_errores_financieros_que_estamos_haciendo_y_no_lo_sabemos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6766,8 +6766,8 @@
       "processedPath": "output/02_processed/250_el_caso_del_contador_frustrado_con_su_vida.md",
       "annotatedPath": "output/03_annotated/250_el_caso_del_contador_frustrado_con_su_vida.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6793,8 +6793,8 @@
       "processedPath": "output/02_processed/251_la_importancia_de_los_objetivos_financieros.md",
       "annotatedPath": "output/03_annotated/251_la_importancia_de_los_objetivos_financieros.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6820,8 +6820,8 @@
       "processedPath": "output/02_processed/252_hackeando_nuestro_destino_financiero_ep_252.md",
       "annotatedPath": "output/03_annotated/252_hackeando_nuestro_destino_financiero_ep_252.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6847,8 +6847,8 @@
       "processedPath": "output/02_processed/253_disciplina_la_herramienta_final_para_nuestras_finanzas_y_todo_lo_demas_253.md",
       "annotatedPath": "output/03_annotated/253_disciplina_la_herramienta_final_para_nuestras_finanzas_y_todo_lo_demas_253.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6874,8 +6874,8 @@
       "processedPath": "output/02_processed/254_el_rol_de_las_inversiones_en_nuestro_plan_financiero_personal_254.md",
       "annotatedPath": "output/03_annotated/254_el_rol_de_las_inversiones_en_nuestro_plan_financiero_personal_254.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6901,8 +6901,8 @@
       "processedPath": "output/02_processed/255_que_hacer_con_el_aguinaldo_u_otro_ingreso_extra_255.md",
       "annotatedPath": "output/03_annotated/255_que_hacer_con_el_aguinaldo_u_otro_ingreso_extra_255.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6928,8 +6928,8 @@
       "processedPath": "output/02_processed/256_entendiendo_el_fondo_centenario_de_gletir_256.md",
       "annotatedPath": "output/03_annotated/256_entendiendo_el_fondo_centenario_de_gletir_256.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6955,8 +6955,8 @@
       "processedPath": "output/02_processed/257_la_importancia_de_leer_los_contratos_257.md",
       "annotatedPath": "output/03_annotated/257_la_importancia_de_leer_los_contratos_257.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -6982,8 +6982,8 @@
       "processedPath": "output/02_processed/258_ganar_en_dolares_vivir_en_pesos_258.md",
       "annotatedPath": "output/03_annotated/258_ganar_en_dolares_vivir_en_pesos_258.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7009,8 +7009,8 @@
       "processedPath": "output/02_processed/259_detectando_irregularidades_a_la_hora_de_invertir_259.md",
       "annotatedPath": "output/03_annotated/259_detectando_irregularidades_a_la_hora_de_invertir_259.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7036,8 +7036,8 @@
       "processedPath": "output/02_processed/260_tipos_de_endeudamiento_y_sus_consecuencias_260.md",
       "annotatedPath": "output/03_annotated/260_tipos_de_endeudamiento_y_sus_consecuencias_260.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7063,8 +7063,8 @@
       "processedPath": "output/02_processed/261_seguros_de_retiro_lo_que_no_te_contaron_261.md",
       "annotatedPath": "output/03_annotated/261_seguros_de_retiro_lo_que_no_te_contaron_261.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7090,8 +7090,8 @@
       "processedPath": "output/02_processed/262_estrategias_sencillas_para_comenzar_un_registro_de_gastos_262.md",
       "annotatedPath": "output/03_annotated/262_estrategias_sencillas_para_comenzar_un_registro_de_gastos_262.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7117,8 +7117,8 @@
       "processedPath": "output/02_processed/263_como_comenzar_un_negocio_en_internet_263.md",
       "annotatedPath": "output/03_annotated/263_como_comenzar_un_negocio_en_internet_263.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7144,8 +7144,8 @@
       "processedPath": "output/02_processed/264_preguntas_de_agosto_2023.md",
       "annotatedPath": "output/03_annotated/264_preguntas_de_agosto_2023.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7171,8 +7171,8 @@
       "processedPath": "output/02_processed/265_auto-construccion_una_solucion_al_problema_de_vivienda_265.md",
       "annotatedPath": "output/03_annotated/265_auto-construccion_una_solucion_al_problema_de_vivienda_265.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7198,8 +7198,8 @@
       "processedPath": "output/02_processed/266_que_es_el_exito_realmente_para_vos_266.md",
       "annotatedPath": "output/03_annotated/266_que_es_el_exito_realmente_para_vos_266.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7225,8 +7225,8 @@
       "processedPath": "output/02_processed/267_que_hacer_en_caso_de_dolarizacion_267.md",
       "annotatedPath": "output/03_annotated/267_que_hacer_en_caso_de_dolarizacion_267.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7252,8 +7252,8 @@
       "processedPath": "output/02_processed/268_como_crear_un_sistema_de_inversion_268.md",
       "annotatedPath": "output/03_annotated/268_como_crear_un_sistema_de_inversion_268.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7279,8 +7279,8 @@
       "processedPath": "output/02_processed/269_preguntas_de_setiembre_269.md",
       "annotatedPath": "output/03_annotated/269_preguntas_de_setiembre_269.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7306,8 +7306,8 @@
       "processedPath": "output/02_processed/270_inversion_inflacion_auto-construccion_y_muchas_preguntas_mas_270.md",
       "annotatedPath": "output/03_annotated/270_inversion_inflacion_auto-construccion_y_muchas_preguntas_mas_270.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7333,8 +7333,8 @@
       "processedPath": "output/02_processed/271_como_evitar_perder_dinero_al_invertir_el_caso_wenance.md",
       "annotatedPath": "output/03_annotated/271_como_evitar_perder_dinero_al_invertir_el_caso_wenance.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7360,8 +7360,8 @@
       "processedPath": "output/02_processed/272_hijos_vocacion_y_dinero_272.md",
       "annotatedPath": "output/03_annotated/272_hijos_vocacion_y_dinero_272.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7387,8 +7387,8 @@
       "processedPath": "output/02_processed/273_preguntas_de_octubre_273.md",
       "annotatedPath": "output/03_annotated/273_preguntas_de_octubre_273.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7414,8 +7414,8 @@
       "processedPath": "output/02_processed/274_invertir_en_oro_274.md",
       "annotatedPath": "output/03_annotated/274_invertir_en_oro_274.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7441,8 +7441,8 @@
       "processedPath": "output/02_processed/275_negocios_en_internet_membership_sites_275.md",
       "annotatedPath": "output/03_annotated/275_negocios_en_internet_membership_sites_275.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7468,8 +7468,8 @@
       "processedPath": "output/02_processed/276_hiperconectividad_y_salud_financiera_276.md",
       "annotatedPath": "output/03_annotated/276_hiperconectividad_y_salud_financiera_276.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7495,8 +7495,8 @@
       "processedPath": "output/02_processed/277_inversion_a_los_19_registro_de_gastos_emprender_y_mas277.md",
       "annotatedPath": "output/03_annotated/277_inversion_a_los_19_registro_de_gastos_emprender_y_mas277.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7522,8 +7522,8 @@
       "processedPath": "output/02_processed/278_que_valor_financiero_tienen_nuestras_relaciones_278.md",
       "annotatedPath": "output/03_annotated/278_que_valor_financiero_tienen_nuestras_relaciones_278.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7549,8 +7549,8 @@
       "processedPath": "output/02_processed/279_enchulame_el_negocio_jardinero_279.md",
       "annotatedPath": "output/03_annotated/279_enchulame_el_negocio_jardinero_279.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7576,8 +7576,8 @@
       "processedPath": "output/02_processed/280_negocios_basados_en_valores_el_caso_destinoriente_280.md",
       "annotatedPath": "output/03_annotated/280_negocios_basados_en_valores_el_caso_destinoriente_280.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7603,8 +7603,8 @@
       "processedPath": "output/02_processed/281_lecciones_financieras_y_no_tanto_de_mi_viaje_a_nepal_281.md",
       "annotatedPath": "output/03_annotated/281_lecciones_financieras_y_no_tanto_de_mi_viaje_a_nepal_281.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7630,8 +7630,8 @@
       "processedPath": "output/02_processed/282_trading_descuento_de_cheques_habitos_y_mas_282.md",
       "annotatedPath": "output/03_annotated/282_trading_descuento_de_cheques_habitos_y_mas_282.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7657,8 +7657,8 @@
       "processedPath": "output/02_processed/283_enchulame_el_negocio_barberia_283.md",
       "annotatedPath": "output/03_annotated/283_enchulame_el_negocio_barberia_283.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7684,8 +7684,8 @@
       "processedPath": "output/02_processed/284_especial_de_navidad_2023_284.md",
       "annotatedPath": "output/03_annotated/284_especial_de_navidad_2023_284.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7711,8 +7711,8 @@
       "processedPath": "output/02_processed/285_rituales_no_magicos_de_ano_nuevo_285.md",
       "annotatedPath": "output/03_annotated/285_rituales_no_magicos_de_ano_nuevo_285.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7738,8 +7738,8 @@
       "processedPath": "output/02_processed/286_trading_impuestos_prestamos_familiares_e_hipotecas_286.md",
       "annotatedPath": "output/03_annotated/286_trading_impuestos_prestamos_familiares_e_hipotecas_286.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7765,8 +7765,8 @@
       "processedPath": "output/02_processed/287_el_desarrollo_de_negocios_es_parte_de_las_finanzas_personales287.md",
       "annotatedPath": "output/03_annotated/287_el_desarrollo_de_negocios_es_parte_de_las_finanzas_personales287.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7792,8 +7792,8 @@
       "processedPath": "output/02_processed/288_en_que_ahorro_en_el_2024_288.md",
       "annotatedPath": "output/03_annotated/288_en_que_ahorro_en_el_2024_288.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7819,8 +7819,8 @@
       "processedPath": "output/02_processed/289_la_causa_raiz_de_los_problemas_financieros_289.md",
       "annotatedPath": "output/03_annotated/289_la_causa_raiz_de_los_problemas_financieros_289.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7846,8 +7846,8 @@
       "processedPath": "output/02_processed/290_se_acerca_mi_retiro_y_nunca_me_prepare_que_hago_290.md",
       "annotatedPath": "output/03_annotated/290_se_acerca_mi_retiro_y_nunca_me_prepare_que_hago_290.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7873,8 +7873,8 @@
       "processedPath": "output/02_processed/291_inversion_en_prex_paraguay_seguros_y_mas_preguntas_291.md",
       "annotatedPath": "output/03_annotated/291_inversion_en_prex_paraguay_seguros_y_mas_preguntas_291.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7900,8 +7900,8 @@
       "processedPath": "output/02_processed/292_cuando_el_amor_hace_mal_a_los_bolsillos_292.md",
       "annotatedPath": "output/03_annotated/292_cuando_el_amor_hace_mal_a_los_bolsillos_292.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7927,8 +7927,8 @@
       "processedPath": "output/02_processed/293_enchulame_el_negocio_constructor_293.md",
       "annotatedPath": "output/03_annotated/293_enchulame_el_negocio_constructor_293.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7954,8 +7954,8 @@
       "processedPath": "output/02_processed/294_como_gestionar_las_finanzas_con_ingresos_inestables_294.md",
       "annotatedPath": "output/03_annotated/294_como_gestionar_las_finanzas_con_ingresos_inestables_294.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -7981,8 +7981,8 @@
       "processedPath": "output/02_processed/295_inversion_inmobiliaria_creditos_educacion_financiera_en_adolescentes_y_mas_preguntas_295.md",
       "annotatedPath": "output/03_annotated/295_inversion_inmobiliaria_creditos_educacion_financiera_en_adolescentes_y_mas_preguntas_295.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8008,8 +8008,8 @@
       "processedPath": "output/02_processed/296_dame_un_plan_y_movere_al_mundo_296.md",
       "annotatedPath": "output/03_annotated/296_dame_un_plan_y_movere_al_mundo_296.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8035,8 +8035,8 @@
       "processedPath": "output/02_processed/297_los_peligros_de_los_cursos_online_297.md",
       "annotatedPath": "output/03_annotated/297_los_peligros_de_los_cursos_online_297.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8062,8 +8062,8 @@
       "processedPath": "output/02_processed/298_el_dolar_baja_que_hacemos_298.md",
       "annotatedPath": "output/03_annotated/298_el_dolar_baja_que_hacemos_298.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8089,8 +8089,8 @@
       "processedPath": "output/02_processed/299_en_que_invertir_la_respuesta_definitiva_299.md",
       "annotatedPath": "output/03_annotated/299_en_que_invertir_la_respuesta_definitiva_299.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8116,8 +8116,8 @@
       "processedPath": "output/02_processed/300_episodios_3_grandes_lecciones_300.md",
       "annotatedPath": "output/03_annotated/300_episodios_3_grandes_lecciones_300.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8143,8 +8143,8 @@
       "processedPath": "output/02_processed/301_plebiscito_por_la_reforma_de_la_seguridad_social_pan_para_hoy_hambre_para_manana_301.md",
       "annotatedPath": "output/03_annotated/301_plebiscito_por_la_reforma_de_la_seguridad_social_pan_para_hoy_hambre_para_manana_301.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8170,8 +8170,8 @@
       "processedPath": "output/02_processed/302_errores_financieros_en_momentos_de_crisis_302.md",
       "annotatedPath": "output/03_annotated/302_errores_financieros_en_momentos_de_crisis_302.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8197,8 +8197,8 @@
       "processedPath": "output/02_processed/303_el_caso_del_empleado_que_le_va_bien_emprendiendo_en_mercadolibre_303.md",
       "annotatedPath": "output/03_annotated/303_el_caso_del_empleado_que_le_va_bien_emprendiendo_en_mercadolibre_303.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8224,8 +8224,8 @@
       "processedPath": "output/02_processed/304_estafas_por_internet_mas_alla_del_dinero_304.md",
       "annotatedPath": "output/03_annotated/304_estafas_por_internet_mas_alla_del_dinero_304.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8251,8 +8251,8 @@
       "processedPath": "output/02_processed/305_medicos_y_dinero_305.md",
       "annotatedPath": "output/03_annotated/305_medicos_y_dinero_305.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8278,8 +8278,8 @@
       "processedPath": "output/02_processed/306_invertir_en_bolsa_de_forma_eficiente.md",
       "annotatedPath": "output/03_annotated/306_invertir_en_bolsa_de_forma_eficiente.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8305,8 +8305,8 @@
       "processedPath": "output/02_processed/307_analizando_el_plebiscito_por_una_deuda_justa_y_contra_la_usura_307.md",
       "annotatedPath": "output/03_annotated/307_analizando_el_plebiscito_por_una_deuda_justa_y_contra_la_usura_307.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8332,8 +8332,8 @@
       "processedPath": "output/02_processed/308_crowder_creando_oportunidades_financieras_308.md",
       "annotatedPath": "output/03_annotated/308_crowder_creando_oportunidades_financieras_308.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8359,8 +8359,8 @@
       "processedPath": "output/02_processed/309_sindrome_del_impostor_y_finanzas_personales_309.md",
       "annotatedPath": "output/03_annotated/309_sindrome_del_impostor_y_finanzas_personales_309.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8386,8 +8386,8 @@
       "processedPath": "output/02_processed/310_cuando_una_empresa_se_necesita_apalancar_la_historia_de_foxsys.md",
       "annotatedPath": "output/03_annotated/310_cuando_una_empresa_se_necesita_apalancar_la_historia_de_foxsys.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8413,8 +8413,8 @@
       "processedPath": "output/02_processed/310_como_llegar_a_un_lugar_mas_alla_del_dinero_310.md",
       "annotatedPath": "output/03_annotated/310_como_llegar_a_un_lugar_mas_alla_del_dinero_310.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8440,8 +8440,8 @@
       "processedPath": "output/02_processed/311_el_caso_de_los_casi_jubilados_que_no_van_a_tener_jubilacion_311.md",
       "annotatedPath": "output/03_annotated/311_el_caso_de_los_casi_jubilados_que_no_van_a_tener_jubilacion_311.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8467,8 +8467,8 @@
       "processedPath": "output/02_processed/312_como_seleccionar_un_intermediario_financiero_para_invertir_312.md",
       "annotatedPath": "output/03_annotated/312_como_seleccionar_un_intermediario_financiero_para_invertir_312.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8494,8 +8494,8 @@
       "processedPath": "output/02_processed/313_las_trampas_financieras_de_nuestro_cerebro_313.md",
       "annotatedPath": "output/03_annotated/313_las_trampas_financieras_de_nuestro_cerebro_313.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8521,8 +8521,8 @@
       "processedPath": "output/02_processed/314_como_gastar_dinero_para_ganar_dinero_314.md",
       "annotatedPath": "output/03_annotated/314_como_gastar_dinero_para_ganar_dinero_314.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8548,8 +8548,8 @@
       "processedPath": "output/02_processed/315_mercado_de_consumo_como_llegamos_a_esto_y_que_podemos_hacer_al_respecto_315.md",
       "annotatedPath": "output/03_annotated/315_mercado_de_consumo_como_llegamos_a_esto_y_que_podemos_hacer_al_respecto_315.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8575,8 +8575,8 @@
       "processedPath": "output/02_processed/316_que_son_los_fondos_de_inversion_y_por_que_es_importante_saberlo_316.md",
       "annotatedPath": "output/03_annotated/316_que_son_los_fondos_de_inversion_y_por_que_es_importante_saberlo_316.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8602,8 +8602,8 @@
       "processedPath": "output/02_processed/317_habitos_no_financieros_para_mejorar_nuestras_finanzas_317.md",
       "annotatedPath": "output/03_annotated/317_habitos_no_financieros_para_mejorar_nuestras_finanzas_317.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8629,8 +8629,8 @@
       "processedPath": "output/02_processed/318_nostalgia_financiera_en_el_pasado_se_vivia_mejor.md",
       "annotatedPath": "output/03_annotated/318_nostalgia_financiera_en_el_pasado_se_vivia_mejor.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8656,8 +8656,8 @@
       "processedPath": "output/02_processed/319_que_es_un_plan_financiero_persona_y_como_implementarlo_319.md",
       "annotatedPath": "output/03_annotated/319_que_es_un_plan_financiero_persona_y_como_implementarlo_319.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8683,8 +8683,8 @@
       "processedPath": "output/02_processed/320_miedo_al_dinero_cuando_cuesta_cobrar_320.md",
       "annotatedPath": "output/03_annotated/320_miedo_al_dinero_cuando_cuesta_cobrar_320.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8710,8 +8710,8 @@
       "processedPath": "output/02_processed/321_futbol_y_dinero_321.md",
       "annotatedPath": "output/03_annotated/321_futbol_y_dinero_321.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8737,8 +8737,8 @@
       "processedPath": "output/02_processed/322_el_mito_de_la_diversificacion_322.md",
       "annotatedPath": "output/03_annotated/322_el_mito_de_la_diversificacion_322.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8764,8 +8764,8 @@
       "processedPath": "output/02_processed/323_estafas_como_reconocer_un_esquema_de_ponzi_323.md",
       "annotatedPath": "output/03_annotated/323_estafas_como_reconocer_un_esquema_de_ponzi_323.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8791,8 +8791,8 @@
       "processedPath": "output/02_processed/324_guia_para_gestionar_tu_primer_salario_324.md",
       "annotatedPath": "output/03_annotated/324_guia_para_gestionar_tu_primer_salario_324.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8818,8 +8818,8 @@
       "processedPath": "output/02_processed/325_mercadolibre_claves_para_el_exito_en_la_plataforma_325.md",
       "annotatedPath": "output/03_annotated/325_mercadolibre_claves_para_el_exito_en_la_plataforma_325.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8845,8 +8845,8 @@
       "processedPath": "output/02_processed/326_no_vayas_nunca_a_un_evento_o_conferencia_sin_saber_esto_326.md",
       "annotatedPath": "output/03_annotated/326_no_vayas_nunca_a_un_evento_o_conferencia_sin_saber_esto_326.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8872,8 +8872,8 @@
       "processedPath": "output/02_processed/327_que_es_el_branding_mas_alla_del_logo_con_nico_bava_327.md",
       "annotatedPath": "output/03_annotated/327_que_es_el_branding_mas_alla_del_logo_con_nico_bava_327.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8899,8 +8899,8 @@
       "processedPath": "output/02_processed/328_tu_dinero_seguro_el_increible_fallo_de_seguridad_de_uno_de_los_brokers_mas_populares_del_mundo_328.md",
       "annotatedPath": "output/03_annotated/328_tu_dinero_seguro_el_increible_fallo_de_seguridad_de_uno_de_los_brokers_mas_populares_del_mundo_328.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8926,8 +8926,8 @@
       "processedPath": "output/02_processed/329_todo_lo_que_no_te_dicen_antes_de_sacar_una_hipoteca_329.md",
       "annotatedPath": "output/03_annotated/329_todo_lo_que_no_te_dicen_antes_de_sacar_una_hipoteca_329.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8953,8 +8953,8 @@
       "processedPath": "output/02_processed/330_evita_la_estafa_del_marketplace_en_facebook_como_operan_y_como_protegerte_330.md",
       "annotatedPath": "output/03_annotated/330_evita_la_estafa_del_marketplace_en_facebook_como_operan_y_como_protegerte_330.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -8980,8 +8980,8 @@
       "processedPath": "output/02_processed/331_por_que_todos_se_equivocan_en_las_finanzas_personales_331.md",
       "annotatedPath": "output/03_annotated/331_por_que_todos_se_equivocan_en_las_finanzas_personales_331.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9007,8 +9007,8 @@
       "processedPath": "output/02_processed/332_cuidado_con_los_gastos_hormiga_como_ahorrar_miles_de_dolares_al_ano_332.md",
       "annotatedPath": "output/03_annotated/332_cuidado_con_los_gastos_hormiga_como_ahorrar_miles_de_dolares_al_ano_332.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9034,8 +9034,8 @@
       "processedPath": "output/02_processed/333_nuevo_gobierno_en_uruguay_como_afectara_tu_bolsillo_dolar_inflacion_y_mas_333.md",
       "annotatedPath": "output/03_annotated/333_nuevo_gobierno_en_uruguay_como_afectara_tu_bolsillo_dolar_inflacion_y_mas_333.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9061,8 +9061,8 @@
       "processedPath": "output/02_processed/334_como_bajar_el_costo_de_vida_sin_sufrir_334.md",
       "annotatedPath": "output/03_annotated/334_como_bajar_el_costo_de_vida_sin_sufrir_334.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9088,8 +9088,8 @@
       "processedPath": "output/02_processed/335_herramientas_que_cambiaron_mi_2024_productividad_finanzas_y_mas_335.md",
       "annotatedPath": "output/03_annotated/335_herramientas_que_cambiaron_mi_2024_productividad_finanzas_y_mas_335.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9115,8 +9115,8 @@
       "processedPath": "output/02_processed/336_mudarse_al_interior_es_realmente_el_sueno_ideal_3_anos_despues_mi_experiencia_336.md",
       "annotatedPath": "output/03_annotated/336_mudarse_al_interior_es_realmente_el_sueno_ideal_3_anos_despues_mi_experiencia_336.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9142,8 +9142,8 @@
       "processedPath": "output/02_processed/337_resumen_financiero_2024_lo_que_cambio_en_la_economia_y_que_esperar_en_2025_337.md",
       "annotatedPath": "output/03_annotated/337_resumen_financiero_2024_lo_que_cambio_en_la_economia_y_que_esperar_en_2025_337.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9169,8 +9169,8 @@
       "processedPath": "output/02_processed/338_por_que_la_psicologia_del_dinero_puede_cambiar_tu_forma_de_ver_las_finanzas_338.md",
       "annotatedPath": "output/03_annotated/338_por_que_la_psicologia_del_dinero_puede_cambiar_tu_forma_de_ver_las_finanzas_338.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9196,8 +9196,8 @@
       "processedPath": "output/02_processed/339_la_psicologia_del_dinero_cuanto_es_suficiente_parte_2_339.md",
       "annotatedPath": "output/03_annotated/339_la_psicologia_del_dinero_cuanto_es_suficiente_parte_2_339.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9223,8 +9223,8 @@
       "processedPath": "output/02_processed/340_la_psicologia_del_dinero_parte_3_control_libertad_y_felicidad_financiera_340.md",
       "annotatedPath": "output/03_annotated/340_la_psicologia_del_dinero_parte_3_control_libertad_y_felicidad_financiera_340.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9250,8 +9250,8 @@
       "processedPath": "output/02_processed/341_la_psicologia_del_dinero_ahorro_emociones_y_largo_plazo_parte_4_341.md",
       "annotatedPath": "output/03_annotated/341_la_psicologia_del_dinero_ahorro_emociones_y_largo_plazo_parte_4_341.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9277,8 +9277,8 @@
       "processedPath": "output/02_processed/342_la_psicologia_del_dinero_el_juego_financiero_que_realmente_estas_jugando_parte_5.md",
       "annotatedPath": "output/03_annotated/342_la_psicologia_del_dinero_el_juego_financiero_que_realmente_estas_jugando_parte_5.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9304,8 +9304,8 @@
       "processedPath": "output/02_processed/343_la_debacle_de_las_empresas_de_inversion_ganadera_en_uruguay_era_previsible.md",
       "annotatedPath": "output/03_annotated/343_la_debacle_de_las_empresas_de_inversion_ganadera_en_uruguay_era_previsible.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9331,8 +9331,8 @@
       "processedPath": "output/02_processed/344_genera_ingresos_extra_con_lo_que_ya_sabes_hacer_sin_renunciar_a_tu_trabajo_344.md",
       "annotatedPath": "output/03_annotated/344_genera_ingresos_extra_con_lo_que_ya_sabes_hacer_sin_renunciar_a_tu_trabajo_344.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9358,8 +9358,8 @@
       "processedPath": "output/02_processed/345_neosectas_el_peligroso_culto_de_los_falsos_millonarios_en_internet_345.md",
       "annotatedPath": "output/03_annotated/345_neosectas_el_peligroso_culto_de_los_falsos_millonarios_en_internet_345.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9385,8 +9385,8 @@
       "processedPath": "output/02_processed/346_revocar_el_articulo_8_cuando_vale_la_pena.md",
       "annotatedPath": "output/03_annotated/346_revocar_el_articulo_8_cuando_vale_la_pena.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9412,8 +9412,8 @@
       "processedPath": "output/02_processed/347_como_dejar_de_caer_en_el_consumo_impulsivo_la_epidemia_invisible_del_siglo_xxi.md",
       "annotatedPath": "output/03_annotated/347_como_dejar_de_caer_en_el_consumo_impulsivo_la_epidemia_invisible_del_siglo_xxi.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9439,8 +9439,8 @@
       "processedPath": "output/02_processed/348_por_que_nadie_puede_predecir_la_economia_la_verdad_sobre_los_sistemas_complejos.md",
       "annotatedPath": "output/03_annotated/348_por_que_nadie_puede_predecir_la_economia_la_verdad_sobre_los_sistemas_complejos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9466,8 +9466,8 @@
       "processedPath": "output/02_processed/349_por_que_los_cursos_no_te_cambian_la_vida_y_como_lograr_que_si_lo_hagan.md",
       "annotatedPath": "output/03_annotated/349_por_que_los_cursos_no_te_cambian_la_vida_y_como_lograr_que_si_lo_hagan.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9493,8 +9493,8 @@
       "processedPath": "output/02_processed/350_como_tomar_decisiones_financieras_importantes_en_contextos_de_incertidumbre.md",
       "annotatedPath": "output/03_annotated/350_como_tomar_decisiones_financieras_importantes_en_contextos_de_incertidumbre.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9520,8 +9520,8 @@
       "processedPath": "output/02_processed/351_trump_recesion_y_mercados_locos_es_buen_momento_para_invertir.md",
       "annotatedPath": "output/03_annotated/351_trump_recesion_y_mercados_locos_es_buen_momento_para_invertir.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9547,8 +9547,8 @@
       "processedPath": "output/02_processed/352_negocios_con_culpa_como_no_caer_en_la_trampa_del_chantaje_emocional.md",
       "annotatedPath": "output/03_annotated/352_negocios_con_culpa_como_no_caer_en_la_trampa_del_chantaje_emocional.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9574,8 +9574,8 @@
       "processedPath": "output/02_processed/353_vivir_en_madera_la_opcion_que_uruguay_sigue_ignorando.md",
       "annotatedPath": "output/03_annotated/353_vivir_en_madera_la_opcion_que_uruguay_sigue_ignorando.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9601,8 +9601,8 @@
       "processedPath": "output/02_processed/354_como_evitar_ser_estafado_por_corredores_de_bolsa_3_casos_reales_en_uruguay.md",
       "annotatedPath": "output/03_annotated/354_como_evitar_ser_estafado_por_corredores_de_bolsa_3_casos_reales_en_uruguay.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9628,8 +9628,8 @@
       "processedPath": "output/02_processed/355_el_secreto_de_la_mente_millonaria_cambia_tu_forma_de_pensar_y_cambia_tu_vida.md",
       "annotatedPath": "output/03_annotated/355_el_secreto_de_la_mente_millonaria_cambia_tu_forma_de_pensar_y_cambia_tu_vida.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9655,8 +9655,8 @@
       "processedPath": "output/02_processed/356_pensamientos_que_separan_a_los_ricos_de_los_pobres_segun_t_harv_eker.md",
       "annotatedPath": "output/03_annotated/356_pensamientos_que_separan_a_los_ricos_de_los_pobres_segun_t_harv_eker.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9682,8 +9682,8 @@
       "processedPath": "output/02_processed/357_la_historia_de_los_templarios_como_caso_de_estudio_y_que_podes_aplicar_en_tu_negocio.md",
       "annotatedPath": "output/03_annotated/357_la_historia_de_los_templarios_como_caso_de_estudio_y_que_podes_aplicar_en_tu_negocio.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9709,8 +9709,8 @@
       "processedPath": "output/02_processed/358_dejar_herencia_o_ensenar_a_ganarla_la_decision_que_todo_padre_deberia_pensar.md",
       "annotatedPath": "output/03_annotated/358_dejar_herencia_o_ensenar_a_ganarla_la_decision_que_todo_padre_deberia_pensar.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9736,8 +9736,8 @@
       "processedPath": "output/02_processed/359_como_educar_a_nuestros_hijos_en_finanzas_segun_su_edad_de_los_3_a_los_25_anos.md",
       "annotatedPath": "output/03_annotated/359_como_educar_a_nuestros_hijos_en_finanzas_segun_su_edad_de_los_3_a_los_25_anos.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9763,8 +9763,8 @@
       "processedPath": "output/02_processed/360_el_consumo_te_hace_feliz_lo_que_dice_la_ciencia_sobre_gastar_plata.md",
       "annotatedPath": "output/03_annotated/360_el_consumo_te_hace_feliz_lo_que_dice_la_ciencia_sobre_gastar_plata.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9790,8 +9790,8 @@
       "processedPath": "output/02_processed/361_por_que_las_apps_de_finanzas_no_funcionan_si_estas_solo.md",
       "annotatedPath": "output/03_annotated/361_por_que_las_apps_de_finanzas_no_funcionan_si_estas_solo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9817,8 +9817,8 @@
       "processedPath": "output/02_processed/362_etf_pasivos_o_fondo_activo_entrevista_a_ahmed_riesgo.md",
       "annotatedPath": "output/03_annotated/362_etf_pasivos_o_fondo_activo_entrevista_a_ahmed_riesgo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9844,8 +9844,8 @@
       "processedPath": "output/02_processed/363_anos_de_podcast_y_una_gran_sorpresa.md",
       "annotatedPath": "output/03_annotated/363_anos_de_podcast_y_una_gran_sorpresa.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9871,8 +9871,8 @@
       "processedPath": "output/02_processed/367_se_puede_ser_feliz_ganando_poco_dinero.md",
       "annotatedPath": "output/03_annotated/367_se_puede_ser_feliz_ganando_poco_dinero.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9898,8 +9898,8 @@
       "processedPath": "output/02_processed/368_existen_realmente_los_ingresos_pasivos_desmitificando_el_sueno_de_ganar_dinero_mientras_dormis.md",
       "annotatedPath": "output/03_annotated/368_existen_realmente_los_ingresos_pasivos_desmitificando_el_sueno_de_ganar_dinero_mientras_dormis.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9925,8 +9925,8 @@
       "processedPath": "output/02_processed/369_como_aprovechar_las_tendencias_demograficas_que_cambiaran_uruguay.md",
       "annotatedPath": "output/03_annotated/369_como_aprovechar_las_tendencias_demograficas_que_cambiaran_uruguay.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9952,8 +9952,8 @@
       "processedPath": "output/02_processed/370_estrategias_oblicuas_para_ahorrar_engana_a_tu_cerebro_y_gasta_menos_sin_sufrir.md",
       "annotatedPath": "output/03_annotated/370_estrategias_oblicuas_para_ahorrar_engana_a_tu_cerebro_y_gasta_menos_sin_sufrir.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -9979,8 +9979,8 @@
       "processedPath": "output/02_processed/371_la_inteligencia_artificial_nos_esta_volviendo_mas_tarados.md",
       "annotatedPath": "output/03_annotated/371_la_inteligencia_artificial_nos_esta_volviendo_mas_tarados.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10006,8 +10006,8 @@
       "processedPath": "output/02_processed/372_invertir_hacerlo_solo_o_delegar_la_verdad_sobre_portafolios_fondos_y_asesores.md",
       "annotatedPath": "output/03_annotated/372_invertir_hacerlo_solo_o_delegar_la_verdad_sobre_portafolios_fondos_y_asesores.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10033,8 +10033,8 @@
       "processedPath": "output/02_processed/373_como_aumentar_tus_ingresos_validacion_de_ideas_proyectos_paralelos_y_apalancamiento_financiero.md",
       "annotatedPath": "output/03_annotated/373_como_aumentar_tus_ingresos_validacion_de_ideas_proyectos_paralelos_y_apalancamiento_financiero.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10060,8 +10060,8 @@
       "processedPath": "output/02_processed/374_la_estafa_de_la_gallina_de_los_huevos_de_oro_cuando_un_bot_de_trading_te_deja_sin_nada.md",
       "annotatedPath": "output/03_annotated/374_la_estafa_de_la_gallina_de_los_huevos_de_oro_cuando_un_bot_de_trading_te_deja_sin_nada.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10087,8 +10087,8 @@
       "processedPath": "output/02_processed/375_fundamentos_nf1_los_tres_pilares_de_las_finanzas_personales.md",
       "annotatedPath": "output/03_annotated/375_fundamentos_nf1_los_tres_pilares_de_las_finanzas_personales.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10114,8 +10114,8 @@
       "processedPath": "output/02_processed/376_fundamentos_nf2_el_secreto_del_equilibrio_financiero_disfrutar_hoy_sin_arruinar_tu_futuro.md",
       "annotatedPath": "output/03_annotated/376_fundamentos_nf2_el_secreto_del_equilibrio_financiero_disfrutar_hoy_sin_arruinar_tu_futuro.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10141,8 +10141,8 @@
       "processedPath": "output/02_processed/377_fundamentos_nf3_hay_que_creersela.md",
       "annotatedPath": "output/03_annotated/377_fundamentos_nf3_hay_que_creersela.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10168,8 +10168,8 @@
       "processedPath": "output/02_processed/378_fundamento_nf4_por_que_controlar_tus_gastos_es_mas_dificil_de_lo_que_pensas.md",
       "annotatedPath": "output/03_annotated/378_fundamento_nf4_por_que_controlar_tus_gastos_es_mas_dificil_de_lo_que_pensas.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10195,8 +10195,8 @@
       "processedPath": "output/02_processed/379_fundamentos_nf5_ganar_mas_dinero_no_es_tan_dificil_como_crees.md",
       "annotatedPath": "output/03_annotated/379_fundamentos_nf5_ganar_mas_dinero_no_es_tan_dificil_como_crees.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10222,8 +10222,8 @@
       "processedPath": "output/02_processed/380_fundamentos_n6_todos_debemos_invertir_y_es_mas_facil_de_lo_que_parece.md",
       "annotatedPath": "output/03_annotated/380_fundamentos_n6_todos_debemos_invertir_y_es_mas_facil_de_lo_que_parece.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10249,8 +10249,8 @@
       "processedPath": "output/02_processed/381_fundamentos_nf7_nadie_va_a_venir_a_salvarte_asumi_la_responsabilidad_de_tu_vida_financiera.md",
       "annotatedPath": "output/03_annotated/381_fundamentos_nf7_nadie_va_a_venir_a_salvarte_asumi_la_responsabilidad_de_tu_vida_financiera.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10276,8 +10276,8 @@
       "processedPath": "output/02_processed/382_dinero_feliz_la_mirada_japonesa_que_cambia_tu_relacion_con_el_dinero.md",
       "annotatedPath": "output/03_annotated/382_dinero_feliz_la_mirada_japonesa_que_cambia_tu_relacion_con_el_dinero.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10303,8 +10303,8 @@
       "processedPath": "output/02_processed/383_dinero_feliz_parte_2_el_verdadero_significado_del_dinero_y_como_cambia_tu_vida.md",
       "annotatedPath": "output/03_annotated/383_dinero_feliz_parte_2_el_verdadero_significado_del_dinero_y_como_cambia_tu_vida.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10330,8 +10330,8 @@
       "processedPath": "output/02_processed/384_ganas_plata_pero_no_sos_feliz_la_formula_ci_vs_ce_del_dinero_dinero_feliz_parte_3.md",
       "annotatedPath": "output/03_annotated/384_ganas_plata_pero_no_sos_feliz_la_formula_ci_vs_ce_del_dinero_dinero_feliz_parte_3.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10357,8 +10357,8 @@
       "processedPath": "output/02_processed/385_como_tus_padres_te_programaron_para_la_escasez_y_como_revertirlo.md",
       "annotatedPath": "output/03_annotated/385_como_tus_padres_te_programaron_para_la_escasez_y_como_revertirlo.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,
@@ -10384,8 +10384,8 @@
       "processedPath": "output/02_processed/386_aplica_este_secreto_japones_y_tu_dinero_comenzara_a_fluir.md",
       "annotatedPath": "output/03_annotated/386_aplica_este_secreto_japones_y_tu_dinero_comenzara_a_fluir.md",
       "summarized": {
-        "glossarized": false,
-        "clustered": false
+        "glossarized": true,
+        "clustered": true
       },
       "normalized": {
         "refined": true,

@@ -65,6 +65,11 @@ export const PATHS = {
      * Summarized files directory (05_summarized)
      */
     summarized: path.join(PROJECT_ROOT, "output", "05_summarized"),
+
+    /**
+     * Web-ready files directory (06_web_ready)
+     */
+    webReady: path.join(PROJECT_ROOT, "output", "06_web_ready"),
   },
 
   /**

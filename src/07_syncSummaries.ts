@@ -1,3 +1,12 @@
+/**
+ * @deprecated This script has been split into three separate scripts:
+ * - 07_generateGlossary.ts: Generates glossary definitions
+ * - 08_prepareSummaries.ts: Analyzes structure and creates learning path
+ * - 09_syncSummaries.ts: Generates summary files from structure
+ *
+ * Use the new scripts instead for better separation of concerns and user control.
+ */
+
 import fs from "fs";
 import path from "path";
 import { GoogleGenAI } from "@google/genai";
@@ -216,7 +225,7 @@ async function generateGlossaryDefinitions(
   const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
   // Batch terms to process multiple at once (e.g., 10 terms per request)
-  const BATCH_SIZE = 10;
+  const BATCH_SIZE = 25;
   const batches: string[][] = [];
 
   for (let i = 0; i < termsToProcess.length; i += BATCH_SIZE) {
@@ -519,9 +528,11 @@ function extractExtendedCategories(): Set<string> {
 
       if (inExtendedSection && line.includes("=>") && !line.startsWith("|")) {
         const match = line.match(/^[-*]\s*.+?\s*=>\s*(.+?)$/);
-        if (match) {
-          const extended = match[2].trim();
-          categories.add(extended);
+        if (match && match[1]) {
+          const extended = match[1].trim();
+          if (extended) {
+            categories.add(extended);
+          }
         }
       }
     }
