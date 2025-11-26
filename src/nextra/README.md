@@ -1,29 +1,34 @@
-# Neurona Financiera - Documentación con Nextra
+# Neurona Financiera Docs
 
-Este es el sitio de documentación construido con Nextra para Neurona Financiera.
+Documentación completa de Neurona Financiera construida con Nextra.
 
-## Desarrollo
-
-Para ejecutar el servidor de desarrollo:
+## Desarrollo Local
 
 ```bash
-cd src/nextra
 pnpm install
 pnpm dev
 ```
 
-El sitio estará disponible en [http://localhost:3000](http://localhost:3000).
-
-## Construcción
-
-Para construir el sitio para producción:
+## Build
 
 ```bash
 pnpm build
+pnpm start
 ```
 
-## Estructura
+## Despliegue en Vercel
 
-- `pages/` - Contiene las páginas MDX de la documentación
-- `theme.config.tsx` - Configuración del tema
-- `next.config.mjs` - Configuración de Next.js y Nextra
+Este proyecto está configurado para desplegarse automáticamente en Vercel. La configuración está en `vercel.json` en la raíz del repositorio.
+
+### Configuración de Vercel
+
+- **Root Directory**: `src/nextra`
+- **Framework**: Next.js
+- **Build Command**: `pnpm install && pnpm build`
+- **Output Directory**: `.next` (automático)
+
+### Pasos para desplegar
+
+1. Conecta tu repositorio a Vercel
+2. Vercel detectará automáticamente la configuración desde `vercel.json`
+3. El despliegue se realizará automáticamente en cada push a la rama principal

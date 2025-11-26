@@ -145,3 +145,7 @@ vendor/
 *.mp3
 
 */playground/whisper.cpp/
+
+# Nextra build files
+src/nextra/.next/
+src/nextra/node_modules/
