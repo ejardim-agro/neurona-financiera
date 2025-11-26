@@ -1,0 +1,41 @@
+## Sección 9: Inversión y Sostenibilidad
+
+**Introducción:**
+
+La sostenibilidad ha emergido como un factor crucial en el ámbito de la inversión, trascendiendo la mera filantropía para convertirse en una consideración central en la evaluación de riesgos y oportunidades financieras. La inversión sostenible integra factores ambientales, sociales y de gobernanza (ESG) en las decisiones de inversión, buscando generar tanto rentabilidad financiera como un impacto positivo en la sociedad y el planeta. Esta sección explorará los conceptos clave de la inversión sostenible, sus diferentes enfoques y cómo los inversores pueden alinear sus carteras con sus valores y objetivos de sostenibilidad, incluso en contextos económicos complejos como el inflacionario.
+
+**Desarrollo:**
+
+La inversión sostenible abarca diversas estrategias, que van desde la exclusión de empresas con prácticas perjudiciales hasta la inversión activa en empresas que lideran en sostenibilidad. Algunos enfoques comunes incluyen:
+
+*   **Inversión Socialmente Responsable (ISR):** Este enfoque se centra en excluir de la cartera a empresas involucradas en actividades consideradas dañinas para la sociedad o el medio ambiente, como la producción de armas, el tabaco o la explotación de combustibles fósiles. Si bien el podcast no profundiza en ISR, es importante señalar que este enfoque suele ser un punto de partida para muchos inversores que se inician en la inversión sostenible.
+
+*   **Inversión de Impacto:** Esta estrategia busca invertir en empresas, organizaciones o fondos con la intención explícita de generar un impacto social o ambiental positivo, además de un retorno financiero. Ejemplos incluyen inversiones en energías renovables, agricultura sostenible, o proyectos de inclusión financiera.
+
+*   **Integración ESG:** Implica la incorporación sistemática de factores ambientales, sociales y de gobernanza en el análisis de inversiones y la toma de decisiones. Esto significa evaluar el desempeño de las empresas en relación con métricas ESG y considerar cómo estos factores pueden afectar su rentabilidad a largo plazo. La integración ESG reconoce que las empresas con buenas prácticas en estas áreas pueden ser más resilientes, innovadoras y, en última instancia, más rentables.
+
+**Consideraciones de la Inflación en la Inversión Sostenible:**
+
+En un contexto inflacionario, como el descrito en el episodio de podcast, la inversión sostenible puede ofrecer algunas ventajas. Por ejemplo, las empresas que operan de manera eficiente en el uso de recursos, o que están enfocadas en la producción de energías renovables, pueden ser más resistentes a las presiones inflacionarias causadas por el aumento de los precios de la energía y otras materias primas.
+
+*   **Commodities y la Transición Energética:** El podcast menciona la falta de inversión en *commodities* como el cobre como una causa de la inflación. Sin embargo, es importante notar que este cobre también es necesario para la transición energética, y por lo tanto la inversión en minería sostenible de cobre puede considerarse una inversión sostenible.
+
+*   **Propiedades Sostenibles:** La inversión en propiedades puede ser una opción para protegerse de la inflación, y este concepto se puede expandir a la inversión en propiedades sostenibles, como edificios con alta eficiencia energética o proyectos de construcción que utilizan materiales reciclados. Estas propiedades pueden ser más atractivas para los inquilinos y compradores conscientes del medio ambiente, lo que puede generar mayores retornos a largo plazo.
+
+**Puntos Clave:**
+
+*   La inversión sostenible no es un concepto único, sino una gama de estrategias que buscan alinear las inversiones con valores éticos y objetivos de sostenibilidad.
+*   La integración de factores ESG puede ayudar a identificar empresas con un mejor desempeño a largo plazo, incluso en entornos económicos volátiles.
+*   La inversión sostenible puede ofrecer oportunidades para mitigar los efectos de la inflación, invirtiendo en empresas y proyectos que sean resilientes a las presiones inflacionarias.
+*   La falta de inversión en materias primas (commodities) es una causa de la inflación, pero esos mismos commodities son necesarios para la transición energética, por lo que las inversiones sostenibles son clave para el futuro.
+*   Considerar la sostenibilidad en la inversión inmobiliaria puede generar retornos a largo plazo y protegerse de la inflación.
+
+**Conclusión:**
+
+La inversión sostenible representa una evolución en la forma en que se conciben las finanzas, reconociendo la importancia de generar valor no solo para los accionistas, sino también para la sociedad y el planeta. Al integrar factores ESG en las decisiones de inversión, los inversores pueden contribuir a un futuro más sostenible y, al mismo tiempo, mejorar sus resultados financieros. En un mundo cada vez más consciente de los desafíos ambientales y sociales, la inversión sostenible se posiciona como una fuerza impulsora para el cambio positivo y una estrategia clave para construir carteras resilientes y rentables a largo plazo.
+
+---
+
+# Episodios
+
+- 199 - 199. ¿Porqué están aumentando los precios de todo?

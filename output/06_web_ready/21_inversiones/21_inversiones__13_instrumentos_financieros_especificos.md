@@ -1,0 +1,40 @@
+## Sección 13: Unidades Indexadas (UI) como Instrumento Financiero
+
+**Introducción:**
+
+Esta sección se centra en las Unidades Indexadas (UI) como un instrumento financiero específico, analizando sus características, su función como protección contra la inflación y las opciones (limitadas) disponibles para invertir en ellas. Las Unidades Indexadas son un tipo particular de unidad de cuenta que ajusta su valor según la inflación, ofreciendo una protección contra la pérdida de poder adquisitivo.
+
+**Unidades Indexadas: Definición y Función**
+
+La Unidad Indexada (UI) es una unidad de valor que se actualiza diariamente en función del Índice de Precios al Consumidor (IPC). Su principal objetivo es mantener el valor real del dinero a lo largo del tiempo, contrarrestando los efectos de la inflación. En esencia, la UI es una moneda virtual que sigue el ritmo de la inflación, preservando el poder adquisitivo de los ahorros e inversiones. Aunque no es una moneda física, se utiliza para denominar precios, salarios y, crucialmente, instrumentos financieros.
+
+**Opciones de Inversión en Unidades Indexadas**
+
+En el contexto uruguayo (principal contexto de referencia para este instrumento), las opciones para invertir directamente en UI son limitadas.  Algunos bancos ofrecen cuentas de ahorro denominadas en UI, lo que permite a los ahorristas mantener el valor de sus fondos ajustado por la inflación.  Ejemplos concretos, identificados en la fuente original, incluyen:
+
+*   **BBA** (nombre completo no especificado en la fuente)
+*   **Scotia** (presumiblemente, Scotiabank Uruguay)
+*   **Banco Hipotecario del Uruguay (BHU)**, específicamente a través de la cuenta "Yo Ahorro."
+
+Es importante notar que la disponibilidad y características de estas cuentas pueden variar con el tiempo, y es recomendable contactar directamente a las instituciones financieras para obtener información actualizada.
+
+**Limitaciones y Desafíos**
+
+La principal limitación en el uso de las UI como instrumento de inversión es la escasa disponibilidad de productos financieros denominados en esta unidad. La falta de una oferta más amplia de instrumentos en UI, como bonos, fondos de inversión u otros productos estructurados, reduce su atractivo para un público más amplio y limita las opciones de diversificación para los inversores. Este escenario representa un desafío para las autoridades monetarias, como el Banco Central, que podrían fomentar la desdolarización de la economía mediante la creación de más instrumentos financieros en UI.
+
+**Implicaciones para la Planificación Financiera**
+
+A pesar de las limitaciones, la UI puede ser una herramienta valiosa en la planificación financiera, especialmente para aquellos que planean vivir en Uruguay durante su jubilación. Al invertir en instrumentos denominados en UI, los individuos pueden proteger sus ahorros del impacto de la inflación, asegurando que su poder adquisitivo se mantenga a lo largo del tiempo. Sin embargo, es crucial tener en cuenta la limitada disponibilidad de opciones y evaluar si la UI se ajusta a las necesidades y objetivos de inversión individuales.
+
+**Puntos Clave**
+
+*   La Unidad Indexada (UI) es un instrumento financiero diseñado para proteger contra la inflación.
+*   Las opciones de inversión en UI son limitadas, principalmente a cuentas de ahorro en algunos bancos.
+*   La falta de una oferta más amplia de instrumentos financieros en UI representa una limitación para su adopción generalizada.
+*   La UI puede ser útil para la planificación financiera a largo plazo, especialmente en entornos inflacionarios, pero se debe considerar la limitada liquidez y opciones de inversión.
+
+---
+
+# Episodios
+
+- 160 - 160. Protección asegurada contra la inflación

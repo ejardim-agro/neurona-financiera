@@ -1,0 +1,44 @@
+## Sección 19: La Influencia del Entorno y la Red de Apoyo Financiero
+
+**Introducción:**
+
+La planificación financiera no se realiza en el vacío. El entorno social, las personas con las que interactuamos regularmente y la información que consumimos, ejercen una influencia significativa en nuestras decisiones y hábitos financieros. Esta sección explora cómo la influencia del entorno impacta en la salud financiera y cómo construir una red de apoyo que fomente el crecimiento económico personal.
+
+**La Frase de Tim Ferris y la Selección Consciente de Compañías:**
+
+La afirmación de Tim Ferris: "Eres el promedio de las cinco personas con las que más te asocias", es una premisa fundamental para entender la importancia de la influencia en nuestras vidas. Tendemos a adoptar las características, comportamientos y mentalidades de las personas que nos rodean. En el contexto financiero, esto implica que si nos asociamos con personas que tienen hábitos financieros saludables, es más probable que nosotros mismos desarrollemos esos hábitos. La elección consciente de las personas con las que nos asociamos es, por lo tanto, una herramienta poderosa para mejorar nuestra situación financiera.
+
+**Conocimiento por Exposición:**
+
+No se trata de "aprender por ósmosis", sino de adquirir conocimientos y perspectivas valiosas a través de la exposición a conversaciones y experiencias relevantes. Interactuar con personas que ya han alcanzado el éxito financiero, que tienen conocimientos sobre inversiones o que gestionan sus finanzas de manera eficiente, puede proporcionarnos información práctica y motivación para mejorar nuestras propias habilidades.
+
+**El Entorno Digital: Curación de Contenido y Redes Sociales:**
+
+En la era digital, el entorno se extiende más allá de las relaciones personales directas e incluye a las personas y la información que consumimos en línea. Es crucial ser selectivos con las cuentas que seguimos en redes sociales. Priorizar aquellas que aportan valor y conocimiento en áreas como finanzas, inversiones o desarrollo personal. Evitar el consumo excesivo de contenido irrelevante o perjudicial para nuestra salud mental y financiera.
+
+**Alejarse de la Negatividad y la Energía Drenante:**
+
+Las personas que constantemente se quejan, que tienen una visión negativa de la vida o que no apoyan nuestros objetivos, pueden tener un impacto perjudicial en nuestra motivación y confianza para alcanzar nuestras metas financieras. Distanciarse de este tipo de influencia negativa es esencial para proteger nuestra energía y mantenernos enfocados en nuestros objetivos. No se trata de aislarse, sino de ser conscientes del impacto de las relaciones y elegir aquellas que impulsen el crecimiento.
+
+**Búsqueda de Referentes y Mentores:**
+
+Identificar referentes y personas con las cualidades financieras que deseamos desarrollar es un paso importante. Estos referentes pueden servir como modelos a seguir y proporcionarnos inspiración y dirección. Incluso si no podemos acceder a ellos directamente, observar sus comportamientos, leer sus libros o seguir su trabajo puede ser de gran utilidad.
+
+**Creación de Redes de Apoyo: El Ejemplo del Grupo de Meetup:**
+
+Participar en grupos con intereses similares, como un grupo de inversión, puede ser una excelente manera de construir una red de apoyo financiero. Estos grupos brindan un espacio para compartir conocimientos, experiencias y consejos, y pueden incluso conducir a oportunidades de colaboración y negocios conjuntos. La confianza y la colaboración son elementos clave para el éxito de estas redes.
+
+**Puntos Clave y Conclusiones:**
+
+*   El entorno social y la información que consumimos tienen un impacto significativo en nuestras decisiones financieras.
+*   Rodearnos de personas con hábitos financieros saludables y una mentalidad positiva puede fomentar nuestro propio crecimiento económico.
+*   Seleccionar cuidadosamente el contenido que consumimos en línea y alejarnos de la negatividad es crucial para proteger nuestra motivación y enfoque.
+*   Buscar referentes y construir redes de apoyo financiero son estrategias efectivas para mejorar nuestras habilidades y conocimientos.
+*   Es fundamental buscar un equilibrio entre recibir y aportar valor dentro de nuestras relaciones financieras.
+
+---
+
+# Episodios
+
+- 046 - 046. Dime con quién andas y te diré cómo inviertes
+- 369 - Cómo aprovechar las tendencias demográficas que cambiarán Uruguay

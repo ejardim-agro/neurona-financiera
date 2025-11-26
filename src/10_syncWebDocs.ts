@@ -11,16 +11,26 @@ interface ChapterInfo {
 }
 
 /**
+ * Checks if a file should be excluded (starts with __pre, __summary_structure, etc.)
+ */
+function shouldExclude(filename: string): boolean {
+  return (
+    filename.startsWith("__pre") || filename.startsWith("__summary_structure")
+  );
+}
+
+/**
  * Checks if a file is a main chapter (not a subchapter)
- * Main chapters match pattern: NN_name.md (without __)
+ * Main chapters match pattern: NN_name.md (without double underscore __)
  */
 function isMainChapter(filename: string): boolean {
   // Must start with number, contain underscore, end with .md
   // Must NOT contain double underscore (which indicates subchapter)
+  // Must NOT be excluded file
   return (
-    /^\d+_[^_]+\.md$/.test(filename) &&
+    /^\d+_.+\.md$/.test(filename) &&
     !filename.includes("__") &&
-    !filename.startsWith("__")
+    !shouldExclude(filename)
   );
 }
 
@@ -29,7 +39,7 @@ function isMainChapter(filename: string): boolean {
  * Subchapters match pattern: NN_name__MM_subname.md
  */
 function isSubchapter(filename: string): boolean {
-  return /^\d+_[^_]+__\d+_.+\.md$/.test(filename);
+  return /^\d+_.+__\d+_.+\.md$/.test(filename);
 }
 
 /**
@@ -74,7 +84,7 @@ function syncWebDocs(): void {
         !isMainChapter(f) &&
         !isSubchapter(f) &&
         !f.startsWith("__00_glossary") &&
-        !f.startsWith("__summary_structure")
+        shouldExclude(f)
     );
 
     console.log(`📋 Files breakdown:`);

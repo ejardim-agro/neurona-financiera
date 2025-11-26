@@ -1,0 +1,75 @@
+## Capítulo 02: Fundamentos Financieros
+
+Bienvenido al Capítulo 02, donde exploraremos los **Fundamentos Financieros**, un pilar esencial para construir un futuro económico sólido y tomar decisiones informadas en todas las etapas de la vida. Entender estos fundamentos no es solo una cuestión de acumular riqueza; se trata de adquirir la autonomía y el control necesarios para vivir una vida plena y acorde a nuestros valores. En este capítulo, desmitificaremos el mundo de las finanzas, presentándolo de manera accesible y aplicable a la realidad cotidiana.
+
+**Estructura del Capítulo:**
+
+Este capítulo se ha diseñado para ofrecer una visión integral de las finanzas personales, abordando tanto los aspectos teóricos como los prácticos, y considerando la influencia de factores psicológicos y socioeconómicos. A continuación, presentamos un resumen de los temas que exploraremos:
+
+1.  **Fundamentos de Finanzas Personales (3 episodios):** Sentaremos las bases, definiendo conceptos clave como ingresos, gastos, patrimonio neto, y la importancia de la planificación financiera.
+
+2.  **Psicología y Mentalidad Financiera (2 episodios):** Analizaremos cómo nuestras emociones y creencias impactan nuestras decisiones financieras, aprendiendo a identificar sesgos y a desarrollar una mentalidad orientada al éxito económico.
+
+3.  **Gestión Financiera Cotidiana (5 episodios):** Adquiriremos herramientas prácticas para gestionar nuestros ingresos y gastos de manera eficiente, crear un presupuesto efectivo y controlar nuestras deudas.
+
+4.  **Planificación Financiera Personal (1 episodios):** Aprenderemos a establecer metas financieras realistas y a diseñar un plan para alcanzarlas, considerando nuestros objetivos a corto, mediano y largo plazo.
+
+5.  **Inversión y Crecimiento Patrimonial (3 episodios):** Introduciremos el mundo de la inversión, explorando diferentes opciones, riesgos y estrategias para hacer crecer nuestro patrimonio de manera inteligente y diversificada.
+
+6.  **Valores y Experiencias Financieras (2 episodios):** Reflexionaremos sobre la relación entre nuestras finanzas y nuestros valores personales, identificando cómo alinear nuestras decisiones económicas con lo que realmente nos importa.
+
+7.  **Marketing y Análisis de Precios (1 episodios):** Desarrollaremos habilidades para analizar críticamente las estrategias de marketing y tomar decisiones de compra informadas, evitando caer en trampas publicitarias.
+
+8.  **Finanzas y Entorno Socioeconómico (2 episodios):** Analizaremos cómo factores externos como la inflación, las tasas de interés y el contexto económico general impactan nuestras finanzas personales, aprendiendo a adaptarnos a los cambios.
+
+9.  **Desarrollo Personal y Finanzas (1 episodios):** Exploraremos la conexión entre el desarrollo personal y la salud financiera, reconociendo cómo la inversión en nosotros mismos puede generar retornos económicos significativos.
+
+10. **Emprendimiento y Finanzas (2 episodios):** Si aspiras a emprender, este tema te brindará los conocimientos básicos para gestionar las finanzas de un negocio, desde la planificación hasta el control de flujo de caja.
+
+**Orden de Lectura:**
+
+Recomendamos seguir el orden presentado en este capítulo, ya que hemos estructurado el contenido de manera progresiva. Comenzaremos con los "Fundamentos de Finanzas Personales" y la "Psicología y Mentalidad Financiera" para establecer una base sólida. Luego, nos centraremos en la "Gestión Financiera Cotidiana" y la "Planificación Financiera Personal" para desarrollar habilidades prácticas. Posteriormente, exploraremos la "Inversión y Crecimiento Patrimonial", los "Valores y Experiencias Financieras", el "Marketing y Análisis de Precios" y las "Finanzas y Entorno Socioeconómico". Finalmente, integraremos todo lo aprendido con el "Desarrollo Personal y Finanzas" y el "Emprendimiento y Finanzas".
+
+Es posible que algunos conceptos aparezcan en varios temas. Por ejemplo, la gestión del riesgo se aborda tanto en la "Gestión Financiera Cotidiana" (para deudas) como en la "Inversión y Crecimiento Patrimonial" (para inversiones), pero se analizan desde perspectivas y con estrategias diferentes, adaptadas a cada contexto específico.
+
+**Objetivos de Aprendizaje:**
+
+Al completar este capítulo, usted será capaz de:
+
+*   Comprender los conceptos clave de las finanzas personales y su importancia para la toma de decisiones informadas.
+*   Identificar y gestionar las emociones y sesgos que influyen en sus decisiones financieras.
+*   Crear y seguir un presupuesto efectivo para controlar sus ingresos y gastos.
+*   Establecer metas financieras realistas y diseñar un plan para alcanzarlas.
+*   Entender los principios básicos de la inversión y diversificación.
+*   Analizar el impacto de factores externos como la inflación y las tasas de interés en sus finanzas.
+*   Reconocer la conexión entre el desarrollo personal y la salud financiera.
+*   Adquirir conocimientos básicos para gestionar las finanzas de un negocio (en caso de aspirar a emprender).
+
+Este capítulo le proporcionará las herramientas y el conocimiento necesarios para tomar el control de sus finanzas y construir un futuro económico sólido. ¡Comencemos!
+
+---
+
+# Episodios
+
+- 331 - ¿Por qué TODOS se equivocan en las finanzas personales? 🤯 [331]
+- 001 - 001. Podcast de Finanzas Personales e inversión
+- 035 - 035. Revisando nuestra relación con el dinero
+- 035 - 035. Revisando nuestra relación con el dinero
+- 055 - 055. ¿Qué piensan los niños sobre el dinero?
+- 048 - 048. Niños y educación financiera
+- 099 - 099. Razones para tomar el control de nuestra vida financiera
+- 136 - 136. Pensar «Soy un desastre en mis finanzas» no ayuda
+- 324 - Guía para gestionar tu primer salario [324]
+- 378 - Fundamento NF#4: Por qué controlar tus gastos es más difícil de lo que pensás
+- 376 - Fundamentos NF#2: El secreto del equilibrio financiero: disfrutar hoy sin arruinar tu futuro
+- 380 - Fundamentos N#6: Todos debemos invertir y es más fácil de lo que parece
+- 001 - 001. Podcast de Finanzas Personales e inversión
+- 375 - Fundamentos NF#1: Los tres pilares de las Finanzas Personales
+- 381 - Fundamentos NF#7: Nadie va a venir a salvarte (asumí la responsabilidad de tu vida financiera)
+- 154 - 154. La diferencia entre precio y valor
+- 154 - 154. La diferencia entre precio y valor
+- 377 - Fundamentos NF#3: Hay que creérsela
+- 055 - 055. ¿Qué piensan los niños sobre el dinero?
+- 381 - Fundamentos NF#7: Nadie va a venir a salvarte (asumí la responsabilidad de tu vida financiera)
+- 331 - ¿Por qué TODOS se equivocan en las finanzas personales? 🤯 [331]
+- 379 - Fundamentos NF#:5 Ganar más dinero no es tan difícil como creés
