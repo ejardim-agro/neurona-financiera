@@ -1,4 +1,20 @@
 /**
+ * Interface representing normalization status for an episode
+ */
+export interface EpisodeNormalization {
+  refined: boolean; // Whether metadata has been refined/cleaned
+  applied: boolean; // Whether normalized metadata has been applied to files
+}
+
+/**
+ * Interface representing summary status for an episode
+ */
+export interface EpisodeSummary {
+  glossarized: boolean; // Whether glossary has been generated
+  clustered: boolean; // Whether category-based clustering is complete
+}
+
+/**
  * Interface representing an episode from the podcast RSS feed
  */
 export interface EpisodeStatus {
@@ -6,11 +22,13 @@ export interface EpisodeStatus {
   transcribed: boolean;
   processed: boolean;
   annotated: boolean;
-  summarized: boolean; // Whether the episode has been processed in the final summaries
+  summarized: EpisodeSummary; // Whether the episode has been processed in the final summaries
+  normalized: EpisodeNormalization; // Normalization status
   downloadPath?: string;
   transcriptionPath?: string;
   processedPath?: string;
   annotatedPath?: string;
+  normalizedPath?: string; // Path to normalized file in 04_normalized
 }
 
 export interface Episode {

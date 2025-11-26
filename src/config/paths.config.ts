@@ -57,9 +57,14 @@ export const PATHS = {
     annotated: path.join(PROJECT_ROOT, "output", "03_annotated"),
 
     /**
-     * Final output directory (04_final)
+     * Normalized files directory (04_normalized)
      */
-    final: path.join(PROJECT_ROOT, "output", "04_final"),
+    normalized: path.join(PROJECT_ROOT, "output", "04_normalized"),
+
+    /**
+     * Summarized files directory (05_summarized)
+     */
+    summarized: path.join(PROJECT_ROOT, "output", "05_summarized"),
   },
 
   /**

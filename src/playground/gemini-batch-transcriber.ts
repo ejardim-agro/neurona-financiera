@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { GoogleGenAI } from "@google/genai";
 import dotenv from "dotenv";
+import { GEMINI_CONFIG } from "../config/gemini.config";
 
 // Load environment variables from .env file
 dotenv.config();
@@ -124,7 +125,7 @@ class GeminiBatchTranscriber {
 
       // Call Gemini API
       const response = await this.ai.models.generateContent({
-        model: "gemini-2.0-flash-exp",
+        model: GEMINI_CONFIG.MODEL,
         contents: [
           {
             role: "user",

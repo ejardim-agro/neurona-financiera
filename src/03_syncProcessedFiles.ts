@@ -14,6 +14,7 @@ import {
   RateLimitTracker,
 } from "./utils/rate-limit.utils";
 import { PATHS } from "./config/paths.config";
+import { GEMINI_CONFIG } from "./config/gemini.config";
 
 // Load environment variables from .env file
 dotenv.config();
@@ -125,7 +126,7 @@ ${batchContent}`;
     console.log(`🔄 Sending batch to Gemini API...`);
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.0-flash-exp", // Using 2.0 flash exp for better results
+      model: GEMINI_CONFIG.MODEL,
       contents: [
         {
           role: "user",

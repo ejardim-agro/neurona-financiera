@@ -5,6 +5,7 @@ import dotenv from "dotenv";
 import { Episode } from "./interfaces/episode.interface";
 import { loadExistingEpisodes, saveEpisodes } from "./utils/file.utils";
 import { PATHS } from "./config/paths.config";
+import { GEMINI_CONFIG } from "./config/gemini.config";
 
 // Load environment variables from .env file
 dotenv.config();
@@ -55,7 +56,7 @@ async function transcribeAudioFile(filePath: string): Promise<string> {
 
     // Create the request using Files API or direct inline data
     const response = await ai.models.generateContent({
-      model: "gemini-2.0-flash-exp",
+      model: GEMINI_CONFIG.MODEL,
       contents: [
         {
           role: "user",

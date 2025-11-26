@@ -8,8 +8,9 @@
     "syncTranscripts": "ts-node src/02_syncTranscripts.ts",
     "syncProcessedFiles": "ts-node src/03_syncProcessedFiles.ts",
     "syncAnnotations": "ts-node src/04_syncAnnotations.ts",
-    "generateSummaries": "ts-node src/05_generateSummaries.ts",
-    "refineCategories": "ts-node src/06_refineCategories.ts",
+    "refineFrontmatterMetadata": "ts-node src/05_refineFrontmatterMetadata.ts",
+    "applyNormalization": "ts-node src/06_applyNormalization.ts",
+    "syncSummaries": "ts-node src/07_syncSummaries.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

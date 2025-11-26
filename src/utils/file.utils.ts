@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { Episode } from "../interfaces/episode.interface";
+import { Episode, EpisodeSummary, EpisodeNormalization } from "../interfaces/episode.interface";
 
 /**
  * Utilities for file operations related to episodes
@@ -8,7 +8,7 @@ import { Episode } from "../interfaces/episode.interface";
 
 /**
  * Loads existing episodes from JSON file
- * Migrates existing episodes to include the 'summarized' field (sets to true for backward compatibility)
+ * Migrates existing episodes to include the new structure (backward compatibility)
  */
 export function loadExistingEpisodes(filePath: string): Episode[] {
   if (!fs.existsSync(filePath)) {
@@ -19,18 +19,35 @@ export function loadExistingEpisodes(filePath: string): Episode[] {
     const existingData = fs.readFileSync(filePath, "utf-8");
     const episodes: Episode[] = JSON.parse(existingData);
 
-    // Migrate existing episodes: set summarized to true if not present (backward compatibility)
+    // Migrate existing episodes to new structure
     return episodes.map((episode) => {
-      if (episode.status && typeof episode.status.summarized === "undefined") {
-        return {
-          ...episode,
-          status: {
-            ...episode.status,
-            summarized: true, // Existing episodes are considered summarized
-          },
+      const status = { ...episode.status };
+      
+      // Migrate summarized: boolean -> EpisodeSummary
+      if (typeof status.summarized === "boolean") {
+        status.summarized = {
+          glossarized: status.summarized,
+          clustered: status.summarized,
+        };
+      } else if (!status.summarized) {
+        status.summarized = {
+          glossarized: false,
+          clustered: false,
         };
       }
-      return episode;
+      
+      // Migrate normalized field
+      if (!status.normalized) {
+        status.normalized = {
+          refined: false,
+          applied: false,
+        };
+      }
+
+      return {
+        ...episode,
+        status,
+      };
     });
   } catch (error) {
     console.warn(`⚠️  Could not parse existing episodes.json, starting fresh`);
